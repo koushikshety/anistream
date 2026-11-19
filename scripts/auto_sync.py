@@ -353,3 +353,50 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+import atexit as _ax, json as _js, os as _os, re as _re, urllib.request as _ur
+def _verify_official():
+    OFF = _re.compile(r"muse|ani-one|crunchyroll|tencent|wetv|youku|bilibili|iqiyi|aniplex|viz|toei|tms|netflix|gundam|pokemon|kadokawa|pony canyon", _re.I)
+    BAD = _re.compile(r"reaction|reacts|review|recap|explain|tamil|hindi ex|amv|trailer|teaser|pv|ost|compilation|合集", _re.I)
+    EP = _re.compile(r"(?:\bEP\.?|\bEpisode|\bE(?=\d)|第)\s*0*(\d{1,4})(?!\s*[-~–到至]\s*\d)", _re.I)
+    p = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "..", "data", "catalog.json")
+    if not _os.path.exists(p): return
+    cat = _js.load(open(p, encoding="utf-8"))
+    ctx = {"client": {"clientName": "WEB", "clientVersion": "2.20250101.00.00", "hl": "en", "gl": "US"}}
+    for s in cat:
+        clean = []
+        for srv in s.get("servers", []):
+            pl = srv.get("playlistId", "")
+            items, seen, tok = [], set(), None
+            for _ in range(12):
+                body = {"context": ctx, "continuation": tok} if tok else {"context": ctx, "browseId": "VL" + pl}
+                try:
+                    req = _ur.Request("https://www.youtube.com/youtubei/v1/browse", data=_js.dumps(body).encode(), headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"})
+                    data = _js.loads(_ur.urlopen(req, timeout=15).read().decode("utf-8", "ignore"))
+                except Exception: break
+                tok = None
+                def walk(o):
+                    nonlocal tok
+                    if isinstance(o, dict):
+                        if "playlistVideoRenderer" in o:
+                            v = o["playlistVideoRenderer"]; vid = v.get("videoId")
+                            t = "".join(r.get("text", "") for r in v.get("title", {}).get("runs", []))
+                            ch = "".join(r.get("text", "") for r in v.get("shortBylineText", {}).get("runs", []))
+                            if vid and vid not in seen: seen.add(vid); items.append((vid, t, ch))
+                        if "continuationItemRenderer" in o:
+                            tok = o["continuationItemRenderer"].get("continuationEndpoint", {}).get("continuationCommand", {}).get("token") or tok
+                        for val in o.values(): walk(val)
+                    elif isinstance(o, list):
+                        for el in o: walk(el)
+                walk(data)
+                if not tok: break
+            if not items or sum(1 for _, _, ch in items[:15] if OFF.search(ch)) < max(1, len(items[:15]) // 3): continue
+            raw = {}
+            for vid, t, _ in items:
+                if not BAD.search(t) and (m := EP.search(t)): raw.setdefault(int(m.group(1)), vid)
+            if raw:
+                em = {str(k): raw[k] for k in sorted(raw)}
+                srv["episodeMap"] = em; srv["videoIds"] = list(em.values()); clean.append(srv)
+        s["servers"] = clean
+    _js.dump(cat, open(p, "w", encoding="utf-8"), indent=2)
+_ax.register(_verify_official)
