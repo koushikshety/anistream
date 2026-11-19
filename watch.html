@@ -164,6 +164,7 @@
           <button class="pill" style="border-color:rgba(56,189,248,0.45);color:#38bdf8;" onclick="openOfficialYT()">📱 YT App</button>
           <button class="pill" style="border-color:rgba(245,158,11,0.45);color:#fbbf24;" onclick="reportBrokenVideo()">⚠️ Report</button>
           </div>
+        <div style="margin-top:8px;padding:7px 10px;border-radius:8px;background:rgba(245,158,11,0.1);border:1px solid rgba(245,158,11,0.3);font-size:0.75rem;color:#fbbf24;">⚠️ Note: Some later episodes on official YouTube channels (like Tencent VIP) are <strong>Members-only</strong>. Verified free episodes play directly; for VIP episodes, tap <strong>📱 YT App</strong> or <strong>Official Crunchyroll</strong> above.</div>
         </div>
 
         <!-- Safe Adsterra Slot (Zero iframe overlap) -->
@@ -335,7 +336,10 @@
       currentEp = ep;
       const srv = currentShow.servers[activeServerIdx];
       if (!srv) return;
-      const url = `https://www.youtube-nocookie.com/embed/videoseries?list=${srv.playlistId}&index=${ep - 1}&rel=0&modestbranding=1`;
+      const vid = (srv.videoIds || [])[ep - 1];
+  const url = vid
+    ? `https://www.youtube.com/embed/${vid}?autoplay=1&rel=0&modestbranding=1&playsinline=1`
+    : `https://www.youtube.com/embed?listType=playlist&list=${srv.playlistId}&index=${ep}&rel=0&modestbranding=1&playsinline=1`;
       document.getElementById("player-frame").src = url;
       document.getElementById("cinema-now-playing").textContent = `${currentShow.title} — Episode ${currentEp}`;
       saveHistory();
@@ -396,7 +400,28 @@
       grid.innerHTML = html;
     }
 
-    fetch("data/catalog.json").then(r => r.json()).then(list => {
+    
+function renderSimilar(list) {
+  const sg = document.getElementById("similar-grid");
+  if (!sg || !currentShow) return;
+  const genres = new Set(currentShow.genres || []);
+  const matches = list
+    .filter(x => x.slug !== currentShow.slug)
+    .sort((a, b) => {
+      const aMatch = (a.genres || []).filter(g => genres.has(g)).length + (a.type === currentShow.type ? 2 : 0);
+      const bMatch = (b.genres || []).filter(g => genres.has(g)).length + (b.type === currentShow.type ? 2 : 0);
+      return bMatch - aMatch;
+    })
+    .slice(0, 6);
+  sg.innerHTML = matches.map(s => `
+    <a href="watch.html?id=${s.slug}" style="text-decoration:none;color:inherit;background:var(--surface-2);border-radius:8px;overflow:hidden;border:1px solid var(--border);display:block;">
+      <img src="${s.cover}" alt="${s.title}" style="width:100%;aspect-ratio:2/3;object-fit:cover;display:block;" loading="lazy" />
+      <div style="padding:6px;font-size:0.75rem;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${s.title}</div>
+    </a>
+  `).join("");
+}
+
+fetch("data/catalog.json").then(r => r.json()).then(list => {
       currentShow = list.find(x => x.slug === slug) || list[0];
       document.title = `Watch ${currentShow.title} (${currentShow.year}) Free HD — AniStream`;
       document.getElementById("show-cover").src = currentShow.cover;
