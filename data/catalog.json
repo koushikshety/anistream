@@ -1,555 +1,912 @@
 [
   {
-    "slug": "fairy-tail-muse-in",
-    "type": "anime",
-    "title": "Fairy Tail | Muse IN",
-    "provider": "Muse India (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": true,
-    "genres": [
-      "anime",
-      "action",
-      "hindi"
-    ],
-    "cover": "https://i.ytimg.com/vi/zs-jXgEm8HI/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/zs-jXgEm8HI/hq720.jpg",
-    "desc": "Watch Fairy Tail | Muse IN officially licensed in HD from Muse India (Official).",
-    "tracks": {
-      "Hindi Dub": "PLpm1VVK4UL1527GtQ-Un5MCIQ7HX8DhoH"
-    }
-  },
-  {
-    "slug": "re-zero-starting-life-in-another-world-muse-in",
-    "type": "anime",
-    "title": "Re:ZERO -Starting Life in Another World- | Muse IN",
-    "provider": "Muse India (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": true,
-    "genres": [
-      "anime",
-      "action",
-      "hindi"
-    ],
-    "cover": "https://i.ytimg.com/vi/fLsFoF423Ds/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/fLsFoF423Ds/hq720.jpg",
-    "desc": "Watch Re:ZERO -Starting Life in Another World- | Muse IN officially licensed in HD from Muse India (Official).",
-    "tracks": {
-      "Hindi Dub": "PLpm1VVK4UL16i-EZjQaCvu70OTtrOLkog"
-    }
-  },
-  {
-    "slug": "one-punch-man-muse-in",
-    "type": "anime",
-    "title": "One-Punch Man | Muse IN",
-    "provider": "Muse India (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": true,
-    "genres": [
-      "anime",
-      "action",
-      "hindi"
-    ],
-    "cover": "https://i.ytimg.com/vi/sl8LwAqFOvo/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/sl8LwAqFOvo/hq720.jpg",
-    "desc": "Watch One-Punch Man | Muse IN officially licensed in HD from Muse India (Official).",
-    "tracks": {
-      "Hindi Dub": "PLpm1VVK4UL14XTDA9wPpCC6zKB2jUh9vY"
-    }
-  },
-  {
-    "slug": "welcome-to-demon-school-iruma-kun-muse-in",
-    "type": "anime",
-    "title": "Welcome To Demon School! Iruma-kun | Muse IN",
-    "provider": "Muse India (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": true,
-    "genres": [
-      "anime",
-      "action",
-      "hindi"
-    ],
-    "cover": "https://i.ytimg.com/vi/uUND8uJdoK8/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/uUND8uJdoK8/hq720.jpg",
-    "desc": "Watch Welcome To Demon School! Iruma-kun | Muse IN officially licensed in HD from Muse India (Official).",
-    "tracks": {
-      "Hindi Dub": "PLpm1VVK4UL15ur1TfkHn1JYl281JL_yzN"
-    }
-  },
-  {
-    "slug": "hunter-hunter-muse-in",
-    "type": "anime",
-    "title": "HUNTER×HUNTER | Muse IN",
-    "provider": "Muse India (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": true,
-    "genres": [
-      "anime",
-      "action",
-      "hindi"
-    ],
-    "cover": "https://i.ytimg.com/vi/9GlbdQz_bKc/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/9GlbdQz_bKc/hq720.jpg",
-    "desc": "Watch HUNTER×HUNTER | Muse IN officially licensed in HD from Muse India (Official).",
-    "tracks": {
-      "Hindi Dub": "PLpm1VVK4UL16zaLvhM1L_HUNI4kkyiWHi"
-    }
-  },
-  {
-    "slug": "mob-psycho-100-muse-in",
-    "type": "anime",
-    "title": "Mob Psycho 100 | Muse IN",
-    "provider": "Muse India (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": true,
-    "genres": [
-      "anime",
-      "action",
-      "hindi"
-    ],
-    "cover": "https://i.ytimg.com/vi/eZ_rS0vj2Hg/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/eZ_rS0vj2Hg/hq720.jpg",
-    "desc": "Watch Mob Psycho 100 | Muse IN officially licensed in HD from Muse India (Official).",
-    "tracks": {
-      "Hindi Dub": "PLZiKGmhwMtho"
-    }
-  },
-  {
-    "slug": "i-parry-everything-muse-in",
-    "type": "anime",
-    "title": "I PARRY EVERYTHING | Muse IN",
-    "provider": "Muse India (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": true,
-    "genres": [
-      "anime",
-      "action",
-      "hindi"
-    ],
-    "cover": "https://i.ytimg.com/vi/y7g4yMSLlbc/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/y7g4yMSLlbc/hq720.jpg",
-    "desc": "Watch I PARRY EVERYTHING | Muse IN officially licensed in HD from Muse India (Official).",
-    "tracks": {
-      "Hindi Dub": "PLpm1VVK4UL16-iDOlu33co3uSs1DyMNLN"
-    }
-  },
-  {
-    "slug": "junji-ito-collection-muse-in",
-    "type": "anime",
-    "title": "Junji Ito Collection | Muse IN",
-    "provider": "Muse India (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": true,
-    "genres": [
-      "anime",
-      "action",
-      "hindi"
-    ],
-    "cover": "https://i.ytimg.com/vi/tC0N80cMdJA/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/tC0N80cMdJA/hq720.jpg",
-    "desc": "Watch Junji Ito Collection | Muse IN officially licensed in HD from Muse India (Official).",
-    "tracks": {
-      "Hindi Dub": "PLpm1VVK4UL15iS_b-3ZAfIt2wDCgiJSzL"
-    }
-  },
-  {
-    "slug": "the-world-s-finest-assassin-gets-reincarnated-in-another-world-as-an-aristocrat-muse-in",
-    "type": "anime",
-    "title": "The World's Finest Assassin Gets Reincarnated in Another World as an Aristocrat | Muse IN",
-    "provider": "Muse India (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": true,
-    "genres": [
-      "anime",
-      "action",
-      "hindi"
-    ],
-    "cover": "https://i.ytimg.com/vi/_9HuJ5QRpSw/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/_9HuJ5QRpSw/hq720.jpg",
-    "desc": "Watch The World's Finest Assassin Gets Reincarnated in Another World as an Aristocrat | Muse IN officially licensed in HD from Muse India (Official).",
-    "tracks": {
-      "Hindi Dub": "PLpm1VVK4UL14SsTfIpn03QH6y4TCh5OyC"
-    }
-  },
-  {
-    "slug": "attack-on-titan-muse-in",
-    "type": "anime",
-    "title": "Attack on Titan | Muse IN",
-    "provider": "Muse India (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": true,
-    "genres": [
-      "anime",
-      "action",
-      "hindi"
-    ],
-    "cover": "https://i.ytimg.com/vi/QjJ4iPOQF_Y/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/QjJ4iPOQF_Y/hq720.jpg",
-    "desc": "Watch Attack on Titan | Muse IN officially licensed in HD from Muse India (Official).",
-    "tracks": {
-      "Hindi Dub": "PLpm1VVK4UL16H1PewtveOnqL8QIV9F4S9",
-      "English Sub": "PLpm1VVK4UL14MMCxjG_faT0drrCINtjDo"
-    }
-  },
-  {
-    "slug": "mushoku-tensei-jobless-reincarnation-muse-in",
-    "type": "anime",
-    "title": "Mushoku Tensei: Jobless Reincarnation | Muse IN",
-    "provider": "Muse India (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": true,
-    "genres": [
-      "anime",
-      "action",
-      "hindi"
-    ],
-    "cover": "https://i.ytimg.com/vi/AA4wS4ihu-8/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/AA4wS4ihu-8/hq720.jpg",
-    "desc": "Watch Mushoku Tensei: Jobless Reincarnation | Muse IN officially licensed in HD from Muse India (Official).",
-    "tracks": {
-      "Hindi Dub": "PLpm1VVK4UL17_GoSaunqB9MFvvES607w7"
-    }
-  },
-  {
-    "slug": "dan-da-dan-muse-in",
-    "type": "anime",
-    "title": "DAN DA DAN | Muse IN",
-    "provider": "Muse India (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": true,
-    "genres": [
-      "anime",
-      "action",
-      "hindi"
-    ],
-    "cover": "https://i.ytimg.com/vi/JStare1TEDw/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/JStare1TEDw/hq720.jpg",
-    "desc": "Watch DAN DA DAN | Muse IN officially licensed in HD from Muse India (Official).",
-    "tracks": {
-      "Hindi Dub": "PLpm1VVK4UL15vn9lYeQzIKfx08vAzF6KY"
-    }
-  },
-  {
-    "slug": "tokyo-revengers-muse-in",
-    "type": "anime",
-    "title": "Tokyo Revengers | Muse IN",
-    "provider": "Muse India (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": true,
-    "genres": [
-      "anime",
-      "action",
-      "hindi"
-    ],
-    "cover": "https://i.ytimg.com/vi/vBOoJIfGYvk/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/vBOoJIfGYvk/hq720.jpg",
-    "desc": "Watch Tokyo Revengers | Muse IN officially licensed in HD from Muse India (Official).",
-    "tracks": {
-      "Hindi Dub": "PLpm1VVK4UL16O9kFPHnb5CLsN2YEpVfRE"
-    }
-  },
-  {
-    "slug": "campfire-cooking-in-another-world-with-my-absurd-skill-muse-in",
-    "type": "anime",
-    "title": "Campfire Cooking in Another World with My Absurd Skill | Muse IN",
-    "provider": "Muse India (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": true,
-    "genres": [
-      "anime",
-      "action",
-      "hindi"
-    ],
-    "cover": "https://i.ytimg.com/vi/DaQWe2-sajQ/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/DaQWe2-sajQ/hq720.jpg",
-    "desc": "Watch Campfire Cooking in Another World with My Absurd Skill | Muse IN officially licensed in HD from Muse India (Official).",
-    "tracks": {
-      "Hindi Dub": "PLpm1VVK4UL165mkmnfel5QbOhPmscdfxq"
-    }
-  },
-  {
     "slug": "fairy-tail",
     "type": "anime",
     "title": "Fairy Tail",
-    "provider": "Muse Asia (Official)",
+    "nativeTitle": "FAIRY TAIL",
+    "year": 2009,
+    "score": 72,
+    "provider": "Muse India (Official)",
     "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": false,
+    "episodes": 175,
+    "hasHindi": true,
     "genres": [
       "anime",
-      "action"
+      "action",
+      "adventure",
+      "comedy",
+      "fantasy",
+      "isekai",
+      "hindi"
     ],
-    "cover": "https://i.ytimg.com/vi/wyKA_h1PBGg/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/wyKA_h1PBGg/hq720.jpg",
-    "desc": "Watch Fairy Tail officially licensed in HD from Muse Asia (Official).",
-    "tracks": {
-      "English Sub": "PLwLSw1_eDZl2VQRIahDF73hnkdPjNRYnu"
-    }
-  },
-  {
-    "slug": "completed-series-anime-2025",
-    "type": "anime",
-    "title": "completed series anime 2025",
-    "provider": "Muse Asia (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "anime",
-      "action"
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b6702-KI4qgSMyI8Pm.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6702-VSHyctSAeUBS.jpg",
+    "desc": "Across the Fiore kingdom, wizards join guilds and make their pay by filling magical needs—but one guild has a reputation as the roughest, rowdiest, most dangerous of all: Fairy Tail!\nWhen four young Fairy Tail members unite, their bond is forged by a power found in neither muscle...",
+    "servers": [
+      {
+        "name": "Muse India (Official) • Hindi Dub",
+        "playlistId": "PLpm1VVK4UL1527GtQ-Un5MCIQ7HX8DhoH",
+        "lang": "Hindi Dub"
+      },
+      {
+        "name": "Muse Asia (Official) • English Sub",
+        "playlistId": "PLwLSw1_eDZl2VQRIahDF73hnkdPjNRYnu",
+        "lang": "English Sub"
+      }
     ],
-    "cover": "https://i.ytimg.com/vi/1I1Cx6QPiAQ/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/1I1Cx6QPiAQ/hq720.jpg",
-    "desc": "Watch completed series anime 2025 officially licensed in HD from Muse Asia (Official).",
-    "tracks": {
-      "English Sub": "PLY_hvGFpleY61MVQu_Bk1I8Ty1OFHgJ4H"
-    }
-  },
-  {
-    "slug": "mushoku-tensei-jobless-reincarnation",
-    "type": "anime",
-    "title": "Mushoku Tensei: Jobless Reincarnation",
-    "provider": "Muse Asia (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "anime",
-      "action"
-    ],
-    "cover": "https://i.ytimg.com/vi/mKS67U6ZEWM/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/mKS67U6ZEWM/hq720.jpg",
-    "desc": "Watch Mushoku Tensei: Jobless Reincarnation officially licensed in HD from Muse Asia (Official).",
-    "tracks": {
-      "English Sub": "PLwLSw1_eDZl01_ftoIT3birJWkpxFZkEl"
-    }
-  },
-  {
-    "slug": "the-exiled-heavy-knight-knows-how-to-game-the-system",
-    "type": "anime",
-    "title": "The Exiled Heavy Knight Knows How to Game the System",
-    "provider": "Muse Asia (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "anime",
-      "action"
-    ],
-    "cover": "https://i.ytimg.com/vi/ogO3mM9wULs/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/ogO3mM9wULs/hq720.jpg",
-    "desc": "Watch The Exiled Heavy Knight Knows How to Game the System officially licensed in HD from Muse Asia (Official).",
-    "tracks": {
-      "English Sub": "PLwLSw1_eDZl3yq1oZEC8iNCwgMsg0NmIZ"
-    }
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/fairy-tail"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://youtube.com/playlist?list=PLwLSw1_eDZl2VQRIahDF73hnkdPjNRYnu"
+      },
+      {
+        "site": "Amazon Prime Video",
+        "url": "https://www.amazon.com/Fairy-Tail-Season-1/dp/B0CHBPDKHT"
+      }
+    ]
   },
   {
     "slug": "re-zero-starting-life-in-another-world",
     "type": "anime",
-    "title": "Re:ZERO -Starting Life in Another World",
-    "provider": "Muse Asia (Official)",
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "nativeTitle": "Re:ゼロから始める異世界生活",
+    "year": 2016,
+    "score": 81,
+    "provider": "Muse India (Official)",
     "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": false,
+    "episodes": 25,
+    "hasHindi": true,
     "genres": [
       "anime",
-      "action"
+      "action",
+      "adventure",
+      "drama",
+      "fantasy",
+      "isekai",
+      "hindi"
     ],
-    "cover": "https://i.ytimg.com/vi/7F5rns5lX6g/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/7F5rns5lX6g/hq720.jpg",
-    "desc": "Watch Re:ZERO -Starting Life in Another World officially licensed in HD from Muse Asia (Official).",
-    "tracks": {
-      "English Sub": "PLwLSw1_eDZl3RN7t6wesJqlUkSUN6FHKF"
-    }
-  },
-  {
-    "slug": "hunter-hunter",
-    "type": "anime",
-    "title": "HUNTER×HUNTER",
-    "provider": "Muse Asia (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "anime",
-      "action"
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21355-wRVUrGxpvIQQ.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21355-f9SjOfEJMk5P.jpg",
+    "desc": "In the story, Subaru Natsuki is an ordinary high school student who is lost in an alternate world, where he is rescued by a beautiful, silver-haired girl. He stays near her to return the favor, but the destiny she is burdened with is more than Subaru can imagine. Enemies attack o...",
+    "servers": [
+      {
+        "name": "Muse India (Official) • Hindi Dub",
+        "playlistId": "PLpm1VVK4UL16i-EZjQaCvu70OTtrOLkog",
+        "lang": "Hindi Dub"
+      },
+      {
+        "name": "Muse Asia (Official) • English Sub",
+        "playlistId": "PLwLSw1_eDZl3RN7t6wesJqlUkSUN6FHKF",
+        "lang": "English Sub"
+      }
     ],
-    "cover": "https://i.ytimg.com/vi/7YGFRsPMUSQ/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/7YGFRsPMUSQ/hq720.jpg",
-    "desc": "Watch HUNTER×HUNTER officially licensed in HD from Muse Asia (Official).",
-    "tracks": {
-      "English Sub": "PLwLSw1_eDZl2SdSro00Nvg38MQUf-5ZL8"
-    }
-  },
-  {
-    "slug": "hyouka",
-    "type": "anime",
-    "title": "Hyouka",
-    "provider": "Muse Asia (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "anime",
-      "action"
-    ],
-    "cover": "https://i.ytimg.com/vi/8tPsZYr2HTI/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/8tPsZYr2HTI/hq720.jpg",
-    "desc": "Watch Hyouka officially licensed in HD from Muse Asia (Official).",
-    "tracks": {
-      "English Sub": "PLwLSw1_eDZl28iypqyY3tsSz7P1BByLiK"
-    }
-  },
-  {
-    "slug": "spy-family",
-    "type": "anime",
-    "title": "SPY×FAMILY",
-    "provider": "Muse Asia (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "anime",
-      "action"
-    ],
-    "cover": "https://i.ytimg.com/vi/h_tL16PZ0IE/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/h_tL16PZ0IE/hq720.jpg",
-    "desc": "Watch SPY×FAMILY officially licensed in HD from Muse Asia (Official).",
-    "tracks": {
-      "English Sub": "PLwLSw1_eDZl1wGMYg5oB3uEns0CZNl6sI"
-    }
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/rezero-starting-life-in-another-world-"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/80131659"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0_movujO4K0xYOAG9soPjH"
+      }
+    ]
   },
   {
     "slug": "one-punch-man",
     "type": "anime",
-    "title": "One Punch Man",
-    "provider": "Muse Asia (Official)",
+    "title": "One-Punch Man",
+    "nativeTitle": "ワンパンマン",
+    "year": 2015,
+    "score": 82,
+    "provider": "Muse India (Official)",
     "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": false,
+    "episodes": 12,
+    "hasHindi": true,
     "genres": [
       "anime",
-      "action"
+      "action",
+      "comedy",
+      "sci-fi",
+      "supernatural",
+      "isekai",
+      "hindi"
     ],
-    "cover": "https://i.ytimg.com/vi/VvK6UZWNU2Q/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/VvK6UZWNU2Q/hq720.jpg",
-    "desc": "Watch One Punch Man officially licensed in HD from Muse Asia (Official).",
-    "tracks": {
-      "English Sub": "PLwLSw1_eDZl2XdtLhB9NG2Ch050jWFm9G"
-    }
-  },
-  {
-    "slug": "jojo-s-bizarre-adventure-stardust-crusaders",
-    "type": "anime",
-    "title": "JoJo's Bizarre Adventure : Stardust Crusaders",
-    "provider": "Muse Asia (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "anime",
-      "action"
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21087-B5DHjqZ3kW4b.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21087-sHb9zUZFsHe1.jpg",
+    "desc": "Saitama has a rather peculiar hobby, being a superhero, but despite his heroic deeds and superhuman abilities, a shadow looms over his life. He's become much too powerful, to the point that every opponent ends up defeated with a single punch.\n\nThe lack of challenge has driven him...",
+    "servers": [
+      {
+        "name": "Muse India (Official) • Hindi Dub",
+        "playlistId": "PLpm1VVK4UL14XTDA9wPpCC6zKB2jUh9vY",
+        "lang": "Hindi Dub"
+      },
+      {
+        "name": "Muse Asia (Official) • English Sub",
+        "playlistId": "PLwLSw1_eDZl2XdtLhB9NG2Ch050jWFm9G",
+        "lang": "English Sub"
+      }
     ],
-    "cover": "https://i.ytimg.com/vi/l26Sc1vO1ho/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/l26Sc1vO1ho/hq720.jpg",
-    "desc": "Watch JoJo's Bizarre Adventure : Stardust Crusaders officially licensed in HD from Muse Asia (Official).",
-    "tracks": {
-      "English Sub": "PLwLSw1_eDZl0czPmhfn0WI_a-aSqFEqTf"
-    }
+    "officialLinks": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/80117291"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2XdtLhB9NG2Ch050jWFm9G"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL16FvVk0QOffUwXX_vaHVjZP"
+      }
+    ]
   },
   {
     "slug": "welcome-to-demon-school-iruma-kun",
     "type": "anime",
     "title": "Welcome to Demon School! Iruma-kun",
-    "provider": "Muse Asia (Official)",
+    "nativeTitle": "魔入りました！入間くん",
+    "year": 2019,
+    "score": 77,
+    "provider": "Muse India (Official)",
     "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": false,
+    "episodes": 23,
+    "hasHindi": true,
     "genres": [
       "anime",
-      "action"
+      "comedy",
+      "fantasy",
+      "isekai",
+      "hindi"
     ],
-    "cover": "https://i.ytimg.com/vi/2SLXT0m4-_I/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/2SLXT0m4-_I/hq720.jpg",
-    "desc": "Watch Welcome to Demon School! Iruma-kun officially licensed in HD from Muse Asia (Official).",
-    "tracks": {
-      "English Sub": "PLwLSw1_eDZl1Sf_lALh99YZAJTp5IaRft"
-    }
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107693-A9bSSFAMxA6j.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107693-h0syT88giDiw.jpg",
+    "desc": "Suzuki Iruma has just been abandoned and sold to a demon by his irresponsible parents! Surprisingly, the next thing he knows he's living with the demon who has adopted him as his new grandson, and has been transferred into a school in the demon world where his new \"demon\" grandfa...",
+    "servers": [
+      {
+        "name": "Muse India (Official) • Hindi Dub",
+        "playlistId": "PLpm1VVK4UL15ur1TfkHn1JYl281JL_yzN",
+        "lang": "Hindi Dub"
+      },
+      {
+        "name": "Muse Asia (Official) • English Sub",
+        "playlistId": "PLwLSw1_eDZl1Sf_lALh99YZAJTp5IaRft",
+        "lang": "English Sub"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/welcome-to-demon-school-iruma-kun"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81194192"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1Sf_lALh99YZAJTp5IaRft"
+      }
+    ]
+  },
+  {
+    "slug": "hunter-x-hunter-2011",
+    "type": "anime",
+    "title": "Hunter x Hunter (2011)",
+    "nativeTitle": "HUNTER×HUNTER (2011)",
+    "year": 2011,
+    "score": 89,
+    "provider": "Muse India (Official)",
+    "quality": "1080p",
+    "episodes": 148,
+    "hasHindi": true,
+    "genres": [
+      "anime",
+      "action",
+      "adventure",
+      "fantasy",
+      "isekai",
+      "hindi"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11061-y5gsT1hoHuHw.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11061-8WkkTZ6duKpq.jpg",
+    "desc": "A Hunter is one who travels the world doing all sorts of dangerous tasks. From capturing criminals to searching deep within uncharted lands for any lost treasures. Gon is a young boy whose father disappeared long ago, being a Hunter. He believes if he could also follow his father...",
+    "servers": [
+      {
+        "name": "Muse India (Official) • Hindi Dub",
+        "playlistId": "PLpm1VVK4UL16zaLvhM1L_HUNI4kkyiWHi",
+        "lang": "Hindi Dub"
+      },
+      {
+        "name": "Muse Asia (Official) • English Sub",
+        "playlistId": "PLwLSw1_eDZl2SdSro00Nvg38MQUf-5ZL8",
+        "lang": "English Sub"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/hunter-x-hunter"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/70300472"
+      },
+      {
+        "site": "Bilibili",
+        "url": "https://www.bilibili.tv/en/play/37603"
+      }
+    ]
+  },
+  {
+    "slug": "mob-psycho-100",
+    "type": "anime",
+    "title": "Mob Psycho 100",
+    "nativeTitle": "モブサイコ100",
+    "year": 2016,
+    "score": 84,
+    "provider": "Muse India (Official)",
+    "quality": "1080p",
+    "episodes": 12,
+    "hasHindi": true,
+    "genres": [
+      "anime",
+      "action",
+      "comedy",
+      "drama",
+      "psychological",
+      "isekai",
+      "hindi"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21507-6YUSbh2m0N1p.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21507-Qx8bGsLXUgLo.jpg",
+    "desc": "The story revolves around \"Mob,\" a boy who will explode if his emotional capacity reaches 100%. This boy with psychic powers earned his nickname \"Mob\" because he does not stand out among other people. He keeps his psychic powers bottled up so he can live normally, but if his emot...",
+    "servers": [
+      {
+        "name": "Muse India (Official) • Hindi Dub",
+        "playlistId": "PLZiKGmhwMtho",
+        "lang": "Hindi Dub"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/mob-psycho-100"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/80179798"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u-"
+      }
+    ]
+  },
+  {
+    "slug": "i-parry-everything",
+    "type": "anime",
+    "title": "I Parry Everything",
+    "nativeTitle": "俺は全てを【パリイ】する ～逆勘違いの世界最強は冒険者になりたい～",
+    "year": 2024,
+    "score": 68,
+    "provider": "Muse India (Official)",
+    "quality": "1080p",
+    "episodes": 12,
+    "hasHindi": true,
+    "genres": [
+      "anime",
+      "action",
+      "adventure",
+      "fantasy",
+      "isekai",
+      "hindi"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170695-Nb1DIg7gIHCF.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/170695-hwXquaJVRRbx.jpg",
+    "desc": "The Kingdom of Clays faces a dire crisis: an assassination attempt has just been made on its own Princess Lynneburg, and its neighboring countries eye the aftermath like starving vultures, plotting the Kingdom’s downfall. The ensuing conflict will shape the face of the continent ...",
+    "servers": [
+      {
+        "name": "Muse India (Official) • Hindi Dub",
+        "playlistId": "PLpm1VVK4UL16-iDOlu33co3uSs1DyMNLN",
+        "lang": "Hindi Dub"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3C3peDURtUL6yivoXKvuZ7"
+      },
+      {
+        "site": "Amazon Prime Video",
+        "url": "https://www.primevideo.com/-/fr/detail/I-Parry-Everything/0QM2391MATPGGX3FNXU8DHYQSA"
+      }
+    ]
+  },
+  {
+    "slug": "junji-ito-collection",
+    "type": "anime",
+    "title": "Junji Ito Collection",
+    "nativeTitle": "伊藤潤二「コレクション」",
+    "year": 2018,
+    "score": 63,
+    "provider": "Muse India (Official)",
+    "quality": "1080p",
+    "episodes": 12,
+    "hasHindi": true,
+    "genres": [
+      "anime",
+      "drama",
+      "horror",
+      "mystery",
+      "psychological",
+      "hindi"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99940-pxsliSVHi0sj.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99940-A6OUzUuwTFxw.jpg",
+    "desc": "In the light of day and in the dead of night, mysterious horrors await in the darkest shadows of every corner. They are unexplainable, inescapable, and undefeatable. Be prepared, or you may become their next victim.\n\nSit back in terror as traumatizing tales of unparalleled terror...",
+    "servers": [
+      {
+        "name": "Muse India (Official) • Hindi Dub",
+        "playlistId": "PLpm1VVK4UL15iS_b-3ZAfIt2wDCgiJSzL",
+        "lang": "Hindi Dub"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/junji-ito-collection"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://youtube.com/playlist?list=PLwLSw1_eDZl28nYqV_gPaNLe-PL2JEnCR"
+      }
+    ]
+  },
+  {
+    "slug": "the-world-s-finest-assassin-gets-reincarnated-in-another-world-as-an-aristocrat",
+    "type": "anime",
+    "title": "The World's Finest Assassin Gets Reincarnated in Another World as an Aristocrat",
+    "nativeTitle": "世界最高の暗殺者、異世界貴族に転生する",
+    "year": 2021,
+    "score": 72,
+    "provider": "Muse India (Official)",
+    "quality": "1080p",
+    "episodes": 12,
+    "hasHindi": true,
+    "genres": [
+      "anime",
+      "action",
+      "adventure",
+      "drama",
+      "fantasy",
+      "isekai",
+      "hindi"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129898-FRUzDtPhRigt.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/129898-Qp41lxD3wU9e.jpg",
+    "desc": "The world's number one assassin has been reincarnated as the eldest son of a family of aristocrat assassins. In exchange for being reincarnated in another world, a goddess has imposed upon him one condition. \"Kill the Hero who is prophesied to destroy the world.\" \n\nThis was to be...",
+    "servers": [
+      {
+        "name": "Muse India (Official) • Hindi Dub",
+        "playlistId": "PLpm1VVK4UL14SsTfIpn03QH6y4TCh5OyC",
+        "lang": "Hindi Dub"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://crunchyroll.com/series/GMEHME55K"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0PWwz5cS6rncbDhX-J3AeV"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81511191"
+      }
+    ]
+  },
+  {
+    "slug": "attack-on-titan",
+    "type": "anime",
+    "title": "Attack on Titan",
+    "nativeTitle": "進撃の巨人",
+    "year": 2013,
+    "score": 85,
+    "provider": "Muse India (Official)",
+    "quality": "1080p",
+    "episodes": 25,
+    "hasHindi": true,
+    "genres": [
+      "anime",
+      "action",
+      "drama",
+      "fantasy",
+      "mystery",
+      "isekai",
+      "hindi"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16498-buvcRTBx4NSm.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16498-8jpFCOcDmneX.jpg",
+    "desc": "Several hundred years ago, humans were nearly exterminated by titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity surviv...",
+    "servers": [
+      {
+        "name": "Muse India (Official) • Hindi Dub",
+        "playlistId": "PLpm1VVK4UL16H1PewtveOnqL8QIV9F4S9",
+        "lang": "Hindi Dub"
+      },
+      {
+        "name": "Muse India (Official) • English Sub",
+        "playlistId": "PLpm1VVK4UL14MMCxjG_faT0drrCINtjDo",
+        "lang": "English Sub"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/attack-on-titan"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://youtube.com/@attackontitan_officialchannel"
+      }
+    ]
+  },
+  {
+    "slug": "mushoku-tensei-jobless-reincarnation",
+    "type": "anime",
+    "title": "Mushoku Tensei: Jobless Reincarnation",
+    "nativeTitle": "無職転生 ～異世界行ったら本気だす～",
+    "year": 2021,
+    "score": 81,
+    "provider": "Muse India (Official)",
+    "quality": "1080p",
+    "episodes": 11,
+    "hasHindi": true,
+    "genres": [
+      "anime",
+      "adventure",
+      "drama",
+      "ecchi",
+      "fantasy",
+      "isekai",
+      "hindi"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108465-1ANspF1EWyFx.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108465-RgsRpTMhP9Sv.jpg",
+    "desc": "When a 34-year-old underachiever gets run over by a bus, his story doesn’t end there. Reincarnated in a new world as an infant, Rudeus will seize every opportunity to live the life he’s always wanted. Armed with new friends, some freshly acquired magical abilities, and the courag...",
+    "servers": [
+      {
+        "name": "Muse India (Official) • Hindi Dub",
+        "playlistId": "PLpm1VVK4UL17_GoSaunqB9MFvvES607w7",
+        "lang": "Hindi Dub"
+      },
+      {
+        "name": "Muse Asia (Official) • English Sub",
+        "playlistId": "PLwLSw1_eDZl01_ftoIT3birJWkpxFZkEl",
+        "lang": "English Sub"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl01_ftoIT3birJWkpxFZkEl"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/mushoku-tensei-jobless-reincarnation"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/80987039"
+      }
+    ]
+  },
+  {
+    "slug": "dan-da-dan",
+    "type": "anime",
+    "title": "DAN DA DAN",
+    "nativeTitle": "ダンダダン",
+    "year": 2024,
+    "score": 83,
+    "provider": "Muse India (Official)",
+    "quality": "1080p",
+    "episodes": 12,
+    "hasHindi": true,
+    "genres": [
+      "anime",
+      "action",
+      "comedy",
+      "drama",
+      "romance",
+      "isekai",
+      "hindi"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171018-60q1B6GK2Ghb.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/171018-SpwPNAduszXl.jpg",
+    "desc": "This is a story about Momo, a high school girl who comes from a family of spirit mediums, and her classmate Okarun, an occult fanatic. After Momo rescues Okarun from being bullied, they begin talking. However, an argument ensues between them since Momo believes in ghosts but deni...",
+    "servers": [
+      {
+        "name": "Muse India (Official) • Hindi Dub",
+        "playlistId": "PLpm1VVK4UL15vn9lYeQzIKfx08vAzF6KY",
+        "lang": "Hindi Dub"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GG5H5XQ0D/dan-da-dan"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81736884"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2OF_CmbcBOUk_216rwS1wD"
+      }
+    ]
   },
   {
     "slug": "tokyo-revengers",
     "type": "anime",
     "title": "Tokyo Revengers",
+    "nativeTitle": "東京リベンジャーズ",
+    "year": 2021,
+    "score": 77,
+    "provider": "Muse India (Official)",
+    "quality": "1080p",
+    "episodes": 24,
+    "hasHindi": true,
+    "genres": [
+      "anime",
+      "action",
+      "drama",
+      "romance",
+      "supernatural",
+      "isekai",
+      "hindi"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120120-cWDmnmeEntSe.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/120120-UDYgoHA69peT.jpg",
+    "desc": "Takemichi Hanagaki is a freelancer that's reached the absolute pits of despair in his life. He finds out that the only girlfriend he ever had in his life that he dated in middle school, Hinata Tachibana, had been killed by the ruthless Tokyo Manji Gang.\n\nThe day after hearing abo...",
+    "servers": [
+      {
+        "name": "Muse India (Official) • Hindi Dub",
+        "playlistId": "PLpm1VVK4UL16O9kFPHnb5CLsN2YEpVfRE",
+        "lang": "Hindi Dub"
+      },
+      {
+        "name": "Muse Asia (Official) • English Sub",
+        "playlistId": "PLwLSw1_eDZl3F9AGKbC7iRIGeU2XosgTy",
+        "lang": "English Sub"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3F9AGKbC7iRIGeU2XosgTy"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/tokyo-revengers"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81442520"
+      }
+    ]
+  },
+  {
+    "slug": "campfire-cooking-in-another-world-with-my-absurd-skill",
+    "type": "anime",
+    "title": "Campfire Cooking in Another World with my Absurd Skill",
+    "nativeTitle": "とんでもスキルで異世界放浪メシ",
+    "year": 2023,
+    "score": 75,
+    "provider": "Muse India (Official)",
+    "quality": "1080p",
+    "episodes": 12,
+    "hasHindi": true,
+    "genres": [
+      "anime",
+      "adventure",
+      "comedy",
+      "fantasy",
+      "isekai",
+      "hindi"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156067-Jovklss4VWIx.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/156067-Fy111KTt2uTr.jpg",
+    "desc": "Mukouda Tsuyoshi, an ordinary salaryman, is suddenly transported to another world one day. The unique skill he gains upon arrival in this world is the seemingly useless \"Online Grocery.\" Mukouda is discouraged at first, but the modern foods he's able to bring to his new world usi...",
+    "servers": [
+      {
+        "name": "Muse India (Official) • Hindi Dub",
+        "playlistId": "PLpm1VVK4UL165mkmnfel5QbOhPmscdfxq",
+        "lang": "Hindi Dub"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GG5H5X3EE/campfire-cooking-in-another-world-with-my-absurd-skill"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2FdlHjWSXxwE26q05wv6_K"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL15bIEbF02xtZeiQvc8cmI6c"
+      }
+    ]
+  },
+  {
+    "slug": "the-exiled-heavy-knight-knows-how-to-game-the-system",
+    "type": "anime",
+    "title": "The Exiled Heavy Knight Knows How to Game the System",
+    "nativeTitle": "追放された転生重騎士はゲーム知識で無双する",
+    "year": 2026,
+    "score": 67,
+    "provider": "Muse Asia (Official)",
+    "quality": "1080p",
+    "episodes": 26,
+    "hasHindi": false,
+    "genres": [
+      "anime",
+      "action",
+      "fantasy",
+      "isekai"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180136-gtMTCRlOD4OE.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180136-gtMTCRlOD4OE.jpg",
+    "desc": "Born into a prestigious family of master swordsmen, Elymas Edvaughn’s future shatters when he awakens the so-called “defective” Heavy Knight class. Disowned and cast out, he regains memories of another life—and realizes this world mirrors a VR game he once mastered. Armed with kn...",
+    "servers": [
+      {
+        "name": "Muse Asia (Official) • English Sub",
+        "playlistId": "PLwLSw1_eDZl3yq1oZEC8iNCwgMsg0NmIZ",
+        "lang": "English Sub"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00378018/the-exiled-heavy-knight-knows-how-to-game-the-system"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3yq1oZEC8iNCwgMsg0NmIZ"
+      }
+    ]
+  },
+  {
+    "slug": "hyouka",
+    "type": "anime",
+    "title": "Hyouka",
+    "nativeTitle": "氷菓",
+    "year": 2012,
+    "score": 78,
+    "provider": "Muse Asia (Official)",
+    "quality": "1080p",
+    "episodes": 22,
+    "hasHindi": false,
+    "genres": [
+      "anime",
+      "mystery",
+      "romance",
+      "slice of life"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12189-zj5AWUYO53Fv.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/12189-TG0peUcKFqur.jpg",
+    "desc": "Energy-conservative high school student Houtarou Oreki ends up with more than he bargained for when he signs up for the Classic Literature Club at his sister's behest—especially when he realizes how deep-rooted the club's history really is. Begrudgingly, Oreki is dragged into an ...",
+    "servers": [
+      {
+        "name": "Muse Asia (Official) • English Sub",
+        "playlistId": "PLwLSw1_eDZl28iypqyY3tsSz7P1BByLiK",
+        "lang": "English Sub"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl28iypqyY3tsSz7P1BByLiK"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/hyouka"
+      }
+    ]
+  },
+  {
+    "slug": "spy-x-family",
+    "type": "anime",
+    "title": "SPY x FAMILY",
+    "nativeTitle": "SPY×FAMILY",
+    "year": 2022,
+    "score": 83,
+    "provider": "Muse Asia (Official)",
+    "quality": "1080p",
+    "episodes": 12,
+    "hasHindi": false,
+    "genres": [
+      "anime",
+      "action",
+      "comedy",
+      "slice of life",
+      "supernatural",
+      "isekai"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140960-Kb6R5nYQfjmP.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/140960-Z7xSvkRxHKfj.jpg",
+    "desc": "Everyone has a part of themselves they cannot show to anyone else.\n\nAt a time when all nations of the world were involved in a fierce war of information happening behind closed doors, Ostania and Westalis had been in a state of cold war against one another for decades. The Westal...",
+    "servers": [
+      {
+        "name": "Muse Asia (Official) • English Sub",
+        "playlistId": "PLwLSw1_eDZl1wGMYg5oB3uEns0CZNl6sI",
+        "lang": "English Sub"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81511410"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/spy-x-family"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://youtube.com/playlist?list=PLwLSw1_eDZl1wGMYg5oB3uEns0CZNl6sI"
+      }
+    ]
+  },
+  {
+    "slug": "jojo-s-bizarre-adventure-stardust-crusaders",
+    "type": "anime",
+    "title": "JoJo's Bizarre Adventure: Stardust Crusaders",
+    "nativeTitle": "ジョジョの奇妙な冒険 スターダストクルセイダース",
+    "year": 2014,
+    "score": 79,
     "provider": "Muse Asia (Official)",
     "quality": "1080p",
     "episodes": 24,
     "hasHindi": false,
     "genres": [
       "anime",
-      "action"
+      "action",
+      "adventure",
+      "supernatural",
+      "isekai"
     ],
-    "cover": "https://i.ytimg.com/vi/o1ZOVH9LXzM/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/o1ZOVH9LXzM/hq720.jpg",
-    "desc": "Watch Tokyo Revengers officially licensed in HD from Muse Asia (Official).",
-    "tracks": {
-      "English Sub": "PLwLSw1_eDZl3F9AGKbC7iRIGeU2XosgTy"
-    }
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20474-xuqem5GBlBtb.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20474-peBLuUVAzNC3.jpg",
+    "desc": "In a Japanese jail sits 17-year-old Jotaro Kujo: punk, fighter, delinquent...and possessed by a force beyond his control! Around the world, evil spirits are awakening: \"Stands,\" monstrous invisible creatures which give their bearers incredible powers. To save his mother's life, J...",
+    "servers": [
+      {
+        "name": "Muse Asia (Official) • English Sub",
+        "playlistId": "PLwLSw1_eDZl0czPmhfn0WI_a-aSqFEqTf",
+        "lang": "English Sub"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/jojos-bizarre-adventure"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/80179831"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0czPmhfn0WI_a-aSqFEqTf"
+      }
+    ]
   },
   {
     "slug": "cells-at-work",
     "type": "anime",
     "title": "Cells at Work!",
+    "nativeTitle": "はたらく細胞",
+    "year": 2018,
+    "score": 73,
     "provider": "Muse Asia (Official)",
     "quality": "1080p",
-    "episodes": 24,
+    "episodes": 13,
     "hasHindi": false,
     "genres": [
       "anime",
-      "action"
+      "action",
+      "comedy",
+      "sci-fi",
+      "isekai"
     ],
-    "cover": "https://i.ytimg.com/vi/Nu6SsBBHXXk/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/Nu6SsBBHXXk/hq720.jpg",
-    "desc": "Watch Cells at Work! officially licensed in HD from Muse Asia (Official).",
-    "tracks": {
-      "English Sub": "PLwLSw1_eDZl2jD4HobdnUs3oOdkDNwQGq"
-    }
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100977-nH1J2dR7GGAk.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n100977-IztHpiaTckCh.jpg",
+    "desc": "The average human body contains about 60 trillion cells, and each of them has work to do! But when you get injured, viruses or bacteria invade, or when an allergic reaction flares up, everyone from the silent but deadly white blood cells to the brainy neurons has to work together...",
+    "servers": [
+      {
+        "name": "Muse Asia (Official) • English Sub",
+        "playlistId": "PLwLSw1_eDZl2jD4HobdnUs3oOdkDNwQGq",
+        "lang": "English Sub"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/cells-at-work"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81028791"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://youtube.com/playlist?list=PLwLSw1_eDZl2jD4HobdnUs3oOdkDNwQGq&si=nMq7BfTrJQ-FbH-g"
+      }
+    ]
   },
   {
     "slug": "moriarty-the-patriot",
     "type": "anime",
-    "title": "MORIARTY THE PATRIOT",
+    "title": "Moriarty the Patriot",
+    "nativeTitle": "憂国のモリアーティ",
+    "year": 2020,
+    "score": 80,
     "provider": "Muse Asia (Official)",
     "quality": "1080p",
-    "episodes": 24,
+    "episodes": 11,
     "hasHindi": false,
     "genres": [
       "anime",
-      "action"
+      "drama",
+      "mystery",
+      "psychological",
+      "thriller"
     ],
-    "cover": "https://i.ytimg.com/vi/iBoTIpxstus/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/iBoTIpxstus/hq720.jpg",
-    "desc": "Watch MORIARTY THE PATRIOT officially licensed in HD from Muse Asia (Official).",
-    "tracks": {
-      "English Sub": "PLwLSw1_eDZl23lU3K_aB0k1aPJ93_jdnt"
-    }
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114124-def92qPuIVeK.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114124-44utnIatIX16.jpg",
+    "desc": "In the late 19th century, the British Empire nobility reigns while its working class suffers at their hands. Sympathetic to their plight, William James Moriarty wants to topple it all. Frustrated by the systemic inequity, Moriarty strategizes to fix the entire nation. Not even co...",
+    "servers": [
+      {
+        "name": "Muse Asia (Official) • English Sub",
+        "playlistId": "PLwLSw1_eDZl23lU3K_aB0k1aPJ93_jdnt",
+        "lang": "English Sub"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl23lU3K_aB0k1aPJ93_jdnt"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81335206"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/moriarty-the-patriot"
+      }
+    ]
   },
   {
     "slug": "blue-lock",
     "type": "anime",
-    "title": "⟪⟫ ⟪BLUE LOCK⟫",
+    "title": "BLUE LOCK",
+    "nativeTitle": "ブルーロック",
+    "year": 2022,
+    "score": 79,
     "provider": "Ani-One India (Official)",
     "quality": "1080p",
     "episodes": 24,
@@ -557,19 +914,43 @@
     "genres": [
       "anime",
       "action",
+      "drama",
+      "sports",
+      "isekai",
       "hindi"
     ],
-    "cover": "https://i.ytimg.com/vi/-7AD70jdntE/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/-7AD70jdntE/hq720.jpg",
-    "desc": "Watch ⟪⟫ ⟪BLUE LOCK⟫ officially licensed in HD from Ani-One India (Official).",
-    "tracks": {
-      "Hindi Dub": "PLhpMvmtHsuqLAnGK-a9QsXamBuwWjPsmc"
-    }
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137822-U8naszP96vzC.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/137822-oevspckMGLuY.jpg",
+    "desc": "Japan’s desire for World Cup glory leads the Japanese Football Association to launch a new rigorous training program to find the national team’s next striker. Three hundred high school players are pitted against each other for the position, but only one will come out on top. Who ...",
+    "servers": [
+      {
+        "name": "Ani-One India (Official) • Hindi Dub",
+        "playlistId": "PLhpMvmtHsuqLAnGK-a9QsXamBuwWjPsmc",
+        "lang": "Hindi Dub"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G4PH0WEKE/blue-lock"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj17JiCvrOBjnjPjb930O2g"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81640753"
+      }
+    ]
   },
   {
     "slug": "jujutsu-kaisen",
     "type": "anime",
-    "title": "⟪⟫ ⟪JUJUTSU KAISEN⟫",
+    "title": "JUJUTSU KAISEN",
+    "nativeTitle": "呪術廻戦",
+    "year": 2020,
+    "score": 84,
     "provider": "Ani-One India (Official)",
     "quality": "1080p",
     "episodes": 24,
@@ -577,955 +958,863 @@
     "genres": [
       "anime",
       "action",
+      "drama",
+      "supernatural",
+      "isekai",
       "hindi"
     ],
-    "cover": "https://i.ytimg.com/vi/1Id_f3GDlus/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/1Id_f3GDlus/hq720.jpg",
-    "desc": "Watch ⟪⟫ ⟪JUJUTSU KAISEN⟫ officially licensed in HD from Ani-One India (Official).",
-    "tracks": {
-      "Hindi Dub": "PLhpMvmtHsuqJOi2FOwdAiCNJpVKnES21j",
-      "English Sub": "PLxSscENEp7JhP1ek-2ebVRfyirmcjkNOg"
-    }
-  },
-  {
-    "slug": "jujutsu-kaisen-all-seasons",
-    "type": "anime",
-    "title": "⟪⟫ ⟪JUJUTSU KAISEN⟫ All Seasons",
-    "provider": "Ani-One India (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": true,
-    "genres": [
-      "anime",
-      "action",
-      "hindi"
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113415-LHBAeoZDIsnF.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113415-jQBSkxWAAk83.jpg",
+    "desc": "A boy fights... for \"the right death.\"\n\nHardship, regret, shame: the negative feelings that humans feel become Curses that lurk in our everyday lives. The Curses run rampant throughout the world, capable of leading people to terrible misfortune and even death. What's more, the Cu...",
+    "servers": [
+      {
+        "name": "Ani-One India (Official) • Hindi Dub",
+        "playlistId": "PLhpMvmtHsuqJOi2FOwdAiCNJpVKnES21j",
+        "lang": "Hindi Dub"
+      },
+      {
+        "name": "Ani-One India (Official) • English Sub",
+        "playlistId": "PLxSscENEp7JhP1ek-2ebVRfyirmcjkNOg",
+        "lang": "English Sub"
+      }
     ],
-    "cover": "https://i.ytimg.com/vi/1Id_f3GDlus/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/1Id_f3GDlus/hq720.jpg",
-    "desc": "Watch ⟪⟫ ⟪JUJUTSU KAISEN⟫ All Seasons officially licensed in HD from Ani-One India (Official).",
-    "tracks": {
-      "Hindi Dub": "PLYlUPVVSF0TA",
-      "English Sub": "PLByc1-TX7ZRg"
-    }
-  },
-  {
-    "slug": "bleach-bleach",
-    "type": "anime",
-    "title": "《BLEACH》︳《BLEACH 死神》",
-    "provider": "Ani-One India (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "anime",
-      "action"
-    ],
-    "cover": "https://i.ytimg.com/vi/OgyORlzV0uw/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/OgyORlzV0uw/hq720.jpg",
-    "desc": "Watch 《BLEACH》︳《BLEACH 死神》 officially licensed in HD from Ani-One India (Official).",
-    "tracks": {
-      "English Sub": "PLxSscENEp7JjESRYoluizbfS2sZGm_1Bi"
-    }
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/jujutsu-kaisen"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81278456"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://youtube.com/playlist?list=PLxSscENEp7JisDU6GAJuyNpVwDvCm-f3J"
+      }
+    ]
   },
   {
     "slug": "takopi-s-original-sin",
     "type": "anime",
-    "title": "⟪⟫ ⟪Takopi's Original Sin⟫",
+    "title": "Takopi's Original Sin",
+    "nativeTitle": "タコピーの原罪",
+    "year": 2025,
+    "score": 86,
     "provider": "Ani-One India (Official)",
     "quality": "1080p",
-    "episodes": 24,
+    "episodes": 6,
     "hasHindi": true,
     "genres": [
       "anime",
-      "action",
+      "drama",
+      "psychological",
+      "sci-fi",
       "hindi"
     ],
-    "cover": "https://i.ytimg.com/vi/tAryFRAwaiI/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/tAryFRAwaiI/hq720.jpg",
-    "desc": "Watch ⟪⟫ ⟪Takopi's Original Sin⟫ officially licensed in HD from Ani-One India (Official).",
-    "tracks": {
-      "Hindi Dub": "PLZuovWoL6oYk"
-    }
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185407-7uzY4fA3hokP.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/185407-WOKgyadY4Pr1.jpg",
+    "desc": "A Happy alien, Takopi, lands on Earth with one mission: to spread happiness! When he meets Shizuka, a lonely fourth grader, he vows to bring back her smile using his magical Happy Gadgets. But as he uncovers the pain in her life, Takopi learns that true happiness may require more...",
+    "servers": [
+      {
+        "name": "Ani-One India (Official) • Hindi Dub",
+        "playlistId": "PLZuovWoL6oYk",
+        "lang": "Hindi Dub"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GKEH2G0X4/takopis-original-sin"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://youtube.com/playlist?list=PLxSscENEp7JiXIF_XC3Q8zWzNLgWesqLY&si=RLVH4Sv9e3H4FsB0"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://youtube.com/playlist?list=PLNAQymMf9eaYu8Plp4tLZ_sHrgAtvYH_q&si=_n3ORfaRXxZEHdNl"
+      }
+    ]
   },
   {
     "slug": "overlord",
     "type": "anime",
-    "title": "⟪⟫ ⟪OVERLORD⟫",
+    "title": "Overlord",
+    "nativeTitle": "オーバーロード",
+    "year": 2015,
+    "score": 76,
     "provider": "Ani-One India (Official)",
     "quality": "1080p",
-    "episodes": 24,
+    "episodes": 13,
     "hasHindi": true,
     "genres": [
       "anime",
       "action",
+      "adventure",
+      "fantasy",
+      "isekai",
       "hindi"
     ],
-    "cover": "https://i.ytimg.com/vi/xA69sCrsyto/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/xA69sCrsyto/hq720.jpg",
-    "desc": "Watch ⟪⟫ ⟪OVERLORD⟫ officially licensed in HD from Ani-One India (Official).",
-    "tracks": {
-      "Hindi Dub": "PLhpMvmtHsuqK1vSR4rz8cqo87FisTHrqG"
-    }
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20832-vUNm5zrYWifc.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20832-NswCiSYMoI2k.jpg",
+    "desc": "The story takes place in the year 2138 when virtual reality gaming is booming. Yggdrasil, a popular online game is quietly shut down one day. However, the protagonist Momonga decides to not log out. Momonga is then transformed into the image of a skeleton as \"the most powerful wi...",
+    "servers": [
+      {
+        "name": "Ani-One India (Official) • Hindi Dub",
+        "playlistId": "PLhpMvmtHsuqK1vSR4rz8cqo87FisTHrqG",
+        "lang": "Hindi Dub"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/overlord"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/80132110"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JiIura5SogPzrVGaujqXYsc"
+      }
+    ]
   },
   {
     "slug": "my-hero-academia",
     "type": "anime",
-    "title": "⟪⟫ ⟪MY HERO ACADEMIA⟫",
+    "title": "My Hero Academia",
+    "nativeTitle": "僕のヒーローアカデミア",
+    "year": 2016,
+    "score": 76,
     "provider": "Ani-One India (Official)",
     "quality": "1080p",
-    "episodes": 24,
+    "episodes": 13,
     "hasHindi": true,
     "genres": [
       "anime",
       "action",
+      "adventure",
+      "comedy",
+      "isekai",
       "hindi"
     ],
-    "cover": "https://i.ytimg.com/vi/UrWfd2XQrig/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/UrWfd2XQrig/hq720.jpg",
-    "desc": "Watch ⟪⟫ ⟪MY HERO ACADEMIA⟫ officially licensed in HD from Ani-One India (Official).",
-    "tracks": {
-      "Hindi Dub": "PLebNsrMbbA7g"
-    }
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21459-nYh85uj2Fuwr.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21459-yeVkolGKdGUV.jpg",
+    "desc": "What would the world be like if 80 percent of the population manifested extraordinary superpowers called “Quirks” at age four? Heroes and villains would be battling it out everywhere! Becoming a hero would mean learning to use your power, but where would you go to study? U.A. Hig...",
+    "servers": [
+      {
+        "name": "Ani-One India (Official) • Hindi Dub",
+        "playlistId": "PLebNsrMbbA7g",
+        "lang": "Hindi Dub"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/my-hero-academia"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/80135674"
+      }
+    ]
   },
   {
-    "slug": "jujutsu-kaisen-shibuya-incident",
+    "slug": "jujutsu-kaisen-season-2",
     "type": "anime",
-    "title": "⟪⟫ ⟪JUJUTSU KAISEN⟫ - Shibuya Incident",
+    "title": "JUJUTSU KAISEN Season 2",
+    "nativeTitle": "呪術廻戦 第2期",
+    "year": 2023,
+    "score": 86,
     "provider": "Ani-One India (Official)",
     "quality": "1080p",
-    "episodes": 24,
+    "episodes": 23,
     "hasHindi": true,
     "genres": [
       "anime",
       "action",
+      "drama",
+      "supernatural",
+      "isekai",
       "hindi"
     ],
-    "cover": "https://i.ytimg.com/vi/MDI1ZxY8Wvc/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/MDI1ZxY8Wvc/hq720.jpg",
-    "desc": "Watch ⟪⟫ ⟪JUJUTSU KAISEN⟫ - Shibuya Incident officially licensed in HD from Ani-One India (Official).",
-    "tracks": {
-      "Hindi Dub": "PLhpMvmtHsuqK0LqbMpsmx5vLhx5rtmaiM"
-    }
-  },
-  {
-    "slug": "blue-lock-all-seasons",
-    "type": "anime",
-    "title": "⟪⟫ ⟪BLUE LOCK⟫ All Seasons",
-    "provider": "Ani-One India (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": true,
-    "genres": [
-      "anime",
-      "action",
-      "hindi"
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx145064-hSNRJM03pvv1.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/145064-esDtAY2He7sk.jpg",
+    "desc": "The past comes to light when second-year students Satoru Gojou and Suguru Getou are tasked with escorting young Riko Amanai to Master Tengen. But when a non-sorcerer user tries to kill them, their mission to protect the Star Plasma Vessel threatens to turn them into bitter enemie...",
+    "servers": [
+      {
+        "name": "Ani-One India (Official) • Hindi Dub",
+        "playlistId": "PLhpMvmtHsuqK0LqbMpsmx5vLhx5rtmaiM",
+        "lang": "Hindi Dub"
+      }
     ],
-    "cover": "https://i.ytimg.com/vi/-7AD70jdntE/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/-7AD70jdntE/hq720.jpg",
-    "desc": "Watch ⟪⟫ ⟪BLUE LOCK⟫ All Seasons officially licensed in HD from Ani-One India (Official).",
-    "tracks": {
-      "Hindi Dub": "PLWl_J02rdcW0",
-      "English Sub": "PLA5PRmPRBnuE"
-    }
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GRDV0019R/jujutsu-kaisen"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JjIe81K3Qd0l7PVaIiPi64r"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81278456"
+      }
+    ]
   },
   {
     "slug": "you-and-i-are-polar-opposites",
     "type": "anime",
-    "title": "⟪You and I Are Polar Opposites⟫",
+    "title": "You and I Are Polar Opposites",
+    "nativeTitle": "正反対な君と僕",
+    "year": 2026,
+    "score": 82,
     "provider": "Ani-One India (Official)",
     "quality": "1080p",
-    "episodes": 24,
+    "episodes": 12,
     "hasHindi": false,
     "genres": [
       "anime",
-      "action"
+      "comedy",
+      "romance",
+      "slice of life"
     ],
-    "cover": "https://i.ytimg.com/vi/2SO5ifnfoUQ/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/2SO5ifnfoUQ/hq720.jpg",
-    "desc": "Watch ⟪You and I Are Polar Opposites⟫ officially licensed in HD from Ani-One India (Official).",
-    "tracks": {
-      "English Sub": "PLxSscENEp7JgUtrkd6tikPRql9V5ym38F"
-    }
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184951-s8Lg2muPBhdX.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/184951-Rx1mZZfKa9IU.jpg",
+    "desc": "Suzuki’s a high school girl in love, but the guy she’s fallen for is nothing like her! While she’s cheerful, outgoing, and always trying to fit in, her classmate Yusuke Tani is stoic, quiet, and doesn’t seem to care what people think of him. Will Suzuki be able to overcome her an...",
+    "servers": [
+      {
+        "name": "Ani-One India (Official) • English Sub",
+        "playlistId": "PLxSscENEp7JgUtrkd6tikPRql9V5ym38F",
+        "lang": "English Sub"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00365624/you-and-i-are-polar-opposites"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jhq08yiz58yytNN3EGYsKwu"
+      }
+    ]
   },
   {
     "slug": "overlord-iv",
     "type": "anime",
-    "title": "⟪⟫ ⟪OVERLORD IV⟫",
+    "title": "Overlord IV",
+    "nativeTitle": "オーバーロードⅣ",
+    "year": 2022,
+    "score": 80,
     "provider": "Ani-One India (Official)",
     "quality": "1080p",
-    "episodes": 24,
+    "episodes": 13,
     "hasHindi": true,
     "genres": [
       "anime",
       "action",
+      "adventure",
+      "fantasy",
+      "isekai",
       "hindi"
     ],
-    "cover": "https://i.ytimg.com/vi/6fb1auBgIAU/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/6fb1auBgIAU/hq720.jpg",
-    "desc": "Watch ⟪⟫ ⟪OVERLORD IV⟫ officially licensed in HD from Ani-One India (Official).",
-    "tracks": {
-      "Hindi Dub": "PLKoBItx_R37k"
-    }
-  },
-  {
-    "slug": "dr-stone-all-seasons",
-    "type": "anime",
-    "title": "⟪Dr. STONE⟫ All Seasons",
-    "provider": "Ani-One India (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "anime",
-      "action"
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx133844-E32FjKZ0XxEs.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/133844-uIaUmh5aJX3M.jpg",
+    "desc": "E-Rantel, the capital city of the newly established Sorcerer Kingdom, suffers from a dire shortage of goods. Once a prosperous city known for its trade, it now faces a crisis due to its caution—or even fear—of its king, Ainz Ooal Gown. To make amends, Ainz sends Albedo to the cit...",
+    "servers": [
+      {
+        "name": "Ani-One India (Official) • Hindi Dub",
+        "playlistId": "PLKoBItx_R37k",
+        "lang": "Hindi Dub"
+      }
     ],
-    "cover": "https://i.ytimg.com/vi/-VkN7G6WUgQ/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/-VkN7G6WUgQ/hq720.jpg",
-    "desc": "Watch ⟪Dr. STONE⟫ All Seasons officially licensed in HD from Ani-One India (Official).",
-    "tracks": {
-      "English Sub": "PLR_Fnd4DF-dM"
-    }
+    "officialLinks": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JjqetlKeUq9vjhLa8yg4vBx"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/overlord"
+      }
+    ]
   },
   {
-    "slug": "blue-lock-vs-u-20-japan",
+    "slug": "blue-lock-season-2",
     "type": "anime",
-    "title": "⟪⟫ ⟪BLUE LOCK VS. U-20 JAPAN⟫",
+    "title": "BLUE LOCK Season 2",
+    "nativeTitle": "ブルーロック VS. U-20 JAPAN",
+    "year": 2024,
+    "score": 75,
     "provider": "Ani-One India (Official)",
     "quality": "1080p",
-    "episodes": 24,
+    "episodes": 14,
     "hasHindi": true,
     "genres": [
       "anime",
       "action",
+      "drama",
+      "sports",
+      "isekai",
       "hindi"
     ],
-    "cover": "https://i.ytimg.com/vi/Js4RYzeCw6E/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/Js4RYzeCw6E/hq720.jpg",
-    "desc": "Watch ⟪⟫ ⟪BLUE LOCK VS. U-20 JAPAN⟫ officially licensed in HD from Ani-One India (Official).",
-    "tracks": {
-      "Hindi Dub": "PLHKe1CkrzPXQ"
-    }
-  },
-  {
-    "slug": "saga-of-tanya-the-evil",
-    "type": "anime",
-    "title": "《幼女戰記 》| 《Saga of Tanya the Evil》",
-    "provider": "Ani-One Asia (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "anime",
-      "action"
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163146-BVZPgyzkqi82.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/163146-HIz04v1Or7He.jpg",
+    "desc": "The hottest soccer matches start again as the U-20 Japan National Team makes their debut!\n(Source: Crunchyroll News)",
+    "servers": [
+      {
+        "name": "Ani-One India (Official) • Hindi Dub",
+        "playlistId": "PLHKe1CkrzPXQ",
+        "lang": "Hindi Dub"
+      }
     ],
-    "cover": "https://i.ytimg.com/vi/Zo0gJUDll1o/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/Zo0gJUDll1o/hq720.jpg",
-    "desc": "Watch 《幼女戰記 》| 《Saga of Tanya the Evil》 officially licensed in HD from Ani-One Asia (Official).",
-    "tracks": {
-      "English Sub": "PLxSscENEp7JipogV7W74-hbDbYaQx78Oq"
-    }
-  },
-  {
-    "slug": "akame-ga-kill",
-    "type": "anime",
-    "title": "《斬！赤紅之瞳》|《Akame ga KILL!》",
-    "provider": "Ani-One Asia (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "anime",
-      "action"
-    ],
-    "cover": "https://i.ytimg.com/vi/Jv2ao6lIuNY/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/Jv2ao6lIuNY/hq720.jpg",
-    "desc": "Watch 《斬！赤紅之瞳》|《Akame ga KILL!》 officially licensed in HD from Ani-One Asia (Official).",
-    "tracks": {
-      "English Sub": "PLxSscENEp7JixhUo7CWyYHQeWj0GuS9BX"
-    }
-  },
-  {
-    "slug": "akashic-records-of-bastard-magic-instructor",
-    "type": "anime",
-    "title": "《不正經的魔術講師與禁忌教典》|《Akashic Records of Bastard Magic Instructor》",
-    "provider": "Ani-One Asia (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "anime",
-      "action"
-    ],
-    "cover": "https://i.ytimg.com/vi/5gFk7l66UIs/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/5gFk7l66UIs/hq720.jpg",
-    "desc": "Watch 《不正經的魔術講師與禁忌教典》|《Akashic Records of Bastard Magic Instructor》 officially licensed in HD from Ani-One Asia (Official).",
-    "tracks": {
-      "English Sub": "PLxSscENEp7JhgECCmAq4rlTGlPT-5AvuA"
-    }
-  },
-  {
-    "slug": "food-wars-shokugeki-no-soma",
-    "type": "anime",
-    "title": "《食戟之靈》|《Food Wars! Shokugeki no Soma》",
-    "provider": "Ani-One Asia (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "anime",
-      "action"
-    ],
-    "cover": "https://i.ytimg.com/vi/-YRJJu8T43k/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/-YRJJu8T43k/hq720.jpg",
-    "desc": "Watch 《食戟之靈》|《Food Wars! Shokugeki no Soma》 officially licensed in HD from Ani-One Asia (Official).",
-    "tracks": {
-      "English Sub": "PLxSscENEp7JiQ5eGN9KP8g6v8fEG7k6Ab"
-    }
-  },
-  {
-    "slug": "himouto-umaruchan",
-    "type": "anime",
-    "title": "《HIMOUTO! UMARUCHAN》|《我家有個魚乾妹》",
-    "provider": "Ani-One Asia (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "anime",
-      "action"
-    ],
-    "cover": "https://i.ytimg.com/vi/td_9L0hmu6k/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/td_9L0hmu6k/hq720.jpg",
-    "desc": "Watch 《HIMOUTO! UMARUCHAN》|《我家有個魚乾妹》 officially licensed in HD from Ani-One Asia (Official).",
-    "tracks": {
-      "English Sub": "PLxSscENEp7JjC12v4Pp8zT7C2r4Q-PBcy"
-    }
-  },
-  {
-    "slug": "by-the-grace-of-the-gods",
-    "type": "anime",
-    "title": "《眾神眷顧的男人》|《By the Grace of the Gods》",
-    "provider": "Ani-One Asia (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "anime",
-      "action"
-    ],
-    "cover": "https://i.ytimg.com/vi/X3rbwy4E_aE/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/X3rbwy4E_aE/hq720.jpg",
-    "desc": "Watch 《眾神眷顧的男人》|《By the Grace of the Gods》 officially licensed in HD from Ani-One Asia (Official).",
-    "tracks": {
-      "English Sub": "PLxSscENEp7JjRhcXt3hp52zWsIcJL6ecv"
-    }
-  },
-  {
-    "slug": "the-dreaming-boy-is-a-realist",
-    "type": "anime",
-    "title": "《The Dreaming Boy is a Realist》|《滿懷美夢的少年是現實主義者》",
-    "provider": "Ani-One Asia (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "anime",
-      "action"
-    ],
-    "cover": "https://i.ytimg.com/vi/RfnjJYDTdco/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/RfnjJYDTdco/hq720.jpg",
-    "desc": "Watch 《The Dreaming Boy is a Realist》|《滿懷美夢的少年是現實主義者》 officially licensed in HD from Ani-One Asia (Official).",
-    "tracks": {
-      "English Sub": "PLxSscENEp7JjUr-UgHcM5VkSNVNTGBgmC"
-    }
-  },
-  {
-    "slug": "love-all-play",
-    "type": "anime",
-    "title": "《Love All Play》",
-    "provider": "Ani-One Asia (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "anime",
-      "action"
-    ],
-    "cover": "https://i.ytimg.com/vi/fApkA7J0VqY/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/fApkA7J0VqY/hq720.jpg",
-    "desc": "Watch 《Love All Play》 officially licensed in HD from Ani-One Asia (Official).",
-    "tracks": {
-      "English Sub": "PLxSscENEp7JhTcld54szOhI4UZJeSJrJc"
-    }
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G4PH0WEKE/blue-lock"
+      }
+    ]
   },
   {
     "slug": "food-wars",
     "type": "anime",
-    "title": "Food wars!",
+    "title": "Food Wars!",
+    "nativeTitle": "食戟のソーマ",
+    "year": 2015,
+    "score": 78,
     "provider": "Ani-One Asia (Official)",
     "quality": "1080p",
     "episodes": 24,
     "hasHindi": false,
     "genres": [
       "anime",
-      "action"
+      "comedy",
+      "ecchi"
     ],
-    "cover": "https://i.ytimg.com/vi/-YRJJu8T43k/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/-YRJJu8T43k/hq720.jpg",
-    "desc": "Watch Food wars! officially licensed in HD from Ani-One Asia (Official).",
-    "tracks": {
-      "English Sub": "PL23orILr2z5e_bFfFNnXZU4jMnK4G3L20"
-    }
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20923-pNT38pjW3RFH.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20923-9tFdZ5hIrRiF.png",
+    "desc": "Ever since he was little, Souma Yukihira’s main goals have been to beat his father in a cooking contest and take over the family diner. That’s why, when his dad suddenly announces that he’s shutting the restaurant down and sending Souma to cooking school, Souma is shocked. Howeve...",
+    "servers": [
+      {
+        "name": "Ani-One Asia (Official) • English Sub",
+        "playlistId": "PL23orILr2z5e_bFfFNnXZU4jMnK4G3L20",
+        "lang": "English Sub"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/food-wars-shokugeki-no-soma"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/80182054"
+      },
+      {
+        "site": "Amazon Prime Video",
+        "url": "https://www.amazon.com/Sacred-Mother-of-Kyosuke/dp/B073GKRFC2/ref=sr_1_1?dchild=1&keywords=food+wars&qid=1617825503&s=instant-video&sr=1-1&tag=harshabalani-20"
+      }
+    ]
   },
   {
-    "slug": "the-foolish-angel-dances-with-the-devil",
-    "type": "anime",
-    "title": "《The Foolish Angel Dances with the Devil》|《愚蠢天使與惡魔共舞》",
-    "provider": "Ani-One Asia (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "anime",
-      "action"
-    ],
-    "cover": "https://i.ytimg.com/vi/Woo9UtRi2dE/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/Woo9UtRi2dE/hq720.jpg",
-    "desc": "Watch 《The Foolish Angel Dances with the Devil》|《愚蠢天使與惡魔共舞》 officially licensed in HD from Ani-One Asia (Official).",
-    "tracks": {
-      "English Sub": "PLxSscENEp7JiZZ4cscl39AHpgSzLwMooW"
-    }
-  },
-  {
-    "slug": "ayaka-ayaka",
-    "type": "anime",
-    "title": "《AYAKA》|《AYAKA ‐綾島奇譚‐》",
-    "provider": "Ani-One Asia (Official)",
-    "quality": "1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "anime",
-      "action"
-    ],
-    "cover": "https://i.ytimg.com/vi/zoHk8vkymAU/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/zoHk8vkymAU/hq720.jpg",
-    "desc": "Watch 《AYAKA》|《AYAKA ‐綾島奇譚‐》 officially licensed in HD from Ani-One Asia (Official).",
-    "tracks": {
-      "English Sub": "PLxSscENEp7JjsGx-1vOh8UzUlFB2PeJyj"
-    }
-  },
-  {
-    "slug": "a-will-eternal",
+    "slug": "free-eternal-summer",
     "type": "donghua",
-    "title": "《一念永恒》A Will Eternal｜腾讯视频 - 动漫",
+    "title": "Free! -Eternal Summer-",
+    "nativeTitle": "Free!-Eternal Summer-",
+    "year": 2014,
+    "score": 74,
     "provider": "Tencent Video (Official)",
     "quality": "4K / 1080p",
-    "episodes": 24,
+    "episodes": 13,
     "hasHindi": false,
     "genres": [
       "donghua",
-      "action"
+      "comedy",
+      "drama",
+      "slice of life",
+      "sports"
     ],
-    "cover": "https://i.ytimg.com/vi/Hfa0l1438qA/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/Hfa0l1438qA/hq720.jpg",
-    "desc": "Watch 《一念永恒》A Will Eternal｜腾讯视频 - 动漫 officially licensed in HD from Tencent Video (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLxOs22nkVmnIEELUaNeVTnj3AJSrniAxz"
-    }
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20614-Dr962gTXZzMs.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20614.jpg",
+    "desc": "Even though it has been a year since the Iwatobi High School Swim Club has been created, new members have yet to join the club. Now that Haruka Nanase and Makoto Tachibana are senior students, along with their younger friends Nagisa Hazuki and Rei Ryuugazaki, they have to find a ...",
+    "servers": [
+      {
+        "name": "Tencent Video (Official) • Chinese (Eng Sub)",
+        "playlistId": "PLxOs22nkVmnIEELUaNeVTnj3AJSrniAxz",
+        "lang": "Chinese (Eng Sub)"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/free-iwatobi-swim-club"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/80186018"
+      }
+    ]
   },
   {
-    "slug": "donghua-3d",
+    "slug": "dali-si-rizhi",
     "type": "donghua",
-    "title": "donghua 3D",
+    "title": "Dali Si Rizhi",
+    "nativeTitle": "大理寺日志",
+    "year": 2024,
+    "score": 65,
     "provider": "Tencent Video (Official)",
     "quality": "4K / 1080p",
-    "episodes": 24,
+    "episodes": 12,
     "hasHindi": false,
     "genres": [
       "donghua",
-      "action"
+      "action",
+      "comedy",
+      "fantasy",
+      "isekai"
     ],
-    "cover": "https://i.ytimg.com/vi/3SbbW_v04Ao/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/3SbbW_v04Ao/hq720.jpg",
-    "desc": "Watch donghua 3D officially licensed in HD from Tencent Video (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PL_-sT5AOXUCn2ddUqsxe2_6Ute8GIh69R"
-    }
-  },
-  {
-    "slug": "white-cat-legend",
-    "type": "donghua",
-    "title": "《大理寺日志》White Cat Legend | 腾讯视频 - 动漫",
-    "provider": "Tencent Video (Official)",
-    "quality": "4K / 1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "donghua",
-      "action"
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114119-fvKpSLNiz7pd.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114119-WTV3gmuVM7Si.jpg",
+    "desc": "We follow the daily life of Shi Chen, a young man looking for his brother. In order to find him, he goes to the Dali Court. One thing leads to another and he eventually becomes an officer working under Bing Li, a senior official with the appearance of a white cat.",
+    "servers": [
+      {
+        "name": "Tencent Video (Official) • Chinese (Eng Sub)",
+        "playlistId": "PLCM6UKPQ4QMA",
+        "lang": "Chinese (Eng Sub)"
+      }
     ],
-    "cover": "https://i.ytimg.com/vi/UZHZcCsVicY/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/UZHZcCsVicY/hq720.jpg",
-    "desc": "Watch 《大理寺日志》White Cat Legend | 腾讯视频 - 动漫 officially licensed in HD from Tencent Video (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLCM6UKPQ4QMA"
-    }
+    "officialLinks": [
+      {
+        "site": "Bilibili",
+        "url": "https://www.bilibili.com/bangumi/media/md28227527"
+      }
+    ]
   },
   {
     "slug": "soul-land-2-the-peerless-tang-clan",
     "type": "donghua",
-    "title": "《斗罗大陆Ⅱ绝世唐门》Soul Land 2: The Peerless Tang Clan | 腾讯视频 - 动漫",
+    "title": "Soul Land 2: The Peerless Tang Clan",
+    "nativeTitle": "斗罗大陆2绝世唐门",
+    "year": 2024,
+    "score": 77,
     "provider": "Tencent Video (Official)",
     "quality": "4K / 1080p",
-    "episodes": 24,
+    "episodes": 182,
     "hasHindi": false,
     "genres": [
       "donghua",
-      "action"
+      "action",
+      "adventure",
+      "fantasy",
+      "romance",
+      "isekai"
     ],
-    "cover": "https://i.ytimg.com/vi/fciRYJyZubQ/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/fciRYJyZubQ/hq720.jpg",
-    "desc": "Watch 《斗罗大陆Ⅱ绝世唐门》Soul Land 2: The Peerless Tang Clan | 腾讯视频 - 动漫 officially licensed in HD from Tencent Video (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLxOs22nkVmnIHBNKvMwn8UAa4NVz2LZao"
-    }
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137683-IMuvIECdZNBh.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137683-IMuvIECdZNBh.png",
+    "desc": "The Tang Sect in a turbulent world. There is nothing but martial spirit here. Ten thousand years after the founding of the Tang Sect, it is in relative decline. An extremely talented man was born. Can the new Shrek Seven Monsters revive the Tang Sect and bring it back to glory? A...",
+    "servers": [
+      {
+        "name": "Tencent Video (Official) • Chinese (Eng Sub)",
+        "playlistId": "PLxOs22nkVmnIHBNKvMwn8UAa4NVz2LZao",
+        "lang": "Chinese (Eng Sub)"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxOs22nkVmnIHBNKvMwn8UAa4NVz2LZao"
+      }
+    ]
   },
   {
-    "slug": "heaven-scrap-master",
+    "slug": "wo-zai-tianting-shou-feipin",
     "type": "donghua",
-    "title": "《我在天庭收废品》Heaven Scrap Master | 仙界废品斩妖除魔 | 腾讯视频 - 动漫",
+    "title": "Wo Zai Tianting Shou Feipin",
+    "nativeTitle": "我在天庭收废品",
+    "year": 2024,
+    "score": 82,
     "provider": "Tencent Video (Official)",
     "quality": "4K / 1080p",
-    "episodes": 24,
+    "episodes": 40,
     "hasHindi": false,
     "genres": [
       "donghua",
-      "action"
+      "action",
+      "adventure",
+      "fantasy",
+      "isekai"
     ],
-    "cover": "https://i.ytimg.com/vi/i3Tu8A5vn3g/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/i3Tu8A5vn3g/hq720.jpg",
-    "desc": "Watch 《我在天庭收废品》Heaven Scrap Master | 仙界废品斩妖除魔 | 腾讯视频 - 动漫 officially licensed in HD from Tencent Video (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLxOs22nkVmnInXvjYvZkNgYFI6jJlymrx"
-    }
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204393-g6cBY7Bn7K0c.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204393-g6cBY7Bn7K0c.jpg",
+    "desc": "In a modern martial arts world, Zhao Xin unexpectedly inherits the Celestial Realm's recycling station. This grants him not only the aid of numerous immortals but also the admiration of many beauties, ultimately leading him to the pinnacle of martial arts.",
+    "servers": [
+      {
+        "name": "Tencent Video (Official) • Chinese (Eng Sub)",
+        "playlistId": "PLxOs22nkVmnInXvjYvZkNgYFI6jJlymrx",
+        "lang": "Chinese (Eng Sub)"
+      }
+    ],
+    "officialLinks": []
   },
   {
     "slug": "throne-of-seal",
     "type": "donghua",
-    "title": "《神印王座》Throne of Seal | 腾讯视频 - 动漫",
+    "title": "Throne of Seal",
+    "nativeTitle": "神印王座",
+    "year": 2024,
+    "score": 79,
     "provider": "Tencent Video (Official)",
     "quality": "4K / 1080p",
-    "episodes": 24,
+    "episodes": 26,
     "hasHindi": false,
     "genres": [
       "donghua",
-      "action"
+      "action",
+      "adventure",
+      "fantasy",
+      "isekai"
     ],
-    "cover": "https://i.ytimg.com/vi/_NE5Auyipb4/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/_NE5Auyipb4/hq720.jpg",
-    "desc": "Watch 《神印王座》Throne of Seal | 腾讯视频 - 动漫 officially licensed in HD from Tencent Video (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLxOs22nkVmnLjtZSJ0fsQ8fkbWhNCkQ5b"
-    }
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146409-RGT2ehrsHedT.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146409-RGT2ehrsHedT.jpg",
+    "desc": "While the demons were rising, mankind was about to become extinct. Six temples rose, and protected the last of mankind. A young boy joins the temple as a knight to save his mother. During his journey of wonders and mischief in the world of temples and demons, will he be able to a...",
+    "servers": [
+      {
+        "name": "Tencent Video (Official) • Chinese (Eng Sub)",
+        "playlistId": "PLxOs22nkVmnLjtZSJ0fsQ8fkbWhNCkQ5b",
+        "lang": "Chinese (Eng Sub)"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GJ0H7QG9N/throne-of-seal"
+      }
+    ]
   },
   {
-    "slug": "perfect-world",
+    "slug": "forest-of-piano",
     "type": "donghua",
-    "title": "《完美世界》Perfect World | 腾讯视频 - 动漫",
+    "title": "Forest of Piano",
+    "nativeTitle": "ピアノの森 (TV)",
+    "year": 2018,
+    "score": 71,
     "provider": "Tencent Video (Official)",
     "quality": "4K / 1080p",
-    "episodes": 24,
+    "episodes": 12,
     "hasHindi": false,
     "genres": [
       "donghua",
-      "action"
+      "drama",
+      "music"
     ],
-    "cover": "https://i.ytimg.com/vi/ZVlrYv_3Dek/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/ZVlrYv_3Dek/hq720.jpg",
-    "desc": "Watch 《完美世界》Perfect World | 腾讯视频 - 动漫 officially licensed in HD from Tencent Video (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLxOs22nkVmnKfl20-jrXc1pflxjHKFnRf"
-    }
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx100401-frKNiXOnRKdu.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100401-ox7dBr8i1q35.jpg",
+    "desc": "A tranquil tale about two boys from very different upbringings. On one hand you have Kai, born as the son of a prostitute, who's been playing the abandoned piano in the forest near his home ever since he was young. And on the other you have Shuuhei, practically breast-fed by the ...",
+    "servers": [
+      {
+        "name": "Tencent Video (Official) • Chinese (Eng Sub)",
+        "playlistId": "PLxOs22nkVmnKfl20-jrXc1pflxjHKFnRf",
+        "lang": "Chinese (Eng Sub)"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/80986797"
+      }
+    ]
   },
   {
-    "slug": "eng-sub-download-wetv-video-app-to-watch-more",
+    "slug": "lian-qi-shiwan-nian",
     "type": "donghua",
-    "title": "ENG SUB—— 唐三再铸唐门的辉煌☛Download WeTV / Video APP to Watch More",
+    "title": "Lian Qi Shiwan Nian",
+    "nativeTitle": "炼气十万年",
+    "year": 2024,
+    "score": 66,
     "provider": "Tencent Video (Official)",
     "quality": "4K / 1080p",
-    "episodes": 24,
+    "episodes": 420,
     "hasHindi": false,
     "genres": [
       "donghua",
-      "action"
+      "action",
+      "adventure",
+      "fantasy",
+      "isekai"
     ],
-    "cover": "https://i.ytimg.com/vi/sry61pny9J0/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/sry61pny9J0/hq720.jpg",
-    "desc": "Watch ENG SUB—— 唐三再铸唐门的辉煌☛Download WeTV / Video APP to Watch More officially licensed in HD from Tencent Video (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLMX26aiIvX5rWJ9Dy01OdpMWBgg_WJack"
-    }
-  },
-  {
-    "slug": "one-hundred-thousand-years-of-qi-refining",
-    "type": "donghua",
-    "title": "《炼气十万年》One Hundred Thousand Years of Qi Refining | 腾讯视频-动漫",
-    "provider": "Tencent Video (Official)",
-    "quality": "4K / 1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "donghua",
-      "action"
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b165524-XMXXm35IgGAB.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b165524-XMXXm35IgGAB.jpg",
+    "desc": "One hundred thousand years ago, he was the founding disciple of the Tianlan Sect, his master ascended to the top, and he was refining Qi. Ninety thousand years ago, his martial nephew ascended, and he was refining Qi. Fifty thousand years ago, the old dog who was the gatekeeper o...",
+    "servers": [
+      {
+        "name": "Tencent Video (Official) • Chinese (Eng Sub)",
+        "playlistId": "PLxOs22nkVmnJAcLepyz4KYPXxW3KQ--8q",
+        "lang": "Chinese (Eng Sub)"
+      }
     ],
-    "cover": "https://i.ytimg.com/vi/4He-euhm6Rg/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/4He-euhm6Rg/hq720.jpg",
-    "desc": "Watch 《炼气十万年》One Hundred Thousand Years of Qi Refining | 腾讯视频-动漫 officially licensed in HD from Tencent Video (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLxOs22nkVmnJAcLepyz4KYPXxW3KQ--8q"
-    }
+    "officialLinks": []
   },
   {
     "slug": "renegade-immortal",
     "type": "donghua",
-    "title": "《仙逆》Renegade Immortal | 腾讯视频 - 动漫",
+    "title": "Renegade Immortal",
+    "nativeTitle": "仙逆",
+    "year": 2024,
+    "score": 83,
     "provider": "Tencent Video (Official)",
     "quality": "4K / 1080p",
-    "episodes": 24,
+    "episodes": 180,
     "hasHindi": false,
     "genres": [
       "donghua",
-      "action"
+      "action",
+      "adventure",
+      "drama",
+      "fantasy",
+      "isekai"
     ],
-    "cover": "https://i.ytimg.com/vi/FAzU1A0FrHM/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/FAzU1A0FrHM/hq720.jpg",
-    "desc": "Watch 《仙逆》Renegade Immortal | 腾讯视频 - 动漫 officially licensed in HD from Tencent Video (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLxOs22nkVmnLTn3fbmCGCLDE1jlET4bfy"
-    }
-  },
-  {
-    "slug": "free-tales-of-herding-gods-each-tuesday-join-to-watch-latest",
-    "type": "donghua",
-    "title": "👉Free 《牧神记》Tales of Herding Gods | 每周二/Each Tuesday | 玄幻/修仙/小说改 | 加入会员抢先最新集 Join to watch latest",
-    "provider": "Tencent Video (Official)",
-    "quality": "4K / 1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "donghua",
-      "action"
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137653-1wHbCVvABGOr.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137653-1wHbCVvABGOr.png",
+    "desc": "It tells the story of Wang Lin, an ordinary young man in the countryside, who is moved by his heart and cultivates against immortality. His pursuit is not only for longevity, but also for getting rid of the ants behind it. He firmly believed in human beings and entered the path o...",
+    "servers": [
+      {
+        "name": "Tencent Video (Official) • Chinese (Eng Sub)",
+        "playlistId": "PLxOs22nkVmnLTn3fbmCGCLDE1jlET4bfy",
+        "lang": "Chinese (Eng Sub)"
+      }
     ],
-    "cover": "https://i.ytimg.com/vi/xV0gyNWPA60/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/xV0gyNWPA60/hq720.jpg",
-    "desc": "Watch 👉Free 《牧神记》Tales of Herding Gods | 每周二/Each Tuesday | 玄幻/修仙/小说改 | 加入会员抢先最新集 Join to watch latest officially licensed in HD from Tencent Video (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLBakWosU0sfjzq5MHaM7L_y7RzT6tGfps"
-    }
-  },
-  {
-    "slug": "the-heavenly-fate-villain",
-    "type": "donghua",
-    "title": "《顾长歌：我！天命大反派》The Heavenly Fate Villain | 腾讯视频 - 动漫",
-    "provider": "Tencent Video (Official)",
-    "quality": "4K / 1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "donghua",
-      "action"
-    ],
-    "cover": "https://i.ytimg.com/vi/cxtvPIJ5mAg/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/cxtvPIJ5mAg/hq720.jpg",
-    "desc": "Watch 《顾长歌：我！天命大反派》The Heavenly Fate Villain | 腾讯视频 - 动漫 officially licensed in HD from Tencent Video (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLGmjIOE0c5Fo"
-    }
-  },
-  {
-    "slug": "eng-sub-download-wetv-video-app-to-watch-more-episodes-https-wetv-vip",
-    "type": "donghua",
-    "title": "ENG SUB | 主演：肖战、王一博 | Download \"WeTV / Video \" APP to watch more episodes https://wetv.vip/",
-    "provider": "Tencent Video (Official)",
-    "quality": "4K / 1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "donghua",
-      "action"
-    ],
-    "cover": "https://i.ytimg.com/vi/AmtfTBY9n1U/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/AmtfTBY9n1U/hq720.jpg",
-    "desc": "Watch ENG SUB | 主演：肖战、王一博 | Download \"WeTV / Video \" APP to watch more episodes https://wetv.vip/ officially licensed in HD from Tencent Video (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLs3DOuT3JlGTXcfADIIRwbIEN3zMb39Ud"
-    }
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GKEH2G0MN/renegade-immortal"
+      }
+    ]
   },
   {
     "slug": "apotheosis-2",
     "type": "donghua",
-    "title": "Apotheosis -2",
+    "title": "Apotheosis 2",
+    "nativeTitle": "百炼成神2",
+    "year": 2024,
+    "score": 70,
     "provider": "Youku Animation (Official)",
     "quality": "4K / 1080p",
-    "episodes": 24,
+    "episodes": 52,
     "hasHindi": false,
     "genres": [
       "donghua",
-      "action"
+      "action",
+      "adventure",
+      "fantasy",
+      "isekai"
     ],
-    "cover": "https://i.ytimg.com/vi/Rec_iuK9T3s/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/Rec_iuK9T3s/hq720.jpg",
-    "desc": "Watch Apotheosis -2 officially licensed in HD from Youku Animation (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLdV6C4Jp4W1YcY5JmW6zFEcZeJQScX_Jz"
-    }
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b174703-tjgDtFfv6z7k.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/174703-M6yq6D0SraEg.jpg",
+    "desc": "The family fell and his loved ones suffered. Luo Zheng fell from the clouds and became a humble domestic slave. In a world where various races are constantly fighting and ruled by mysterious forces, Luo Zheng, who is unwilling to fall, accidentally acquires a mysterious skill and...",
+    "servers": [
+      {
+        "name": "Youku Animation (Official) • Chinese (Eng Sub)",
+        "playlistId": "PLdV6C4Jp4W1YcY5JmW6zFEcZeJQScX_Jz",
+        "lang": "Chinese (Eng Sub)"
+      }
+    ],
+    "officialLinks": []
   },
   {
-    "slug": "the-demon-hunter",
+    "slug": "sword-of-the-demon-hunter-kijin-gentosho",
     "type": "donghua",
-    "title": "The Demon Hunter",
+    "title": "Sword of the Demon Hunter: Kijin Gentosho",
+    "nativeTitle": "鬼人幻燈抄",
+    "year": 2025,
+    "score": 70,
     "provider": "Youku Animation (Official)",
     "quality": "4K / 1080p",
     "episodes": 24,
     "hasHindi": false,
     "genres": [
       "donghua",
-      "action"
+      "action",
+      "drama",
+      "fantasy",
+      "mystery",
+      "isekai"
     ],
-    "cover": "https://i.ytimg.com/vi/mfg47HUNGaA/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/mfg47HUNGaA/hq720.jpg",
-    "desc": "Watch The Demon Hunter officially licensed in HD from Youku Animation (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLQXpxE9saH82V1MW1xDwES3_L-43l7DvF"
-    }
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143598-FCvAhQJLllSP.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/143598-WWxsc0g9pVB2.jpg",
+    "desc": "In the Edo period, there was a shrine maiden called \"Itsukihime\" in the mountain village of Kadono. Jinta, a young man who acts as the shrine maiden's guardian despite being a stranger, encounters a mysterious demon who speaks of the far future in the forest where he went to defe...",
+    "servers": [
+      {
+        "name": "Youku Animation (Official) • Chinese (Eng Sub)",
+        "playlistId": "PLQXpxE9saH82V1MW1xDwES3_L-43l7DvF",
+        "lang": "Chinese (Eng Sub)"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jhve97gk77TX6seY4UaVkQn"
+      }
+    ]
   },
   {
-    "slug": "animasi-anichin",
+    "slug": "i-don-t-like-my-big-brother-at-all",
     "type": "donghua",
-    "title": "animasi anichin",
+    "title": "I don't like my big brother at all!!",
+    "nativeTitle": "お兄ちゃんのことなんかぜんぜん好きじゃないんだからねっ!!",
+    "year": 2011,
+    "score": 56,
     "provider": "Youku Animation (Official)",
     "quality": "4K / 1080p",
-    "episodes": 24,
+    "episodes": 12,
     "hasHindi": false,
     "genres": [
       "donghua",
-      "action"
+      "comedy",
+      "ecchi",
+      "romance"
     ],
-    "cover": "https://i.ytimg.com/vi/pzDzCiuXl-I/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/pzDzCiuXl-I/hq720.jpg",
-    "desc": "Watch animasi anichin officially licensed in HD from Youku Animation (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLcXnQrreEzyhXjqedNwVLJcECBmaRYaYx"
-    }
-  },
-  {
-    "slug": "multisubjoin-animation-membership-to-get-early-access-legend-of-martial-immortal-new-episode",
-    "type": "donghua",
-    "title": "🌟🌟MULTISUBJoin ANIMATION membership to get early access | legend of martial immortal new episode",
-    "provider": "Youku Animation (Official)",
-    "quality": "4K / 1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "donghua",
-      "action"
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9587-C1mOz1hhSouL.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9587-C1mOz1hhSouL.jpg",
+    "desc": "Junior High student Nao's brother complex is so strong, it's almost at the point of incest. She's determined to make her brother, High School student Shuusuke, see her as a woman. So determined, that she goes as far as going into his room to throw away all his non-incest related ...",
+    "servers": [
+      {
+        "name": "Youku Animation (Official) • Chinese (Eng Sub)",
+        "playlistId": "PLQXpxE9saH82djWKp_kXHjQ3NQoc1eRaW",
+        "lang": "Chinese (Eng Sub)"
+      }
     ],
-    "cover": "https://i.ytimg.com/vi/TrTVdsRQRi0/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/TrTVdsRQRi0/hq720.jpg",
-    "desc": "Watch 🌟🌟MULTISUBJoin ANIMATION membership to get early access | legend of martial immortal new episode officially licensed in HD from Youku Animation (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLOUUm4xsoaeDkSMcc9U8aPUYzA4kLAfp5"
-    }
-  },
-  {
-    "slug": "big-brother",
-    "type": "donghua",
-    "title": "Big Brother",
-    "provider": "Youku Animation (Official)",
-    "quality": "4K / 1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "donghua",
-      "action"
-    ],
-    "cover": "https://i.ytimg.com/vi/ZqO6DJl53Sg/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/ZqO6DJl53Sg/hq720.jpg",
-    "desc": "Watch Big Brother officially licensed in HD from Youku Animation (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLQXpxE9saH82djWKp_kXHjQ3NQoc1eRaW"
-    }
-  },
-  {
-    "slug": "multisubjoin-animation-membership-to-get-early-access",
-    "type": "donghua",
-    "title": "🌟🌟MULTISUBJoin ANIMATION membership to get early access",
-    "provider": "Youku Animation (Official)",
-    "quality": "4K / 1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "donghua",
-      "action"
-    ],
-    "cover": "https://i.ytimg.com/vi/1wrlSzx4CI0/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/1wrlSzx4CI0/hq720.jpg",
-    "desc": "Watch 🌟🌟MULTISUBJoin ANIMATION membership to get early access officially licensed in HD from Youku Animation (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLOUUm4xsoaeCqC2PtoUeNlwWxnU5o1YP2"
-    }
+    "officialLinks": []
   },
   {
     "slug": "slay-the-gods",
     "type": "donghua",
     "title": "Slay The Gods",
+    "nativeTitle": "斩神之凡尘神域",
+    "year": 2024,
+    "score": 78,
     "provider": "Youku Animation (Official)",
     "quality": "4K / 1080p",
-    "episodes": 24,
+    "episodes": 15,
     "hasHindi": false,
     "genres": [
       "donghua",
-      "action"
+      "action",
+      "fantasy",
+      "isekai"
     ],
-    "cover": "https://i.ytimg.com/vi/uLO40U1V7rs/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/uLO40U1V7rs/hq720.jpg",
-    "desc": "Watch Slay The Gods officially licensed in HD from Youku Animation (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLdV6C4Jp4W1Z12EIE0OgLh9bOnxG71mvE"
-    }
-  },
-  {
-    "slug": "engsub-chinese-fantasy-anime-animation",
-    "type": "donghua",
-    "title": "🌟🌟ENGSUB| Chinese Fantasy Anime | ANIMATION",
-    "provider": "Youku Animation (Official)",
-    "quality": "4K / 1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "donghua",
-      "action"
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx168105-NH0EUR2yHH3M.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/168105-Jjmt6MzcHyVm.jpg",
+    "desc": "It follows the journey of Lin Qiye, a blind high school student who unexpectedly becomes a night watchman, tasked with protecting the nation from \"mystical\" invasions as the mist descends and gods reawaken. Leading his team, he tirelessly eliminates mythical creatures that emerge...",
+    "servers": [
+      {
+        "name": "Youku Animation (Official) • Chinese (Eng Sub)",
+        "playlistId": "PLdV6C4Jp4W1Z12EIE0OgLh9bOnxG71mvE",
+        "lang": "Chinese (Eng Sub)"
+      }
     ],
-    "cover": "https://i.ytimg.com/vi/msqnxVGS_90/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/msqnxVGS_90/hq720.jpg",
-    "desc": "Watch 🌟🌟ENGSUB| Chinese Fantasy Anime | ANIMATION officially licensed in HD from Youku Animation (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLQXpxE9saH83VBer82QpOh6Wva6kMkI4-"
-    }
-  },
-  {
-    "slug": "anime-legend-of-xianwu-eng-sub-start-march-27-2023-s-1-full-ep-1-1",
-    "type": "donghua",
-    "title": "ANIME - LEGEND OF XIANWU ENG SUB START: MARCH 27, 2023 S: 1 - FULL EP: 1 - 1???????",
-    "provider": "Youku Animation (Official)",
-    "quality": "4K / 1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "donghua",
-      "action"
-    ],
-    "cover": "https://i.ytimg.com/vi/tIPDSFtRSE0/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/tIPDSFtRSE0/hq720.jpg",
-    "desc": "Watch ANIME - LEGEND OF XIANWU ENG SUB START: MARCH 27, 2023 S: 1 - FULL EP: 1 - 1??????? officially licensed in HD from Youku Animation (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLE3wNKb8CHFQgvxsyTLvnl-I4VtxMUrRv"
-    }
+    "officialLinks": []
   },
   {
     "slug": "oriental-martial-academy",
     "type": "donghua",
     "title": "Oriental Martial Academy",
+    "nativeTitle": "东大高武学院",
+    "year": 2024,
+    "score": 82,
     "provider": "Youku Animation (Official)",
     "quality": "4K / 1080p",
     "episodes": 24,
     "hasHindi": false,
     "genres": [
       "donghua",
-      "action"
+      "action",
+      "fantasy",
+      "isekai"
     ],
-    "cover": "https://i.ytimg.com/vi/OXP9xXjljOA/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/OXP9xXjljOA/hq720.jpg",
-    "desc": "Watch Oriental Martial Academy officially licensed in HD from Youku Animation (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLjy0QFg1qxd3P8yU-EQtQxbnuX0cKYPtE"
-    }
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212969-Q7tzSDQ1r53V.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212969-Q7tzSDQ1r53V.jpg",
+    "desc": "Orphan Qin Yu was specially admitted to the top cultivation academy, Dongda Martial Academy. Behind the city's calm, a demonic threat quietly approached. Qin Yu vowed to lead his fellow disciples to resist the invading demons.\n\n(Source: Youku)",
+    "servers": [
+      {
+        "name": "Youku Animation (Official) • Chinese (Eng Sub)",
+        "playlistId": "PLjy0QFg1qxd3P8yU-EQtQxbnuX0cKYPtE",
+        "lang": "Chinese (Eng Sub)"
+      }
+    ],
+    "officialLinks": []
   },
   {
-    "slug": "the-great-ruler",
+    "slug": "da-zhuzai",
     "type": "donghua",
-    "title": "The Great Ruler",
+    "title": "Da Zhuzai",
+    "nativeTitle": "大主宰",
+    "year": 2024,
+    "score": 61,
     "provider": "Youku Animation (Official)",
     "quality": "4K / 1080p",
-    "episodes": 24,
+    "episodes": 12,
     "hasHindi": false,
     "genres": [
       "donghua",
-      "action"
+      "action",
+      "adventure",
+      "fantasy",
+      "romance",
+      "isekai"
     ],
-    "cover": "https://i.ytimg.com/vi/_BWAzlYKJbo/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/_BWAzlYKJbo/hq720.jpg",
-    "desc": "Watch The Great Ruler officially licensed in HD from Youku Animation (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLdV6C4Jp4W1ZKNMN23LjV3inx7GkPUZQz"
-    }
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111125-ySEvoketmZxL.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111125-ySEvoketmZxL.png",
+    "desc": "In the boundless universe, clans and lords from numerous planes live and assemble. The Heavenly Sovereigns appear one by one from the Lower Planes, displaying a legend that others would desire as they pursue to become a ruler in this endless world. In the Northern Spiritual Realm...",
+    "servers": [
+      {
+        "name": "Youku Animation (Official) • Chinese (Eng Sub)",
+        "playlistId": "PLdV6C4Jp4W1ZKNMN23LjV3inx7GkPUZQz",
+        "lang": "Chinese (Eng Sub)"
+      }
+    ],
+    "officialLinks": [
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLTndXYWs2JgHO5pr997G5_CoSHf4P9hmJ"
+      }
+    ]
   },
   {
-    "slug": "tales-of-herding-gods",
+    "slug": "mu-shen-ji",
     "type": "donghua",
-    "title": "Tales of Herding Gods",
+    "title": "Mu Shen Ji",
+    "nativeTitle": "牧神记",
+    "year": 2024,
+    "score": 80,
     "provider": "Youku Animation (Official)",
     "quality": "4K / 1080p",
-    "episodes": 24,
+    "episodes": 26,
     "hasHindi": false,
     "genres": [
       "donghua",
-      "action"
+      "action",
+      "adventure",
+      "fantasy",
+      "isekai"
     ],
-    "cover": "https://i.ytimg.com/vi/DU_oM3HMmMs/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/DU_oM3HMmMs/hq720.jpg",
-    "desc": "Watch Tales of Herding Gods officially licensed in HD from Youku Animation (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLTbLcHjNgGMhi43bQ7cCXw9tGbehQ_2qm"
-    }
-  },
-  {
-    "slug": "engsub-chinese-ancient-anime-animation",
-    "type": "donghua",
-    "title": "🌟🌟ENGSUB| Chinese Ancient Anime | ANIMATION",
-    "provider": "Youku Animation (Official)",
-    "quality": "4K / 1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "donghua",
-      "action"
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185721-WuGIFppRptA2.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185721-WuGIFppRptA2.jpg",
+    "desc": "In Can Lao village, there lived nine enigmatic elders and the young Qin Mu who was raised by the elders. One day, the cow that Qin Mu was herding surprisingly spoke human language.Since then, Qin Mu has become more aware of the dangers and enchantments of the forsaken land of Da ...",
+    "servers": [
+      {
+        "name": "Youku Animation (Official) • Chinese (Eng Sub)",
+        "playlistId": "PLTbLcHjNgGMhi43bQ7cCXw9tGbehQ_2qm",
+        "lang": "Chinese (Eng Sub)"
+      }
     ],
-    "cover": "https://i.ytimg.com/vi/sb9sqDiHpak/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/sb9sqDiHpak/hq720.jpg",
-    "desc": "Watch 🌟🌟ENGSUB| Chinese Ancient Anime | ANIMATION officially licensed in HD from Youku Animation (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLQXpxE9saH821TWc7mdmcC8_Cj-xU1fwp"
-    }
-  },
-  {
-    "slug": "multisub-animation",
-    "type": "donghua",
-    "title": "🌟🌟MULTISUB| ANIMATION",
-    "provider": "Youku Animation (Official)",
-    "quality": "4K / 1080p",
-    "episodes": 24,
-    "hasHindi": false,
-    "genres": [
-      "donghua",
-      "action"
-    ],
-    "cover": "https://i.ytimg.com/vi/a_2BuVXrPNg/hq720.jpg",
-    "banner": "https://i.ytimg.com/vi/a_2BuVXrPNg/hq720.jpg",
-    "desc": "Watch 🌟🌟MULTISUB| ANIMATION officially licensed in HD from Youku Animation (Official).",
-    "tracks": {
-      "Chinese (Eng Sub)": "PLOUUm4xsoaeCB6NnZQxVrQRDVWi3BHsVa"
-    }
+    "officialLinks": [
+      {
+        "site": "Bilibili",
+        "url": "https://www.bilibili.com/bangumi/media/md21082961"
+      }
+    ]
   }
 ]
