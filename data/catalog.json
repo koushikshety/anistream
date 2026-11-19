@@ -21,7 +21,7 @@
     ],
     "year": 1999,
     "score": 87,
-    "provider": "Server 1 (Official)",
+    "provider": "Crunchyroll / Netflix (Official)",
     "quality": "1080p",
     "episodes": 24,
     "hasHindi": false,
@@ -36,94 +36,7 @@
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
     "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21-wf37VakJmZqs.jpg",
     "desc": "Gold Roger was known as the Pirate King, the strongest and most infamous being to have sailed the Grand Line. The capture and death of Roger by the World Government brought a change throughout the world. His last words before his death revealed the location of the greatest treasu...",
-    "servers": [
-      {
-        "name": "Server 1 (Official) \u2022 English Sub",
-        "playlistId": "PLPZ-5hjEaEIZ_G_-DNGprTp_iYbvsdsev",
-        "lang": "English Sub",
-        "videoIds": [
-          "qHzT0u890PI",
-          "qKv9hdnl7Ew",
-          "TBweeDDJeTk",
-          "YBX4_GsHfJ0",
-          "L3jVzRFTZ1g",
-          "8PbAq8qAXnI",
-          "6N_fEakjY-0",
-          "5VQIVXpqaWs",
-          "7-9lOQ4gunY",
-          "LtRCWcFKV_g",
-          "oV4UYxlRoKg",
-          "SU1t1uAxSCY",
-          "Q5wTQ4eqFaQ",
-          "7Wht5nBVgCQ"
-        ]
-      },
-      {
-        "name": "Server 1 (Official) \u2022 English Sub",
-        "playlistId": "PL6ooj5C_N-EuSGCPIulAaTgzA11CRGN7M",
-        "lang": "English Sub",
-        "videoIds": [
-          "bU032qWcxfE",
-          "vFRKqR4SiQ8",
-          "FTlvPB15Op0",
-          "58qJ98yHvTw",
-          "AD6n40I15Eg",
-          "8XCB9H8awDs",
-          "MnWEqCsqHJg",
-          "I3UKXPorhWc",
-          "CdyI7v6V5D8",
-          "nkKzmtzQFfI",
-          "XSZQNlicPCE",
-          "mZthMTSKdE0",
-          "A8zROZyy4rE",
-          "E7uxQ4l_daM"
-        ]
-      },
-      {
-        "name": "Official HD \u2022 English Sub",
-        "playlistId": "PLeiv0YoqQzDmfdkCE0G3roA3WI3zivwpz",
-        "videoIds": [
-          "eOaihlh6n9w",
-          "FVwZg9bd3OY",
-          "oib1H4QV724",
-          "IUqwsInmirc",
-          "GGLqzbkwA2Q",
-          "qoyUd3E-39Y",
-          "tvhHTeMUdhM",
-          "YuvGTysIePM",
-          "zjhH7i0Qyt4",
-          "SBwcVYKqLtw",
-          "LpRxzZbeRVU",
-          "PwWSVBEjFl8",
-          "jKBl-peRuHc",
-          "7_ijQJco2U4",
-          "OOCwpIZu5qU"
-        ],
-        "lang": "English Sub"
-      },
-      {
-        "name": "Official HD \u2022 English Sub",
-        "playlistId": "PLDIA4LKcXezjxjm41sL03SX2vy4BNSAXc",
-        "videoIds": [
-          "czQzLpeaXHo",
-          "kiWYopLZRP8",
-          "SiIDIsKz6zI",
-          "YEAkodqPRKo",
-          "EJ-f_GYAhYY",
-          "J9XXeo_4Wqo",
-          "KZ115yirtUY",
-          "jClP6otmLoI",
-          "1glpU8jKs68",
-          "xPLLCBPP2gA",
-          "41wWr3DmA9Y",
-          "u3b3OJW1uGM",
-          "EOka5zg3ows",
-          "oAdhJuiNO7Y",
-          "aDfSyTTM_CI"
-        ],
-        "lang": "English Sub"
-      }
-    ],
+    "servers": [],
     "officialLinks": [
       {
         "site": "Crunchyroll",
