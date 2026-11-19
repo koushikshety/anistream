@@ -5,15 +5,16 @@ import urllib.parse
 import time
 
 SEARCH_QUERIES = [
-    {"q": "Muse India official full episodes playlist", "provider": "Muse India (Official)", "type": "anime", "quality": "1080p"},
-    {"q": "Muse Asia official full episodes playlist", "provider": "Muse Asia (Official)", "type": "anime", "quality": "1080p"},
-    {"q": "Ani-One India official full episodes playlist", "provider": "Ani-One India (Official)", "type": "anime", "quality": "1080p"},
-    {"q": "Ani-One Asia official full episodes playlist", "provider": "Ani-One Asia (Official)", "type": "anime", "quality": "1080p"},
-    {"q": "Tencent Video Animation donghua full episodes playlist", "provider": "Tencent Video (Official)", "type": "donghua", "quality": "4K / 1080p"},
-    {"q": "Youku Animation donghua full episodes playlist", "provider": "Youku Animation (Official)", "type": "donghua", "quality": "4K / 1080p"},
+    {"q": "Muse India official full episodes playlist", "server": "Server 1 (Muse India)", "type": "anime", "quality": "1080p"},
+    {"q": "Muse Asia official full episodes playlist", "server": "Server 2 (Muse Asia)", "type": "anime", "quality": "1080p"},
+    {"q": "Ani-One India official full episodes playlist", "server": "Server 1 (Ani-One India)", "type": "anime", "quality": "1080p"},
+    {"q": "Ani-One Asia official full episodes playlist", "server": "Server 2 (Ani-One Asia)", "type": "anime", "quality": "1080p"},
+    {"q": "Tencent Video Animation donghua full episodes playlist", "server": "Server 1 (Tencent 4K)", "type": "donghua", "quality": "4K / 1080p"},
+    {"q": "Youku Animation donghua full episodes playlist", "server": "Server 2 (Youku 4K)", "type": "donghua", "quality": "4K / 1080p"},
 ]
 
 ALLOWED_CHANNELS = ("muse", "ani-one", "tencent", "youku", "bilibili", "crunchyroll")
+SPAM_WORDS = ("membership", "join animation", "download wetv", "wetv.vip", "completed series", "animasi anichin", "donghua 3d", "preview", "trailer", "pv ")
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/128.0 Safari/537.36",
@@ -42,21 +43,17 @@ def search_official_playlists(query):
                 pid = pr.get("playlistId", "")
                 title = pr.get("title", {}).get("simpleText", "")
                 owner = "".join(r.get("text", "") for r in pr.get("shortBylineText", {}).get("runs", [])).lower()
-                thumbs = pr.get("thumbnails", [{}])[0].get("thumbnails", [])
-                thumb = thumbs[-1].get("url", "") if thumbs else ""
                 ep_num = int(re.sub(r"\D", "", str(pr.get("videoCount", "12"))) or 12)
                 if pid.startswith("PL") and any(k in owner for k in ALLOWED_CHANNELS):
-                    results.append({"playlistId": pid, "rawTitle": title, "thumb": thumb, "episodes": ep_num})
+                    results.append({"playlistId": pid, "rawTitle": title, "episodes": ep_num})
             elif "lockupViewModel" in obj:
                 lv = obj["lockupViewModel"]
                 pid = lv.get("contentId", "")
                 meta = lv.get("metadata", {}).get("lockupMetadataViewModel", {})
                 title = meta.get("title", {}).get("content", "")
                 raw_blob = json.dumps(lv).lower()
-                thumb_m = re.search(r'https://i\.ytimg\.com/vi/[^"]+\.jpg', json.dumps(lv))
-                thumb = thumb_m.group(0) if thumb_m else ""
                 if pid.startswith("PL") and title and any(k in raw_blob for k in ALLOWED_CHANNELS):
-                    results.append({"playlistId": pid, "rawTitle": title, "thumb": thumb, "episodes": 24})
+                    results.append({"playlistId": pid, "rawTitle": title, "episodes": 24})
             for v in obj.values():
                 walk(v)
         elif isinstance(obj, list):
@@ -66,21 +63,29 @@ def search_official_playlists(query):
     walk(data)
     return results
 
-def clean_title(raw):
-    t = re.sub(r"\[.*?\]|\(.*?\)|【.*?】", "", raw)
-    t = re.sub(r"(?i)\b(hindi dub|english sub|multi sub|full episodes|all episodes|season \d+|ep\s*\d+.*|muse asia|muse india|ani-one|tencent|youku)\b", "", t)
-    return re.sub(r"\s+", " ", t).strip(" -|:")
+def extract_english_search_name(raw):
+    if any(s in raw.lower() for s in SPAM_WORDS):
+        return ""
+    # Remove CJK brackets & non-ASCII characters so AniList gets pure English/Romaji
+    t = re.sub(r"《.*?》|【.*?】|\[.*?\]|\(.*?\)", " ", raw)
+    t = re.sub(r"[^\x00-\x7F]+", " ", t)
+    t = re.sub(r"(?i)\b(hindi dub|english sub|eng sub|multisub|multi sub|full episodes|all episodes|full ep|season \d+|ep\s*\d+.*|muse asia|muse india|muse in|ani-one|tencent|youku|animation|free)\b", " ", t)
+    t = re.sub(r"[|★☆•:：\-–—]+", " ", t)
+    return re.sub(r"\s+", " ", t).strip()
 
 def fetch_anilist_meta(title):
     query = """
     query ($search: String) {
       Media(search: $search, type: ANIME, sort: POPULARITY_DESC) {
-        title { english romaji }
+        title { english romaji native }
+        seasonYear
+        averageScore
         coverImage { extraLarge large }
         bannerImage
         description(asHtml: false)
         genres
         episodes
+        externalLinks { site url }
       }
     }
     """
@@ -99,77 +104,94 @@ def main():
     catalog_map = {}
 
     for item in SEARCH_QUERIES:
-        print(f"Searching: {item['provider']}...")
+        print(f"Scanning {item['server']}...")
         try:
             pls = search_official_playlists(item["q"])
-            print(f"  Matched {len(pls)} official playlists")
         except Exception as e:
-            print(f"  Error: {e}")
+            print(f"  Skipped: {e}")
             continue
 
-        for pl in pls[:15]:
+        for pl in pls[:20]:
             raw = pl["rawTitle"]
             is_hindi = bool(re.search(r"(?i)\bhindi\b", raw))
-            track_label = "Hindi Dub" if is_hindi else ("Chinese (Eng Sub)" if item["type"] == "donghua" else "English Sub")
-            base_name = clean_title(raw)
-            if len(base_name) < 3:
+            clean_query = extract_english_search_name(raw)
+            if len(clean_query) < 3:
                 continue
 
-            slug = slugify(base_name)
+            meta = fetch_anilist_meta(clean_query)
+            time.sleep(0.65)
+
+            # Require true vertical 2:3 AniList poster so zero cropped/landscape images ever appear!
+            if not meta or not meta.get("coverImage", {}).get("large"):
+                continue
+
+            eng_title = meta["title"].get("english") or meta["title"].get("romaji") or clean_query
+            native_title = meta["title"].get("native") or meta["title"].get("romaji") or ""
+            year = meta.get("seasonYear") or 2024
+            score = meta.get("averageScore") or 82
+            slug = slugify(eng_title)
+
+            audio_type = "Hindi Dub" if is_hindi else ("Chinese (Eng Sub)" if item["type"] == "donghua" else "English Sub")
+            server_entry = {
+                "name": f"{item['server']} • {audio_type}",
+                "playlistId": pl["playlistId"],
+                "lang": audio_type
+            }
+
             if slug in catalog_map:
-                catalog_map[slug]["tracks"][track_label] = pl["playlistId"]
+                # Merge additional server/language onto existing show
+                existing_ids = [s["playlistId"] for s in catalog_map[slug]["servers"]]
+                if pl["playlistId"] not in existing_ids:
+                    catalog_map[slug]["servers"].append(server_entry)
                 if is_hindi:
                     catalog_map[slug]["hasHindi"] = True
                     if "hindi" not in catalog_map[slug]["genres"]:
                         catalog_map[slug]["genres"].append("hindi")
                 continue
 
-            meta = fetch_anilist_meta(base_name)
-            time.sleep(0.65)
+            cover = meta["coverImage"].get("extraLarge") or meta["coverImage"]["large"]
+            banner = meta.get("bannerImage") or cover
+            desc = re.sub(r"<[^>]+>", "", meta.get("description") or "").strip()
+            ep_count = meta.get("episodes") or pl["episodes"]
 
-            if meta and meta.get("coverImage", {}).get("large"):
-                display_title = meta["title"].get("english") or meta["title"].get("romaji") or base_name
-                cover = meta["coverImage"].get("extraLarge") or meta["coverImage"]["large"]
-                banner = meta.get("bannerImage") or cover
-                desc = re.sub(r"<[^>]+>", "", meta.get("description") or "").strip()
-                ep_count = meta.get("episodes") or pl["episodes"]
-                genres = [item["type"]] + [g.lower() for g in (meta.get("genres") or [])[:3]]
-            else:
-                if not pl["thumb"]:
-                    continue
-                display_title = base_name
-                cover = pl["thumb"]
-                banner = pl["thumb"]
-                desc = f"Watch {base_name} officially licensed in HD from {item['provider']}."
-                ep_count = pl["episodes"]
-                genres = [item["type"], "action"]
-
-            if is_hindi and "hindi" not in genres:
+            raw_genres = [g.lower() for g in (meta.get("genres") or [])]
+            genres = [item["type"]] + raw_genres[:4]
+            if any(g in raw_genres for g in ("fantasy", "adventure", "action")):
+                genres.append("isekai")
+            if is_hindi:
                 genres.append("hindi")
+
+            official_links = [
+                {"site": l["site"], "url": l["url"]}
+                for l in (meta.get("externalLinks") or [])
+                if l.get("site") in ("Crunchyroll", "Netflix", "Amazon Prime Video", "Bilibili", "YouTube")
+            ][:3]
 
             catalog_map[slug] = {
                 "slug": slug,
                 "type": item["type"],
-                "title": display_title,
-                "provider": item["provider"],
+                "title": eng_title,
+                "nativeTitle": native_title,
+                "year": year,
+                "score": score,
+                "provider": item["server"],
                 "quality": item["quality"],
                 "episodes": ep_count,
                 "hasHindi": is_hindi,
                 "genres": list(dict.fromkeys(genres)),
                 "cover": cover,
                 "banner": banner,
-                "desc": desc[:260] + ("..." if len(desc) > 260 else ""),
-                "tracks": {track_label: pl["playlistId"]},
+                "desc": desc[:280] + ("..." if len(desc) > 280 else ""),
+                "servers": [server_entry],
+                "officialLinks": official_links,
             }
-            print(f"  + Added: {display_title} ({track_label})")
+            print(f"  + {eng_title} ({year}) [{audio_type}]")
 
     final_list = list(catalog_map.values())
     if final_list:
         with open("data/catalog.json", "w", encoding="utf-8") as f:
             json.dump(final_list, f, indent=2, ensure_ascii=False)
-        print(f"SUCCESS: Auto-synced {len(final_list)} verified Anime & Donghua shows!")
-    else:
-        print("WARNING: No playlists fetched; keeping existing catalog.json")
+        print(f"SUCCESS: Synced {len(final_list)} clean English-titled shows with 2:3 posters!")
 
 if __name__ == "__main__":
     main()
