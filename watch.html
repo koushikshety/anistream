@@ -245,7 +245,15 @@
       if (ad && ad.innerHTML.trim() === "") ad.innerHTML = `<div style="padding:8px;font-size:0.78rem;color:#cbd5e1;">🛡️ <strong>Adblocker Detected:</strong> Whitelist AniStream for free 4K streams or browse <a href="https://www.amazon.in/s?k=anime+manga+box+set&tag=aniguide-21" target="_blank" rel="noopener" style="color:#fbbf24;font-weight:700;">Official Manga & Merch on Amazon India</a>!</div>`;
     }, 2500);
 
-  </script>
+  
+    setTimeout(() => {
+      if (typeof currentShow === "undefined" || !currentShow) {
+        const p = new URLSearchParams(location.search).get("id");
+        if (p) location.replace("index.html?q=" + encodeURIComponent(p.replace(/-/g, " ")));
+      }
+    }, 1200);
+
+</script>
         </div>
 
         <div class="info-card">
