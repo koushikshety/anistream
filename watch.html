@@ -29,8 +29,42 @@
     .video-wrap {
       position: relative; width: 100%; padding-top: 56.25%;
       background: #000; border-radius: 12px; overflow: hidden; border: 1px solid var(--border);
+      transition: all 0.25s ease;
     }
     .video-wrap iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+    /* Floating Cinema Mode Header & Cancel Button */
+    .cinema-bar {
+      display: none; position: fixed; top: 0; left: 0; right: 0; z-index: 120;
+      padding: 12px 20px; background: linear-gradient(to bottom, rgba(0,0,0,0.95), transparent);
+      justify-content: space-between; align-items: center;
+    }
+    .cinema-title { font-size: 0.95rem; font-weight: 700; color: #e2e8f0; }
+    .cinema-exit-btn {
+      background: var(--primary); color: #fff; border: none;
+      padding: 8px 16px; border-radius: 999px; font-size: 0.85rem; font-weight: 700;
+      cursor: pointer; box-shadow: 0 4px 16px rgba(255,71,87,0.45);
+      display: inline-flex; align-items: center; gap: 6px;
+    }
+
+    /* Full Theater Cinema Mode Experience */
+    body.cinema { overflow: hidden; }
+    body.cinema .cinema-bar { display: flex; }
+    .cinema-backdrop {
+      display: none; position: fixed; inset: 0; background: #000; z-index: 100;
+    }
+    body.cinema .cinema-backdrop { display: block; }
+    body.cinema .video-wrap {
+      position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
+      width: min(100vw, 155vh); padding-top: 0; height: min(56.25vw, 82vh);
+      z-index: 110; border-radius: 0; border: none;
+    }
+    body.cinema .cinema-controls {
+      position: fixed; bottom: 14px; left: 50%; transform: translateX(-50%);
+      z-index: 120; display: flex; gap: 10px; background: rgba(17,21,31,0.9);
+      padding: 8px 14px; border-radius: 999px; border: 1px solid #2a344a;
+    }
+    .cinema-controls { display: none; }
 
     /* Multi-Server & Controls Panel */
     .server-panel {
@@ -78,11 +112,6 @@
     }
     .ep-btn:hover, .ep-btn.active { background: var(--primary); border-color: var(--primary); color: #fff; }
     .ep-btn.donghua-ep.active { background: var(--donghua); border-color: var(--donghua); color: #080a0f; }
-
-    body.cinema::before {
-      content: ""; position: fixed; inset: 0; background: rgba(0,0,0,0.92); z-index: 40; pointer-events: none;
-    }
-    body.cinema .video-wrap { z-index: 50; }
   </style>
 </head>
 <body>
@@ -90,6 +119,18 @@
     <a href="index.html" class="brand">ANI<span>STREAM</span></a>
     <a href="index.html" class="back-btn">← All Catalog</a>
   </header>
+
+  <!-- Cinema Mode Backdrop & Floating Top/Bottom Controls -->
+  <div class="cinema-backdrop" onclick="toggleCinema(false)"></div>
+  <div class="cinema-bar">
+    <span class="cinema-title" id="cinema-now-playing">Cinema Mode</span>
+    <button class="cinema-exit-btn" onclick="toggleCinema(false)">✕ Exit Cinema</button>
+  </div>
+  <div class="cinema-controls">
+    <button class="pill" onclick="prevEpisode()">⏮ Prev Ep</button>
+    <button class="pill" onclick="nextEpisode()">Next Ep ⏭</button>
+    <button class="pill active" onclick="toggleCinema(false)">✕ Cancel</button>
+  </div>
 
   <main class="container">
     <div class="watch-grid">
@@ -117,7 +158,7 @@
             <span class="server-label">Player:</span>
             <button class="pill" onclick="prevEpisode()">⏮ Prev</button>
             <button class="pill" onclick="nextEpisode()">Next ⏭</button>
-            <button class="pill" onclick="document.body.classList.toggle('cinema')">Cinema Mode</button>
+            <button class="pill" onclick="toggleCinema(true)">🎬 Cinema Mode</button>
           </div>
         </div>
 
@@ -125,15 +166,15 @@
         <div class="ad-zone">
           <span class="ad-label">Sponsored</span>
           <div id="container-1670e3305650d4a06781e47abce47301"></div>
-      <script>
-        setTimeout(function() {
-          var s = document.createElement("script");
-          s.async = true;
-          s.setAttribute("data-cfasync", "false");
-          s.src = "https://bauval.org/21/1670e3305650d4a06781e47abce47301";
-          document.body.appendChild(s);
-        }, 1000);
-      </script>
+          <script>
+            setTimeout(function() {
+              var s = document.createElement("script");
+              s.async = true;
+              s.setAttribute("data-cfasync", "false");
+              s.src = "https://bauval.org/21/1670e3305650d4a06781e47abce47301";
+              document.body.appendChild(s);
+            }, 1000);
+          </script>
         </div>
 
         <div class="info-card">
@@ -164,6 +205,17 @@
     let currentShow = null;
     let activeServerIdx = 0;
 
+    function toggleCinema(state) {
+      document.body.classList.toggle("cinema", state);
+      if (currentShow) {
+        document.getElementById("cinema-now-playing").textContent = `${currentShow.title} — Episode ${currentEp}`;
+      }
+    }
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") toggleCinema(false);
+    });
+
     function saveHistory() {
       if (!currentShow) return;
       const srv = currentShow.servers[activeServerIdx] || {};
@@ -186,6 +238,7 @@
       if (!srv) return;
       const url = `https://www.youtube-nocookie.com/embed/videoseries?list=${srv.playlistId}&index=${ep - 1}&rel=0&modestbranding=1`;
       document.getElementById("player-frame").src = url;
+      document.getElementById("cinema-now-playing").textContent = `${currentShow.title} — Episode ${currentEp}`;
       saveHistory();
       renderEpisodes();
     }
@@ -240,6 +293,6 @@
       playEpisode(currentEp);
     });
   </script>
-<script data-cfasync="false" src="https://bauval.org/14/e2908a73c63d8d2754e40ea99e7cdbda"></script>
+  <script data-cfasync="false" src="https://bauval.org/14/e2908a73c63d8d2754e40ea99e7cdbda"></script>
 </body>
 </html>
