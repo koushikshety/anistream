@@ -202,6 +202,7 @@
       <button class="filter-pill" data-filter="latest">🆕 Latest Release</button>
       <button class="filter-pill" data-filter="anime">Japanese Anime</button>
       <button class="filter-pill" data-filter="donghua">🐉 Donghua</button>
+      <button class="filter-pill" data-filter="freeyt">▶ Free on YouTube</button>
       <button class="filter-pill" data-filter="engdub">English Dub Only</button>
       <button class="filter-pill" data-filter="hindi">Hindi Dub Only</button>
       <button class="filter-pill" data-filter="ongoing">Ongoing</button>
@@ -359,7 +360,7 @@
       const epNum = item.latestEp || item.episodes;
       const bTag = isD ? `<span class="tag-bottom tag-donghua">DONGHUA</span>` : (item.hasHindi ? `<span class="tag-bottom">HINDI</span>` : (item.hasEngDub ? `<span class="tag-bottom">ENG DUB</span>` : `<span class="tag-bottom">SUB</span>`));
       const sc = (item.servers || []).length;
-      return `<a class="card ${isD ? "donghua-card" : ""}" href="watch.html?id=${item.slug}&ep=${epNum}"><div class="poster-wrap"><img src="${item.cover}" alt="${item.title}" loading="lazy" />${st}<span class="tag-score">★ ${(item.score / 10).toFixed(1)}</span><span class="tag-ep-left">EP ${epNum}</span>${bTag}</div><div class="card-body"><div class="card-title">${item.title}</div><div class="card-meta"><span>${item.year || ""} • ${item.airDay || ""}</span><span>${sc} Srv</span></div></div></a>`;
+      return `<a class="card ${isD ? "donghua-card" : ""}" href="watch.html?id=${item.slug}&ep=${epNum}"><div class="poster-wrap"><img src="${item.cover}" alt="${item.title}" loading="lazy" />${st}<span class="tag-score">★ ${(item.score / 10).toFixed(1)}</span><span class="tag-ep-left">EP ${epNum}</span>${bTag}</div><div class="card-body"><div class="card-title">${item.title}</div><div class="card-meta"><span>${item.year || ""} • ${item.airDay || ""}</span><span>${sc ? "▶ Free YT (" + sc + ")" : "Licensed"}</span></div></div></a>`;
     }
 
     function renderGrid(list) {
@@ -443,7 +444,8 @@
       if (["donghua", "anime", "all", "latest"].includes(f)) { switchMode(f); return; }
       document.querySelectorAll(".filter-pill").forEach(b => b.classList.remove("active"));
       e.target.classList.add("active");
-      if (f === "engdub") renderGrid(CATALOG.filter(a => a.hasEngDub || (a.servers || []).some(s => /english dub/i.test(s.lang || s.name))));
+      if (f === "freeyt") renderGrid(CATALOG.filter(a => (a.servers || []).length > 0));
+      else if (f === "engdub") renderGrid(CATALOG.filter(a => a.hasEngDub || (a.servers || []).some(s => /english dub/i.test(s.lang || s.name))));
       else if (f === "hindi") renderGrid(CATALOG.filter(a => a.hasHindi || (a.servers || []).some(s => /hindi/i.test(s.lang || s.name))));
       else if (f === "ongoing") renderGrid(CATALOG.filter(a => a.status === "ONGOING"));
       else renderGrid(CATALOG.filter(a => (a.genres || []).includes(f)));
