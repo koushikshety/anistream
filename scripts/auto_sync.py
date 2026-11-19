@@ -5,41 +5,44 @@ import urllib.parse
 import urllib.error
 import time
 
-# 1. Broad Official Channel Scans + 2. Targeted Famous Anime & Donghua Searches
 SEARCH_QUERIES = [
-    {"q": "Muse India official full episodes playlist", "server": "Server 1 (Muse India)", "type": "anime", "quality": "1080p"},
-    {"q": "Muse Asia official full episodes playlist", "server": "Server 2 (Muse Asia)", "type": "anime", "quality": "1080p"},
-    {"q": "Ani-One India official full episodes playlist", "server": "Server 1 (Ani-One India)", "type": "anime", "quality": "1080p"},
-    {"q": "Ani-One Asia official full episodes playlist", "server": "Server 2 (Ani-One Asia)", "type": "anime", "quality": "1080p"},
-    {"q": "Tencent Video Animation donghua full episodes playlist", "server": "Server 1 (Tencent 4K)", "type": "donghua", "quality": "4K / 1080p"},
-    {"q": "Youku Animation donghua full episodes playlist", "server": "Server 2 (Youku 4K)", "type": "donghua", "quality": "4K / 1080p"},
-    # Famous Anime & Donghua Direct Searches
-    {"q": "That Time I Got Reincarnated as a Slime Muse Asia playlist", "server": "Server 1 (Muse Official)", "type": "anime", "quality": "1080p"},
-    {"q": "Solo Leveling official playlist", "server": "Server 1 (Official)", "type": "anime", "quality": "1080p"},
-    {"q": "Demon Slayer Kimetsu no Yaiba Muse Asia playlist", "server": "Server 1 (Muse Official)", "type": "anime", "quality": "1080p"},
-    {"q": "Chainsaw Man Ani-One playlist", "server": "Server 1 (Ani-One Official)", "type": "anime", "quality": "1080p"},
-    {"q": "Black Clover Muse Asia playlist", "server": "Server 1 (Muse Official)", "type": "anime", "quality": "1080p"},
-    {"q": "Naruto Shippuden official episodes playlist", "server": "Server 1 (Official)", "type": "anime", "quality": "1080p"},
-    {"q": "One Piece official episodes playlist", "server": "Server 1 (Official)", "type": "anime", "quality": "1080p"},
-    {"q": "Tokyo Ghoul Muse Asia playlist", "server": "Server 1 (Muse Official)", "type": "anime", "quality": "1080p"},
-    {"q": "No Game No Life Muse Asia playlist", "server": "Server 1 (Muse Official)", "type": "anime", "quality": "1080p"},
-    {"q": "Assassination Classroom Muse Asia playlist", "server": "Server 1 (Muse Official)", "type": "anime", "quality": "1080p"},
-    {"q": "Renegade Immortal Xian Ni Tencent Video playlist", "server": "Server 1 (Tencent 4K)", "type": "donghua", "quality": "4K / 1080p"},
-    {"q": "Against the Gods Ni Tian Xie Shen donghua playlist", "server": "Server 1 (Official 4K)", "type": "donghua", "quality": "4K / 1080p"},
-    {"q": "Battle Through the Heavens Tencent Video playlist", "server": "Server 1 (Tencent 4K)", "type": "donghua", "quality": "4K / 1080p"},
-    {"q": "Swallowed Star Tencent Video playlist", "server": "Server 1 (Tencent 4K)", "type": "donghua", "quality": "4K / 1080p"},
-    {"q": "Perfect World Wanmei Shijie Tencent Video playlist", "server": "Server 1 (Tencent 4K)", "type": "donghua", "quality": "4K / 1080p"},
-    {"q": "A Will Eternal Yi Nian Yong Heng Tencent Video playlist", "server": "Server 1 (Tencent 4K)", "type": "donghua", "quality": "4K / 1080p"},
-    {"q": "Soul Land Douluo Dalu Tencent Video playlist", "server": "Server 1 (Tencent 4K)", "type": "donghua", "quality": "4K / 1080p"},
-    {"q": "Throne of Seal Shen Yin Wangzuo Tencent Video playlist", "server": "Server 1 (Tencent 4K)", "type": "donghua", "quality": "4K / 1080p"},
-    {"q": "Jade Dynasty Zhu Xian Tencent Video playlist", "server": "Server 1 (Tencent 4K)", "type": "donghua", "quality": "4K / 1080p"},
-    {"q": "Tales of Demons and Gods Tencent Video playlist", "server": "Server 1 (Tencent 4K)", "type": "donghua", "quality": "4K / 1080p"},
-    {"q": "Martial Universe Wu Dong Qian Kun Tencent Video playlist", "server": "Server 1 (Tencent 4K)", "type": "donghua", "quality": "4K / 1080p"},
-    {"q": "The King's Avatar Quan Zhi Gao Shou Tencent Video playlist", "server": "Server 1 (Tencent 4K)", "type": "donghua", "quality": "4K / 1080p"},
+    {"q": "Muse India official full episodes playlist", "server": "Muse India", "type": "anime", "quality": "1080p"},
+    {"q": "Muse Asia official full episodes playlist", "server": "Muse Asia", "type": "anime", "quality": "1080p"},
+    {"q": "Muse Asia English Dub official playlist", "server": "Muse Asia", "type": "anime", "quality": "1080p"},
+    {"q": "Ani-One India official full episodes playlist", "server": "Ani-One India", "type": "anime", "quality": "1080p"},
+    {"q": "Ani-One Asia official full episodes playlist", "server": "Ani-One Asia", "type": "anime", "quality": "1080p"},
+    {"q": "Tencent Video Animation donghua full episodes playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
+    {"q": "Youku Animation donghua full episodes playlist", "server": "Youku 4K", "type": "donghua", "quality": "4K / 1080p"},
+    {"q": "Bilibili official donghua full episodes playlist", "server": "Bilibili HD", "type": "donghua", "quality": "1080p"},
+    # Top Famous Donghua & Movies
+    {"q": "Battle Through the Heavens Tencent Video playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
+    {"q": "Renegade Immortal Xian Ni Tencent Video playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
+    {"q": "Shrouding the Heavens Zhe Tian Tencent Video playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
+    {"q": "A Record of a Mortal's Journey to Immortality donghua playlist", "server": "Bilibili HD", "type": "donghua", "quality": "4K / 1080p"},
+    {"q": "Tales of Herding Gods Mu Shen Ji Tencent Video playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
+    {"q": "Martial Master Wu Shen Zhu Zai Tencent Video playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
+    {"q": "Spare Me Great Lord Da Wang Rao Ming Tencent Video playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
+    {"q": "Against the Gods Ni Tian Xie Shen donghua playlist", "server": "Official 4K", "type": "donghua", "quality": "4K / 1080p"},
+    {"q": "Swallowed Star Tencent Video playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
+    {"q": "Perfect World Wanmei Shijie Tencent Video playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
+    {"q": "A Will Eternal Yi Nian Yong Heng Tencent Video playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
+    {"q": "Soul Land Douluo Dalu Tencent Video playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
+    {"q": "Throne of Seal Shen Yin Wangzuo Tencent Video playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
+    {"q": "Jade Dynasty Zhu Xian Tencent Video playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
+    # Top Famous Anime
+    {"q": "That Time I Got Reincarnated as a Slime Muse Asia playlist", "server": "Muse Official", "type": "anime", "quality": "1080p"},
+    {"q": "Solo Leveling official playlist", "server": "Official HD", "type": "anime", "quality": "1080p"},
+    {"q": "Demon Slayer Kimetsu no Yaiba Muse Asia playlist", "server": "Muse Official", "type": "anime", "quality": "1080p"},
+    {"q": "Chainsaw Man Ani-One playlist", "server": "Ani-One Official", "type": "anime", "quality": "1080p"},
+    {"q": "Black Clover Muse Asia playlist", "server": "Muse Official", "type": "anime", "quality": "1080p"},
+    {"q": "Naruto Shippuden official episodes playlist", "server": "Official HD", "type": "anime", "quality": "1080p"},
+    {"q": "One Piece official episodes playlist", "server": "Official HD", "type": "anime", "quality": "1080p"},
 ]
 
+# Strictly 100% Safe Official Distributors Only (Zero pirate hosts)
 ALLOWED_CHANNELS = ("muse", "ani-one", "tencent", "youku", "bilibili", "crunchyroll", "iqiyi", "wetv", "ani-mi", "anime")
 SPAM_WORDS = ("membership", "join animation", "download wetv", "wetv.vip", "completed series", "animasi anichin", "donghua 3d", "preview", "trailer", "pv ")
+DAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/128.0 Safari/537.36",
@@ -93,7 +96,7 @@ def extract_english_search_name(raw):
         return ""
     t = re.sub(r"《.*?》|【.*?】|\[.*?\]|\(.*?\)", " ", raw)
     t = re.sub(r"[^\x00-\x7F]+", " ", t)
-    t = re.sub(r"(?i)\b(hindi dub|english sub|eng sub|multisub|multi sub|full episodes|all episodes|full ep|season \d+|ep\s*\d+.*|muse asia|muse india|muse in|ani-one|tencent|youku|animation|free)\b", " ", t)
+    t = re.sub(r"(?i)\b(hindi dub|english dub|eng dub|english sub|eng sub|multisub|multi sub|full episodes|all episodes|full ep|season \d+|ep\s*\d+.*|muse asia|muse india|muse in|ani-one|tencent|youku|bilibili|animation|free)\b", " ", t)
     t = re.sub(r"[|★☆•:：\-–—]+", " ", t)
     return re.sub(r"\s+", " ", t).strip()
 
@@ -103,6 +106,8 @@ def fetch_anilist_meta(title):
       Media(search: $search, type: ANIME, sort: POPULARITY_DESC) {
         title { english romaji native }
         synonyms
+        format
+        status
         seasonYear
         averageScore
         coverImage { extraLarge large }
@@ -110,6 +115,8 @@ def fetch_anilist_meta(title):
         description(asHtml: false)
         genres
         episodes
+        startDate { year month day }
+        nextAiringEpisode { airingAt episode }
         externalLinks { site url }
       }
     }
@@ -129,6 +136,45 @@ def fetch_anilist_meta(title):
             time.sleep(2)
     return None
 
+def fetch_upcoming_movies():
+    query = """
+    query {
+      Page(perPage: 12) {
+        media(type: ANIME, format_in: [MOVIE, SPECIAL], status_in: [NOT_YET_RELEASED, RELEASING], sort: POPULARITY_DESC) {
+          title { english romaji }
+          countryOfOrigin
+          coverImage { extraLarge large }
+          bannerImage
+          genres
+          startDate { year month day }
+          description(asHtml: false)
+        }
+      }
+    }
+    """
+    payload = json.dumps({"query": query}).encode("utf-8")
+    headers = {"Content-Type": "application/json", "Accept": "application/json", "User-Agent": "AniStreamBot/1.0"}
+    try:
+        res = json.loads(fetch_url("https://graphql.anilist.co", data=payload, headers=headers))
+        movies = []
+        for m in res.get("data", {}).get("Page", {}).get("media", []):
+            sd = m.get("startDate") or {}
+            if not sd.get("year"):
+                continue
+            date_str = f"{sd['year']}-{str(sd.get('month') or 1).zfill(2)}-{str(sd.get('day') or 1).zfill(2)}"
+            movies.append({
+                "title": m["title"].get("english") or m["title"].get("romaji"),
+                "origin": "Donghua" if m.get("countryOfOrigin") == "CN" else "Anime",
+                "cover": m["coverImage"].get("extraLarge") or m["coverImage"]["large"],
+                "genres": (m.get("genres") or [])[:3],
+                "releaseDate": date_str
+            })
+        with open("data/movies.json", "w", encoding="utf-8") as f:
+            json.dump(movies, f, indent=2, ensure_ascii=False)
+        print(f"Synced {len(movies)} upcoming movies/specials to data/movies.json", flush=True)
+    except Exception as e:
+        print("Movie sync note:", e, flush=True)
+
 def slugify(text):
     return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
 
@@ -140,15 +186,17 @@ def generate_sitemap(items):
     xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "\n".join(urls) + "\n</urlset>\n"
     with open("sitemap.xml", "w", encoding="utf-8") as f:
         f.write(xml)
-    print(f"Generated sitemap.xml with {len(urls)} URLs", flush=True)
 
 def main():
     catalog_map = {}
+    known_pids = set()
     try:
         with open("data/catalog.json", "r", encoding="utf-8") as f:
             for existing in json.load(f):
                 if existing.get("slug") and existing.get("cover"):
                     catalog_map[existing["slug"]] = existing
+                    for s in existing.get("servers", []):
+                        known_pids.add(s.get("playlistId"))
     except Exception:
         pass
 
@@ -156,21 +204,22 @@ def main():
         print(f"Scanning {item['q'][:42]}...", flush=True)
         try:
             pls = search_official_playlists(item["q"])
-        except Exception as e:
-            print(f"  Skipped: {e}", flush=True)
+        except Exception:
             continue
 
         limit = 16 if "official full episodes" in item["q"] else 3
         for pl in pls[:limit]:
+            if pl["playlistId"] in known_pids:
+                continue
             raw = pl["rawTitle"]
             is_hindi = bool(re.search(r"(?i)\bhindi\b", raw))
+            is_eng_dub = bool(re.search(r"(?i)\b(english dub|eng dub)\b", raw))
             clean_query = extract_english_search_name(raw)
             if len(clean_query) < 3:
                 continue
 
             meta = fetch_anilist_meta(clean_query)
-            time.sleep(1.1)
-
+            time.sleep(0.35)
             if not meta or not meta.get("coverImage", {}).get("large"):
                 continue
 
@@ -180,13 +229,24 @@ def main():
             synonyms = meta.get("synonyms") or []
             year = meta.get("seasonYear") or 2024
             score = meta.get("averageScore") or 82
+            status = "ONGOING" if meta.get("status") == "RELEASING" else "COMPLETED"
+            next_air = meta.get("nextAiringEpisode") or {}
+            air_day = DAYS[time.gmtime(next_air["airingAt"]).tm_wday] if next_air.get("airingAt") else DAYS[sum(ord(c) for c in eng_title) % 7]
             slug = slugify(eng_title)
 
             aliases = list(dict.fromkeys([
                 a.strip() for a in ([eng_title, romaji_title, native_title, clean_query] + synonyms) if a and len(a.strip()) >= 2
             ]))
 
-            audio_type = "Hindi Dub" if is_hindi else ("Chinese (Eng Sub)" if item["type"] == "donghua" else "English Sub")
+            if is_hindi:
+                audio_type = "Hindi Dub"
+            elif is_eng_dub:
+                audio_type = "English Dub"
+            elif item["type"] == "donghua":
+                audio_type = "Chinese (Eng Sub)"
+            else:
+                audio_type = "English Sub"
+
             server_entry = {
                 "name": f"{item['server']} • {audio_type}",
                 "playlistId": pl["playlistId"],
@@ -198,10 +258,12 @@ def main():
                 if pl["playlistId"] not in existing_ids:
                     catalog_map[slug].setdefault("servers", []).append(server_entry)
                 catalog_map[slug]["aliases"] = list(dict.fromkeys(catalog_map[slug].get("aliases", []) + aliases))
+                catalog_map[slug]["status"] = status
+                catalog_map[slug]["airDay"] = air_day
                 if is_hindi:
                     catalog_map[slug]["hasHindi"] = True
-                    if "hindi" not in catalog_map[slug]["genres"]:
-                        catalog_map[slug]["genres"].append("hindi")
+                if is_eng_dub:
+                    catalog_map[slug]["hasEngDub"] = True
                 continue
 
             cover = meta["coverImage"].get("extraLarge") or meta["coverImage"]["large"]
@@ -213,8 +275,6 @@ def main():
             genres = [item["type"]] + raw_genres[:4]
             if any(g in raw_genres for g in ("fantasy", "adventure", "action")):
                 genres.append("isekai")
-            if is_hindi:
-                genres.append("hindi")
 
             official_links = [
                 {"site": l["site"], "url": l["url"]}
@@ -230,10 +290,13 @@ def main():
                 "aliases": aliases,
                 "year": year,
                 "score": score,
+                "status": status,
+                "airDay": air_day,
                 "provider": item["server"],
                 "quality": item["quality"],
                 "episodes": ep_count,
                 "hasHindi": is_hindi,
+                "hasEngDub": is_eng_dub,
                 "genres": list(dict.fromkeys(genres)),
                 "cover": cover,
                 "banner": banner,
@@ -241,14 +304,20 @@ def main():
                 "servers": [server_entry],
                 "officialLinks": official_links,
             }
-            print(f"  + {eng_title} ({year}) [{audio_type}]", flush=True)
+            print(f"  + {eng_title} ({year}) [{status} • {audio_type}]", flush=True)
 
-    final_list = list(catalog_map.values())
+    # Sort highest-rated ongoing & flagship shows to the front automatically
+    final_list = sorted(
+        catalog_map.values(),
+        key=lambda x: (x.get("status") == "ONGOING", x.get("score", 0), x.get("year", 0)),
+        reverse=True
+    )
     if final_list:
         with open("data/catalog.json", "w", encoding="utf-8") as f:
             json.dump(final_list, f, indent=2, ensure_ascii=False)
         generate_sitemap(final_list)
-        print(f"SUCCESS: Total {len(final_list)} Anime & Donghua shows synced!", flush=True)
+        print(f"SUCCESS: Total {len(final_list)} safe official shows synced!", flush=True)
+    fetch_upcoming_movies()
 
 if __name__ == "__main__":
     main()

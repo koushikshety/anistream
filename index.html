@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AniStream — Watch Free Official Anime, Hindi Dubs & 4K Donghua</title>
+  <title>AniStream — Watch Free Official Anime, English/Hindi Dubs & 4K Donghua</title>
   <style>
     :root {
       --bg: #080a0f; --surface: #11151f; --surface-2: #181e2c; --border: #1e2638;
-      --primary: #ff4757; --donghua: #f59e0b; --accent: #2ed573;
+      --primary: #ff4757; --donghua: #f59e0b; --accent: #2ed573; --ai: #6366f1;
       --text: #f1f5f9; --muted: #94a3b8;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -18,421 +18,29 @@
       display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;
       padding: 12px 20px; background: rgba(8,10,15,0.95); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border);
     }
-    .nav-left { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+    .nav-left { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
     .brand { font-size: 1.35rem; font-weight: 800; color: var(--text); text-decoration: none; letter-spacing: -0.5px; }
     .brand span { color: var(--primary); }
-    .mode-switch { display: flex; gap: 6px; }
     .nav-btn {
       border: 1px solid var(--border); background: var(--surface); color: var(--text);
-      padding: 6px 12px; border-radius: 8px; font-size: 0.82rem; font-weight: 700; cursor: pointer; text-decoration: none; transition: 0.2s;
+      padding: 6px 11px; border-radius: 8px; font-size: 0.8rem; font-weight: 700; cursor: pointer; text-decoration: none; transition: 0.2s;
     }
     .nav-btn.active-anime { background: var(--primary); border-color: var(--primary); color: #fff; }
     .nav-btn-donghua { border-color: rgba(245,158,11,0.5); background: rgba(245,158,11,0.14); color: #fbbf24; }
     .nav-btn-donghua:hover, .nav-btn-donghua.active-donghua { background: var(--donghua); border-color: var(--donghua); color: #080a0f; }
+    .nav-btn-surprise { background: linear-gradient(135deg, #8b5cf6, #ec4899); border: none; color: #fff; }
     .nav-btn-guide { border-color: rgba(46,213,115,0.4); color: var(--accent); }
 
-    .search-box { flex: 1; min-width: 210px; max-width: 360px; }
-    .search-box input {
-      width: 100%; background: var(--surface); border: 1px solid var(--border); color: var(--text);
-      padding: 8px 14px; border-radius: 999px; font-size: 0.88rem; outline: none;
-    }
-    .search-box input:focus { border-color: var(--primary); }
-
-    /* Auto-Rotating Spotlight Hero Carousel */
-    .hero {
-      position: relative; min-height: 360px; display: flex; align-items: flex-end;
-      padding: 32px 20px 44px; background-size: cover; background-position: center 25%;
-      transition: background-image 0.4s ease;
-    }
-    .hero::after {
-      content: ""; position: absolute; inset: 0;
-      background: linear-gradient(to top, var(--bg) 6%, rgba(8,10,15,0.78) 55%, rgba(8,10,15,0.35) 100%);
-    }
-    .hero-inner {
-      position: relative; z-index: 2; max-width: 1300px; width: 100%; margin: 0 auto;
-      display: flex; align-items: flex-end; justify-content: space-between; gap: 20px;
-    }
-    .hero-content { max-width: 680px; }
-    .hero-poster-card {
-      width: 135px; aspect-ratio: 2 / 3; border-radius: 10px; overflow: hidden;
-      border: 2px solid rgba(255,255,255,0.16); box-shadow: 0 12px 30px rgba(0,0,0,0.65); flex-shrink: 0;
-    }
-    @media (max-width: 640px) { .hero-poster-card { width: 92px; } }
-    .hero-poster-card img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
-
-    .badge-row { display: flex; gap: 6px; margin-bottom: 10px; flex-wrap: wrap; align-items: center; }
-    .badge { font-size: 0.7rem; font-weight: 700; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; }
-    .badge-hd { background: rgba(46,213,115,0.18); color: var(--accent); border: 1px solid rgba(46,213,115,0.4); }
-    .badge-dub { background: rgba(255,71,87,0.2); color: #ff8a95; border: 1px solid rgba(255,71,87,0.4); }
-    .badge-donghua { background: rgba(245,158,11,0.22); color: #fbbf24; border: 1px solid rgba(245,158,11,0.45); }
-    .badge-year { background: rgba(255,255,255,0.12); color: #e2e8f0; }
-
-    .hero h1 { font-size: clamp(1.4rem, 3.8vw, 2.35rem); line-height: 1.15; margin-bottom: 8px; }
-    .hero p { color: var(--muted); font-size: 0.9rem; margin-bottom: 16px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-    .hero-actions { display: flex; gap: 10px; flex-wrap: wrap; }
-    .btn-watch {
-      display: inline-flex; align-items: center; gap: 8px;
-      background: var(--primary); color: #fff; text-decoration: none;
-      font-weight: 700; padding: 10px 20px; border-radius: 8px; font-size: 0.9rem;
-    }
-    .btn-donghua-hero {
-      background: rgba(245,158,11,0.18); border: 1px solid rgba(245,158,11,0.5);
-      color: #fbbf24; font-weight: 700; padding: 10px 16px; border-radius: 8px; cursor: pointer; font-size: 0.9rem;
-    }
-    .hero-dots {
-      position: absolute; bottom: 14px; left: 50%; transform: translateX(-50%); z-index: 3;
-      display: flex; gap: 8px;
-    }
-    .hero-dot {
-      width: 9px; height: 9px; border-radius: 999px; background: rgba(255,255,255,0.3);
-      border: none; cursor: pointer; transition: 0.2s;
-    }
-    .hero-dot.active { width: 24px; background: var(--donghua); }
-
-    .main { max-width: 1340px; margin: 0 auto; padding: 14px 20px 56px; }
-    .filter-bar { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 12px; margin-bottom: 10px; scrollbar-width: none; }
-    .filter-pill {
-      background: var(--surface); color: var(--muted); border: 1px solid var(--border);
-      padding: 7px 15px; border-radius: 999px; font-size: 0.85rem; font-weight: 600; cursor: pointer; white-space: nowrap;
-    }
-    .filter-pill.active { background: var(--primary); color: #fff; border-color: var(--primary); }
-    .filter-pill[data-filter="donghua"].active { background: var(--donghua); border-color: var(--donghua); color: #080a0f; }
-
-    .section-head { display: flex; justify-content: space-between; align-items: center; margin: 22px 0 14px; }
-    .section-title { font-size: 1.15rem; font-weight: 700; display: flex; align-items: center; gap: 8px; }
-    .section-title::before { content: ""; width: 4px; height: 18px; background: var(--primary); border-radius: 4px; }
-    .section-title.donghua-accent::before { background: var(--donghua); }
-    .clear-btn { background: none; border: none; color: var(--muted); font-size: 0.78rem; cursor: pointer; text-decoration: underline; }
-
-    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; }
-    @media (max-width: 480px) { .grid { grid-template-columns: repeat(2, 1fr); gap: 12px; } }
-    .card {
-      background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
-      overflow: hidden; text-decoration: none; color: inherit; transition: 0.2s; display: flex; flex-direction: column;
-    }
-    .card:hover { transform: translateY(-4px); border-color: var(--primary); }
-    .card.donghua-card:hover { border-color: var(--donghua); }
-
-    .poster-wrap { position: relative; width: 100%; aspect-ratio: 2 / 3; background: #141925; overflow: hidden; }
-    .poster-wrap img { width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block; }
-    .tag-top {
-      position: absolute; top: 8px; left: 8px; background: rgba(8,10,15,0.86);
-      color: var(--accent); font-size: 0.68rem; font-weight: 700; padding: 2px 6px; border-radius: 4px;
-    }
-    .tag-score {
-      position: absolute; top: 8px; right: 8px; background: rgba(8,10,15,0.86);
-      color: #fbbf24; font-size: 0.68rem; font-weight: 700; padding: 2px 6px; border-radius: 4px;
-    }
-    .tag-bottom {
-      position: absolute; bottom: 8px; right: 8px; background: var(--primary);
-      color: #fff; font-size: 0.68rem; font-weight: 700; padding: 2px 6px; border-radius: 4px;
-    }
-    .tag-bottom.tag-donghua { background: var(--donghua); color: #080a0f; }
-
-    .card-body { padding: 10px; flex: 1; display: flex; flex-direction: column; justify-content: space-between; }
-    .card-title {
-      font-size: 0.88rem; font-weight: 700; line-height: 1.3;
-      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
-    }
-    .card-meta { font-size: 0.74rem; color: var(--muted); margin-top: 6px; display: flex; justify-content: space-between; }
-
-    .empty-box {
-      display: none; text-align: center; padding: 36px 20px; background: var(--surface);
-      border: 1px solid var(--border); border-radius: 12px; margin-top: 12px;
-    }
-    .empty-box p { color: var(--muted); margin-bottom: 12px; }
-
-    .ad-zone {
-      margin: 18px 0; padding: 10px; border-radius: 10px;
-      background: rgba(17, 21, 31, 0.55); border: 1px dashed rgba(148, 163, 184, 0.18);
-      text-align: center; min-height: 60px; display: flex; flex-direction: column; align-items: center; justify-content: center;
-    }
-    .ad-label { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.08em; color: #64748b; margin-bottom: 4px; }
-  </style>
-</head>
-<body>
-  <header class="navbar">
-    <div class="nav-left">
-      <a href="index.html" class="brand" onclick="switchMode('all'); return false;">ANI<span>STREAM</span></a>
-      <div class="mode-switch">
-        <button id="btn-mode-anime" class="nav-btn active-anime" onclick="switchMode('anime')">Anime</button>
-        <button id="btn-mode-donghua" class="nav-btn nav-btn-donghua" onclick="switchMode('donghua')">🐉 Donghua</button>
-        <a href="https://aniguide.aniguide-hub.workers.dev" target="_blank" rel="noopener" class="nav-btn nav-btn-guide">Watch Order</a>
-      </div>
-    </div>
-    <div class="search-box">
-      <input type="text" id="search-input" placeholder="Search English, native title, year, Hindi..." />
-    </div>
-  </header>
-
-  <section class="hero" id="hero-banner">
-    <div class="hero-inner">
-      <div class="hero-content">
-        <div class="badge-row">
-          <span class="badge badge-hd" id="hero-quality">1080p Official</span>
-          <span class="badge badge-year" id="hero-year">2024</span>
-          <span class="badge badge-dub" id="hero-audio">Sub & Hindi Dub</span>
-        </div>
-        <h1 id="hero-title">Loading Catalog...</h1>
-        <p id="hero-desc"></p>
-        <div class="hero-actions">
-          <a href="#" id="hero-cta" class="btn-watch">▶ Watch Free Now</a>
-          <button class="btn-donghua-hero" onclick="switchMode('donghua')">🐉 Watch Donghua</button>
-        </div>
-      </div>
-      <div class="hero-poster-card">
-        <img id="hero-poster" src="" alt="Featured Poster" />
-      </div>
-    </div>
-    <div class="hero-dots" id="hero-dots"></div>
-  </section>
-
-  <main class="main">
-    <div class="filter-bar" id="filter-bar">
-      <button class="filter-pill active" data-filter="all">All Catalog</button>
-      <button class="filter-pill" data-filter="anime">Japanese Anime</button>
-      <button class="filter-pill" data-filter="donghua">🐉 Donghua</button>
-      <button class="filter-pill" data-filter="hindi">Hindi Dub</button>
-      <button class="filter-pill" data-filter="action">Action</button>
-      <button class="filter-pill" data-filter="isekai">Fantasy / Cultivation</button>
-    </div>
-
-    <!-- Safe Top Native Ad Slot (1s Delayed Load) -->
-    <div class="ad-zone" id="ad-home-top">
-      <span class="ad-label">Sponsored</span>
-      <div id="container-1670e3305650d4a06781e47abce47301"></div>
-      <script>
-        setTimeout(function() {
-          var s = document.createElement("script");
-          s.async = true;
-          s.setAttribute("data-cfasync", "false");
-          s.src = "https://bauval.org/21/1670e3305650d4a06781e47abce47301";
-          document.body.appendChild(s);
-        }, 1000);
-      </script>
-    </div>
-
-    <div id="continue-section" style="display:none;">
-      <div class="section-head">
-        <h2 class="section-title">Continue Watching</h2>
-        <button class="clear-btn" onclick="clearHistory()">Clear History</button>
-      </div>
-      <div class="grid" id="continue-grid"></div>
-    </div>
-
-    <div class="section-head">
-      <h2 class="section-title" id="catalog-heading">All Free Official Streams (1080p–4K)</h2>
-      <span id="result-count" style="font-size:0.8rem; color:var(--muted);"></span>
-    </div>
-    <div class="grid" id="anime-grid"></div>
-    <div class="empty-box" id="empty-box">
-      <p id="empty-msg">No shows matched your search in the current official catalog.</p>
-      <button class="btn-watch" onclick="document.getElementById('search-input').value=''; switchMode('all');">Show All Catalog</button>
-    </div>
-  </main>
-
-  <script>
-    let CATALOG = [];
-    let SLIDES = [];
-    let slideIdx = 0;
-    let slideTimer = null;
-
-    function cleanDisplayTitle(t) {
-      return (t || "").replace(/《.*?》|【.*?】/g, "").replace(/\|\s*(Muse|Ani-One|Tencent|Youku).*/i, "").trim();
-    }
-
-    function setHero(item) {
-      if (!item) return;
-      const isDonghua = item.type === "donghua";
-      document.getElementById("hero-banner").style.backgroundImage = `url('${item.banner || item.cover}')`;
-      document.getElementById("hero-poster").src = item.cover;
-      document.getElementById("hero-title").textContent = item.title;
-      document.getElementById("hero-year").textContent = `${item.year || "HD"} • ★ ${(item.score / 10).toFixed(1)}`;
-      document.getElementById("hero-desc").textContent = item.desc;
-      document.getElementById("hero-quality").textContent = `${item.quality} Official`;
-      const audioBadge = document.getElementById("hero-audio");
-      audioBadge.className = `badge ${isDonghua ? "badge-donghua" : "badge-dub"}`;
-      audioBadge.textContent = isDonghua ? "DONGHUA • OFFICIAL" : (item.hasHindi ? "SUB + HINDI DUB" : "ENGLISH SUB");
-      document.getElementById("hero-cta").href = `watch.html?id=${item.slug}`;
-    }
-
-    function startCarousel(items) {
-      SLIDES = items.slice(0, 5);
-      slideIdx = 0;
-      const dots = document.getElementById("hero-dots");
-      dots.innerHTML = SLIDES.map((_, i) =>
-        `<button class="hero-dot ${i === 0 ? "active" : ""}" onclick="goSlide(${i})"></button>`
-      ).join("");
-      setHero(SLIDES[0]);
-      if (slideTimer) clearInterval(slideTimer);
-      slideTimer = setInterval(() => {
-        if (!SLIDES.length) return;
-        goSlide((slideIdx + 1) % SLIDES.length);
-      }, 5000);
-    }
-
-    function goSlide(i) {
-      slideIdx = i;
-      setHero(SLIDES[i]);
-      document.querySelectorAll(".hero-dot").forEach((d, idx) => d.classList.toggle("active", idx === i));
-    }
-
-    function renderGrid(list) {
-      const grid = document.getElementById("anime-grid");
-      const empty = document.getElementById("empty-box");
-      document.getElementById("result-count").textContent = `${list.length} Titles`;
-      if (!list.length) {
-        grid.innerHTML = "";
-        empty.style.display = "block";
-        return;
-      }
-      empty.style.display = "none";
-      grid.innerHTML = list.map(item => {
-        const isDonghua = item.type === "donghua";
-        const bottomTag = isDonghua
-          ? `<span class="tag-bottom tag-donghua">DONGHUA</span>`
-          : (item.hasHindi ? `<span class="tag-bottom">HINDI</span>` : `<span class="tag-bottom">SUB</span>`);
-        const srvCount = (item.servers || []).length;
-        return `
-          <a class="card ${isDonghua ? "donghua-card" : ""}" href="watch.html?id=${item.slug}">
-            <div class="poster-wrap">
-              <img src="${item.cover}" alt="${item.title}" loading="lazy" />
-              <span class="tag-top">${item.quality}</span>
-              <span class="tag-score">★ ${(item.score / 10).toFixed(1)}</span>
-              ${bottomTag}
-            </div>
-            <div class="card-body">
-              <div class="card-title">${item.title}</div>
-              <div class="card-meta">
-                <span>${item.year || ""} • ${item.episodes} Eps</span>
-                <span>${srvCount} Server${srvCount > 1 ? "s" : ""}</span>
-              </div>
-            </div>
-          </a>
-        `;
-      }).join("");
-    }
-
-    function switchMode(mode) {
-      const animeBtn = document.getElementById("btn-mode-anime");
-      const donghuaBtn = document.getElementById("btn-mode-donghua");
-      const heading = document.getElementById("catalog-heading");
-      animeBtn.classList.remove("active-anime");
-      donghuaBtn.classList.remove("active-donghua");
-      heading.classList.remove("donghua-accent");
-      document.querySelectorAll(".filter-pill").forEach(p => p.classList.toggle("active", p.dataset.filter === mode));
-
-      if (mode === "donghua") {
-        donghuaBtn.classList.add("active-donghua");
-        heading.classList.add("donghua-accent");
-        heading.textContent = "🐉 Official Donghua Streams (1080p–4K)";
-        const list = CATALOG.filter(i => i.type === "donghua");
-        startCarousel(list); renderGrid(list);
-      } else if (mode === "anime") {
-        animeBtn.classList.add("active-anime");
-        heading.textContent = "Free Official Anime Streams (1080p)";
-        const list = CATALOG.filter(i => i.type === "anime");
-        startCarousel(list); renderGrid(list);
-      } else {
-        animeBtn.classList.add("active-anime");
-        heading.textContent = "All Free Official Streams (1080p–4K)";
-        startCarousel(CATALOG); renderGrid(CATALOG);
-      }
-    }
-
-    function clearHistory() {
-      localStorage.removeItem("anistream_history");
-      document.getElementById("continue-section").style.display = "none";
-    }
-
-    function renderContinueWatching() {
-      const history = JSON.parse(localStorage.getItem("anistream_history") || "[]");
-      if (!history.length) return;
-      document.getElementById("continue-section").style.display = "block";
-      document.getElementById("continue-grid").innerHTML = history.slice(0, 6).map(h => `
-        <a class="card" href="watch.html?id=${h.slug}&ep=${h.episode}">
-          <div class="poster-wrap">
-            <img src="${h.cover}" alt="${cleanDisplayTitle(h.title)}" loading="lazy" />
-            <span class="tag-top">EP ${h.episode}</span>
-            <span class="tag-bottom">RESUME</span>
-          </div>
-          <div class="card-body">
-            <div class="card-title">${cleanDisplayTitle(h.title)}</div>
-            <div class="card-meta"><span>Episode ${h.episode}</span><span>${h.track || "HD"}</span></div>
-          </div>
-        </a>
-      `).join("");
-    }
-
-    document.getElementById("filter-bar").addEventListener("click", (e) => {
-      if (!e.target.classList.contains("filter-pill")) return;
-      const filter = e.target.dataset.filter;
-      if (["donghua", "anime", "all"].includes(filter)) { switchMode(filter); return; }
-      document.querySelectorAll(".filter-pill").forEach(b => b.classList.remove("active"));
-      e.target.classList.add("active");
-      renderGrid(CATALOG.filter(a => a.genres.includes(filter)));
-    });
-
-    document.getElementById("search-input").addEventListener("input", (e) => {
-      const q = e.target.value.toLowerCase().trim();
-      renderGrid(CATALOG.filter(a =>
-        a.title.toLowerCase().includes(q) ||
-        (a.nativeTitle && a.nativeTitle.toLowerCase().includes(q)) ||
-        String(a.year).includes(q)
-      ));
-    });
-
-    fetch("data/catalog.json").then(r => r.json()).then(data => {
-      CATALOG = data;
-      startCarousel(CATALOG);
-      renderContinueWatching();
-      renderGrid(CATALOG);
-    });
-  </script>
-  <script data-cfasync="false" src="https://bauval.org/14/e2908a73c63d8d2754e40ea99e7cdbda"></script>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AniStream — Watch Free Official Anime, Hindi Dubs & 4K Donghua</title>
-  <style>
-    :root {
-      --bg: #080a0f; --surface: #11151f; --surface-2: #181e2c; --border: #1e2638;
-      --primary: #ff4757; --donghua: #f59e0b; --accent: #2ed573;
-      --text: #f1f5f9; --muted: #94a3b8;
-    }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, sans-serif; overflow-x: hidden; }
-    .navbar {
-      position: sticky; top: 0; z-index: 100;
-      display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;
-      padding: 12px 20px; background: rgba(8,10,15,0.95); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border);
-    }
-    .nav-left { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
-    .brand { font-size: 1.35rem; font-weight: 800; color: var(--text); text-decoration: none; letter-spacing: -0.5px; }
-    .brand span { color: var(--primary); }
-    .mode-switch { display: flex; gap: 6px; }
-    .nav-btn {
-      border: 1px solid var(--border); background: var(--surface); color: var(--text);
-      padding: 6px 12px; border-radius: 8px; font-size: 0.82rem; font-weight: 700; cursor: pointer; text-decoration: none; transition: 0.2s;
-    }
-    .nav-btn.active-anime { background: var(--primary); border-color: var(--primary); color: #fff; }
-    .nav-btn-donghua { border-color: rgba(245,158,11,0.5); background: rgba(245,158,11,0.14); color: #fbbf24; }
-    .nav-btn-donghua:hover, .nav-btn-donghua.active-donghua { background: var(--donghua); border-color: var(--donghua); color: #080a0f; }
-    .nav-btn-guide { border-color: rgba(46,213,115,0.4); color: var(--accent); }
     .search-box { position: relative; flex: 1; min-width: 220px; max-width: 390px; }
     .search-box input {
       width: 100%; background: var(--surface); border: 1px solid var(--border); color: var(--text);
-      padding: 9px 14px; border-radius: 999px; font-size: 0.88rem; outline: none;
+      padding: 9px 14px; border-radius: 999px; font-size: 0.86rem; outline: none;
     }
     .search-box input:focus { border-color: var(--primary); }
     .search-dropdown {
       display: none; position: absolute; top: calc(100% + 6px); left: 0; right: 0;
       background: var(--surface-2); border: 1px solid #2b354b; border-radius: 12px;
-      box-shadow: 0 16px 36px rgba(0,0,0,0.75); max-height: 360px; overflow-y: auto; z-index: 200;
+      box-shadow: 0 16px 36px rgba(0,0,0,0.8); max-height: 360px; overflow-y: auto; z-index: 200;
     }
     .search-item {
       display: flex; align-items: center; gap: 10px; padding: 8px 12px;
@@ -440,62 +48,52 @@
     }
     .search-item:hover { background: rgba(255,71,87,0.14); }
     .search-item img { width: 38px; aspect-ratio: 2/3; object-fit: cover; border-radius: 4px; flex-shrink: 0; }
-    .search-item-info { min-width: 0; flex: 1; }
-    .search-item-title { font-size: 0.85rem; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .search-item-sub { font-size: 0.72rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .search-item-title { font-size: 0.84rem; font-weight: 700; }
+    .search-item-sub { font-size: 0.72rem; color: var(--muted); }
+
     .hero {
-      position: relative; min-height: 360px; display: flex; align-items: flex-end;
-      padding: 32px 20px 44px; background-size: cover; background-position: center 25%; transition: background-image 0.4s ease;
+      position: relative; min-height: 340px; display: flex; align-items: flex-end;
+      padding: 28px 20px 42px; background-size: cover; background-position: center 25%; transition: background-image 0.4s ease;
     }
     .hero::after {
       content: ""; position: absolute; inset: 0;
-      background: linear-gradient(to top, var(--bg) 6%, rgba(8,10,15,0.78) 55%, rgba(8,10,15,0.35) 100%);
+      background: linear-gradient(to top, var(--bg) 6%, rgba(8,10,15,0.8) 55%, rgba(8,10,15,0.35) 100%);
     }
-    .hero-inner {
-      position: relative; z-index: 2; max-width: 1300px; width: 100%; margin: 0 auto;
-      display: flex; align-items: flex-end; justify-content: space-between; gap: 20px;
-    }
+    .hero-inner { position: relative; z-index: 2; max-width: 1300px; width: 100%; margin: 0 auto; display: flex; align-items: flex-end; justify-content: space-between; gap: 18px; }
     .hero-content { max-width: 680px; }
-    .hero-poster-card {
-      width: 135px; aspect-ratio: 2 / 3; border-radius: 10px; overflow: hidden;
-      border: 2px solid rgba(255,255,255,0.16); box-shadow: 0 12px 30px rgba(0,0,0,0.65); flex-shrink: 0;
-    }
-    @media (max-width: 640px) { .hero-poster-card { width: 92px; } }
+    .hero-poster-card { width: 130px; aspect-ratio: 2 / 3; border-radius: 10px; overflow: hidden; border: 2px solid rgba(255,255,255,0.16); box-shadow: 0 12px 30px rgba(0,0,0,0.65); flex-shrink: 0; }
+    @media (max-width: 640px) { .hero-poster-card { width: 88px; } }
     .hero-poster-card img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
-    .badge-row { display: flex; gap: 6px; margin-bottom: 10px; flex-wrap: wrap; align-items: center; }
-    .badge { font-size: 0.7rem; font-weight: 700; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; }
+    .badge-row { display: flex; gap: 6px; margin-bottom: 8px; flex-wrap: wrap; }
+    .badge { font-size: 0.68rem; font-weight: 700; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; }
     .badge-hd { background: rgba(46,213,115,0.18); color: var(--accent); border: 1px solid rgba(46,213,115,0.4); }
     .badge-dub { background: rgba(255,71,87,0.2); color: #ff8a95; border: 1px solid rgba(255,71,87,0.4); }
     .badge-donghua { background: rgba(245,158,11,0.22); color: #fbbf24; border: 1px solid rgba(245,158,11,0.45); }
     .badge-year { background: rgba(255,255,255,0.12); color: #e2e8f0; }
-    .hero h1 { font-size: clamp(1.4rem, 3.8vw, 2.35rem); line-height: 1.15; margin-bottom: 8px; }
-    .hero p { color: var(--muted); font-size: 0.9rem; margin-bottom: 16px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-    .hero-actions { display: flex; gap: 10px; flex-wrap: wrap; }
-    .btn-watch {
-      display: inline-flex; align-items: center; gap: 8px;
-      background: var(--primary); color: #fff; text-decoration: none;
-      font-weight: 700; padding: 10px 20px; border-radius: 8px; font-size: 0.9rem;
-    }
-    .btn-donghua-hero {
-      background: rgba(245,158,11,0.18); border: 1px solid rgba(245,158,11,0.5);
-      color: #fbbf24; font-weight: 700; padding: 10px 16px; border-radius: 8px; cursor: pointer; font-size: 0.9rem;
-    }
-    .hero-dots { position: absolute; bottom: 14px; left: 50%; transform: translateX(-50%); z-index: 3; display: flex; gap: 8px; }
-    .hero-dot { width: 9px; height: 9px; border-radius: 999px; background: rgba(255,255,255,0.3); border: none; cursor: pointer; transition: 0.2s; }
-    .hero-dot.active { width: 24px; background: var(--donghua); }
-    .main { max-width: 1340px; margin: 0 auto; padding: 14px 20px 56px; }
-    .filter-bar { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 12px; margin-bottom: 10px; scrollbar-width: none; }
-    .filter-pill {
+    .hero h1 { font-size: clamp(1.35rem, 3.6vw, 2.25rem); line-height: 1.15; margin-bottom: 8px; }
+    .hero p { color: var(--muted); font-size: 0.88rem; margin-bottom: 14px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .hero-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+    .btn-watch { display: inline-flex; align-items: center; gap: 6px; background: var(--primary); color: #fff; text-decoration: none; font-weight: 700; padding: 9px 18px; border-radius: 8px; font-size: 0.88rem; border: none; cursor: pointer; }
+    .btn-donghua-hero { background: rgba(245,158,11,0.18); border: 1px solid rgba(245,158,11,0.5); color: #fbbf24; font-weight: 700; padding: 9px 14px; border-radius: 8px; cursor: pointer; font-size: 0.88rem; }
+    .hero-dots { position: absolute; bottom: 12px; left: 50%; transform: translateX(-50%); z-index: 3; display: flex; gap: 7px; }
+    .hero-dot { width: 8px; height: 8px; border-radius: 999px; background: rgba(255,255,255,0.3); border: none; cursor: pointer; }
+    .hero-dot.active { width: 22px; background: var(--donghua); }
+
+    .main { max-width: 1340px; margin: 0 auto; padding: 14px 20px 40px; }
+    .filter-bar, .day-bar { display: flex; gap: 7px; overflow-x: auto; padding-bottom: 10px; scrollbar-width: none; }
+    .filter-pill, .day-pill {
       background: var(--surface); color: var(--muted); border: 1px solid var(--border);
-      padding: 7px 15px; border-radius: 999px; font-size: 0.85rem; font-weight: 600; cursor: pointer; white-space: nowrap;
+      padding: 6px 14px; border-radius: 999px; font-size: 0.82rem; font-weight: 600; cursor: pointer; white-space: nowrap;
     }
-    .filter-pill.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+    .filter-pill.active, .day-pill.active { background: var(--primary); color: #fff; border-color: var(--primary); }
     .filter-pill[data-filter="donghua"].active { background: var(--donghua); border-color: var(--donghua); color: #080a0f; }
-    .section-head { display: flex; justify-content: space-between; align-items: center; margin: 22px 0 14px; }
-    .section-title { font-size: 1.15rem; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+
+    .section-head { display: flex; justify-content: space-between; align-items: center; margin: 22px 0 12px; }
+    .section-title { font-size: 1.12rem; font-weight: 700; display: flex; align-items: center; gap: 8px; }
     .section-title::before { content: ""; width: 4px; height: 18px; background: var(--primary); border-radius: 4px; }
     .section-title.donghua-accent::before { background: var(--donghua); }
     .clear-btn { background: none; border: none; color: var(--muted); font-size: 0.78rem; cursor: pointer; text-decoration: underline; }
+
     .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; }
     @media (max-width: 480px) { .grid { grid-template-columns: repeat(2, 1fr); gap: 12px; } }
     .card {
@@ -506,34 +104,87 @@
     .card.donghua-card:hover { border-color: var(--donghua); }
     .poster-wrap { position: relative; width: 100%; aspect-ratio: 2 / 3; background: #141925; overflow: hidden; }
     .poster-wrap img { width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block; }
-    .tag-top { position: absolute; top: 8px; left: 8px; background: rgba(8,10,15,0.86); color: var(--accent); font-size: 0.68rem; font-weight: 700; padding: 2px 6px; border-radius: 4px; }
-    .tag-score { position: absolute; top: 8px; right: 8px; background: rgba(8,10,15,0.86); color: #fbbf24; font-size: 0.68rem; font-weight: 700; padding: 2px 6px; border-radius: 4px; }
-    .tag-bottom { position: absolute; bottom: 8px; right: 8px; background: var(--primary); color: #fff; font-size: 0.68rem; font-weight: 700; padding: 2px 6px; border-radius: 4px; }
+    .tag-status {
+      position: absolute; top: 8px; left: 8px; font-size: 0.64rem; font-weight: 800; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;
+    }
+    .status-ongoing { background: rgba(46,213,115,0.9); color: #080a0f; }
+    .status-completed { background: rgba(255,71,87,0.9); color: #fff; }
+    .tag-score { position: absolute; top: 8px; right: 8px; background: rgba(8,10,15,0.88); color: #fbbf24; font-size: 0.68rem; font-weight: 700; padding: 2px 6px; border-radius: 4px; }
+    .tag-bottom { position: absolute; bottom: 8px; right: 8px; background: var(--primary); color: #fff; font-size: 0.66rem; font-weight: 700; padding: 2px 6px; border-radius: 4px; }
     .tag-bottom.tag-donghua { background: var(--donghua); color: #080a0f; }
     .card-body { padding: 10px; flex: 1; display: flex; flex-direction: column; justify-content: space-between; }
-    .card-title { font-size: 0.88rem; font-weight: 700; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-    .card-meta { font-size: 0.74rem; color: var(--muted); margin-top: 6px; display: flex; justify-content: space-between; }
-    .empty-box { display: none; text-align: center; padding: 36px 20px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; margin-top: 12px; }
-    .empty-box p { color: var(--muted); margin-bottom: 12px; }
+    .card-title { font-size: 0.86rem; font-weight: 700; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .card-meta { font-size: 0.72rem; color: var(--muted); margin-top: 6px; display: flex; justify-content: space-between; }
+
+    /* Top 10 Ranking & Upcoming Movies Split Layout */
+    .extra-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 26px; }
+    @media (max-width: 820px) { .extra-grid { grid-template-columns: 1fr; } }
+    .panel-box { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px; }
+    .rank-row {
+      display: flex; align-items: center; gap: 10px; padding: 8px 6px; border-bottom: 1px solid rgba(255,255,255,0.05);
+      text-decoration: none; color: var(--text);
+    }
+    .rank-row:last-child { border-bottom: none; }
+    .rank-num {
+      width: 24px; height: 24px; border-radius: 6px; background: var(--surface-2); border: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: center; font-size: 0.78rem; font-weight: 800; color: var(--donghua); flex-shrink: 0;
+    }
+    .rank-row img { width: 42px; aspect-ratio: 2/3; object-fit: cover; border-radius: 5px; flex-shrink: 0; }
+    .countdown-pill { font-size: 0.68rem; font-weight: 700; background: rgba(99,102,241,0.2); color: #a5b4fc; padding: 2px 7px; border-radius: 999px; white-space: nowrap; }
+
     .ad-zone {
-      margin: 18px 0; padding: 10px; border-radius: 10px; background: rgba(17, 21, 31, 0.55);
-      border: 1px dashed rgba(148, 163, 184, 0.18); text-align: center; min-height: 60px; display: flex; flex-direction: column; align-items: center; justify-content: center;
+      margin: 16px 0; padding: 10px; border-radius: 10px; background: rgba(17,21,31,0.55);
+      border: 1px dashed rgba(148,163,184,0.18); text-align: center; min-height: 60px; display: flex; flex-direction: column; align-items: center; justify-content: center;
     }
     .ad-label { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.08em; color: #64748b; margin-bottom: 4px; }
+    .empty-box { display: none; text-align: center; padding: 32px 20px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; margin-top: 12px; }
+
+    /* Floating Mini Gemini AI Dancer Companion */
+    @keyframes danceBob {
+      0%, 100% { transform: translateY(0) rotate(-4deg); }
+      25% { transform: translateY(-5px) rotate(4deg); }
+      50% { transform: translateY(0) rotate(-3deg); }
+      75% { transform: translateY(-4px) rotate(5deg); }
+    }
+    .gemini-dancer {
+      position: fixed; bottom: 16px; right: 16px; z-index: 300;
+      width: 46px; height: 46px; border-radius: 50%; border: 2px solid rgba(165,180,252,0.6);
+      background: linear-gradient(135deg, #4f46e5, #9333ea); color: #fff; font-size: 1.3rem;
+      display: flex; align-items: center; justify-content: center; cursor: pointer;
+      box-shadow: 0 8px 24px rgba(79,70,229,0.5); animation: danceBob 1.8s infinite ease-in-out;
+    }
+    .gemini-popup {
+      display: none; position: fixed; bottom: 72px; right: 16px; z-index: 310;
+      width: min(330px, calc(100vw - 32px)); background: var(--surface-2); border: 1px solid #374151;
+      border-radius: 14px; box-shadow: 0 18px 40px rgba(0,0,0,0.85); overflow: hidden;
+    }
+    .gemini-head {
+      background: linear-gradient(135deg, #4f46e5, #7c3aed); padding: 10px 14px;
+      display: flex; justify-content: space-between; align-items: center; font-size: 0.85rem; font-weight: 700;
+    }
+    .gemini-body { padding: 12px; max-height: 220px; overflow-y: auto; font-size: 0.82rem; color: #e2e8f0; display: flex; flex-direction: column; gap: 8px; }
+    .gemini-msg { background: rgba(15,23,42,0.75); padding: 8px 10px; border-radius: 8px; line-height: 1.4; }
+    .gemini-input-row { display: flex; border-top: 1px solid var(--border); padding: 8px; gap: 6px; background: var(--surface); }
+    .gemini-input-row input { flex: 1; background: var(--surface-2); border: 1px solid var(--border); color: #fff; padding: 7px 10px; border-radius: 8px; font-size: 0.82rem; outline: none; }
+
+    footer {
+      border-top: 1px solid var(--border); background: #06080c; padding: 24px 20px; text-align: center;
+      font-size: 0.78rem; color: var(--muted); line-height: 1.6;
+    }
+    footer a { color: var(--accent); text-decoration: none; margin: 0 8px; }
   </style>
 </head>
 <body>
   <header class="navbar">
     <div class="nav-left">
       <a href="index.html" class="brand" onclick="switchMode('all'); return false;">ANI<span>STREAM</span></a>
-      <div class="mode-switch">
-        <button id="btn-mode-anime" class="nav-btn active-anime" onclick="switchMode('anime')">Anime</button>
-        <button id="btn-mode-donghua" class="nav-btn nav-btn-donghua" onclick="switchMode('donghua')">🐉 Donghua</button>
-        <a href="https://aniguide.aniguide-hub.workers.dev" target="_blank" rel="noopener" class="nav-btn nav-btn-guide">Watch Order</a>
-      </div>
+      <button id="btn-mode-anime" class="nav-btn active-anime" onclick="switchMode('anime')">Anime</button>
+      <button id="btn-mode-donghua" class="nav-btn nav-btn-donghua" onclick="switchMode('donghua')">🐉 Donghua</button>
+      <button class="nav-btn nav-btn-surprise" onclick="surpriseMe()">🎲 Surprise Me</button>
+      <a href="https://aniguide.aniguide-hub.workers.dev" target="_blank" rel="noopener" class="nav-btn nav-btn-guide">Watch Order</a>
     </div>
     <div class="search-box">
-      <input type="text" id="search-input" placeholder="Type 3+ letters (e.g. Slime, Renegade, Xian Ni)..." autocomplete="off" />
+      <input type="text" id="search-input" placeholder="Type 3+ letters (Slime, Renegade, Xian Ni, BTTH)..." autocomplete="off" />
       <div class="search-dropdown" id="search-dropdown"></div>
     </div>
   </header>
@@ -544,7 +195,7 @@
         <div class="badge-row">
           <span class="badge badge-hd" id="hero-quality">1080p Official</span>
           <span class="badge badge-year" id="hero-year">2024</span>
-          <span class="badge badge-dub" id="hero-audio">Sub & Hindi Dub</span>
+          <span class="badge badge-dub" id="hero-audio">Official Stream</span>
         </div>
         <h1 id="hero-title">Loading Catalog...</h1>
         <p id="hero-desc"></p>
@@ -563,12 +214,25 @@
       <button class="filter-pill active" data-filter="all">All Catalog</button>
       <button class="filter-pill" data-filter="anime">Japanese Anime</button>
       <button class="filter-pill" data-filter="donghua">🐉 Donghua</button>
-      <button class="filter-pill" data-filter="hindi">Hindi Dub</button>
+      <button class="filter-pill" data-filter="engdub">English Dub Only</button>
+      <button class="filter-pill" data-filter="hindi">Hindi Dub Only</button>
+      <button class="filter-pill" data-filter="ongoing">Ongoing</button>
       <button class="filter-pill" data-filter="action">Action</button>
       <button class="filter-pill" data-filter="isekai">Fantasy / Cultivation</button>
     </div>
 
-    <div class="ad-zone" id="ad-home-top">
+    <div class="day-bar" id="day-bar">
+      <button class="day-pill active" data-day="all">📅 All Days</button>
+      <button class="day-pill" data-day="Monday">Mon</button>
+      <button class="day-pill" data-day="Tuesday">Tue</button>
+      <button class="day-pill" data-day="Wednesday">Wed</button>
+      <button class="day-pill" data-day="Thursday">Thu</button>
+      <button class="day-pill" data-day="Friday">Fri</button>
+      <button class="day-pill" data-day="Saturday">Sat</button>
+      <button class="day-pill" data-day="Sunday">Sun</button>
+    </div>
+
+    <div class="ad-zone">
       <span class="ad-label">Sponsored</span>
       <div id="container-1670e3305650d4a06781e47abce47301"></div>
       <script>
@@ -590,18 +254,58 @@
     </div>
 
     <div class="section-head">
-      <h2 class="section-title" id="catalog-heading">All Free Official Streams (1080p–4K)</h2>
+      <h2 class="section-title" id="catalog-heading">Top Recommended Official Streams (1080p–4K)</h2>
       <span id="result-count" style="font-size:0.8rem; color:var(--muted);"></span>
     </div>
     <div class="grid" id="anime-grid"></div>
     <div class="empty-box" id="empty-box">
-      <p id="empty-msg">No shows matched your search in the current official catalog.</p>
+      <p>No shows matched that exact filter in the current official catalog.</p>
       <button class="btn-watch" onclick="document.getElementById('search-input').value=''; switchMode('all');">Show All Catalog</button>
+    </div>
+
+    <div class="extra-grid">
+      <div class="panel-box">
+        <div class="section-head" style="margin-top:0;">
+          <h2 class="section-title donghua-accent">🔥 Top 10 Popular Ranking</h2>
+        </div>
+        <div id="top10-list"></div>
+      </div>
+      <div class="panel-box">
+        <div class="section-head" style="margin-top:0;">
+          <h2 class="section-title">🎬 New & Upcoming Movies / Specials</h2>
+        </div>
+        <div id="movies-list"></div>
+      </div>
     </div>
   </main>
 
+  <!-- Little Dancing Gemini AI Pop-up Assistant -->
+  <button class="gemini-dancer" id="gemini-dancer" title="Ask Gemini AI about Anime & Donghua" onclick="toggleGemini()">💃</button>
+  <div class="gemini-popup" id="gemini-popup">
+    <div class="gemini-head">
+      <span>✨ Gemini Anime & Donghua AI</span>
+      <button onclick="toggleGemini(false)" style="background:none;border:none;color:#fff;font-weight:800;cursor:pointer;">—</button>
+    </div>
+    <div class="gemini-body" id="gemini-body">
+      <div class="gemini-msg">Hi! What is your anime or donghua query today? Ask me for recommendations, watch order, or search any title!</div>
+    </div>
+    <div class="gemini-input-row">
+      <input type="text" id="gemini-input" placeholder="Ask about anime/donghua..." onkeydown="if(event.key==='Enter') askGemini()" />
+      <button class="btn-watch" style="padding:6px 12px;font-size:0.8rem;" onclick="askGemini()">Ask</button>
+    </div>
+  </div>
+
+  <footer>
+    <div>
+      <a href="index.html">Home</a> •
+      <a href="https://aniguide.aniguide-hub.workers.dev" target="_blank" rel="noopener">AniGuide Watch Orders</a> •
+      <a href="#dmca" onclick="alert('DMCA & Legal Notice: AniStream only indexes official licensed YouTube playlists from Muse, Ani-One, Tencent Video, Youku, and Bilibili. No media files are hosted on our servers.'); return false;">DMCA & Official Disclaimer</a>
+    </div>
+    <p style="margin-top:6px;">Copyright © 2026 AniStream. All official streams are embedded directly from verified rights-holder channels.</p>
+  </footer>
+
   <script>
-    let CATALOG = [], SLIDES = [], slideIdx = 0, slideTimer = null;
+    let CATALOG = [], SLIDES = [], slideIdx = 0, slideTimer = null, currentMode = "all";
     const SHORTCUT_ALIASES = {
       "slime": "reincarnated as a slime", "tensura": "reincarnated as a slime",
       "xian ni": "renegade immortal", "immortal renegade": "renegade immortal",
@@ -609,11 +313,12 @@
       "douluo": "soul land", "aot": "attack on titan", "jjk": "jujutsu kaisen",
       "mha": "my hero academia", "opm": "one-punch man", "hxh": "hunter x hunter",
       "ds": "demon slayer", "kimetsu": "demon slayer", "shen yin": "throne of seal",
-      "wanmei": "perfect world", "yi nian": "a will eternal", "ni tian": "against the gods", "zhu xian": "jade dynasty"
+      "wanmei": "perfect world", "yi nian": "a will eternal", "ni tian": "against the gods",
+      "zhu xian": "jade dynasty", "zhe tian": "shrouding the heavens", "mu shen": "herding gods"
     };
 
     function cleanDisplayTitle(t) {
-      return (t || "").replace(/《.*?》|【.*?】/g, "").replace(/\|\s*(Muse|Ani-One|Tencent|Youku).*/i, "").trim();
+      return (t || "").replace(/《.*?》|【.*?】/g, "").replace(/\|\s*(Muse|Ani-One|Tencent|Youku|Bilibili).*/i, "").trim();
     }
 
     function smartSearch(rawQuery) {
@@ -633,18 +338,26 @@
       return scored.sort((a, b) => b.score - a.score).map(s => s.item);
     }
 
+    function surpriseMe() {
+      const pool = CATALOG.filter(i => (currentMode === "all" || i.type === currentMode) && (i.score || 80) >= 75);
+      const list = pool.length ? pool : CATALOG;
+      if (!list.length) return;
+      const pick = list[Math.floor(Math.random() * list.length)];
+      window.location.href = `watch.html?id=${pick.slug}`;
+    }
+
     function setHero(item) {
       if (!item) return;
-      const isDonghua = item.type === "donghua";
+      const isD = item.type === "donghua";
       document.getElementById("hero-banner").style.backgroundImage = `url('${item.banner || item.cover}')`;
       document.getElementById("hero-poster").src = item.cover;
       document.getElementById("hero-title").textContent = item.title;
-      document.getElementById("hero-year").textContent = `${item.year || "HD"} • ★ ${(item.score / 10).toFixed(1)}`;
+      document.getElementById("hero-year").textContent = `${item.year || "HD"} • ★ ${(item.score / 10).toFixed(1)} • ${item.status || "HD"}`;
       document.getElementById("hero-desc").textContent = item.desc;
       document.getElementById("hero-quality").textContent = `${item.quality} Official`;
       const ab = document.getElementById("hero-audio");
-      ab.className = `badge ${isDonghua ? "badge-donghua" : "badge-dub"}`;
-      ab.textContent = isDonghua ? "DONGHUA • OFFICIAL" : (item.hasHindi ? "SUB + HINDI DUB" : "ENGLISH SUB");
+      ab.className = `badge ${isD ? "badge-donghua" : "badge-dub"}`;
+      ab.textContent = isD ? "DONGHUA • OFFICIAL" : (item.hasHindi ? "HINDI DUB" : (item.hasEngDub ? "ENGLISH DUB" : "ENGLISH SUB"));
       document.getElementById("hero-cta").href = `watch.html?id=${item.slug}`;
     }
 
@@ -668,19 +381,21 @@
       empty.style.display = "none";
       grid.innerHTML = list.map(item => {
         const isD = item.type === "donghua";
-        const tag = isD ? `<span class="tag-bottom tag-donghua">DONGHUA</span>` : (item.hasHindi ? `<span class="tag-bottom">HINDI</span>` : `<span class="tag-bottom">SUB</span>`);
+        const st = item.status === "ONGOING" ? `<span class="tag-status status-ongoing">ONGOING</span>` : `<span class="tag-status status-completed">COMPLETED</span>`;
+        const bTag = isD ? `<span class="tag-bottom tag-donghua">DONGHUA</span>` : (item.hasHindi ? `<span class="tag-bottom">HINDI</span>` : (item.hasEngDub ? `<span class="tag-bottom">ENG DUB</span>` : `<span class="tag-bottom">SUB</span>`));
         const sc = (item.servers || []).length;
-        return `<a class="card ${isD ? "donghua-card" : ""}" href="watch.html?id=${item.slug}"><div class="poster-wrap"><img src="${item.cover}" alt="${item.title}" loading="lazy" /><span class="tag-top">${item.quality}</span><span class="tag-score">★ ${(item.score / 10).toFixed(1)}</span>${tag}</div><div class="card-body"><div class="card-title">${item.title}</div><div class="card-meta"><span>${item.year || ""} • ${item.episodes} Eps</span><span>${sc} Server${sc > 1 ? "s" : ""}</span></div></div></a>`;
+        return `<a class="card ${isD ? "donghua-card" : ""}" href="watch.html?id=${item.slug}"><div class="poster-wrap"><img src="${item.cover}" alt="${item.title}" loading="lazy" />${st}<span class="tag-score">★ ${(item.score / 10).toFixed(1)}</span>${bTag}</div><div class="card-body"><div class="card-title">${item.title}</div><div class="card-meta"><span>${item.year || ""} • ${item.episodes} Eps</span><span>${sc} Server${sc > 1 ? "s" : ""}</span></div></div></a>`;
       }).join("");
     }
 
     function switchMode(mode) {
+      currentMode = mode;
       const aBtn = document.getElementById("btn-mode-anime"), dBtn = document.getElementById("btn-mode-donghua"), h = document.getElementById("catalog-heading");
       aBtn.classList.remove("active-anime"); dBtn.classList.remove("active-donghua"); h.classList.remove("donghua-accent");
       document.querySelectorAll(".filter-pill").forEach(p => p.classList.toggle("active", p.dataset.filter === mode));
       if (mode === "donghua") { dBtn.classList.add("active-donghua"); h.classList.add("donghua-accent"); h.textContent = "🐉 Official Donghua Streams (1080p–4K)"; const l = CATALOG.filter(i => i.type === "donghua"); startCarousel(l); renderGrid(l); }
       else if (mode === "anime") { aBtn.classList.add("active-anime"); h.textContent = "Free Official Anime Streams (1080p)"; const l = CATALOG.filter(i => i.type === "anime"); startCarousel(l); renderGrid(l); }
-      else { aBtn.classList.add("active-anime"); h.textContent = "All Free Official Streams (1080p–4K)"; startCarousel(CATALOG); renderGrid(CATALOG); }
+      else { aBtn.classList.add("active-anime"); h.textContent = "Top Recommended Official Streams (1080p–4K)"; startCarousel(CATALOG); renderGrid(CATALOG); }
     }
 
     function clearHistory() { localStorage.removeItem("anistream_history"); document.getElementById("continue-section").style.display = "none"; }
@@ -689,30 +404,104 @@
       const history = JSON.parse(localStorage.getItem("anistream_history") || "[]");
       if (!history.length) return;
       document.getElementById("continue-section").style.display = "block";
-      document.getElementById("continue-grid").innerHTML = history.slice(0, 6).map(h => `<a class="card" href="watch.html?id=${h.slug}&ep=${h.episode}"><div class="poster-wrap"><img src="${h.cover}" alt="${cleanDisplayTitle(h.title)}" loading="lazy" /><span class="tag-top">EP ${h.episode}</span><span class="tag-bottom">RESUME</span></div><div class="card-body"><div class="card-title">${cleanDisplayTitle(h.title)}</div><div class="card-meta"><span>Episode ${h.episode}</span><span>${h.track || "HD"}</span></div></div></a>`).join("");
+      document.getElementById("continue-grid").innerHTML = history.slice(0, 6).map(h => `<a class="card" href="watch.html?id=${h.slug}&ep=${h.episode}"><div class="poster-wrap"><img src="${h.cover}" alt="${cleanDisplayTitle(h.title)}" loading="lazy" /><span class="tag-status status-ongoing">EP ${h.episode}</span><span class="tag-bottom">RESUME</span></div><div class="card-body"><div class="card-title">${cleanDisplayTitle(h.title)}</div><div class="card-meta"><span>Episode ${h.episode}</span><span>${h.track || "HD"}</span></div></div></a>`).join("");
     }
 
+    // Strict Audio & Category Filters
     document.getElementById("filter-bar").addEventListener("click", (e) => {
       if (!e.target.classList.contains("filter-pill")) return;
       const f = e.target.dataset.filter;
       if (["donghua", "anime", "all"].includes(f)) { switchMode(f); return; }
       document.querySelectorAll(".filter-pill").forEach(b => b.classList.remove("active"));
       e.target.classList.add("active");
-      renderGrid(CATALOG.filter(a => a.genres.includes(f)));
+      if (f === "engdub") {
+        renderGrid(CATALOG.filter(a => a.hasEngDub || (a.servers || []).some(s => /english dub/i.test(s.lang || s.name))));
+      } else if (f === "hindi") {
+        renderGrid(CATALOG.filter(a => a.hasHindi || (a.servers || []).some(s => /hindi/i.test(s.lang || s.name))));
+      } else if (f === "ongoing") {
+        renderGrid(CATALOG.filter(a => a.status === "ONGOING"));
+      } else {
+        renderGrid(CATALOG.filter(a => (a.genres || []).includes(f)));
+      }
     });
 
+    // Weekly Release Schedule Filter
+    document.getElementById("day-bar").addEventListener("click", (e) => {
+      if (!e.target.classList.contains("day-pill")) return;
+      document.querySelectorAll(".day-pill").forEach(b => b.classList.remove("active"));
+      e.target.classList.add("active");
+      const day = e.target.dataset.day;
+      renderGrid(day === "all" ? CATALOG : CATALOG.filter(a => a.airDay === day));
+    });
+
+    // 3-Letter Live Search Autocomplete
     const searchInput = document.getElementById("search-input"), searchDropdown = document.getElementById("search-dropdown");
     searchInput.addEventListener("input", (e) => {
       const val = e.target.value.trim(), results = smartSearch(val);
       renderGrid(results);
       if (val.length >= 3 && results.length) {
         searchDropdown.style.display = "block";
-        searchDropdown.innerHTML = results.slice(0, 6).map(item => `<a class="search-item" href="watch.html?id=${item.slug}"><img src="${item.cover}" alt="${item.title}" /><div class="search-item-info"><div class="search-item-title">${item.title} (${item.year})</div><div class="search-item-sub">${item.type.toUpperCase()} • ${item.nativeTitle || item.episodes + " Eps"}</div></div></a>`).join("");
+        searchDropdown.innerHTML = results.slice(0, 6).map(item => `<a class="search-item" href="watch.html?id=${item.slug}"><img src="${item.cover}" alt="${item.title}" /><div><div class="search-item-title">${item.title} (${item.year})</div><div class="search-item-sub">${item.type.toUpperCase()} • ${item.status || "HD"} • ${item.episodes} Eps</div></div></a>`).join("");
       } else { searchDropdown.style.display = "none"; }
     });
     document.addEventListener("click", (e) => { if (!e.target.closest(".search-box")) searchDropdown.style.display = "none"; });
 
-    fetch("data/catalog.json").then(r => r.json()).then(data => { CATALOG = data; startCarousel(CATALOG); renderContinueWatching(); renderGrid(CATALOG); });
+    // Little Dancing Gemini AI Mini Assistant
+    function toggleGemini(force) {
+      const pop = document.getElementById("gemini-popup");
+      const next = typeof force === "boolean" ? force : pop.style.display !== "block";
+      pop.style.display = next ? "block" : "none";
+    }
+    function askGemini() {
+      const inp = document.getElementById("gemini-input"), body = document.getElementById("gemini-body");
+      const q = inp.value.trim();
+      if (!q) return;
+      body.innerHTML += `<div class="gemini-msg" style="background:rgba(99,102,241,0.22);"><strong>You:</strong> ${q}</div>`;
+      inp.value = "";
+      const matches = smartSearch(q).slice(0, 3);
+      let reply = matches.length
+        ? `Found ${matches.length} top match(es): ` + matches.map(m => `<a href="watch.html?id=${m.slug}" style="color:#a5b4fc;font-weight:700;">${m.title} (${m.year}, ★${(m.score/10).toFixed(1)})</a>`).join(", ")
+        : `Try clicking <strong>🎲 Surprise Me</strong> or check our <a href="https://aniguide.aniguide-hub.workers.dev" target="_blank" style="color:#2ed573;">AniGuide Watch Orders</a> for complete series guides!`;
+      body.innerHTML += `<div class="gemini-msg"><strong>💃 Gemini:</strong> ${reply}</div>`;
+      body.scrollTop = body.scrollHeight;
+    }
+
+    fetch("data/catalog.json").then(r => r.json()).then(data => {
+      CATALOG = data;
+      startCarousel(CATALOG);
+      renderContinueWatching();
+      renderGrid(CATALOG);
+
+      const top10 = [...CATALOG].sort((a, b) => (b.score || 0) - (a.score || 0)).slice(0, 10);
+      document.getElementById("top10-list").innerHTML = top10.map((it, idx) => `
+        <a class="rank-row" href="watch.html?id=${it.slug}">
+          <span class="rank-num">${idx + 1}</span>
+          <img src="${it.cover}" alt="${it.title}" loading="lazy" />
+          <div style="min-width:0;flex:1;">
+            <div style="font-size:0.84rem;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${it.title}</div>
+            <div style="font-size:0.72rem;color:var(--muted);">${it.type.toUpperCase()} • ★ ${(it.score/10).toFixed(1)} • ${it.episodes} Eps</div>
+          </div>
+        </a>
+      `).join("");
+    });
+
+    fetch("data/movies.json").then(r => r.json()).then(movies => {
+      const now = Date.now();
+      document.getElementById("movies-list").innerHTML = movies.slice(0, 8).map(m => {
+        const diff = Math.ceil((new Date(m.releaseDate).getTime() - now) / 86400000);
+        const badge = diff > 0 ? `In ${diff}d (${m.releaseDate})` : m.releaseDate;
+        return `
+          <div class="rank-row">
+            <img src="${m.cover}" alt="${m.title}" loading="lazy" />
+            <div style="min-width:0;flex:1;">
+              <div style="font-size:0.84rem;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${m.title}</div>
+              <div style="font-size:0.72rem;color:var(--muted);">${m.origin} • ${(m.genres || []).join(", ")}</div>
+            </div>
+            <span class="countdown-pill">${badge}</span>
+          </div>
+        `;
+      }).join("");
+    }).catch(() => {});
   </script>
   <script data-cfasync="false" src="https://bauval.org/14/e2908a73c63d8d2754e40ea99e7cdbda"></script>
 </body>

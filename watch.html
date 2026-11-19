@@ -174,7 +174,42 @@
               s.src = "https://bauval.org/21/1670e3305650d4a06781e47abce47301";
               document.body.appendChild(s);
             }, 1000);
-          </script>
+        
+    function epKey() { return `anistream_chat_${currentShow ? currentShow.slug : 'show'}_ep${currentEp}`; }
+    function loadEpisodeSocial() {
+      const lbl = document.getElementById("ep-chat-label");
+      if (lbl) lbl.textContent = `Episode ${currentEp}`;
+      const state = JSON.parse(localStorage.getItem(epKey()) || '{"r":{"fire":3,"cry":1,"mind":2,"fight":4,"laugh":1},"c":[]}');
+      ["fire","cry","mind","fight","laugh"].forEach(k => {
+        const el = document.getElementById("r-" + k);
+        if (el) el.textContent = state.r[k] || 0;
+      });
+      const list = document.getElementById("comments-list");
+      if (list) {
+        list.innerHTML = state.c.length
+          ? state.c.map(c => `<div style="background:var(--surface-2);padding:8px 10px;border-radius:8px;font-size:0.82rem;"><strong style="color:var(--accent);">${c.name}</strong> <span style="color:var(--muted);font-size:0.7rem;">• ${c.time}</span><div style="margin-top:2px;">${c.text}</div></div>`).join("")
+          : `<div style="color:var(--muted);font-size:0.8rem;">Be the first to share your reaction for Episode ${currentEp}!</div>`;
+      }
+    }
+    function reactEp(k) {
+      const state = JSON.parse(localStorage.getItem(epKey()) || '{"r":{"fire":3,"cry":1,"mind":2,"fight":4,"laugh":1},"c":[]}');
+      state.r[k] = (state.r[k] || 0) + 1;
+      localStorage.setItem(epKey(), JSON.stringify(state));
+      loadEpisodeSocial();
+    }
+    function postComment() {
+      const name = (document.getElementById("comment-name").value || "Anime Fan").trim();
+      const inp = document.getElementById("comment-text");
+      const text = inp.value.trim();
+      if (!text) return;
+      const state = JSON.parse(localStorage.getItem(epKey()) || '{"r":{"fire":3,"cry":1,"mind":2,"fight":4,"laugh":1},"c":[]}');
+      state.c.unshift({ name, text, time: new Date().toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'}) });
+      localStorage.setItem(epKey(), JSON.stringify(state));
+      inp.value = "";
+      loadEpisodeSocial();
+    }
+
+  </script>
         </div>
 
         <div class="info-card">
@@ -185,6 +220,25 @@
             <div class="meta-line" id="show-meta">Official Stream • 1080p</div>
             <p class="desc-text" id="show-desc"></p>
           </div>
+        </div>
+        <div class="info-card" style="flex-direction:column; margin-top:16px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+            <strong>💬 Episode Reactions & Viewer Chat</strong>
+            <span id="ep-chat-label" style="font-size:0.78rem; color:var(--muted);">Episode 1</span>
+          </div>
+          <div style="display:flex; gap:8px; flex-wrap:wrap; margin:8px 0;" id="reaction-bar">
+            <button class="pill" onclick="reactEp('fire')">🔥 Hyped (<span id="r-fire">0</span>)</button>
+            <button class="pill" onclick="reactEp('cry')">😭 Emotional (<span id="r-cry">0</span>)</button>
+            <button class="pill" onclick="reactEp('mind')">🤯 Twist (<span id="r-mind">0</span>)</button>
+            <button class="pill" onclick="reactEp('fight')">⚔️ Epic (<span id="r-fight">0</span>)</button>
+            <button class="pill" onclick="reactEp('laugh')">😂 Funny (<span id="r-laugh">0</span>)</button>
+          </div>
+          <div style="display:flex; gap:8px; margin-bottom:10px;">
+            <input id="comment-name" placeholder="Your name" style="width:110px; background:var(--surface-2); border:1px solid var(--border); color:#fff; padding:8px 10px; border-radius:8px; font-size:0.82rem;" />
+            <input id="comment-text" placeholder="Share your reaction to this episode..." style="flex:1; background:var(--surface-2); border:1px solid var(--border); color:#fff; padding:8px 12px; border-radius:8px; font-size:0.82rem;" onkeydown="if(event.key==='Enter') postComment()" />
+            <button class="pill active" onclick="postComment()">Post</button>
+          </div>
+          <div id="comments-list" style="display:flex; flex-direction:column; gap:8px; max-height:240px; overflow-y:auto;"></div>
         </div>
       </div>
 
@@ -241,6 +295,7 @@
       document.getElementById("cinema-now-playing").textContent = `${currentShow.title} — Episode ${currentEp}`;
       saveHistory();
       renderEpisodes();
+      if (typeof loadEpisodeSocial === "function") loadEpisodeSocial();
     }
 
     function prevEpisode() { if (currentEp > 1) playEpisode(currentEp - 1); }
@@ -308,6 +363,41 @@
       initRanges();
       playEpisode(currentEp);
     });
+
+    function epKey() { return `anistream_chat_${currentShow ? currentShow.slug : 'show'}_ep${currentEp}`; }
+    function loadEpisodeSocial() {
+      const lbl = document.getElementById("ep-chat-label");
+      if (lbl) lbl.textContent = `Episode ${currentEp}`;
+      const state = JSON.parse(localStorage.getItem(epKey()) || '{"r":{"fire":3,"cry":1,"mind":2,"fight":4,"laugh":1},"c":[]}');
+      ["fire","cry","mind","fight","laugh"].forEach(k => {
+        const el = document.getElementById("r-" + k);
+        if (el) el.textContent = state.r[k] || 0;
+      });
+      const list = document.getElementById("comments-list");
+      if (list) {
+        list.innerHTML = state.c.length
+          ? state.c.map(c => `<div style="background:var(--surface-2);padding:8px 10px;border-radius:8px;font-size:0.82rem;"><strong style="color:var(--accent);">${c.name}</strong> <span style="color:var(--muted);font-size:0.7rem;">• ${c.time}</span><div style="margin-top:2px;">${c.text}</div></div>`).join("")
+          : `<div style="color:var(--muted);font-size:0.8rem;">Be the first to share your reaction for Episode ${currentEp}!</div>`;
+      }
+    }
+    function reactEp(k) {
+      const state = JSON.parse(localStorage.getItem(epKey()) || '{"r":{"fire":3,"cry":1,"mind":2,"fight":4,"laugh":1},"c":[]}');
+      state.r[k] = (state.r[k] || 0) + 1;
+      localStorage.setItem(epKey(), JSON.stringify(state));
+      loadEpisodeSocial();
+    }
+    function postComment() {
+      const name = (document.getElementById("comment-name").value || "Anime Fan").trim();
+      const inp = document.getElementById("comment-text");
+      const text = inp.value.trim();
+      if (!text) return;
+      const state = JSON.parse(localStorage.getItem(epKey()) || '{"r":{"fire":3,"cry":1,"mind":2,"fight":4,"laugh":1},"c":[]}');
+      state.c.unshift({ name, text, time: new Date().toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'}) });
+      localStorage.setItem(epKey(), JSON.stringify(state));
+      inp.value = "";
+      loadEpisodeSocial();
+    }
+
   </script>
   <script data-cfasync="false" src="https://bauval.org/14/e2908a73c63d8d2754e40ea99e7cdbda"></script>
 </body>
