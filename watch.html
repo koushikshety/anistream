@@ -175,37 +175,48 @@
               document.body.appendChild(s);
             }, 1000);
         
-    function epKey() { return `anistream_chat_${currentShow ? currentShow.slug : 'show'}_ep${currentEp}`; }
-    function loadEpisodeSocial() {
+    const ANISTREAM_DB = "https://anistream-community-default-rtdb.asia-southeast1.firebasedatabase.app";
+    function epKey() { return `${currentShow ? currentShow.slug : 'show'}_ep${currentEp}`; }
+    function escHtml(s) { return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
+    async function loadEpisodeSocial() {
       const lbl = document.getElementById("ep-chat-label");
       if (lbl) lbl.textContent = `Episode ${currentEp}`;
-      const state = JSON.parse(localStorage.getItem(epKey()) || '{"r":{"fire":3,"cry":1,"mind":2,"fight":4,"laugh":1},"c":[]}');
-      ["fire","cry","mind","fight","laugh"].forEach(k => {
-        const el = document.getElementById("r-" + k);
-        if (el) el.textContent = state.r[k] || 0;
+      try {
+        const res = await fetch(`${ANISTREAM_DB}/anistream_episodes/${epKey()}.json`);
+        const data = (await res.json()) || {};
+        const r = data.reactions || { fire: 1, cry: 0, mind: 0, fight: 1, laugh: 0 };
+        ["fire","cry","mind","fight","laugh"].forEach(k => {
+          const el = document.getElementById("r-" + k);
+          if (el) el.textContent = r[k] || 0;
+        });
+        const comments = Object.values(data.comments || {}).reverse();
+        const list = document.getElementById("comments-list");
+        if (list) {
+          list.innerHTML = comments.length
+            ? comments.map(c => `<div style="background:var(--surface-2);padding:8px 10px;border-radius:8px;font-size:0.82rem;"><strong style="color:var(--accent);">${escHtml(c.name)}</strong> <span style="color:var(--muted);font-size:0.7rem;">• ${escHtml(c.time)}</span><div style="margin-top:2px;">${escHtml(c.text)}</div></div>`).join("")
+            : `<div style="color:var(--muted);font-size:0.8rem;">Be the first to share your reaction for Episode ${currentEp}!</div>`;
+        }
+      } catch (e) {}
+    }
+    async function reactEp(k) {
+      if (typeof spawnEmojiBurst === "function") spawnEmojiBurst((typeof EMOJI_MAP !== "undefined" && EMOJI_MAP[k]) || '🔥');
+      const el = document.getElementById("r-" + k);
+      const nextVal = (parseInt(el?.textContent || "0", 10) || 0) + 1;
+      if (el) el.textContent = nextVal;
+      await fetch(`${ANISTREAM_DB}/anistream_episodes/${epKey()}/reactions/${k}.json`, {
+        method: "PUT", headers: {"Content-Type":"application/json"}, body: JSON.stringify(nextVal)
       });
-      const list = document.getElementById("comments-list");
-      if (list) {
-        list.innerHTML = state.c.length
-          ? state.c.map(c => `<div style="background:var(--surface-2);padding:8px 10px;border-radius:8px;font-size:0.82rem;"><strong style="color:var(--accent);">${c.name}</strong> <span style="color:var(--muted);font-size:0.7rem;">• ${c.time}</span><div style="margin-top:2px;">${c.text}</div></div>`).join("")
-          : `<div style="color:var(--muted);font-size:0.8rem;">Be the first to share your reaction for Episode ${currentEp}!</div>`;
-      }
     }
-    function reactEp(k) {
-      const state = JSON.parse(localStorage.getItem(epKey()) || '{"r":{"fire":3,"cry":1,"mind":2,"fight":4,"laugh":1},"c":[]}');
-      state.r[k] = (state.r[k] || 0) + 1;
-      localStorage.setItem(epKey(), JSON.stringify(state));
-      loadEpisodeSocial();
-    }
-    function postComment() {
-      const name = (document.getElementById("comment-name").value || "Anime Fan").trim();
+    async function postComment() {
+      const name = (document.getElementById("comment-name").value || "Anime Fan").trim().slice(0, 30);
       const inp = document.getElementById("comment-text");
-      const text = inp.value.trim();
+      const text = inp.value.trim().slice(0, 300);
       if (!text) return;
-      const state = JSON.parse(localStorage.getItem(epKey()) || '{"r":{"fire":3,"cry":1,"mind":2,"fight":4,"laugh":1},"c":[]}');
-      state.c.unshift({ name, text, time: new Date().toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'}) });
-      localStorage.setItem(epKey(), JSON.stringify(state));
       inp.value = "";
+      await fetch(`${ANISTREAM_DB}/anistream_episodes/${epKey()}/comments.json`, {
+        method: "POST", headers: {"Content-Type":"application/json"},
+        body: JSON.stringify({ name, text, time: new Date().toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'}) })
+      });
       loadEpisodeSocial();
     }
 
