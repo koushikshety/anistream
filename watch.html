@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Watch Free Official Anime & Donghua HD — AniStream</title>
+  <style>
+    :root {
+      --bg: #080a0f; --surface: #11151f; --border: #1e2638;
+      --primary: #ff4757; --donghua: #f59e0b; --accent: #2ed573;
+      --text: #f1f5f9; --muted: #94a3b8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, sans-serif; line-height: 1.5; }
+    .navbar {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 12px 20px; background: rgba(8,10,15,0.92); border-bottom: 1px solid var(--border);
+    }
+    .brand { font-size: 1.3rem; font-weight: 800; color: var(--text); text-decoration: none; }
+    .brand span { color: var(--primary); }
+    .back-btn {
+      background: var(--surface); color: var(--text); border: 1px solid var(--border);
+      padding: 6px 14px; border-radius: 8px; text-decoration: none; font-size: 0.85rem; font-weight: 600;
+    }
+    .container { max-width: 1320px; margin: 0 auto; padding: 16px 20px 48px; }
+    .watch-grid { display: grid; grid-template-columns: 1fr 340px; gap: 20px; margin-top: 12px; }
+    @media (max-width: 920px) { .watch-grid { grid-template-columns: 1fr; } }
+
+    .video-wrap {
+      position: relative; width: 100%; padding-top: 56.25%;
+      background: #000; border-radius: 12px; overflow: hidden; border: 1px solid var(--border);
+    }
+    .video-wrap iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+    .controls-bar {
+      display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px;
+      background: var(--surface); padding: 12px 16px; border-radius: 10px; margin-top: 12px; border: 1px solid var(--border);
+    }
+    .pill-group { display: flex; gap: 8px; flex-wrap: wrap; }
+    .pill {
+      background: #1a2030; color: var(--text); border: 1px solid #2a344a;
+      padding: 6px 13px; border-radius: 6px; font-size: 0.84rem; font-weight: 600; cursor: pointer;
+    }
+    .pill.active { background: var(--primary); border-color: var(--primary); color: #fff; }
+    .pill.donghua-active { background: var(--donghua); border-color: var(--donghua); color: #080a0f; }
+
+    .info-card {
+      display: flex; gap: 16px; background: var(--surface); border: 1px solid var(--border);
+      border-radius: 12px; padding: 16px; margin-top: 16px;
+    }
+    .info-card img { width: 95px; height: 140px; object-fit: cover; border-radius: 8px; flex-shrink: 0; }
+    .info-card h1 { font-size: 1.25rem; margin-bottom: 4px; }
+    .meta-line { font-size: 0.82rem; color: var(--accent); font-weight: 600; margin-bottom: 8px; }
+    .desc-text { font-size: 0.88rem; color: var(--muted); }
+
+    .ep-sidebar {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+      padding: 14px; max-height: 580px; overflow-y: auto;
+    }
+    .ep-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+    .ep-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+    .ep-btn {
+      background: #1a2030; color: var(--text); border: 1px solid #2a344a;
+      padding: 10px 4px; border-radius: 6px; font-weight: 700; cursor: pointer; font-size: 0.85rem;
+    }
+    .ep-btn:hover, .ep-btn.active { background: var(--primary); border-color: var(--primary); color: #fff; }
+    .ep-btn.donghua-ep.active { background: var(--donghua); border-color: var(--donghua); color: #080a0f; }
+
+    body.cinema::before {
+      content: ""; position: fixed; inset: 0; background: rgba(0,0,0,0.9); z-index: 40; pointer-events: none;
+    }
+    body.cinema .video-wrap { z-index: 50; }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="brand">ANI<span>STREAM</span></a>
+    <a href="index.html" class="back-btn">← All Catalog</a>
+  </header>
+
+  <main class="container">
+    <div class="watch-grid">
+      <div>
+        <div class="video-wrap">
+          <iframe
+            id="player-frame"
+            src=""
+            title="Official Stream Player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="controls-bar">
+          <div class="pill-group" id="track-pills"></div>
+          <div class="pill-group">
+            <button class="pill" onclick="nextEpisode()">Next Ep ⏭</button>
+            <button class="pill" onclick="document.body.classList.toggle('cinema')">Cinema Mode</button>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <img id="show-cover" src="" alt="Poster" />
+          <div>
+            <h1 id="show-title">Loading...</h1>
+            <div class="meta-line" id="show-meta">Official Stream • 1080p</div>
+            <p class="desc-text" id="show-desc"></p>
+          </div>
+        </div>
+      </div>
+
+      <aside class="ep-sidebar">
+        <div class="ep-header">
+          <strong>Episodes</strong>
+          <span id="ep-total" style="color:var(--muted); font-size:0.82rem;"></span>
+        </div>
+        <div class="ep-grid" id="ep-grid"></div>
+      </aside>
+    </div>
+  </main>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const slug = params.get("id");
+    let currentEp = Math.max(1, Number(params.get("ep")) || 1);
+    let currentShow = null;
+    let currentTrack = "";
+
+    function saveHistory() {
+      if (!currentShow) return;
+      let history = JSON.parse(localStorage.getItem("anistream_history") || "[]");
+      history = history.filter(item => item.slug !== currentShow.slug);
+      history.unshift({
+        slug: currentShow.slug,
+        title: currentShow.title,
+        cover: currentShow.cover,
+        episode: currentEp,
+        track: currentTrack
+      });
+      localStorage.setItem("anistream_history", JSON.stringify(history.slice(0, 12)));
+    }
+
+    function playEpisode(ep) {
+      if (!currentShow) return;
+      currentEp = ep;
+      const playlistId = currentShow.tracks[currentTrack];
+      const url = `https://www.youtube-nocookie.com/embed/videoseries?list=${playlistId}&index=${ep - 1}&rel=0&modestbranding=1`;
+      document.getElementById("player-frame").src = url;
+      saveHistory();
+      renderEpisodes();
+    }
+
+    function nextEpisode() {
+      if (currentShow && currentEp < currentShow.episodes) {
+        playEpisode(currentEp + 1);
+      }
+    }
+
+    function renderTracks() {
+      const box = document.getElementById("track-pills");
+      const isDonghua = currentShow.type === "donghua";
+      box.innerHTML = Object.keys(currentShow.tracks).map(name => {
+        const activeClass = name === currentTrack ? (isDonghua ? "donghua-active" : "active") : "";
+        return `<button class="pill ${activeClass}" onclick="selectTrack('${name}')">${name}</button>`;
+      }).join("");
+    }
+
+    function selectTrack(name) {
+      currentTrack = name;
+      renderTracks();
+      playEpisode(currentEp);
+    }
+
+    function renderEpisodes() {
+      const grid = document.getElementById("ep-grid");
+      const isDonghua = currentShow.type === "donghua";
+      document.getElementById("ep-total").textContent = `${currentShow.episodes} Eps`;
+      let html = "";
+      for (let i = 1; i <= currentShow.episodes; i++) {
+        const active = i === currentEp ? "active" : "";
+        html += `<button class="ep-btn ${isDonghua ? "donghua-ep" : ""} ${active}" onclick="playEpisode(${i})">${i}</button>`;
+      }
+      grid.innerHTML = html;
+    }
+
+    fetch("data/catalog.json")
+      .then(r => r.json())
+      .then(list => {
+        currentShow = list.find(x => x.slug === slug) || list[0];
+        currentTrack = Object.keys(currentShow.tracks)[0];
+        document.title = `Watch ${currentShow.title} Free HD — AniStream`;
+        document.getElementById("show-cover").src = currentShow.cover;
+        document.getElementById("show-title").textContent = currentShow.title;
+        document.getElementById("show-meta").textContent = `${currentShow.provider} • ${currentShow.quality} Official`;
+        document.getElementById("show-desc").textContent = currentShow.desc;
+        renderTracks();
+        playEpisode(currentEp);
+      });
+  </script>
+</body>
+</html>
