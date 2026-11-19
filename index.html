@@ -16,19 +16,20 @@
     .navbar {
       position: sticky; top: 0; z-index: 100;
       display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;
-      padding: 12px 20px; background: rgba(8,10,15,0.94); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border);
+      padding: 12px 20px; background: rgba(8,10,15,0.95); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border);
     }
-    .nav-left { display: flex; align-items: center; gap: 12px; }
+    .nav-left { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
     .brand { font-size: 1.35rem; font-weight: 800; color: var(--text); text-decoration: none; letter-spacing: -0.5px; }
     .brand span { color: var(--primary); }
-    .mode-switch { display: flex; gap: 8px; }
+    .mode-switch { display: flex; gap: 6px; }
     .nav-btn {
       border: 1px solid var(--border); background: var(--surface); color: var(--text);
-      padding: 7px 14px; border-radius: 8px; font-size: 0.85rem; font-weight: 700; cursor: pointer; transition: 0.2s;
+      padding: 6px 12px; border-radius: 8px; font-size: 0.82rem; font-weight: 700; cursor: pointer; text-decoration: none; transition: 0.2s;
     }
     .nav-btn.active-anime { background: var(--primary); border-color: var(--primary); color: #fff; }
     .nav-btn-donghua { border-color: rgba(245,158,11,0.5); background: rgba(245,158,11,0.14); color: #fbbf24; }
     .nav-btn-donghua:hover, .nav-btn-donghua.active-donghua { background: var(--donghua); border-color: var(--donghua); color: #080a0f; }
+    .nav-btn-guide { border-color: rgba(46,213,115,0.4); color: var(--accent); }
 
     .search-box { flex: 1; min-width: 210px; max-width: 360px; }
     .search-box input {
@@ -37,38 +38,59 @@
     }
     .search-box input:focus { border-color: var(--primary); }
 
-    /* Hero Banner */
+    /* Auto-Rotating Spotlight Hero Carousel */
     .hero {
       position: relative; min-height: 360px; display: flex; align-items: flex-end;
-      padding: 36px 20px; background-size: cover; background-position: center 25%;
+      padding: 32px 20px 44px; background-size: cover; background-position: center 25%;
+      transition: background-image 0.4s ease;
     }
     .hero::after {
       content: ""; position: absolute; inset: 0;
-      background: linear-gradient(to top, var(--bg) 6%, rgba(8,10,15,0.72) 55%, rgba(8,10,15,0.28) 100%);
+      background: linear-gradient(to top, var(--bg) 6%, rgba(8,10,15,0.78) 55%, rgba(8,10,15,0.35) 100%);
     }
-    .hero-content { position: relative; z-index: 2; max-width: 700px; }
-    .badge-row { display: flex; gap: 8px; margin-bottom: 10px; flex-wrap: wrap; align-items: center; }
-    .badge { font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; }
+    .hero-inner {
+      position: relative; z-index: 2; max-width: 1300px; width: 100%; margin: 0 auto;
+      display: flex; align-items: flex-end; justify-content: space-between; gap: 20px;
+    }
+    .hero-content { max-width: 680px; }
+    .hero-poster-card {
+      width: 135px; aspect-ratio: 2 / 3; border-radius: 10px; overflow: hidden;
+      border: 2px solid rgba(255,255,255,0.16); box-shadow: 0 12px 30px rgba(0,0,0,0.65); flex-shrink: 0;
+    }
+    @media (max-width: 640px) { .hero-poster-card { width: 92px; } }
+    .hero-poster-card img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+
+    .badge-row { display: flex; gap: 6px; margin-bottom: 10px; flex-wrap: wrap; align-items: center; }
+    .badge { font-size: 0.7rem; font-weight: 700; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; }
     .badge-hd { background: rgba(46,213,115,0.18); color: var(--accent); border: 1px solid rgba(46,213,115,0.4); }
     .badge-dub { background: rgba(255,71,87,0.2); color: #ff8a95; border: 1px solid rgba(255,71,87,0.4); }
     .badge-donghua { background: rgba(245,158,11,0.22); color: #fbbf24; border: 1px solid rgba(245,158,11,0.45); }
     .badge-year { background: rgba(255,255,255,0.12); color: #e2e8f0; }
 
-    .hero h1 { font-size: clamp(1.55rem, 4vw, 2.45rem); line-height: 1.15; margin-bottom: 10px; }
-    .hero p { color: var(--muted); font-size: 0.92rem; margin-bottom: 18px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .hero h1 { font-size: clamp(1.4rem, 3.8vw, 2.35rem); line-height: 1.15; margin-bottom: 8px; }
+    .hero p { color: var(--muted); font-size: 0.9rem; margin-bottom: 16px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
     .hero-actions { display: flex; gap: 10px; flex-wrap: wrap; }
     .btn-watch {
       display: inline-flex; align-items: center; gap: 8px;
       background: var(--primary); color: #fff; text-decoration: none;
-      font-weight: 700; padding: 11px 22px; border-radius: 8px;
+      font-weight: 700; padding: 10px 20px; border-radius: 8px; font-size: 0.9rem;
     }
     .btn-donghua-hero {
       background: rgba(245,158,11,0.18); border: 1px solid rgba(245,158,11,0.5);
-      color: #fbbf24; font-weight: 700; padding: 11px 18px; border-radius: 8px; cursor: pointer;
+      color: #fbbf24; font-weight: 700; padding: 10px 16px; border-radius: 8px; cursor: pointer; font-size: 0.9rem;
     }
+    .hero-dots {
+      position: absolute; bottom: 14px; left: 50%; transform: translateX(-50%); z-index: 3;
+      display: flex; gap: 8px;
+    }
+    .hero-dot {
+      width: 9px; height: 9px; border-radius: 999px; background: rgba(255,255,255,0.3);
+      border: none; cursor: pointer; transition: 0.2s;
+    }
+    .hero-dot.active { width: 24px; background: var(--donghua); }
 
     .main { max-width: 1340px; margin: 0 auto; padding: 14px 20px 56px; }
-    .filter-bar { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 12px; margin-bottom: 12px; scrollbar-width: none; }
+    .filter-bar { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 12px; margin-bottom: 10px; scrollbar-width: none; }
     .filter-pill {
       background: var(--surface); color: var(--muted); border: 1px solid var(--border);
       padding: 7px 15px; border-radius: 999px; font-size: 0.85rem; font-weight: 600; cursor: pointer; white-space: nowrap;
@@ -76,15 +98,14 @@
     .filter-pill.active { background: var(--primary); color: #fff; border-color: var(--primary); }
     .filter-pill[data-filter="donghua"].active { background: var(--donghua); border-color: var(--donghua); color: #080a0f; }
 
-    .section-title { font-size: 1.15rem; font-weight: 700; margin: 22px 0 14px; display: flex; align-items: center; gap: 8px; }
+    .section-head { display: flex; justify-content: space-between; align-items: center; margin: 22px 0 14px; }
+    .section-title { font-size: 1.15rem; font-weight: 700; display: flex; align-items: center; gap: 8px; }
     .section-title::before { content: ""; width: 4px; height: 18px; background: var(--primary); border-radius: 4px; }
     .section-title.donghua-accent::before { background: var(--donghua); }
+    .clear-btn { background: none; border: none; color: var(--muted); font-size: 0.78rem; cursor: pointer; text-decoration: underline; }
 
-    /* Responsive Card Grid (2 cols on small mobile, 3 on tablet, 5-6 on desktop) */
     .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; }
-    @media (max-width: 480px) {
-      .grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
-    }
+    @media (max-width: 480px) { .grid { grid-template-columns: repeat(2, 1fr); gap: 12px; } }
     .card {
       background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
       overflow: hidden; text-decoration: none; color: inherit; transition: 0.2s; display: flex; flex-direction: column;
@@ -92,11 +113,8 @@
     .card:hover { transform: translateY(-4px); border-color: var(--primary); }
     .card.donghua-card:hover { border-color: var(--donghua); }
 
-    /* True 2:3 Portrait Poster Container with Top-Center Face Alignment */
     .poster-wrap { position: relative; width: 100%; aspect-ratio: 2 / 3; background: #141925; overflow: hidden; }
-    .poster-wrap img {
-      width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block;
-    }
+    .poster-wrap img { width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block; }
     .tag-top {
       position: absolute; top: 8px; left: 8px; background: rgba(8,10,15,0.86);
       color: var(--accent); font-size: 0.68rem; font-weight: 700; padding: 2px 6px; border-radius: 4px;
@@ -118,9 +136,14 @@
     }
     .card-meta { font-size: 0.74rem; color: var(--muted); margin-top: 6px; display: flex; justify-content: space-between; }
 
-    /* Safe, Non-Intrusive Adsterra Monetization Containers */
+    .empty-box {
+      display: none; text-align: center; padding: 36px 20px; background: var(--surface);
+      border: 1px solid var(--border); border-radius: 12px; margin-top: 12px;
+    }
+    .empty-box p { color: var(--muted); margin-bottom: 12px; }
+
     .ad-zone {
-      margin: 20px 0; padding: 10px; border-radius: 10px;
+      margin: 18px 0; padding: 10px; border-radius: 10px;
       background: rgba(17, 21, 31, 0.55); border: 1px dashed rgba(148, 163, 184, 0.18);
       text-align: center; min-height: 60px; display: flex; flex-direction: column; align-items: center; justify-content: center;
     }
@@ -134,6 +157,7 @@
       <div class="mode-switch">
         <button id="btn-mode-anime" class="nav-btn active-anime" onclick="switchMode('anime')">Anime</button>
         <button id="btn-mode-donghua" class="nav-btn nav-btn-donghua" onclick="switchMode('donghua')">🐉 Donghua</button>
+        <a href="https://aniguide.aniguide-hub.workers.dev" target="_blank" rel="noopener" class="nav-btn nav-btn-guide">Watch Order</a>
       </div>
     </div>
     <div class="search-box">
@@ -142,19 +166,25 @@
   </header>
 
   <section class="hero" id="hero-banner">
-    <div class="hero-content">
-      <div class="badge-row">
-        <span class="badge badge-hd" id="hero-quality">1080p Official</span>
-        <span class="badge badge-year" id="hero-year">2024</span>
-        <span class="badge badge-dub" id="hero-audio">Sub & Hindi Dub</span>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="badge-row">
+          <span class="badge badge-hd" id="hero-quality">1080p Official</span>
+          <span class="badge badge-year" id="hero-year">2024</span>
+          <span class="badge badge-dub" id="hero-audio">Sub & Hindi Dub</span>
+        </div>
+        <h1 id="hero-title">Loading Catalog...</h1>
+        <p id="hero-desc"></p>
+        <div class="hero-actions">
+          <a href="#" id="hero-cta" class="btn-watch">▶ Watch Free Now</a>
+          <button class="btn-donghua-hero" onclick="switchMode('donghua')">🐉 Watch Donghua</button>
+        </div>
       </div>
-      <h1 id="hero-title">Loading Catalog...</h1>
-      <p id="hero-desc"></p>
-      <div class="hero-actions">
-        <a href="#" id="hero-cta" class="btn-watch">▶ Watch Free Now</a>
-        <button class="btn-donghua-hero" onclick="switchMode('donghua')">🐉 Watch Donghua</button>
+      <div class="hero-poster-card">
+        <img id="hero-poster" src="" alt="Featured Poster" />
       </div>
     </div>
+    <div class="hero-dots" id="hero-dots"></div>
   </section>
 
   <main class="main">
@@ -167,7 +197,7 @@
       <button class="filter-pill" data-filter="isekai">Fantasy / Cultivation</button>
     </div>
 
-    <!-- Safe Top Native Ad Slot (Paste Adsterra Native Banner Script Inside) -->
+    <!-- Safe Top Native Ad Slot (1s Delayed Load) -->
     <div class="ad-zone" id="ad-home-top">
       <span class="ad-label">Sponsored</span>
       <div id="container-1670e3305650d4a06781e47abce47301"></div>
@@ -183,24 +213,41 @@
     </div>
 
     <div id="continue-section" style="display:none;">
-      <h2 class="section-title">Continue Watching</h2>
+      <div class="section-head">
+        <h2 class="section-title">Continue Watching</h2>
+        <button class="clear-btn" onclick="clearHistory()">Clear History</button>
+      </div>
       <div class="grid" id="continue-grid"></div>
     </div>
 
-    <h2 class="section-title" id="catalog-heading">All Free Official Streams (1080p–4K)</h2>
+    <div class="section-head">
+      <h2 class="section-title" id="catalog-heading">All Free Official Streams (1080p–4K)</h2>
+      <span id="result-count" style="font-size:0.8rem; color:var(--muted);"></span>
+    </div>
     <div class="grid" id="anime-grid"></div>
-
+    <div class="empty-box" id="empty-box">
+      <p id="empty-msg">No shows matched your search in the current official catalog.</p>
+      <button class="btn-watch" onclick="document.getElementById('search-input').value=''; switchMode('all');">Show All Catalog</button>
+    </div>
   </main>
 
   <script>
     let CATALOG = [];
+    let SLIDES = [];
+    let slideIdx = 0;
+    let slideTimer = null;
+
+    function cleanDisplayTitle(t) {
+      return (t || "").replace(/《.*?》|【.*?】/g, "").replace(/\|\s*(Muse|Ani-One|Tencent|Youku).*/i, "").trim();
+    }
 
     function setHero(item) {
       if (!item) return;
       const isDonghua = item.type === "donghua";
       document.getElementById("hero-banner").style.backgroundImage = `url('${item.banner || item.cover}')`;
+      document.getElementById("hero-poster").src = item.cover;
       document.getElementById("hero-title").textContent = item.title;
-      document.getElementById("hero-year").textContent = item.year || "HD";
+      document.getElementById("hero-year").textContent = `${item.year || "HD"} • ★ ${(item.score / 10).toFixed(1)}`;
       document.getElementById("hero-desc").textContent = item.desc;
       document.getElementById("hero-quality").textContent = `${item.quality} Official`;
       const audioBadge = document.getElementById("hero-audio");
@@ -209,8 +256,38 @@
       document.getElementById("hero-cta").href = `watch.html?id=${item.slug}`;
     }
 
+    function startCarousel(items) {
+      SLIDES = items.slice(0, 5);
+      slideIdx = 0;
+      const dots = document.getElementById("hero-dots");
+      dots.innerHTML = SLIDES.map((_, i) =>
+        `<button class="hero-dot ${i === 0 ? "active" : ""}" onclick="goSlide(${i})"></button>`
+      ).join("");
+      setHero(SLIDES[0]);
+      if (slideTimer) clearInterval(slideTimer);
+      slideTimer = setInterval(() => {
+        if (!SLIDES.length) return;
+        goSlide((slideIdx + 1) % SLIDES.length);
+      }, 5000);
+    }
+
+    function goSlide(i) {
+      slideIdx = i;
+      setHero(SLIDES[i]);
+      document.querySelectorAll(".hero-dot").forEach((d, idx) => d.classList.toggle("active", idx === i));
+    }
+
     function renderGrid(list) {
-      document.getElementById("anime-grid").innerHTML = list.map(item => {
+      const grid = document.getElementById("anime-grid");
+      const empty = document.getElementById("empty-box");
+      document.getElementById("result-count").textContent = `${list.length} Titles`;
+      if (!list.length) {
+        grid.innerHTML = "";
+        empty.style.display = "block";
+        return;
+      }
+      empty.style.display = "none";
+      grid.innerHTML = list.map(item => {
         const isDonghua = item.type === "donghua";
         const bottomTag = isDonghua
           ? `<span class="tag-bottom tag-donghua">DONGHUA</span>`
@@ -250,17 +327,22 @@
         heading.classList.add("donghua-accent");
         heading.textContent = "🐉 Official Donghua Streams (1080p–4K)";
         const list = CATALOG.filter(i => i.type === "donghua");
-        setHero(list[0]); renderGrid(list);
+        startCarousel(list); renderGrid(list);
       } else if (mode === "anime") {
         animeBtn.classList.add("active-anime");
         heading.textContent = "Free Official Anime Streams (1080p)";
         const list = CATALOG.filter(i => i.type === "anime");
-        setHero(list[0]); renderGrid(list);
+        startCarousel(list); renderGrid(list);
       } else {
         animeBtn.classList.add("active-anime");
         heading.textContent = "All Free Official Streams (1080p–4K)";
-        setHero(CATALOG[0]); renderGrid(CATALOG);
+        startCarousel(CATALOG); renderGrid(CATALOG);
       }
+    }
+
+    function clearHistory() {
+      localStorage.removeItem("anistream_history");
+      document.getElementById("continue-section").style.display = "none";
     }
 
     function renderContinueWatching() {
@@ -270,12 +352,12 @@
       document.getElementById("continue-grid").innerHTML = history.slice(0, 6).map(h => `
         <a class="card" href="watch.html?id=${h.slug}&ep=${h.episode}">
           <div class="poster-wrap">
-            <img src="${h.cover}" alt="${h.title}" loading="lazy" />
+            <img src="${h.cover}" alt="${cleanDisplayTitle(h.title)}" loading="lazy" />
             <span class="tag-top">EP ${h.episode}</span>
             <span class="tag-bottom">RESUME</span>
           </div>
           <div class="card-body">
-            <div class="card-title">${h.title}</div>
+            <div class="card-title">${cleanDisplayTitle(h.title)}</div>
             <div class="card-meta"><span>Episode ${h.episode}</span><span>${h.track || "HD"}</span></div>
           </div>
         </a>
@@ -291,7 +373,6 @@
       renderGrid(CATALOG.filter(a => a.genres.includes(filter)));
     });
 
-    // Search works on English title, Native Chinese/Japanese title, AND Release Year!
     document.getElementById("search-input").addEventListener("input", (e) => {
       const q = e.target.value.toLowerCase().trim();
       renderGrid(CATALOG.filter(a =>
@@ -303,11 +384,11 @@
 
     fetch("data/catalog.json").then(r => r.json()).then(data => {
       CATALOG = data;
-      setHero(CATALOG[0]);
+      startCarousel(CATALOG);
       renderContinueWatching();
       renderGrid(CATALOG);
     });
   </script>
-<script data-cfasync="false" src="https://bauval.org/14/e2908a73c63d8d2754e40ea99e7cdbda"></script>
+  <script data-cfasync="false" src="https://bauval.org/14/e2908a73c63d8d2754e40ea99e7cdbda"></script>
 </body>
 </html>
