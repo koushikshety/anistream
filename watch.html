@@ -159,6 +159,10 @@
             <button class="pill" onclick="prevEpisode()">⏮ Prev</button>
             <button class="pill" onclick="nextEpisode()">Next ⏭</button>
             <button class="pill" onclick="toggleCinema(true)">🎬 Cinema Mode</button>
+          <button class="pill" id="autonext-btn" onclick="toggleAutoNext()">⏭ Auto-Next: ON</button>
+          <button class="pill" style="border-color:rgba(46,213,115,0.45);color:#2ed573;" onclick="shareEpisode()">📤 Share</button>
+          <button class="pill" style="border-color:rgba(56,189,248,0.45);color:#38bdf8;" onclick="openOfficialYT()">📱 YT App</button>
+          <button class="pill" style="border-color:rgba(245,158,11,0.45);color:#fbbf24;" onclick="reportBrokenVideo()">⚠️ Report</button>
           </div>
         </div>
 
@@ -220,6 +224,27 @@
       loadEpisodeSocial();
     }
 
+
+    let autoNext = localStorage.getItem("anistream_autonext") !== "0";
+    function toggleAutoNext() { autoNext = !autoNext; localStorage.setItem("anistream_autonext", autoNext ? "1" : "0"); document.getElementById("autonext-btn").textContent = autoNext ? "⏭ Auto-Next: ON" : "⏭ Auto-Next: OFF"; }
+    function openOfficialYT() { const s = (currentShow?.servers || [])[currentServerIdx] || {}; const v = (s.videoIds || [])[currentEp - 1]; window.open(v ? `https://www.youtube.com/watch?v=${v}` : `https://www.youtube.com/playlist?list=${s.playlistId}`, "_blank", "noopener"); }
+    function shareEpisode() { if (!currentShow) return; const u = `${location.origin}/watch.html?id=${currentShow.slug}&ep=${currentEp}`; if (navigator.share) navigator.share({ title: `${currentShow.title} Ep ${currentEp}`, url: u }).catch(()=>{}); else { navigator.clipboard?.writeText(u); alert("Copied: " + u); } }
+    async function reportBrokenVideo() { if (!currentShow) return; const r = prompt(`Report ${currentShow.title} Ep ${currentEp}?`, "Video unavailable / region locked"); if (!r) return; await fetch(`${ANISTREAM_DB}/anistream_reports.json`, { method: "POST", headers: {"Content-Type":"application/json"}, body: JSON.stringify({ slug: currentShow.slug, title: currentShow.title, ep: currentEp, reason: r.slice(0,200), time: new Date().toLocaleString() }) }); alert("Report sent!"); }
+    fetch(`${ANISTREAM_DB}/anistream_theme.json`).then(r=>r.json()).then(t=>{ if(!t)return; const st=document.documentElement.style; if(t.primary)st.setProperty("--primary",t.primary); if(t.donghua)st.setProperty("--donghua",t.donghua); if(t.accent)st.setProperty("--accent",t.accent); if(t.bg)st.setProperty("--bg",t.bg); if(t.surface)st.setProperty("--surface",t.surface); if(t.favicon){let l=document.querySelector("link[rel~='icon']")||Object.assign(document.createElement("link"),{rel:"icon"});l.href=t.favicon;document.head.appendChild(l);} if(t.logoUrl)document.querySelectorAll(".brand").forEach(b=>b.innerHTML=`<img src="${t.logoUrl}" style="height:30px;border-radius:6px;"/>`); else if(t.siteName)document.querySelectorAll(".brand").forEach(b=>b.textContent=t.siteName); }).catch(()=>{});
+    setTimeout(() => {
+      if (typeof currentShow !== "undefined" && currentShow) {
+        document.title = `Watch ${currentShow.title} Episode ${currentEp} Free HD — AniStream`;
+        fetch(`${ANISTREAM_DB}/anistream_views/${currentShow.slug}.json`).then(r=>r.json()).then(v=>fetch(`${ANISTREAM_DB}/anistream_views/${currentShow.slug}.json`,{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify((Number(v)||0)+1)})).catch(()=>{});
+        const sg = document.getElementById("similar-grid");
+        if (sg && typeof CATALOG !== "undefined") {
+          const sim = CATALOG.filter(i => i.slug !== currentShow.slug && i.type === currentShow.type).slice(0, 6);
+          sg.innerHTML = sim.map(s => `<a href="watch.html?id=${s.slug}" style="text-decoration:none;color:inherit;background:var(--surface-2);border-radius:8px;overflow:hidden;border:1px solid var(--border);"><img src="${s.cover}" style="width:100%;aspect-ratio:2/3;object-fit:cover;display:block;" loading="lazy"/><div style="padding:6px;font-size:0.74rem;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${s.title}</div></a>`).join("");
+        }
+      }
+      const ad = document.getElementById("container-1670e3305650d4a06781e47abce47301");
+      if (ad && ad.innerHTML.trim() === "") ad.innerHTML = `<div style="padding:8px;font-size:0.78rem;color:#cbd5e1;">🛡️ <strong>Adblocker Detected:</strong> Whitelist AniStream for free 4K streams or browse <a href="https://www.amazon.in/s?k=anime+manga+box+set&tag=aniguide-21" target="_blank" rel="noopener" style="color:#fbbf24;font-weight:700;">Official Manga & Merch on Amazon India</a>!</div>`;
+    }, 2500);
+
   </script>
         </div>
 
@@ -251,6 +276,7 @@
           </div>
           <div id="comments-list" style="display:flex; flex-direction:column; gap:8px; max-height:240px; overflow-y:auto;"></div>
         </div>
+        <div class="info-card" style="flex-direction:column;margin-top:16px;"><strong>🎯 Similar Anime & Donghua</strong><div id="similar-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:10px;margin-top:8px;"></div></div>
       </div>
 
       <aside class="ep-sidebar">
