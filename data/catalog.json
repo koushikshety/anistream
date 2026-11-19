@@ -85,21 +85,32 @@
         "lang": "Chinese (Eng Sub)",
         "videoIds": [
           "qIImWMAOVco",
-          "GiiLQO1wEKc",
           "GROMAi8Q84g",
           "PDBsB4Apf9Q",
-          "6EGJSh-uqWE",
           "grLpYPY_fV4",
           "5fT8k7a21-Q",
           "wG7KpUUueJo",
           "BCM7-wyv_uI",
           "lOC8Nqa3Nug",
-          "cyTNxWUtDK8",
           "tFltcVMf39I",
           "PVBXT54eecQ",
           "zRy-jqpm48c",
           "FAzU1A0FrHM"
-        ]
+        ],
+        "episodeMap": {
+          "12": "qIImWMAOVco",
+          "11": "GROMAi8Q84g",
+          "10": "PDBsB4Apf9Q",
+          "9": "grLpYPY_fV4",
+          "8": "5fT8k7a21-Q",
+          "7": "wG7KpUUueJo",
+          "6": "BCM7-wyv_uI",
+          "5": "lOC8Nqa3Nug",
+          "4": "tFltcVMf39I",
+          "3": "PVBXT54eecQ",
+          "2": "zRy-jqpm48c",
+          "1": "FAzU1A0FrHM"
+        }
       }
     ],
     "officialLinks": [
@@ -160,7 +171,24 @@
           "_k_d8xiuIZA",
           "SsUJxNIL1Ps",
           "ogO3mM9wULs"
-        ]
+        ],
+        "episodeMap": {
+          "15": "4Z8_9XVsJaU",
+          "14": "6intxKgWJdI",
+          "13": "DGoJzrk8bzQ",
+          "12": "AsxoksFmhdU",
+          "11": "RalmiMpgGKc",
+          "10": "yUW8ZJ43h-s",
+          "9": "XYnqFeBYBt4",
+          "8": "VvIg4VfDJwM",
+          "7": "BLdQOThyJOo",
+          "6": "7IS_gjnPLec",
+          "5": "ee0Zs44-u4I",
+          "4": "UmRr5GgHBVE",
+          "3": "_k_d8xiuIZA",
+          "2": "SsUJxNIL1Ps",
+          "1": "ogO3mM9wULs"
+        }
       }
     ],
     "officialLinks": [
@@ -230,7 +258,24 @@
           "ZXFBixwa_xM",
           "lg_Gq-VBo1M",
           "9GlbdQz_bKc"
-        ]
+        ],
+        "episodeMap": {
+          "15": "pCJEdiafBqw",
+          "14": "heGE9FO6xnw",
+          "13": "JXoAJ7RCqNs",
+          "12": "Lnqc23EAxmk",
+          "11": "1kvUsTrpl4o",
+          "10": "WaWASQOY9rk",
+          "9": "I2yh6CPcgwY",
+          "8": "OyhtzWgTYdQ",
+          "7": "EQjiKDB91WA",
+          "6": "FZMUHG7GyAQ",
+          "5": "jSl4fxeFA0Q",
+          "4": "mxweYuPftHM",
+          "3": "ZXFBixwa_xM",
+          "2": "lg_Gq-VBo1M",
+          "1": "9GlbdQz_bKc"
+        }
       },
       {
         "name": "Muse Asia (Official) \u2022 English Sub",
@@ -252,7 +297,24 @@
           "dg4eCXdO_wY",
           "IIdFTUYVrhU",
           "7YGFRsPMUSQ"
-        ]
+        ],
+        "episodeMap": {
+          "15": "EEkZlYwiDsA",
+          "14": "4P2IFe3kbsk",
+          "13": "eolq9olxgdo",
+          "12": "IqLo2nfIcm8",
+          "11": "brgAyjbmpik",
+          "10": "KA5h36Feb44",
+          "9": "wChg_K7BeOE",
+          "8": "bGi0DzGIZ9I",
+          "7": "z8OpFTUuFTw",
+          "6": "QbNB2497JUI",
+          "5": "1gjoZHmrVYo",
+          "4": "OE8dKWpup-4",
+          "3": "dg4eCXdO_wY",
+          "2": "IIdFTUYVrhU",
+          "1": "7YGFRsPMUSQ"
+        }
       }
     ],
     "officialLinks": [
@@ -319,7 +381,15 @@
           "yivcQSQHBC4",
           "yaqxXYqnTDM",
           "tAryFRAwaiI"
-        ]
+        ],
+        "episodeMap": {
+          "6": "2b3HFeZBACc",
+          "5": "lqV0b9rfCN4",
+          "4": "uDXWfnCU-yQ",
+          "3": "yivcQSQHBC4",
+          "2": "yaqxXYqnTDM",
+          "1": "tAryFRAwaiI"
+        }
       }
     ],
     "officialLinks": [
@@ -389,7 +459,24 @@
           "zBvZa_rbhxg",
           "bPjtSsnKjFs",
           "MDI1ZxY8Wvc"
-        ]
+        ],
+        "episodeMap": {
+          "44": "7YUMJ03gd7s",
+          "43": "JgpTUoY4dL8",
+          "42": "mavYKE11zII",
+          "41": "tn38lVCxAnE",
+          "40": "_PNo1GLvpjA",
+          "39": "3ftDNWcDyaI",
+          "38": "l8Gc4fgqvlc",
+          "37": "pfoi6ISxoFw",
+          "36": "eFq9fnvBFbM",
+          "35": "XPWJxlvYZmc",
+          "34": "7kIfngpanuc",
+          "33": "B4T-ex3ckxQ",
+          "32": "zBvZa_rbhxg",
+          "31": "bPjtSsnKjFs",
+          "30": "MDI1ZxY8Wvc"
+        }
       }
     ],
     "officialLinks": [
@@ -477,14 +564,21 @@
           "3sZyj57bb1M",
           "R3_6q5VQXiU",
           "eTp31H5kYs0",
-          "uZ3SZnPUxWU",
-          "FG5ZNvspyog",
           "DA4w_TbFBsQ",
-          "7tTWQi6Gwe4",
-          "5_40M3LweFc",
-          "WGF8wz7x1nY",
           "6rcQVCH9yzM"
-        ]
+        ],
+        "episodeMap": {
+          "10": "yYFclX3EfVc",
+          "9": "xfGvCFjlkSM",
+          "8": "EVUViO1WhJ8",
+          "7": "TJK9bkDKBRM",
+          "6": "FznNBsxuU7w",
+          "5": "3sZyj57bb1M",
+          "4": "R3_6q5VQXiU",
+          "3": "eTp31H5kYs0",
+          "2": "DA4w_TbFBsQ",
+          "1": "6rcQVCH9yzM"
+        }
       }
     ],
     "officialLinks": [
@@ -548,7 +642,24 @@
           "9cJWAXywxMA",
           "za07YF4iwb8",
           "QjJ4iPOQF_Y"
-        ]
+        ],
+        "episodeMap": {
+          "15": "tYDmIGow8RA",
+          "14": "2v7CV4YIXIo",
+          "13": "dgYdw17Zmf0",
+          "12": "6N10IPzfr7g",
+          "11": "dFvJov7Axew",
+          "10": "Xx03RAbBNEg",
+          "9": "9716o8VO_zw",
+          "8": "pTpL9Wv5JTM",
+          "7": "1F0cL21F2sc",
+          "6": "IxKCcu2ksvc",
+          "5": "mPyvaRphMDg",
+          "4": "dfxZWs8sebA",
+          "3": "9cJWAXywxMA",
+          "2": "za07YF4iwb8",
+          "1": "QjJ4iPOQF_Y"
+        }
       },
       {
         "name": "Muse India (Official) \u2022 English Sub",
@@ -570,7 +681,24 @@
           "zw2dqx8s0Nc",
           "4fc2F--lF5A",
           "g4KsydBnM7s"
-        ]
+        ],
+        "episodeMap": {
+          "15": "bFSbw4B3sy8",
+          "14": "8_MWX7rMm_4",
+          "13": "8OsbXTOzeWM",
+          "12": "VEDmaS-nIOY",
+          "11": "MsccpjDvOrI",
+          "10": "V6rGt_PIT3E",
+          "9": "piv69GpZKT8",
+          "8": "Xsvg0E0EOSg",
+          "7": "nNPbbvt4N60",
+          "6": "SQo_jGuilFw",
+          "5": "tSU2Q5hQuks",
+          "4": "G7iPiYNtwFc",
+          "3": "zw2dqx8s0Nc",
+          "2": "4fc2F--lF5A",
+          "1": "g4KsydBnM7s"
+        }
       }
     ],
     "officialLinks": [
@@ -720,7 +848,24 @@
           "3Wl5iihd1wE",
           "rf2sDaNEJG0",
           "1Id_f3GDlus"
-        ]
+        ],
+        "episodeMap": {
+          "15": "ZCxGR5Smj3w",
+          "14": "5MVRR8lp8dc",
+          "13": "3rQMQ1LqLA0",
+          "12": "3dcvxAhR5I8",
+          "11": "flIIEf9V3lY",
+          "10": "g0G7hn9PL3g",
+          "9": "9S7RDfbVB0M",
+          "8": "QrvmP_D7TPI",
+          "7": "53-qwlJTo3A",
+          "6": "VohlhnUnubk",
+          "5": "IPwVbwNSebQ",
+          "4": "gJD9IQ0DXZY",
+          "3": "3Wl5iihd1wE",
+          "2": "rf2sDaNEJG0",
+          "1": "1Id_f3GDlus"
+        }
       },
       {
         "name": "Ani-One India (Official) \u2022 English Sub",
@@ -742,7 +887,24 @@
           "-EAmvqBZu10",
           "YKnowHCkAA8",
           "miiLadou1cw"
-        ]
+        ],
+        "episodeMap": {
+          "15": "xoPGClXM4JM",
+          "14": "eCoVNjkZ0t0",
+          "13": "GmPhtZmqTNk",
+          "12": "wZMTF3AaVzg",
+          "11": "8_Klmwrd3_8",
+          "10": "n42YvoFwTrk",
+          "9": "X2MR4N6MT68",
+          "8": "TA1pnf_CdhU",
+          "7": "MZ_cL3PqzsQ",
+          "6": "hoj0Yv987cg",
+          "5": "TppDzkejwzU",
+          "4": "RyGRBBtdAkc",
+          "3": "-EAmvqBZu10",
+          "2": "YKnowHCkAA8",
+          "1": "miiLadou1cw"
+        }
       }
     ],
     "officialLinks": [
@@ -818,11 +980,22 @@
           "G2VErCJl8Dw",
           "SqaDcusgyus",
           "WuMNWk9zT_o",
-          "RGNV3CTFJzQ",
-          "bPW_Ko9gxAk",
-          "RUDtS1u1Mcc",
-          "eZ_rS0vj2Hg"
-        ]
+          "RGNV3CTFJzQ"
+        ],
+        "episodeMap": {
+          "3": "Vc9RV_vFpTY",
+          "2": "9rqV04Avkis",
+          "1": "SvjDV1Ku1Ww",
+          "12": "ATPwIKpozYY",
+          "11": "R8HlmK5dEnY",
+          "10": "ukVGckdHTwI",
+          "9": "lOdz8i1h-Tw",
+          "8": "Bv4sJHD1L5M",
+          "7": "G2VErCJl8Dw",
+          "6": "SqaDcusgyus",
+          "5": "WuMNWk9zT_o",
+          "4": "RGNV3CTFJzQ"
+        }
       }
     ],
     "officialLinks": [
@@ -893,7 +1066,24 @@
           "z9N2tArA4i0",
           "zocj8klcsZk",
           "JStare1TEDw"
-        ]
+        ],
+        "episodeMap": {
+          "15": "GGmv3dkdVZg",
+          "14": "41p1v1hpFnw",
+          "13": "Pwtf1O3xjhQ",
+          "12": "IbgTj_BqAXs",
+          "11": "Mo70rbaj-j8",
+          "10": "iFkFOV4ODUY",
+          "9": "GrA3ipxzSpo",
+          "8": "8DqyQ_11dvM",
+          "7": "kUN0bM3X9P8",
+          "6": "Ov6dXe1YI34",
+          "5": "pxKYgf_P3Ok",
+          "4": "FSTkL9cT__A",
+          "3": "z9N2tArA4i0",
+          "2": "zocj8klcsZk",
+          "1": "JStare1TEDw"
+        }
       },
       {
         "name": "Muse Asia \u2022 English Dub",
@@ -915,7 +1105,24 @@
           "GLoHo5CHsZI",
           "84Pjj9qmK0Y",
           "6FRTJ0z1vxs"
-        ]
+        ],
+        "episodeMap": {
+          "15": "AJoLmZeBwgE",
+          "14": "6ojWVDE7o-w",
+          "13": "oXbF4heKLXw",
+          "12": "tZ1PMt3Ai_A",
+          "11": "JXIioridLx4",
+          "10": "b-UuL1EM940",
+          "9": "73OuP_1Q_sQ",
+          "8": "e9NA-Db6zTA",
+          "7": "9jPtw54OQDo",
+          "6": "g78MGuRw0ZY",
+          "5": "2fP6zo_ANog",
+          "4": "9ZPKnR4oc6o",
+          "3": "GLoHo5CHsZI",
+          "2": "84Pjj9qmK0Y",
+          "1": "6FRTJ0z1vxs"
+        }
       }
     ],
     "officialLinks": [
@@ -990,7 +1197,24 @@
           "ziiXFMl2nto",
           "NIgOI38wYzc",
           "h_tL16PZ0IE"
-        ]
+        ],
+        "episodeMap": {
+          "15": "e5FeX8M1HRQ",
+          "14": "Ra_1rACtfMU",
+          "13": "odwmQQZWuvo",
+          "12": "BQaowAHHc2k",
+          "11": "Dmin_CIjSp8",
+          "10": "_UlrwZOAJVs",
+          "9": "aU9lnYcJ0mA",
+          "8": "u4JGQH7S69o",
+          "7": "EnhaNyRj-Zw",
+          "6": "-4JBrnZbJKQ",
+          "5": "iuWEhuT8EFk",
+          "4": "0V9Z--9wiLo",
+          "3": "ziiXFMl2nto",
+          "2": "NIgOI38wYzc",
+          "1": "h_tL16PZ0IE"
+        }
       },
       {
         "name": "Muse India \u2022 Hindi Dub",
@@ -1012,7 +1236,24 @@
           "PPa4LMzm0M4",
           "IhNoMgF3Vt4",
           "AC46Qvc3Trk"
-        ]
+        ],
+        "episodeMap": {
+          "15": "VWaoTziFOzc",
+          "14": "I5kErD3SojE",
+          "13": "ahx2kdqMWYE",
+          "12": "kdjFWPMnfk8",
+          "11": "nWdwNzVJGDU",
+          "10": "EbN9Us0NMss",
+          "9": "XjDjCbN3K6I",
+          "8": "UguQ7KHMYsQ",
+          "7": "_DI11LngMsI",
+          "6": "gRGn4LvArG8",
+          "5": "n9SkZj9bngA",
+          "4": "qQX3V5Spvdk",
+          "3": "PPa4LMzm0M4",
+          "2": "IhNoMgF3Vt4",
+          "1": "AC46Qvc3Trk"
+        }
       }
     ],
     "officialLinks": [
@@ -1097,7 +1338,24 @@
           "HFw9QeuzO7g",
           "D5ne1GwnmeA",
           "DCmV5I3XFi4"
-        ]
+        ],
+        "episodeMap": {
+          "15": "ZL4APL9AZhU",
+          "14": "4fI95489H4k",
+          "13": "O7EQHhRqkaU",
+          "12": "60JGGlb86k4",
+          "11": "p75m-NMirhA",
+          "10": "89qOqlllusw",
+          "9": "Ovlqv3E_bG4",
+          "8": "pgGtOGu7Inw",
+          "7": "vV44YOmiH7Q",
+          "6": "idMGIPvLoEk",
+          "5": "2Vg0n4Ok0Lk",
+          "4": "djZugeRt50s",
+          "3": "HFw9QeuzO7g",
+          "2": "D5ne1GwnmeA",
+          "1": "DCmV5I3XFi4"
+        }
       }
     ],
     "officialLinks": [
@@ -1155,7 +1413,21 @@
           "Ng9IXT7BGQE",
           "W3G411wIJws",
           "Q2Jkm9GqhzQ"
-        ]
+        ],
+        "episodeMap": {
+          "12": "MW-aLfuolP0",
+          "11": "20LU_LKSHbQ",
+          "10": "Mg_c4CDGxO8",
+          "9": "lZlt0gQ0yQQ",
+          "8": "dumpZHnfWKg",
+          "7": "gMSlSVYigxQ",
+          "6": "RC4FnGZiw4E",
+          "5": "la7ZpykR2dA",
+          "4": "0GPSAYakiHo",
+          "3": "Ng9IXT7BGQE",
+          "2": "W3G411wIJws",
+          "1": "Q2Jkm9GqhzQ"
+        }
       },
       {
         "name": "Server 1 (Ani-One India) \u2022 English Sub",
@@ -1174,7 +1446,21 @@
           "uB1y8kC77MI",
           "2osZnuKWhAQ",
           "2SO5ifnfoUQ"
-        ]
+        ],
+        "episodeMap": {
+          "12": "1uLg9scOY-g",
+          "11": "ngGxRmOKRjg",
+          "10": "mG31zJGeDJY",
+          "9": "mBwWlyT-CgY",
+          "8": "ylfuZL07MhI",
+          "4": "97l4eTcymFM",
+          "7": "lOVxkbTW_6U",
+          "6": "pQgZqxxZ6TA",
+          "5": "wL7rSziITTs",
+          "3": "uB1y8kC77MI",
+          "2": "2osZnuKWhAQ",
+          "1": "2SO5ifnfoUQ"
+        }
       }
     ],
     "officialLinks": [
@@ -1229,7 +1515,6 @@
         "videoIds": [
           "OH3pkBpFu0Y",
           "HrkCGMAfMfQ",
-          "fYeTB4YA6vA",
           "ONUXaf17s-M",
           "N7vhJglN8NU",
           "obWG6be7MNk",
@@ -1239,10 +1524,22 @@
           "uzR09jSntIs",
           "zFnEAJPjcuc",
           "hpFqPyMzawI",
-          "ICn00ZoOKDA",
-          "Ku73wB2t0X8",
-          "i3Tu8A5vn3g"
-        ]
+          "ICn00ZoOKDA"
+        ],
+        "episodeMap": {
+          "29": "OH3pkBpFu0Y",
+          "30": "HrkCGMAfMfQ",
+          "31": "ONUXaf17s-M",
+          "32": "N7vhJglN8NU",
+          "33": "obWG6be7MNk",
+          "34": "Jat_JoQEoIA",
+          "35": "dcq6M0KP4HA",
+          "36": "6ApGk-13Ofk",
+          "37": "uzR09jSntIs",
+          "38": "zFnEAJPjcuc",
+          "39": "hpFqPyMzawI",
+          "40": "ICn00ZoOKDA"
+        }
       }
     ],
     "officialLinks": [],
@@ -1332,7 +1629,24 @@
           "0k1nXqVDV1o",
           "ZbPlicgv0-s",
           "sl8LwAqFOvo"
-        ]
+        ],
+        "episodeMap": {
+          "15": "6eIhwcVbyug",
+          "14": "F0aMd3ZYpvs",
+          "13": "iEvp9WeMFz8",
+          "12": "8Av1Q5_9Pis",
+          "11": "6N5qSUV-w9Y",
+          "10": "YuAGsDl3_og",
+          "9": "oJUooDKyHE4",
+          "8": "z5G3ha4Rp3s",
+          "7": "WSUdAA23tmc",
+          "6": "Wdy87tc3UIk",
+          "5": "isQTg9_ggjg",
+          "4": "dPwdIoaOcbk",
+          "3": "0k1nXqVDV1o",
+          "2": "ZbPlicgv0-s",
+          "1": "sl8LwAqFOvo"
+        }
       },
       {
         "name": "Muse Asia (Official) \u2022 English Sub",
@@ -1354,7 +1668,24 @@
           "r6cxwSmwe4A",
           "2Zk1-G8k66w",
           "VvK6UZWNU2Q"
-        ]
+        ],
+        "episodeMap": {
+          "15": "FOFfivIHxfI",
+          "14": "jSCA6qr_fNI",
+          "13": "o4VrOXKNf3c",
+          "12": "OtAWpwC2t7I",
+          "11": "E15JNW6We1M",
+          "10": "GhhnJ_6-dC4",
+          "9": "4G7k3UFsl4c",
+          "8": "y9N5hShzmI4",
+          "7": "BwQoGQaI-4Y",
+          "6": "3RTjyB_QqvU",
+          "5": "TByW5-HDYTA",
+          "4": "kH9UhKC42xw",
+          "3": "r6cxwSmwe4A",
+          "2": "2Zk1-G8k66w",
+          "1": "VvK6UZWNU2Q"
+        }
       },
       {
         "name": "Muse Asia \u2022 English Dub",
@@ -1376,7 +1707,24 @@
           "DYK-MLb9LvU",
           "e4jfLyR1bpM",
           "7b728fI0VVQ"
-        ]
+        ],
+        "episodeMap": {
+          "26": "LCbNqCbiyIg",
+          "25": "KXitwcEDJRw",
+          "13": "78KHN5rJTys",
+          "12": "zA_edGLfE9g",
+          "11": "cPRIaB1NytM",
+          "10": "o1-Wum4CuU8",
+          "9": "rVcZByfr9EY",
+          "8": "_6uHCR9e9KE",
+          "7": "y94f-3I8XSk",
+          "6": "9rfSqxzOkoo",
+          "5": "Vs7uuJ6e4P0",
+          "4": "5C5cWtpw7yw",
+          "3": "DYK-MLb9LvU",
+          "2": "e4jfLyR1bpM",
+          "1": "7b728fI0VVQ"
+        }
       },
       {
         "name": "Muse India \u2022 English Sub",
@@ -1398,7 +1746,24 @@
           "x8-ua5-r6z0",
           "0gVu7IsXEoE"
         ],
-        "lang": "English Sub"
+        "lang": "English Sub",
+        "episodeMap": {
+          "15": "q33vKzm5JOA",
+          "14": "GxD75d11sa0",
+          "13": "NLYp1-0_KfU",
+          "12": "uKTVWXnpIxg",
+          "11": "NwdOWwhig2A",
+          "10": "NQvWXTCWdP4",
+          "9": "3Fnmd2Fexrc",
+          "8": "5ngBmY6e2_M",
+          "7": "DZJA7x89cqQ",
+          "6": "RMvpzXQ69SI",
+          "5": "igZzqhSV5RY",
+          "4": "foN6WBElXOo",
+          "3": "A4ceE7R68yM",
+          "2": "x8-ua5-r6z0",
+          "1": "0gVu7IsXEoE"
+        }
       }
     ],
     "officialLinks": [
@@ -1491,7 +1856,24 @@
           "tUOM2LBhBp4",
           "ZJ6-ZRUsDRM",
           "MPtOpabwX6k"
-        ]
+        ],
+        "episodeMap": {
+          "15": "muJLRnZmy6w",
+          "14": "PpmbrX0xZhw",
+          "13": "J0FZkEzBQrE",
+          "12": "24ifThewhl0",
+          "11": "G4_oFZvK61g",
+          "10": "ftQzXzo_XYM",
+          "9": "inw3LwhMMkM",
+          "8": "lp3n0XdcP7A",
+          "7": "V1149pTE0lU",
+          "6": "MD84cg-2zAw",
+          "5": "JWvl4otJy2o",
+          "4": "vuZP-JtqWzA",
+          "3": "tUOM2LBhBp4",
+          "2": "ZJ6-ZRUsDRM",
+          "1": "MPtOpabwX6k"
+        }
       },
       {
         "name": "Official HD \u2022 English Sub",
@@ -1513,7 +1895,24 @@
           "as8EWzxkZv4",
           "8I4-W8pWUxU"
         ],
-        "lang": "English Sub"
+        "lang": "English Sub",
+        "episodeMap": {
+          "15": "qtrdc3zP9pI",
+          "14": "mybkXIQVPf8",
+          "13": "Zvmg4oICMAo",
+          "12": "qH3HHz2W-bE",
+          "11": "4nr64pq1BEU",
+          "10": "RFvo0doOLhk",
+          "9": "dZDniQ5ss6A",
+          "8": "eHY7nogkePc",
+          "7": "c5gcwvWWQfg",
+          "6": "bRWdbIS1Hxo",
+          "5": "QEnzjLVYCoY",
+          "4": "NbyjMFM_JQ8",
+          "3": "uehW4fR5ieI",
+          "2": "as8EWzxkZv4",
+          "1": "8I4-W8pWUxU"
+        }
       }
     ],
     "officialLinks": [
@@ -1579,29 +1978,47 @@
           "sTAvXoOrpN4",
           "QlOLXrEjki0",
           "AA4wS4ihu-8"
-        ]
+        ],
+        "episodeMap": {
+          "15": "OkIgXMWzpuM",
+          "14": "eMGDLvJ9Xtc",
+          "13": "6pUZ9asEOW4",
+          "12": "N-cEzRuK1j8",
+          "11": "u1rpEpojyVs",
+          "10": "hWDEQnXDeMw",
+          "9": "Qe9W3e3lETE",
+          "8": "WEaplM4D8yo",
+          "7": "ULypuERFIDM",
+          "6": "D9zegMqpVxY",
+          "5": "o8dhXz06-8w",
+          "4": "AK-cEanqAgA",
+          "3": "sTAvXoOrpN4",
+          "2": "QlOLXrEjki0",
+          "1": "AA4wS4ihu-8"
+        }
       },
       {
         "name": "Muse Asia (Official) \u2022 English Sub",
         "playlistId": "PLwLSw1_eDZl01_ftoIT3birJWkpxFZkEl",
         "lang": "English Sub",
         "videoIds": [
-          "sHVxczRMTSw",
           "xYyrhWIVz3Y",
-          "EU2dDOyrl6w",
           "UmW7C9WO9Ys",
-          "tjnvDgR1HpI",
           "Cnk2AE-fpU0",
-          "-kIenpQqKq4",
           "5erYkpLWFDM",
-          "BtPhv5Ax2PM",
           "WqlyT_-kIGM",
-          "J0lySJ7ZY50",
           "Y4bP1PMvsag",
-          "aQH-p_u-DTg",
-          "mKS67U6ZEWM",
-          "pQY088rA1iA"
-        ]
+          "mKS67U6ZEWM"
+        ],
+        "episodeMap": {
+          "7": "xYyrhWIVz3Y",
+          "6": "UmW7C9WO9Ys",
+          "5": "Cnk2AE-fpU0",
+          "4": "5erYkpLWFDM",
+          "3": "WqlyT_-kIGM",
+          "2": "Y4bP1PMvsag",
+          "1": "mKS67U6ZEWM"
+        }
       },
       {
         "name": "Server 2 (Muse Asia) \u2022 English Sub",
@@ -1623,7 +2040,24 @@
           "WqlyT_-kIGM",
           "Y4bP1PMvsag",
           "mKS67U6ZEWM"
-        ]
+        ],
+        "episodeMap": {
+          "15": "m7NTHYCOkHw",
+          "14": "p5Tv1nRrCf8",
+          "13": "azF6Md0h6-Y",
+          "12": "b2UulZTwmgo",
+          "11": "eOoDm_HAzn0",
+          "10": "rYP8cQFB8Lw",
+          "9": "tQRZ7uNYvI0",
+          "8": "4Txga5H63T0",
+          "7": "xYyrhWIVz3Y",
+          "6": "UmW7C9WO9Ys",
+          "5": "Cnk2AE-fpU0",
+          "4": "5erYkpLWFDM",
+          "3": "WqlyT_-kIGM",
+          "2": "Y4bP1PMvsag",
+          "1": "mKS67U6ZEWM"
+        }
       },
       {
         "name": "Muse India \u2022 English Sub",
@@ -1631,7 +2065,6 @@
         "lang": "English Sub",
         "videoIds": [
           "0AF5Xz8d2Wc",
-          "b4GKteiehhU",
           "HI-fbiA3OWg",
           "QqzrWMJWrvo",
           "kHFRjzatK-g",
@@ -1643,9 +2076,23 @@
           "UIOWJ39JJy0",
           "iIm9p7mRhwE",
           "3EsWLIkCU1U",
-          "cl078aqePjU",
-          "Td2qDIIoyek"
-        ]
+          "cl078aqePjU"
+        ],
+        "episodeMap": {
+          "13": "0AF5Xz8d2Wc",
+          "12": "HI-fbiA3OWg",
+          "11": "QqzrWMJWrvo",
+          "10": "kHFRjzatK-g",
+          "9": "QgB88XArtfU",
+          "8": "bWIh2q20a44",
+          "7": "wsNNAnHgxNE",
+          "6": "Vjb9feJa3Lc",
+          "5": "2AhQQXD3i_A",
+          "4": "UIOWJ39JJy0",
+          "3": "iIm9p7mRhwE",
+          "2": "3EsWLIkCU1U",
+          "1": "cl078aqePjU"
+        }
       }
     ],
     "officialLinks": [
@@ -1719,9 +2166,24 @@
           "SSm-r0gzKJE",
           "wwk909MlmFk",
           "q_puPslPhCM",
-          "dMtxbs6M1gc",
-          "fLsFoF423Ds"
-        ]
+          "dMtxbs6M1gc"
+        ],
+        "episodeMap": {
+          "14": "74D96eGsTBk",
+          "13": "u0DwhJzVp8E",
+          "12": "9hX_T3kPzjo",
+          "11": "UfKlUvVlZ1I",
+          "10": "xg5PosCdo1A",
+          "9": "JZn6mpEiEHo",
+          "8": "bYKE-n-1P0A",
+          "7": "I85pLPhoHRo",
+          "6": "fLX7f4_xnEU",
+          "5": "AY_sYGIGiS4",
+          "4": "SSm-r0gzKJE",
+          "3": "wwk909MlmFk",
+          "2": "q_puPslPhCM",
+          "1": "dMtxbs6M1gc"
+        }
       },
       {
         "name": "Muse Asia (Official) \u2022 English Sub",
@@ -1741,9 +2203,24 @@
           "n4I1MDCI6A4",
           "qb8Inc6f92E",
           "fU2cfFmjPL0",
-          "rXaybre0jXI",
-          "7F5rns5lX6g"
-        ]
+          "rXaybre0jXI"
+        ],
+        "episodeMap": {
+          "14": "gA8CVE21gQc",
+          "13": "jxXBClt_t5s",
+          "12": "VbByrxZxRe8",
+          "11": "PrKKYAS-vPw",
+          "10": "9lNsBOSni1U",
+          "9": "jzOISDuciuQ",
+          "8": "UzJ6CyTFIbE",
+          "7": "4bMO1PkUQs8",
+          "6": "j22SMlQZIag",
+          "5": "gmDWiKT27PA",
+          "4": "n4I1MDCI6A4",
+          "3": "qb8Inc6f92E",
+          "2": "fU2cfFmjPL0",
+          "1": "rXaybre0jXI"
+        }
       }
     ],
     "officialLinks": [
@@ -1813,15 +2290,18 @@
           "WRZGfpiEwu4",
           "h9JWNRulpEk",
           "FcjzsRzN16M",
-          "WcoJs_z5gS0",
-          "NXjUbEFdsNk",
-          "gZdOp1pjU78",
-          "SR73Sa5_EQQ",
-          "HGPNjFuIEJY",
-          "fRH4707IFV4",
-          "5j5On7cGpFc",
-          "DU_oM3HMmMs"
-        ]
+          "WcoJs_z5gS0"
+        ],
+        "episodeMap": {
+          "8": "9f5VJfhYO1Y",
+          "7": "nYX5qEGMY3U",
+          "6": "eQclw86GVwA",
+          "5": "4y9UD4LOeko",
+          "4": "WRZGfpiEwu4",
+          "3": "h9JWNRulpEk",
+          "2": "FcjzsRzN16M",
+          "1": "WcoJs_z5gS0"
+        }
       }
     ],
     "officialLinks": [
@@ -1881,7 +2361,22 @@
           "d_Den4PD0gk",
           "J2eYAAzssxk",
           "6fb1auBgIAU"
-        ]
+        ],
+        "episodeMap": {
+          "13": "sgM64z1H3dA",
+          "12": "CrsufXV9Qao",
+          "11": "ggwGYhuXW0o",
+          "10": "Blz6-JmxtMM",
+          "9": "-CILg9jBRpQ",
+          "8": "YXGzAJvkY3o",
+          "7": "KnTp3vlr47k",
+          "6": "YLNMBPQ61ZY",
+          "5": "NyG5yI-tvHc",
+          "4": "b8PnHUoAxEw",
+          "3": "d_Den4PD0gk",
+          "2": "J2eYAAzssxk",
+          "1": "6fb1auBgIAU"
+        }
       }
     ],
     "officialLinks": [
@@ -1949,7 +2444,24 @@
           "0s_IXhFxwko",
           "fMhAEaTO3jU",
           "iBoTIpxstus"
-        ]
+        ],
+        "episodeMap": {
+          "15": "1UfqSmeKBdE",
+          "14": "gvtG56PF1uQ",
+          "13": "mIEmG3kt0kw",
+          "12": "CypnooZ0iy0",
+          "11": "3h3hBFufSMY",
+          "10": "n875lVHSqhc",
+          "9": "G0-LTLPSdNk",
+          "8": "7X8kUrh0950",
+          "7": "tBZE0jWC-SI",
+          "6": "8uzQWJDrnl0",
+          "5": "5iidV_YJ9dc",
+          "4": "Yq8RTh1pn6k",
+          "3": "0s_IXhFxwko",
+          "2": "fMhAEaTO3jU",
+          "1": "iBoTIpxstus"
+        }
       }
     ],
     "officialLinks": [
@@ -2039,7 +2551,24 @@
           "d0__ZbRGvZ8",
           "p_8cjEw6st8",
           "mFfYe9ph7dQ"
-        ]
+        ],
+        "episodeMap": {
+          "87": "A_pVLkQe9DE",
+          "86": "_xQ3_Es7vKA",
+          "85": "Bk7B8RqSzSk",
+          "84": "MwEUlYHfj94",
+          "83": "VzgYAJYUvlk",
+          "82": "U27e0ugeQhY",
+          "81": "rtTSRvtq0GM",
+          "80": "_lEj5AZqZ44",
+          "79": "NixHd7wrtv8",
+          "78": "RUw0fxLlLic",
+          "77": "xJe0OMk8YMI",
+          "76": "vpip3UJSMLI",
+          "75": "d0__ZbRGvZ8",
+          "74": "p_8cjEw6st8",
+          "73": "mFfYe9ph7dQ"
+        }
       },
       {
         "name": "Server 1 (Muse Official) \u2022 English Sub",
@@ -2048,7 +2577,6 @@
         "videoIds": [
           "YGOVlPf1ExY",
           "_EL0JO0pe1Y",
-          "TJ4lXhVdlyU",
           "gokGy2pnmjo",
           "54h2dDe1hPo",
           "SUQkEzvbBdw",
@@ -2061,18 +2589,31 @@
           "fvWzhcU6DOc",
           "E1V4fN149CY",
           "uFa96O-a7R4"
-        ]
+        ],
+        "episodeMap": {
+          "37": "YGOVlPf1ExY",
+          "36": "_EL0JO0pe1Y",
+          "35": "gokGy2pnmjo",
+          "34": "54h2dDe1hPo",
+          "33": "SUQkEzvbBdw",
+          "32": "vVH3tQCfbY0",
+          "31": "ouhp642g5jc",
+          "30": "UcJDcArEMGg",
+          "29": "yq2vPRKAfYQ",
+          "28": "m8r_W_sS38Q",
+          "27": "ydDgzVMQGBw",
+          "26": "fvWzhcU6DOc",
+          "25": "E1V4fN149CY",
+          "24": "uFa96O-a7R4"
+        }
       },
       {
         "name": "Server 1 (Muse Official) \u2022 English Sub",
         "playlistId": "PLKUChxTgp-l1FRVicW3yIh4cZNAUmGhMJ",
         "lang": "English Sub",
         "videoIds": [
-          "TFwC148aaco",
-          "chl1K1RVHws",
           "CT7BSUHbgCM",
           "_RUSK9Bm8rA",
-          "Pjh1vZbU3Qo",
           "Pjh1vZbU3Qo",
           "JgnoDDu_r1Y",
           "n1KBzzkoBTs",
@@ -2082,7 +2623,20 @@
           "bvi1YXJ4VnY",
           "4pKINUmfZJA",
           "RoAPuxzfad4"
-        ]
+        ],
+        "episodeMap": {
+          "14": "CT7BSUHbgCM",
+          "13": "_RUSK9Bm8rA",
+          "11": "Pjh1vZbU3Qo",
+          "9": "JgnoDDu_r1Y",
+          "7": "n1KBzzkoBTs",
+          "2": "cXUGI0CVG4c",
+          "3": "Kgcp9mzgtIM",
+          "4": "d6fm4-ym830",
+          "5": "bvi1YXJ4VnY",
+          "6": "4pKINUmfZJA",
+          "1": "RoAPuxzfad4"
+        }
       },
       {
         "name": "Muse India \u2022 Hindi Dub",
@@ -2104,7 +2658,24 @@
           "UcpJedTDs_M",
           "gvxIVR_ievI",
           "B1LyaPY2SYw"
-        ]
+        ],
+        "episodeMap": {
+          "15": "bg1W7R2d5W8",
+          "14": "sqGsV73Ept0",
+          "13": "_tk2GGFUks8",
+          "12": "l9dZVbxWJME",
+          "11": "8SHhsvbIJtE",
+          "10": "wCEzqN35_Cg",
+          "9": "i1-OPzYXYpo",
+          "8": "7kWJolF4M1A",
+          "7": "kEHtGlaavi0",
+          "6": "W5Yd0hC9uEQ",
+          "5": "rvQ40HYwnVc",
+          "4": "Th3erkgMluw",
+          "3": "UcpJedTDs_M",
+          "2": "gvxIVR_ievI",
+          "1": "B1LyaPY2SYw"
+        }
       }
     ],
     "officialLinks": [
@@ -2168,7 +2739,24 @@
           "256J-OCrq_w",
           "mUun9m7AlZ0",
           "_NE5Auyipb4"
-        ]
+        ],
+        "episodeMap": {
+          "15": "crpaccUVLYU",
+          "14": "d6wUTyd5gX0",
+          "13": "3L2AlW6fO38",
+          "12": "Efhttvet6a4",
+          "11": "5AR-6_u4fro",
+          "10": "KUhIbil8UcY",
+          "9": "BUZEDnpAZPg",
+          "8": "A_fOBqy_dUM",
+          "7": "oTVydackAmU",
+          "6": "a_Zq_5rdbDU",
+          "5": "oIn4qGKUBiw",
+          "4": "FV7fbXOHkIQ",
+          "3": "256J-OCrq_w",
+          "2": "mUun9m7AlZ0",
+          "1": "_NE5Auyipb4"
+        }
       }
     ],
     "officialLinks": [
@@ -2231,7 +2819,24 @@
           "f1joLQRXkUo",
           "Awi09-pPhZI",
           "-7AD70jdntE"
-        ]
+        ],
+        "episodeMap": {
+          "15": "Lk679OLhWKU",
+          "14": "3QR21Tga-UM",
+          "13": "vmeSwdZM9nc",
+          "12": "Rokg-nd3vVE",
+          "11": "Y_7YrTLQ7ko",
+          "10": "EzPfzo5Fuvs",
+          "9": "cxGJ5pzOxvI",
+          "8": "igQn9aDWOO4",
+          "7": "Ds3IcAy-6gE",
+          "6": "2ARaA3RoJ0I",
+          "5": "u7JJyXNUXTA",
+          "4": "GGeoCUekJqE",
+          "3": "f1joLQRXkUo",
+          "2": "Awi09-pPhZI",
+          "1": "-7AD70jdntE"
+        }
       }
     ],
     "officialLinks": [
@@ -2310,7 +2915,24 @@
           "VMBcnAAcXRs",
           "mCWDpVl0eR4",
           "vZAWGrLDRec"
-        ]
+        ],
+        "episodeMap": {
+          "15": "Mv8bJhQsktY",
+          "14": "9y_CXP51wxs",
+          "13": "0i38qezhWPg",
+          "12": "F8vgw_oETdM",
+          "11": "0OYMK1v3DNc",
+          "10": "3QJP4zdlTxQ",
+          "9": "Q_c2KaKyHtg",
+          "8": "CcHmBGTPJbA",
+          "7": "wm9MOvMWtI8",
+          "6": "UOr3A4TJ7g0",
+          "5": "48NYxmOgkMY",
+          "4": "a8vs8w0bqS0",
+          "3": "VMBcnAAcXRs",
+          "2": "mCWDpVl0eR4",
+          "1": "vZAWGrLDRec"
+        }
       }
     ],
     "officialLinks": [
@@ -2381,7 +3003,24 @@
           "0MYcDYPgPHQ",
           "_PMehsyT3Fg",
           "adsNeHmLllg"
-        ]
+        ],
+        "episodeMap": {
+          "15": "W9UdzOUI1SE",
+          "14": "sV-1qwtH0ZI",
+          "13": "eK5u9qnDqxo",
+          "12": "5MBYgPAW1Hg",
+          "11": "XxHammCL5-k",
+          "10": "vYBYkNFo5L8",
+          "9": "vuSmy0uiDtw",
+          "8": "EYl733mQiR0",
+          "7": "4hy9MTU1mJ8",
+          "6": "sYqtlSlEKZQ",
+          "5": "rFQ-kvMPHFo",
+          "4": "krU2FbgjXtw",
+          "3": "0MYcDYPgPHQ",
+          "2": "_PMehsyT3Fg",
+          "1": "adsNeHmLllg"
+        }
       },
       {
         "name": "Muse India \u2022 Hindi Dub",
@@ -2403,7 +3042,24 @@
           "mz0OBoWGyZk",
           "Pz3XOpimDd8",
           "wEhnJXEsgH8"
-        ]
+        ],
+        "episodeMap": {
+          "15": "w_H7ahP00IE",
+          "14": "DuJb4EITEVk",
+          "13": "4UwYriczY28",
+          "12": "s9NdHjFvz6U",
+          "11": "ZX8x0NnJ3CY",
+          "10": "g9pgjRBd_rg",
+          "9": "BJm7hBye1II",
+          "8": "zWWOsi0VJKA",
+          "7": "5emxv-Zq6mM",
+          "6": "QbT43yaxogU",
+          "5": "J04KXiul25I",
+          "4": "OZZgqUv97YQ",
+          "3": "mz0OBoWGyZk",
+          "2": "Pz3XOpimDd8",
+          "1": "wEhnJXEsgH8"
+        }
       }
     ],
     "officialLinks": [
@@ -2463,7 +3119,24 @@
           "fsLeY6KQ-2c",
           "sN5L2pxkBwI",
           "l26Sc1vO1ho"
-        ]
+        ],
+        "episodeMap": {
+          "15": "JnBRJTYTx00",
+          "14": "zlJ_vu1g65A",
+          "13": "h0wBVZxO7f4",
+          "12": "vi8FIGuM7iY",
+          "11": "Cq6_pQIhu7k",
+          "10": "2G_MgJLgdiU",
+          "9": "IKhh8lzDQ0E",
+          "8": "Yij2ySqV1Rc",
+          "7": "ryXfVUxHY2A",
+          "6": "-wZROxbeeuE",
+          "5": "VbqjraD16Ic",
+          "4": "azao2Xx9D9o",
+          "3": "fsLeY6KQ-2c",
+          "2": "sN5L2pxkBwI",
+          "1": "l26Sc1vO1ho"
+        }
       }
     ],
     "officialLinks": [
@@ -2539,7 +3212,24 @@
           "wbkewCTZJdQ",
           "vX4j1bp2XvQ",
           "uLO40U1V7rs"
-        ]
+        ],
+        "episodeMap": {
+          "15": "MP_37QkH8-4",
+          "14": "HAgt_jwg1DA",
+          "13": "zjCKuTcqcQ4",
+          "12": "hSTI4d4uPi4",
+          "11": "ZliX0xedMm0",
+          "10": "Iwi7WofSPLM",
+          "9": "XligDVOLRa8",
+          "8": "FN7lXcCEP1Y",
+          "7": "0JHQVe8lDRU",
+          "6": "PEaNAb9gJTI",
+          "5": "uTND2ue6xOg",
+          "4": "6hvViueA9r4",
+          "3": "wbkewCTZJdQ",
+          "2": "vX4j1bp2XvQ",
+          "1": "uLO40U1V7rs"
+        }
       }
     ],
     "officialLinks": [],
@@ -2596,7 +3286,24 @@
           "eqolIhtkpjs",
           "5NeaEAmVhqU",
           "-YRJJu8T43k"
-        ]
+        ],
+        "episodeMap": {
+          "15": "US63cLFRReU",
+          "14": "8bcIv19PzcU",
+          "13": "pFcblB1w3-M",
+          "12": "TDV-F6Gk0qw",
+          "11": "kd3qedSXOCo",
+          "10": "U-KijLGrKnI",
+          "9": "xONmQYjjmHY",
+          "8": "7scOVsytmY4",
+          "6": "TH2NEfyDjy8",
+          "7": "xQh3x89m62Q",
+          "5": "x5-e7OFzEas",
+          "4": "fQHq1VIjhA4",
+          "3": "eqolIhtkpjs",
+          "2": "5NeaEAmVhqU",
+          "1": "-YRJJu8T43k"
+        }
       }
     ],
     "officialLinks": [
@@ -2656,7 +3363,6 @@
           "-dk9H49Hvzs",
           "QfLEFFzLB2Y",
           "YMxyrWrKxYA",
-          "GEvv-nJ1gzs",
           "1rix8EF4O_A",
           "XaRHbCzWioo",
           "aSX8wlkn-qk",
@@ -2667,7 +3373,23 @@
           "UpDkKgqvuq4",
           "IuRgYzDdhRo",
           "8tPsZYr2HTI"
-        ]
+        ],
+        "episodeMap": {
+          "14": "GaxAyMjoIWU",
+          "13": "-dk9H49Hvzs",
+          "12": "QfLEFFzLB2Y",
+          "11": "YMxyrWrKxYA",
+          "10": "1rix8EF4O_A",
+          "9": "XaRHbCzWioo",
+          "8": "aSX8wlkn-qk",
+          "7": "e7_JuIToTVE",
+          "6": "LQkt_fvKkU0",
+          "5": "ZjHheFEjxxU",
+          "4": "wCBb9GdG4mI",
+          "3": "UpDkKgqvuq4",
+          "2": "IuRgYzDdhRo",
+          "1": "8tPsZYr2HTI"
+        }
       }
     ],
     "officialLinks": [
@@ -2727,7 +3449,6 @@
           "Zo0Pcz11cxc",
           "pNcGbgKiFN4",
           "VQhbeuMmywM",
-          "TAaQorP1PzQ",
           "GbvXjeUcBdc",
           "Abx-aQEfc0A",
           "OHAyC36Njfo",
@@ -2737,7 +3458,23 @@
           "CaS4BvkQkwk",
           "G5FLZLpRsY8",
           "fciRYJyZubQ"
-        ]
+        ],
+        "episodeMap": {
+          "14": "U8tVldgOWLk",
+          "13": "BAbR-Ir5YTg",
+          "12": "Zo0Pcz11cxc",
+          "11": "pNcGbgKiFN4",
+          "10": "VQhbeuMmywM",
+          "9": "GbvXjeUcBdc",
+          "8": "Abx-aQEfc0A",
+          "7": "OHAyC36Njfo",
+          "6": "5m02vJNhhe8",
+          "5": "mdP4nebW0UI",
+          "4": "UorimDqyO-0",
+          "3": "CaS4BvkQkwk",
+          "2": "G5FLZLpRsY8",
+          "1": "fciRYJyZubQ"
+        }
       }
     ],
     "officialLinks": [
@@ -2785,18 +3522,27 @@
           "sLbf00MaPT0",
           "L9k9S9kVk5E",
           "x252WBSc-ak",
-          "gBkjG8Kmeko",
-          "5vL0RT4uR2I",
-          "wbK5_PkKsqc",
           "Ok9mA8HJlHo",
-          "6vkSMxoa-aY",
           "zJ-H8CstEVQ",
           "582Cu-t4maU",
           "q6cLLYgMfeo",
           "sH3pvnA-m3o",
           "ATxM1fTkTkI",
           "PdC1pLIkZmc"
-        ]
+        ],
+        "episodeMap": {
+          "206": "OQQ97VcWK8U",
+          "208": "sLbf00MaPT0",
+          "20": "L9k9S9kVk5E",
+          "209": "x252WBSc-ak",
+          "210": "Ok9mA8HJlHo",
+          "211": "zJ-H8CstEVQ",
+          "212": "582Cu-t4maU",
+          "213": "q6cLLYgMfeo",
+          "214": "sH3pvnA-m3o",
+          "21": "ATxM1fTkTkI",
+          "215": "PdC1pLIkZmc"
+        }
       },
       {
         "name": "Tencent 4K \u2022 Chinese (Eng Sub)",
@@ -2818,7 +3564,24 @@
           "idjDCoDlZR8",
           "eRmYMiULIvI"
         ],
-        "lang": "Chinese (Eng Sub)"
+        "lang": "Chinese (Eng Sub)",
+        "episodeMap": {
+          "15": "JaKXD88sQmg",
+          "14": "mpfeuGgMJx0",
+          "13": "OLdZV3Cu2EE",
+          "12": "qIY9dBWK7os",
+          "11": "rO7gdA91no8",
+          "10": "F8nkhiGUsa0",
+          "9": "5trqmD7Pyy0",
+          "8": "WtIsz-p-4to",
+          "7": "H-34_T0MiH4",
+          "6": "U0o6QERG84I",
+          "5": "uMFMj9nKb1Y",
+          "4": "OdlIOgP0m1I",
+          "3": "6ICc16hdCaU",
+          "2": "idjDCoDlZR8",
+          "1": "eRmYMiULIvI"
+        }
       }
     ],
     "officialLinks": [
@@ -2880,7 +3643,24 @@
           "jwttobgA1w0",
           "pVjITosF53g",
           "vBOoJIfGYvk"
-        ]
+        ],
+        "episodeMap": {
+          "15": "qjEGBvUP16c",
+          "14": "OmrZ7IzSVbU",
+          "13": "eG5c7WtqFks",
+          "12": "TJo4tvn1Foc",
+          "11": "UwT7wHUmIZA",
+          "10": "m0lDeZ1wYzo",
+          "9": "x1Cls8_TXUs",
+          "8": "ix2HA4hKbTw",
+          "7": "9I7RFFq6EQY",
+          "6": "ZJoJuNCDtMY",
+          "5": "-hZLeg6SUfA",
+          "4": "gYSPlT0Yl5Y",
+          "3": "jwttobgA1w0",
+          "2": "pVjITosF53g",
+          "1": "vBOoJIfGYvk"
+        }
       },
       {
         "name": "Muse Asia (Official) \u2022 English Sub",
@@ -2893,16 +3673,17 @@
           "4mSPh41BO0k",
           "neQyZyIo6Qg",
           "1g3yfAJbHdc",
-          "yU5F-hHpBuk",
-          "o0Z_990DpdA",
-          "vty1tXbCQ-U",
-          "DBMQeRRyPoE",
-          "D2m5IBYUZ2w",
-          "7QLmPn3u3Cw",
-          "oYGexsd2-xY",
-          "GZx9tN0nfxE",
-          "o1ZOVH9LXzM"
-        ]
+          "yU5F-hHpBuk"
+        ],
+        "episodeMap": {
+          "7": "a-lRR3CujvU",
+          "6": "XLLgmdzLv8g",
+          "5": "8gRZ5N1iOfM",
+          "4": "4mSPh41BO0k",
+          "3": "neQyZyIo6Qg",
+          "2": "1g3yfAJbHdc",
+          "1": "yU5F-hHpBuk"
+        }
       }
     ],
     "officialLinks": [
@@ -2977,7 +3758,24 @@
           "HM_aWqcIQd4",
           "Icabv9HAIqE",
           "uUND8uJdoK8"
-        ]
+        ],
+        "episodeMap": {
+          "15": "UflxKsfQ86c",
+          "14": "OWC6xB7vFas",
+          "13": "y-AatLKSdeQ",
+          "12": "k8bieMHCj3Y",
+          "11": "FSZDrJ_fDK8",
+          "10": "i4zaXZKc5ZY",
+          "9": "lIV0OBGgo9Y",
+          "8": "o7fgOzsupMY",
+          "7": "zxPji2bTrLE",
+          "6": "tL76a1Oavtk",
+          "5": "KZV8mhU7kjE",
+          "4": "qXTJUy8Qs0Y",
+          "3": "HM_aWqcIQd4",
+          "2": "Icabv9HAIqE",
+          "1": "uUND8uJdoK8"
+        }
       },
       {
         "name": "Muse Asia (Official) \u2022 English Sub",
@@ -2999,7 +3797,24 @@
           "Ijg33uxm6pU",
           "ZPTwTW-9wcI",
           "2SLXT0m4-_I"
-        ]
+        ],
+        "episodeMap": {
+          "15": "vpoNO_Erel8",
+          "14": "lPWIJHWoueE",
+          "13": "BEzNtNpEYkQ",
+          "12": "1Y7VL7dsooU",
+          "11": "L7A0E9WYTnM",
+          "10": "Solj0Hfj23I",
+          "9": "Er36S4u4C_8",
+          "8": "Z35nBch7uzM",
+          "7": "Y45cFuSF7Rs",
+          "6": "WvlYOh7nYaU",
+          "5": "vVr76YhRTws",
+          "4": "kd6yixbZofk",
+          "3": "Ijg33uxm6pU",
+          "2": "ZPTwTW-9wcI",
+          "1": "2SLXT0m4-_I"
+        }
       }
     ],
     "officialLinks": [
@@ -3087,7 +3902,21 @@
           "eYUCVv7b0zY",
           "5bPmzOF-kE0",
           "eUoSU5JYfRE"
-        ]
+        ],
+        "episodeMap": {
+          "1": "u3YRgqIBB4c",
+          "2": "lwjLoxlvT68",
+          "3": "m5TR3jZki2o",
+          "4": "6sLbM4GEREg",
+          "5": "60ZkY_Bkfuw",
+          "6": "kv9JgS4egSA",
+          "7": "I9XxXXfi0xw",
+          "8": "TfmJ2VG6hx0",
+          "10": "5pG_YoQREoY",
+          "9": "eYUCVv7b0zY",
+          "11": "5bPmzOF-kE0",
+          "12": "eUoSU5JYfRE"
+        }
       },
       {
         "name": "Server 1 (Tencent 4K) \u2022 Chinese (Eng Sub)",
@@ -3172,11 +4001,22 @@
           "XqFV-PI9e_4",
           "7nxJHd87U18",
           "BLqGr2vcBok",
-          "BcvzTlWk1Hk",
-          "-a19kfqlNs4",
-          "a8QaZ2d3T0s",
-          "S7LtjQvh6Qc"
-        ]
+          "BcvzTlWk1Hk"
+        ],
+        "episodeMap": {
+          "3": "ryJHDRmLjgs",
+          "2": "MCRv1RAtQ_w",
+          "1": "4m0fltK5AEM",
+          "12": "_U_0hrcSWqc",
+          "11": "vzgwaU03BYI",
+          "10": "Ek7qBml3rqc",
+          "9": "rgrsK31oTPI",
+          "8": "0hU9TBeuZQQ",
+          "7": "XqFV-PI9e_4",
+          "6": "7nxJHd87U18",
+          "5": "BLqGr2vcBok",
+          "4": "BcvzTlWk1Hk"
+        }
       },
       {
         "name": "Muse India \u2022 English Sub",
@@ -3194,11 +4034,22 @@
           "ZthaFVaevd8",
           "i5xBc-uyMxQ",
           "7ISj1vIzepE",
-          "8Pm5E2jgZ8c",
-          "GsiZwUXsRHE",
-          "4_Vumu_418c",
-          "QbEoZexESDs"
-        ]
+          "8Pm5E2jgZ8c"
+        ],
+        "episodeMap": {
+          "3": "vNITI_aPWJs",
+          "2": "Oq-FBwiXCjQ",
+          "1": "7rjglJxtyHk",
+          "12": "CjQ6DQiMfM0",
+          "11": "hUqm7vUXHSc",
+          "10": "gU24L5IFJ3c",
+          "9": "qrkaUnbHzHA",
+          "8": "NRELz5z3t2U",
+          "7": "ZthaFVaevd8",
+          "6": "i5xBc-uyMxQ",
+          "5": "7ISj1vIzepE",
+          "4": "8Pm5E2jgZ8c"
+        }
       }
     ],
     "officialLinks": [
@@ -3259,7 +4110,22 @@
           "bCOZE2gwgE4",
           "H3_Oig0HtEo",
           "UrWfd2XQrig"
-        ]
+        ],
+        "episodeMap": {
+          "13": "9F8qJbzJayo",
+          "12": "qgltGPyF5HE",
+          "11": "MvF8FVicL28",
+          "10": "94sFPQk0Gec",
+          "9": "-4HSjT1KKQE",
+          "8": "2eX_w_1GN0w",
+          "7": "c7vR476aNes",
+          "6": "_37HQNWSn5s",
+          "5": "G_pVnCX8k_Q",
+          "4": "bb0nh6RDcGg",
+          "3": "bCOZE2gwgE4",
+          "2": "H3_Oig0HtEo",
+          "1": "UrWfd2XQrig"
+        }
       },
       {
         "name": "Server 1 (Ani-One India) \u2022 English Sub",
@@ -3279,7 +4145,22 @@
           "7eje__fpjRE",
           "XjYIQB_0ZBA",
           "qHyA3z8Izzo"
-        ]
+        ],
+        "episodeMap": {
+          "13": "NC23VCAywc8",
+          "12": "7lU0lbettqU",
+          "11": "FNGaAQWQK48",
+          "10": "aVfhNmG1UDM",
+          "9": "Ld-CIoDf4P4",
+          "8": "dcD8LvsgWkQ",
+          "7": "eee9HZZJigg",
+          "6": "6_1Cuf59CE4",
+          "5": "WPoZlZcGkCg",
+          "4": "J_QKTd6ZjJw",
+          "3": "7eje__fpjRE",
+          "2": "XjYIQB_0ZBA",
+          "1": "qHyA3z8Izzo"
+        }
       }
     ],
     "officialLinks": [
@@ -3357,7 +4238,22 @@
           "8QKLAEXSWaA",
           "j85KwqvLN_I",
           "xA69sCrsyto"
-        ]
+        ],
+        "episodeMap": {
+          "13": "X8Rr4toZPbQ",
+          "12": "qUjkzN9WzxQ",
+          "11": "WsK3J1b0PdY",
+          "10": "SBeQP5d5tt8",
+          "9": "BSWOXSwCEN4",
+          "8": "4xeqsorJqo0",
+          "7": "KJZyxVEvsas",
+          "6": "0fIx9tsJv4g",
+          "5": "owxGDIqyDks",
+          "4": "eh9h8sou4MA",
+          "3": "8QKLAEXSWaA",
+          "2": "j85KwqvLN_I",
+          "1": "xA69sCrsyto"
+        }
       }
     ],
     "officialLinks": [
@@ -3415,21 +4311,11 @@
         "playlistId": "PLHKe1CkrzPXQ",
         "lang": "Hindi Dub",
         "videoIds": [
-          "AlphbU1-qgM",
-          "G6sqVz4Kr7o",
-          "LOgxj8mc8Bg",
-          "KeC-Ow08xTg",
-          "do6CpMcFs2I",
-          "SFhnOf_Ov3I",
-          "rTEsgKJXgYE",
-          "YCjJCaiYxRA",
-          "yHlfIaydAFg",
-          "cOOJiqATv5o",
-          "j-yy1ZnPXu4",
-          "WT6ZddVy5Bs",
-          "icfgvoqgcrk",
-          "Js4RYzeCw6E"
-        ]
+          "AlphbU1-qgM"
+        ],
+        "episodeMap": {
+          "20": "AlphbU1-qgM"
+        }
       }
     ],
     "officialLinks": [
@@ -3497,9 +4383,24 @@
           "O-2jitI_3fQ",
           "OFDnLlShGKw",
           "O-KQKI2tbPg",
-          "rJn6OOqig38",
           "kes8yaqzwm4"
-        ]
+        ],
+        "episodeMap": {
+          "40": "U-pGtcq5ZEw",
+          "41": "KvRUHo2g7AE",
+          "42": "ET0OkGLXACY",
+          "43": "gRW48PsWho8",
+          "44": "8-ckOYJFrIs",
+          "45": "Q9YHGYBxo9M",
+          "46": "rF1ZBjLoc3k",
+          "47": "DzOS8sIoEQA",
+          "48": "SNs_21PcAcE",
+          "49": "0FvWTchvPi8",
+          "50": "O-2jitI_3fQ",
+          "51": "OFDnLlShGKw",
+          "52": "O-KQKI2tbPg",
+          "2": "kes8yaqzwm4"
+        }
       }
     ],
     "officialLinks": [],
@@ -3543,21 +4444,11 @@
         "playlistId": "PL0aiW7RbTHvQ6ZZJpM_Cm6qHxTQmKLXl5",
         "lang": "Chinese (Eng Sub)",
         "videoIds": [
-          "9lM_5m0Usk8",
-          "E5M-mJ8Qenw",
-          "Ty3PnC9F1w8",
-          "iKQQ-qCa-OE",
-          "VPh9Gf5DHCs",
-          "gNYBc-gWEyc",
-          "dpVhdM-Lutw",
-          "_aEGxUKNsCM",
-          "yAs_GRc8T2M",
-          "4WSm4DOandY",
-          "MPTH-QkfbBI",
-          "uIZFt_7ByTg",
-          "QV0mOEUfybk",
-          "5JXx9r4E1ZQ"
-        ]
+          "dpVhdM-Lutw"
+        ],
+        "episodeMap": {
+          "2": "dpVhdM-Lutw"
+        }
       }
     ],
     "officialLinks": [
@@ -3620,7 +4511,24 @@
           "HRGj1dx4hB0",
           "FBVlaTyADIA",
           "DaQWe2-sajQ"
-        ]
+        ],
+        "episodeMap": {
+          "15": "8TazqEOLEN0",
+          "14": "ex2XhqqOrTk",
+          "13": "s_yinYO_7Co",
+          "12": "2CCbnkSoJLU",
+          "11": "LBh8dE6ypBM",
+          "10": "LWKQvEZPIOM",
+          "9": "DxdBPC_BohE",
+          "8": "UZ14h8kjz_Q",
+          "7": "fQaY1E4uS7s",
+          "6": "1GWutUfobPs",
+          "5": "WIeXRKj_icQ",
+          "4": "hcFhhyCF-Es",
+          "3": "HRGj1dx4hB0",
+          "2": "FBVlaTyADIA",
+          "1": "DaQWe2-sajQ"
+        }
       },
       {
         "name": "Server 2 (Muse Asia) \u2022 English Sub",
@@ -3642,7 +4550,24 @@
           "Hyy2i2kelVI",
           "khKjd8qLUYA",
           "lDhtkbu_E68"
-        ]
+        ],
+        "episodeMap": {
+          "15": "tdRHdXLJKSQ",
+          "14": "vu0pkqApQBM",
+          "13": "IR6uNj_PmwI",
+          "12": "T9Xz1iPKjB4",
+          "11": "Dk5-Zk4fWY0",
+          "10": "KtHmpgEuFnE",
+          "9": "o-zTSgHeAVc",
+          "8": "fNe3eS09hdo",
+          "7": "fXoOICkIkKE",
+          "6": "egK8PISnc9c",
+          "5": "1OGdd8PbNrs",
+          "4": "aikehHEWgDA",
+          "3": "Hyy2i2kelVI",
+          "2": "khKjd8qLUYA",
+          "1": "lDhtkbu_E68"
+        }
       }
     ],
     "officialLinks": [
@@ -3729,7 +4654,24 @@
           "Ms5DivdgQMI",
           "U1S5S4yGs8E",
           "L9hRNFWhJeo"
-        ]
+        ],
+        "episodeMap": {
+          "15": "Bn-Q-TvwXUA",
+          "14": "veCZG40im8k",
+          "13": "e67bq3V3TGo",
+          "12": "B4n5Vt_N494",
+          "11": "Tw0J7GtX_W0",
+          "10": "VHXgHhtcQ0U",
+          "9": "dADt5OzxUe0",
+          "8": "VqmEJMz2vuo",
+          "7": "Fkd0hIEn2yY",
+          "6": "raiqZtsXYUc",
+          "5": "YYcWxv2bZjA",
+          "4": "W0WTwyyAb1A",
+          "3": "Ms5DivdgQMI",
+          "2": "U1S5S4yGs8E",
+          "1": "L9hRNFWhJeo"
+        }
       }
     ],
     "officialLinks": [
@@ -3776,18 +4718,15 @@
           "h6rjzyqux-A",
           "rS82LFXfNGE",
           "q9ToSE0h1NA",
-          "UrydSFi7Ptk",
-          "vtSueu_uX8U",
-          "WlH8s7Cq9BE",
-          "QGixn0GTfT8",
-          "7OatcxNvEhk",
-          "xceduMx8mqQ",
-          "nnOTVBzdSxk",
-          "nBq9-ZYh5PQ",
-          "m_IBfPKWqpQ",
-          "gqonnTlpKkY",
-          "Hfa0l1438qA"
-        ]
+          "UrydSFi7Ptk"
+        ],
+        "episodeMap": {
+          "111": "x8brvB_Bstc",
+          "109": "h6rjzyqux-A",
+          "108": "rS82LFXfNGE",
+          "110": "q9ToSE0h1NA",
+          "107": "UrydSFi7Ptk"
+        }
       }
     ],
     "officialLinks": [
@@ -3867,7 +4806,24 @@
           "5zTXKUonmXI",
           "3FEHxiFg5lo",
           "4k1YC2z5VOw"
-        ]
+        ],
+        "episodeMap": {
+          "15": "bidrnZRVXyA",
+          "14": "QjqH92IVk88",
+          "13": "itXbt46eMts",
+          "12": "ZxOSsD2uga8",
+          "11": "JhHNtdmteEo",
+          "10": "BMfsegZiWrs",
+          "9": "LNs3uguqnKs",
+          "8": "3kgE-mSInhQ",
+          "7": "ukloC0mZViA",
+          "6": "JHAkqwDhgcA",
+          "5": "PGOETz4L9Kk",
+          "4": "8-GWlCoERJ8",
+          "3": "5zTXKUonmXI",
+          "2": "3FEHxiFg5lo",
+          "1": "4k1YC2z5VOw"
+        }
       }
     ],
     "officialLinks": [
@@ -3994,7 +4950,6 @@
         "lang": "English Sub",
         "videoIds": [
           "yYuDq7FCW3A",
-          "H22aecQi7KU",
           "ylcBIyMcQfk",
           "DKIiStcY0WU",
           "Om_i6R9_FqI",
@@ -4006,15 +4961,28 @@
           "q9_1264BM7o",
           "7wvxTbnjYlA",
           "zEWo8vUf_uU",
-          "Rs4_E9VlagQ",
-          "Nu6SsBBHXXk"
-        ]
+          "Rs4_E9VlagQ"
+        ],
+        "episodeMap": {
+          "1": "yYuDq7FCW3A",
+          "13": "ylcBIyMcQfk",
+          "12": "DKIiStcY0WU",
+          "11": "Om_i6R9_FqI",
+          "10": "PFerXj1PW-Q",
+          "9": "c7oFYwlJfo8",
+          "8": "W6L0PJO4EcE",
+          "7": "PnixZVZvxtk",
+          "6": "hQ3PZFeanyk",
+          "5": "q9_1264BM7o",
+          "4": "7wvxTbnjYlA",
+          "3": "zEWo8vUf_uU",
+          "2": "Rs4_E9VlagQ"
+        }
       },
       {
         "name": "Muse India \u2022 Hindi Dub",
         "playlistId": "PLpm1VVK4UL16zEKukO8H0beDxcxhBu9X-",
         "videoIds": [
-          "MDSQr59aW2I",
           "tS30_4iTqdc",
           "jlcpybL4eiI",
           "de_ZevTHyNw",
@@ -4029,7 +4997,22 @@
           "0d2K0vvpu44",
           "pQP8SjxORVA"
         ],
-        "lang": "Hindi Dub"
+        "lang": "Hindi Dub",
+        "episodeMap": {
+          "13": "tS30_4iTqdc",
+          "12": "jlcpybL4eiI",
+          "11": "de_ZevTHyNw",
+          "10": "Tab-cFyTKp8",
+          "9": "QJg-sy4XhEY",
+          "8": "v5ohXA7179U",
+          "7": "e33GhjAkdIg",
+          "6": "X27_tkKJ5lY",
+          "5": "tK8FlAl7LRs",
+          "4": "IGk5Uge3W_Y",
+          "3": "i1yULgpvGeU",
+          "2": "0d2K0vvpu44",
+          "1": "pQP8SjxORVA"
+        }
       }
     ],
     "officialLinks": [
@@ -4093,21 +5076,22 @@
         "lang": "Chinese (Eng Sub)",
         "videoIds": [
           "uy55bMwbXr0",
-          "SCIsvHom7bU",
           "tKj34riVzqE",
           "RhBe5qU_ynQ",
           "r4WUb1XCOEc",
           "TXxbJ5_7X3g",
           "ugwgl6mvPJ0",
-          "MhygifejsSs",
-          "Bf1kYsaBCdI",
-          "rnCLTfxwcdo",
-          "f_6WEHf6Vnc",
-          "1xL5aDYoLLE",
-          "-U2LuHiLBJE",
-          "E-eIXXK8xOs",
-          "NGzu2nAdaB4"
-        ]
+          "MhygifejsSs"
+        ],
+        "episodeMap": {
+          "20": "uy55bMwbXr0",
+          "2": "tKj34riVzqE",
+          "22": "RhBe5qU_ynQ",
+          "23": "r4WUb1XCOEc",
+          "24": "TXxbJ5_7X3g",
+          "25": "ugwgl6mvPJ0",
+          "26": "MhygifejsSs"
+        }
       }
     ],
     "officialLinks": [],
@@ -4157,7 +5141,21 @@
           "k88loyW5-mM",
           "N31PeiKuNRg",
           "_9HuJ5QRpSw"
-        ]
+        ],
+        "episodeMap": {
+          "12": "wpS31jtTjrg",
+          "11": "pv98--mbf0M",
+          "10": "ZrbFaBl2bQ0",
+          "9": "14ev5yRPfKw",
+          "8": "yx7VdyE9gmY",
+          "7": "Xw2Y_kbyz_8",
+          "6": "7ISyVvOzFRo",
+          "5": "6Op7jFFzglY",
+          "4": "MAf17II7H5s",
+          "3": "k88loyW5-mM",
+          "2": "N31PeiKuNRg",
+          "1": "_9HuJ5QRpSw"
+        }
       }
     ],
     "officialLinks": [
@@ -4236,7 +5234,21 @@
           "216qeDGOZyA",
           "jildwE7HWlo",
           "DKWB8NVXqKc"
-        ]
+        ],
+        "episodeMap": {
+          "12": "UcBhx379W0k",
+          "11": "o-8JwiS0aqs",
+          "10": "c5O-KUTpWX4",
+          "9": "FxH7tbEDdh4",
+          "8": "ru68LEgBA6c",
+          "7": "y8HO2cHRBys",
+          "6": "-NiYFAfh-x4",
+          "5": "67Sl3TCDJVM",
+          "4": "h2K_IYmMbuY",
+          "3": "216qeDGOZyA",
+          "2": "jildwE7HWlo",
+          "1": "DKWB8NVXqKc"
+        }
       }
     ],
     "officialLinks": [
@@ -4300,7 +5312,24 @@
           "HuFSSU4wOVc",
           "g37RlMOi1bE",
           "zs-jXgEm8HI"
-        ]
+        ],
+        "episodeMap": {
+          "15": "7pqbj5lP3_c",
+          "14": "eZAwa7ECgYU",
+          "13": "_VzdF0h9460",
+          "12": "hZrZxB6lnZ0",
+          "11": "nCQdJtUZnp4",
+          "10": "vZvroFmdpdE",
+          "9": "-BAcoDDzmKY",
+          "8": "FgYTjRpKP0w",
+          "7": "t2lFpjq5igg",
+          "6": "M4SqqMC33Pk",
+          "5": "1gaKHwBcEd4",
+          "4": "KWYwsx82CK0",
+          "3": "HuFSSU4wOVc",
+          "2": "g37RlMOi1bE",
+          "1": "zs-jXgEm8HI"
+        }
       },
       {
         "name": "Muse Asia (Official) \u2022 English Sub",
@@ -4322,7 +5351,24 @@
           "5L19npzg9TI",
           "wG67sijv5Js",
           "wyKA_h1PBGg"
-        ]
+        ],
+        "episodeMap": {
+          "15": "TFefgP8635o",
+          "14": "LMid5zLoqxg",
+          "13": "qUrWJWc7goo",
+          "12": "RKo4EkZfLxo",
+          "11": "sY-ZOHuaW7w",
+          "10": "XdV7oEfhEys",
+          "9": "F12_tvAJnbs",
+          "8": "UON8o7kd9Us",
+          "7": "rU_JXEEvU1Q",
+          "6": "CwitjO6IaQ0",
+          "5": "xeV59d9ORRA",
+          "4": "S_0pr3WrRBY",
+          "3": "5L19npzg9TI",
+          "2": "wG67sijv5Js",
+          "1": "wyKA_h1PBGg"
+        }
       },
       {
         "name": "Server 1 (Muse India) \u2022 English Sub",
@@ -4344,7 +5390,24 @@
           "0Q4h19g28c8",
           "zBCvK-HG6e0",
           "gJst1MyxoNY"
-        ]
+        ],
+        "episodeMap": {
+          "15": "pllg3kb3X_w",
+          "14": "bo7hqSkQ2Wg",
+          "13": "O9RBM5ZtVdI",
+          "12": "_YFjErVfb5Q",
+          "11": "qFvRxYfHgFM",
+          "10": "iwDm6tANXKE",
+          "9": "0wj0pWrwFd0",
+          "8": "zNp7qx8leAU",
+          "7": "PT81wszzWTU",
+          "6": "Ly_ZmQwgHss",
+          "5": "MWCLBsIBx4w",
+          "4": "aSAnd9VP4Kw",
+          "3": "0Q4h19g28c8",
+          "2": "zBCvK-HG6e0",
+          "1": "gJst1MyxoNY"
+        }
       },
       {
         "name": "Muse Asia \u2022 English Dub",
@@ -4366,7 +5429,24 @@
           "JsQqRM6CjTg",
           "8uXaV_xrrUs",
           "BTTWQXIb7mI"
-        ]
+        ],
+        "episodeMap": {
+          "15": "uvNT43w-58Q",
+          "14": "qCSne74nDHs",
+          "13": "07wiwThXCfU",
+          "12": "_mXYjyMwvgE",
+          "11": "XLqpXh0lT5Q",
+          "10": "ed4bTU-ozHk",
+          "9": "2Vf_3nmPPgA",
+          "8": "BTRqvCqEk-Q",
+          "7": "KxkszfnunUg",
+          "6": "LI1dw5MfK48",
+          "5": "S7G-sU3ea2Y",
+          "4": "txVukcBrLzc",
+          "3": "JsQqRM6CjTg",
+          "2": "8uXaV_xrrUs",
+          "1": "BTTWQXIb7mI"
+        }
       }
     ],
     "officialLinks": [
@@ -4437,7 +5517,24 @@
           "4DAN9ieOSrs",
           "Ju_F_HjLpEQ",
           "ZVlrYv_3Dek"
-        ]
+        ],
+        "episodeMap": {
+          "15": "7XUYkR29PLA",
+          "14": "z99vPuh065g",
+          "13": "fZiUO9iHJ2k",
+          "12": "xaHtVguNptQ",
+          "11": "J6ItSavmtZg",
+          "10": "wWQ65acyNnE",
+          "9": "rjeuEi1GNEs",
+          "8": "uSqCNMJy8qs",
+          "7": "T4smhQXg4FU",
+          "6": "7WEVUTLfGKE",
+          "5": "fk1a77h0ATg",
+          "4": "gcCuW7l5qO8",
+          "3": "4DAN9ieOSrs",
+          "2": "Ju_F_HjLpEQ",
+          "1": "ZVlrYv_3Dek"
+        }
       }
     ],
     "officialLinks": [
@@ -4492,7 +5589,24 @@
           "YCbFHaDcYYc",
           "iwhdvQ2Dg14",
           "mfg47HUNGaA"
-        ]
+        ],
+        "episodeMap": {
+          "15": "xr7EmYPwowc",
+          "14": "-AU7RaBdpKw",
+          "13": "dfBRjhMUvPM",
+          "12": "KL4GlbO0g4k",
+          "11": "MjsSDspLoDc",
+          "10": "C9Tp4gT2xJE",
+          "9": "f0hUcE-5TQQ",
+          "8": "qQ6Pq1cu5dE",
+          "7": "kuMyLykpI48",
+          "6": "lTAlYzibEL0",
+          "5": "0Lkob-DNtvk",
+          "4": "4Kwt2bmTLco",
+          "3": "YCbFHaDcYYc",
+          "2": "iwhdvQ2Dg14",
+          "1": "mfg47HUNGaA"
+        }
       }
     ],
     "officialLinks": [
@@ -4555,7 +5669,24 @@
           "9fElhcYebgs",
           "O7JO1V7fMIQ",
           "Rec_iuK9T3s"
-        ]
+        ],
+        "episodeMap": {
+          "15": "x44FZ2MqQ1I",
+          "14": "JyR1YIMZwIE",
+          "13": "6NOX8GqCL9U",
+          "12": "gSduKJmxUt0",
+          "11": "LXmUvV6Wnm0",
+          "10": "TQzeEMYzetg",
+          "9": "2spk0W1GMLE",
+          "8": "drbfelVuYAs",
+          "7": "kgaEfBzK5rA",
+          "6": "ftWSOVfG8N0",
+          "5": "4HKHo1BJ6Rk",
+          "4": "9nF7vfVSAwU",
+          "3": "9fElhcYebgs",
+          "2": "O7JO1V7fMIQ",
+          "1": "Rec_iuK9T3s"
+        }
       }
     ],
     "officialLinks": [],
@@ -4621,7 +5752,21 @@
           "E5f_FkT6wOQ",
           "H0x2RjqR8Jc",
           "XoAKeIR2bdE"
-        ]
+        ],
+        "episodeMap": {
+          "12": "66PmcR3fNlY",
+          "11": "nkD_IQ0hIvI",
+          "10": "z4h9pA7VCIg",
+          "9": "62vFRD4vY3c",
+          "8": "Ipd7-vHB5O8",
+          "7": "6ftqlRSl9ks",
+          "6": "E5Ed3BSHguk",
+          "5": "XPQzc0Ya0hQ",
+          "4": "v4CaOElajSM",
+          "3": "E5f_FkT6wOQ",
+          "2": "H0x2RjqR8Jc",
+          "1": "XoAKeIR2bdE"
+        }
       }
     ],
     "officialLinks": [
@@ -4681,7 +5826,21 @@
           "pm5zJbwTyaY",
           "M7j9QOD7Bbc",
           "y7g4yMSLlbc"
-        ]
+        ],
+        "episodeMap": {
+          "12": "ZDu2ybf6LPA",
+          "11": "z7YQulh67Kc",
+          "10": "wtmA2_PAiGs",
+          "9": "v0JwO5B1VoY",
+          "8": "A21cmOnGmRI",
+          "7": "MPa2z6vV4TI",
+          "6": "TYHstMJdqpQ",
+          "5": "OkNrqVofQo4",
+          "4": "BPfMWo-6TJM",
+          "3": "pm5zJbwTyaY",
+          "2": "M7j9QOD7Bbc",
+          "1": "y7g4yMSLlbc"
+        }
       }
     ],
     "officialLinks": [
@@ -4758,7 +5917,24 @@
           "Z16ayYvC7qs",
           "NgKQq7eex6Q",
           "q6aXWszbdgU"
-        ]
+        ],
+        "episodeMap": {
+          "15": "VsQx2tULcC8",
+          "14": "syhienSTl9A",
+          "13": "LyuGb4qkSgo",
+          "12": "XWIjvHdtMKk",
+          "11": "bfHi5bV4BaY",
+          "10": "aJw-eDovYyw",
+          "9": "0ekOKhYPSKQ",
+          "8": "7Y4-_9H-NeY",
+          "7": "pwJgQ1KYBm0",
+          "6": "3RUiYasUlMs",
+          "5": "0DqhNTc9lZ0",
+          "4": "MG5NV9eeFQY",
+          "3": "Z16ayYvC7qs",
+          "2": "NgKQq7eex6Q",
+          "1": "q6aXWszbdgU"
+        }
       }
     ],
     "officialLinks": [
@@ -4815,12 +5991,21 @@
           "mFDcOEhtoYA",
           "zpCJY7NqGCA",
           "vLfJoUcLx4U",
-          "LIABjvGJnVo",
-          "rX-ABrfI8eY",
-          "jfUpNxRMkRk",
-          "FlHnvgxw7sM",
-          "4He-euhm6Rg"
-        ]
+          "LIABjvGJnVo"
+        ],
+        "episodeMap": {
+          "81": "eUkTt_AxmdA",
+          "80": "cbm6nYYpnWQ",
+          "79": "L0PFzKk_Nug",
+          "78": "j7nVv9MG9Jc",
+          "77": "0Qv1YIAbMws",
+          "76": "03xL1f1tzRw",
+          "75": "BCxCHTYRz2Q",
+          "74": "mFDcOEhtoYA",
+          "73": "zpCJY7NqGCA",
+          "72": "vLfJoUcLx4U",
+          "71": "LIABjvGJnVo"
+        }
       }
     ],
     "officialLinks": [],
@@ -4854,21 +6039,11 @@
         "playlistId": "PLCM6UKPQ4QMA",
         "lang": "Chinese (Eng Sub)",
         "videoIds": [
-          "X5K9iPKUzOE",
-          "226f1yjtSgQ",
-          "CpnQTHlQsHk",
-          "RzgFnibaK7k",
-          "f0MPVLkdOFk",
-          "2vuNnaugNXo",
-          "2F0bSYORE2c",
-          "pzXr9McxfjY",
-          "N0kWYdq48ik",
-          "S8fugUgZfkk",
-          "0nUh_-d_QRA",
-          "MqijbvORaNI",
-          "b34kVc3oULM",
-          "UZHZcCsVicY"
-        ]
+          "X5K9iPKUzOE"
+        ],
+        "episodeMap": {
+          "3": "X5K9iPKUzOE"
+        }
       }
     ],
     "officialLinks": [
@@ -4932,7 +6107,21 @@
           "UkQRz5PyV8Q",
           "4fikr5JnIYM",
           "_IzPlFJmqUo"
-        ]
+        ],
+        "episodeMap": {
+          "12": "0_vuCy1R85Y",
+          "11": "TP85MKDmWc0",
+          "10": "KA6k3F5vSaA",
+          "9": "RBVA_4rnhoM",
+          "8": "wNgGTV9ycos",
+          "7": "5EQrENIx234",
+          "6": "PKhTvqW8q3Q",
+          "5": "c6K131Xinho",
+          "4": "OTZGzHAG294",
+          "3": "UkQRz5PyV8Q",
+          "2": "4fikr5JnIYM",
+          "1": "_IzPlFJmqUo"
+        }
       }
     ],
     "officialLinks": [
@@ -5005,7 +6194,22 @@
           "mVWWzryoz60",
           "TyLfEIFJ-2g",
           "kHJee2FyFMU"
-        ]
+        ],
+        "episodeMap": {
+          "13": "1PkveWSpkUg",
+          "12": "FCV2AqOJvfc",
+          "11": "TC2SwGf3Gv8",
+          "10": "IQhNdRgHtZU",
+          "9": "UErJGcezqes",
+          "8": "-frjgN8NFIc",
+          "7": "wXLI8iqWYy0",
+          "6": "y0Ppc8sXPNA",
+          "5": "IgiMY0H1Sdk",
+          "4": "7mrQo5H4jcg",
+          "3": "mVWWzryoz60",
+          "2": "TyLfEIFJ-2g",
+          "1": "kHJee2FyFMU"
+        }
       }
     ],
     "officialLinks": [
@@ -5053,7 +6257,6 @@
         "playlistId": "PLpm1VVK4UL15iS_b-3ZAfIt2wDCgiJSzL",
         "lang": "Hindi Dub",
         "videoIds": [
-          "tdiRAT0fLDM",
           "riG3AyeSfBY",
           "ZxxmKxxE5VU",
           "6I8NgjmDOI4",
@@ -5066,7 +6269,21 @@
           "ZEovspwLi9c",
           "l1bEVtTLJNo",
           "tC0N80cMdJA"
-        ]
+        ],
+        "episodeMap": {
+          "12": "riG3AyeSfBY",
+          "11": "ZxxmKxxE5VU",
+          "10": "6I8NgjmDOI4",
+          "9": "w7Q3zhBEZLw",
+          "8": "rSyU9jWLHPQ",
+          "7": "2lxclTlwK-0",
+          "6": "EBBP3bDVOCk",
+          "5": "zteEoAK3AsI",
+          "4": "xAOoX32NjNU",
+          "3": "ZEovspwLi9c",
+          "2": "l1bEVtTLJNo",
+          "1": "tC0N80cMdJA"
+        }
       }
     ],
     "officialLinks": [
@@ -5131,7 +6348,24 @@
           "qNHZh2GzWYQ",
           "c4sl3NtalRk",
           "_BWAzlYKJbo"
-        ]
+        ],
+        "episodeMap": {
+          "15": "d6tep6Tufo0",
+          "14": "aBba_BPkqNo",
+          "13": "ytzjju5qQhg",
+          "12": "MzQvZvyo_I0",
+          "11": "kbVSD9iCBpA",
+          "10": "-QO2f8l8ByI",
+          "9": "HSC22Ql7SOI",
+          "8": "XHxL7Yq_dy0",
+          "7": "v7np1b4m2Gg",
+          "6": "nROTV7oVdJc",
+          "5": "AvBEm4_QT9E",
+          "4": "EcuCGLRyJuw",
+          "3": "qNHZh2GzWYQ",
+          "2": "c4sl3NtalRk",
+          "1": "_BWAzlYKJbo"
+        }
       }
     ],
     "officialLinks": [
@@ -5192,7 +6426,21 @@
           "XWucYJeN1pM",
           "WtqVGFINuiw",
           "kBZuyQddV_s"
-        ]
+        ],
+        "episodeMap": {
+          "12": "xo8E0GCaf4Q",
+          "11": "ogHTx1iUO2E",
+          "10": "323bp8Pu81E",
+          "9": "E_rdllaMh1I",
+          "8": "yGmoq9CYxVQ",
+          "7": "-tU0enM3OuE",
+          "6": "fnMl1eB3WiU",
+          "5": "CUG55DoBqUU",
+          "4": "gLjfrvGoT0o",
+          "3": "XWucYJeN1pM",
+          "2": "WtqVGFINuiw",
+          "1": "kBZuyQddV_s"
+        }
       }
     ],
     "officialLinks": [
@@ -5249,7 +6497,24 @@
           "iYz1se59J5c",
           "JzqUT6TZe-A",
           "ZqO6DJl53Sg"
-        ]
+        ],
+        "episodeMap": {
+          "28": "6gZ6jG5Hu4w",
+          "27": "VtiZOnEAUwk",
+          "26": "Oa3NeQsESnY",
+          "25": "pWTRJEiTPw4",
+          "24": "o-nvgoxlF0M",
+          "23": "_WHtr50PIGQ",
+          "22": "y_Rnfn2Ba00",
+          "21": "oQi3A1Kyipw",
+          "20": "0VyhtOOReG8",
+          "19": "RSSS7EvVY8M",
+          "18": "64WzKh7KoDw",
+          "17": "-ydZmxXBMog",
+          "16": "iYz1se59J5c",
+          "15": "JzqUT6TZe-A",
+          "14": "ZqO6DJl53Sg"
+        }
       }
     ],
     "officialLinks": [],
