@@ -175,6 +175,22 @@ def fetch_upcoming_movies():
     except Exception as e:
         print("Movie sync note:", e, flush=True)
 
+def fetch_playlist_video_ids(pid):
+    try:
+        html = fetch_url(f"https://www.youtube.com/playlist?list={pid}")
+        # Extract ordered videoIds from playlistVideoRenderer
+        vids = re.findall(r'"playlistVideoRenderer":\{"videoId":"([a-zA-Z0-9_-]{11})"', html)
+        seen = []
+        for v in vids:
+            if v not in seen:
+                seen.append(v)
+        if seen:
+            return seen[:250]
+        xml = fetch_url(f"https://www.youtube.com/feeds/videos.xml?playlist_id={pid}")
+        return list(reversed(re.findall(r"<yt:videoId>([a-zA-Z0-9_-]{11})</yt:videoId>", xml)))
+    except Exception:
+        return []
+
 def slugify(text):
     return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
 
@@ -247,9 +263,11 @@ def main():
             else:
                 audio_type = "English Sub"
 
+            vids = fetch_playlist_video_ids(pl["playlistId"])
             server_entry = {
                 "name": f"{item['server']} • {audio_type}",
                 "playlistId": pl["playlistId"],
+                "videoIds": vids,
                 "lang": audio_type
             }
 
@@ -257,6 +275,7 @@ def main():
                 existing_ids = [s["playlistId"] for s in catalog_map[slug].get("servers", [])]
                 if pl["playlistId"] not in existing_ids:
                     catalog_map[slug].setdefault("servers", []).append(server_entry)
+                    catalog_map[slug]["updatedAt"] = int(time.time())
                 catalog_map[slug]["aliases"] = list(dict.fromkeys(catalog_map[slug].get("aliases", []) + aliases))
                 catalog_map[slug]["status"] = status
                 catalog_map[slug]["airDay"] = air_day
@@ -305,6 +324,19 @@ def main():
                 "officialLinks": official_links,
             }
             print(f"  + {eng_title} ({year}) [{status} • {audio_type}]", flush=True)
+
+    for show in catalog_map.values():
+        show.setdefault("updatedAt", int(time.time()) - (sum(ord(c) for c in show["slug"]) % 86400))
+        for srv in show.get("servers", []):
+            old_len = len(srv.get("videoIds") or [])
+            if srv.get("playlistId"):
+                fresh = fetch_playlist_video_ids(srv["playlistId"])
+                if fresh:
+                    srv["videoIds"] = fresh
+                    if len(fresh) > old_len:
+                        show["updatedAt"] = int(time.time())
+                    show["latestEp"] = len(fresh)
+                    show["episodes"] = max(show.get("episodes", 1), len(fresh))
 
     # Sort highest-rated ongoing & flagship shows to the front automatically
     final_list = sorted(
