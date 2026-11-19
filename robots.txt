@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://anistream.aniguide-hub.workers.dev/sitemap.xml
