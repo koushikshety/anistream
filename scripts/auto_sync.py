@@ -6,11 +6,11 @@ import urllib.error
 import time
 
 SEARCH_QUERIES = [
-    {"q": "Muse India official full episodes playlist", "server": "Muse India", "type": "anime", "quality": "1080p"},
-    {"q": "Muse Asia official full episodes playlist", "server": "Muse Asia", "type": "anime", "quality": "1080p"},
-    {"q": "Muse Asia English Dub official playlist", "server": "Muse Asia", "type": "anime", "quality": "1080p"},
-    {"q": "Ani-One India official full episodes playlist", "server": "Ani-One India", "type": "anime", "quality": "1080p"},
-    {"q": "Ani-One Asia official full episodes playlist", "server": "Ani-One Asia", "type": "anime", "quality": "1080p"},
+    {"q": "Muse India official full episodes playlist", "server": "Muse India", "type": "quality": "1080p"},
+    {"q": "Muse Asia official full episodes playlist", "server": "Muse Asia", "type": "quality": "1080p"},
+    {"q": "Muse Asia English Dub official playlist", "server": "Muse Asia", "type": "quality": "1080p"},
+    {"q": "Ani-One India official full episodes playlist", "server": "Ani-One India", "type": "quality": "1080p"},
+    {"q": "Ani-One Asia official full episodes playlist", "server": "Ani-One Asia", "type": "quality": "1080p"},
     {"q": "Tencent Video Animation donghua full episodes playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
     {"q": "Youku Animation donghua full episodes playlist", "server": "Youku 4K", "type": "donghua", "quality": "4K / 1080p"},
     {"q": "Bilibili official donghua full episodes playlist", "server": "Bilibili HD", "type": "donghua", "quality": "1080p"},
@@ -30,17 +30,17 @@ SEARCH_QUERIES = [
     {"q": "Throne of Seal Shen Yin Wangzuo Tencent Video playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
     {"q": "Jade Dynasty Zhu Xian Tencent Video playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
     # Top Famous Anime
-    {"q": "That Time I Got Reincarnated as a Slime Muse Asia playlist", "server": "Muse Official", "type": "anime", "quality": "1080p"},
-    {"q": "Solo Leveling official playlist", "server": "Official HD", "type": "anime", "quality": "1080p"},
-    {"q": "Demon Slayer Kimetsu no Yaiba Muse Asia playlist", "server": "Muse Official", "type": "anime", "quality": "1080p"},
-    {"q": "Chainsaw Man Ani-One playlist", "server": "Ani-One Official", "type": "anime", "quality": "1080p"},
-    {"q": "Black Clover Muse Asia playlist", "server": "Muse Official", "type": "anime", "quality": "1080p"},
-    {"q": "Naruto Shippuden official episodes playlist", "server": "Official HD", "type": "anime", "quality": "1080p"},
-    {"q": "One Piece official episodes playlist", "server": "Official HD", "type": "anime", "quality": "1080p"},
+    {"q": "That Time I Got Reincarnated as a Slime Muse Asia playlist", "server": "Muse Official", "type": "quality": "1080p"},
+    {"q": "Solo Leveling official playlist", "server": "Official HD", "type": "quality": "1080p"},
+    {"q": "Demon Slayer Kimetsu no Yaiba Muse Asia playlist", "server": "Muse Official", "type": "quality": "1080p"},
+    {"q": "Chainsaw Man Ani-One playlist", "server": "Ani-One Official", "type": "quality": "1080p"},
+    {"q": "Black Clover Muse Asia playlist", "server": "Muse Official", "type": "quality": "1080p"},
+    {"q": "Naruto Shippuden official episodes playlist", "server": "Official HD", "type": "quality": "1080p"},
+    {"q": "One Piece official episodes playlist", "server": "Official HD", "type": "quality": "1080p"},
 ]
 
 # Strictly 100% Safe Official Distributors Only (Zero pirate hosts)
-ALLOWED_CHANNELS = ("muse", "ani-one", "tencent", "youku", "bilibili", "crunchyroll", "iqiyi", "wetv", "ani-mi", "anime")
+ALLOWED_CHANNELS = ("muse", "ani-one", "tencent", "youku", "bilibili", "crunchyroll", "iqiyi", "wetv")
 SPAM_WORDS = ("membership", "join animation", "download wetv", "wetv.vip", "completed series", "animasi anichin", "donghua 3d", "preview", "trailer", "pv ")
 DAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
@@ -400,3 +400,33 @@ def _verify_official():
         s["servers"] = clean
     _js.dump(cat, open(p, "w", encoding="utf-8"), indent=2)
 _ax.register(_verify_official)
+
+import atexit as _ax, json as _js, re as _re, urllib.request as _ur
+def _map_eps():
+    BAD = _re.compile(r"reaction|reacts|review|recap|explain|tamil|amv|trailer|teaser|pv|ost|compilation|合集", _re.I)
+    EP = _re.compile(r"(?:\bEP\.?|\bEpisode|\bE(?=\d)|第)\s*0*(\d{1,4})(?!\s*[-~–到至]\s*\d)", _re.I)
+    cat = _js.load(open("data/catalog.json"))
+    ctx = {"client": {"clientName": "WEB", "clientVersion": "2.20250101.00.00", "hl": "en", "gl": "US"}}
+    for sh in cat:
+        for srv in sh.get("servers", []):
+            pl = srv.get("playlistId", "")
+            if not pl: continue
+            req = _ur.Request("https://www.youtube.com/youtubei/v1/browse", data=_js.dumps({"context": ctx, "browseId": "VL" + pl}).encode(), headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"})
+            try: d = _js.loads(_ur.urlopen(req, timeout=15).read().decode("utf-8", "ignore"))
+            except Exception: continue
+            raw = {}
+            def walk(o):
+                if isinstance(o, dict):
+                    if "playlistVideoRenderer" in o:
+                        v = o["playlistVideoRenderer"]; vid = v.get("videoId")
+                        t = "".join(r.get("text", "") for r in v.get("title", {}).get("runs", []))
+                        if vid and not BAD.search(t) and (m := EP.search(t)): raw.setdefault(int(m.group(1)), vid)
+                    for val in o.values(): walk(val)
+                elif isinstance(o, list):
+                    for el in o: walk(el)
+            walk(d)
+            if raw:
+                em = {str(k): raw[k] for k in sorted(raw)}
+                srv["episodeMap"] = em; srv["videoIds"] = list(em.values())
+    _js.dump(cat, open("data/catalog.json", "w"), indent=2)
+_ax.register(_map_eps)
