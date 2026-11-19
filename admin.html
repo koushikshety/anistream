@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AniStream — Live Branding & Admin Control</title>
+  <style>
+    :root { --bg:#080a0f; --surface:#111520; --surface-2:#181e2c; --primary:#ff4757; --accent:#2ed573; --text:#f1f5f9; --muted:#94a3b8; --border:rgba(255,255,255,0.09); }
+    * { box-sizing:border-box; margin:0; padding:0; font-family:system-ui,-apple-system,sans-serif; }
+    body { background:var(--bg); color:var(--text); padding:16px; max-width:900px; margin:0 auto; }
+    .card { background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:16px; margin-bottom:16px; }
+    h1 { font-size:1.3rem; margin-bottom:4px; } h2 { font-size:1rem; margin-bottom:12px; color:var(--accent); }
+    label { display:block; font-size:0.78rem; color:var(--muted); margin:10px 0 4px; font-weight:600; }
+    input, button { width:100%; padding:10px 12px; border-radius:8px; border:1px solid var(--border); background:var(--surface-2); color:#fff; font-size:0.9rem; }
+    input[type="color"] { height:42px; padding:4px; cursor:pointer; }
+    .grid2 { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+    .grid3 { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; }
+    .btn { background:var(--primary); border:none; font-weight:700; cursor:pointer; margin-top:12px; }
+    .btn-sec { background:#1e293b; margin-top:8px; cursor:pointer; }
+    .item { background:var(--surface-2); padding:10px; border-radius:8px; margin-bottom:8px; font-size:0.82rem; display:flex; justify-content:space-between; align-items:center; gap:8px; }
+    .del { width:auto; padding:5px 10px; background:#dc2626; border:none; font-size:0.75rem; cursor:pointer; }
+  </style>
+</head>
+<body>
+  <div class="card" style="display:flex;justify-content:space-between;align-items:center;">
+    <div><h1>🎛️ AniStream Control Center</h1><div style="font-size:0.8rem;color:var(--muted);">Live Logo, Favicon, Colors, Banners & Moderation</div></div>
+    <a href="index.html" style="color:var(--accent);text-decoration:none;font-weight:700;font-size:0.85rem;">← Live Site</a>
+  </div>
+
+  <div id="login-box" class="card">
+    <h2>🔐 Owner Sign-In</h2>
+    <label>Admin Email</label><input id="adm-email" type="email" value="koushikshetty53@gmail.com" />
+    <label>Password</label><input id="adm-pass" type="password" placeholder="Enter Firebase Auth password" />
+    <button class="btn" onclick="signInAdmin()">Sign In to Control Panel</button>
+    <div id="login-err" style="color:#f87171;font-size:0.8rem;margin-top:8px;"></div>
+  </div>
+
+  <div id="dash-box" style="display:none;">
+    <div class="card">
+      <h2>🎨 Live Theme, Logo, Favicon & Banners (Applies Site-Wide Instantly)</h2>
+      <div class="grid2">
+        <div><label>Site Name</label><input id="t-name" placeholder="AniStream" /></div>
+        <div><label>Top Notice Banner (leave blank to hide)</label><input id="t-notice" placeholder="🔥 Renegade Immortal Ep 181 Added!" /></div>
+      </div>
+      <div class="grid2">
+        <div><label>Logo Image URL (or upload below)</label><input id="t-logo" placeholder="https://..." /><input type="file" accept="image/*" onchange="uploadCloud(this,'t-logo')" style="margin-top:4px;font-size:0.75rem;" /></div>
+        <div><label>Browser Favicon / App Icon URL</label><input id="t-fav" placeholder="https://..." /><input type="file" accept="image/*" onchange="uploadCloud(this,'t-fav')" style="margin-top:4px;font-size:0.75rem;" /></div>
+      </div>
+      <div class="grid2">
+        <div><label>Custom Hero Banner URL (optional)</label><input id="t-banner" placeholder="https://..." /><input type="file" accept="image/*" onchange="uploadCloud(this,'t-banner')" style="margin-top:4px;font-size:0.75rem;" /></div>
+        <div><label>Custom Hero Headline (optional)</label><input id="t-herotitle" placeholder="Watch Free 4K Anime & Donghua" /></div>
+      </div>
+      <div class="grid3">
+        <div><label>Primary Accent</label><input id="c-primary" type="color" value="#ff4757" /></div>
+        <div><label>Donghua Accent</label><input id="c-donghua" type="color" value="#f59e0b" /></div>
+        <div><label>Badge / Play Accent</label><input id="c-accent" type="color" value="#2ed573" /></div>
+      </div>
+      <div class="grid2">
+        <div><label>Page Background</label><input id="c-bg" type="color" value="#080a0f" /></div>
+        <div><label>Card Surface</label><input id="c-surface" type="color" value="#111520" /></div>
+      </div>
+      <button class="btn" onclick="saveTheme()">💾 Save & Apply Live Across Entire Website</button>
+      <button class="btn btn-sec" onclick="resetTheme()">↺ Reset to Default Dark Theme</button>
+      <div id="save-msg" style="color:var(--accent);font-size:0.82rem;margin-top:8px;"></div>
+    </div>
+
+    <div class="card"><h2>📊 Top Viewed Shows</h2><div id="views-list">Loading...</div></div>
+    <div class="card"><h2>⚠️ Broken Video Reports</h2><div id="reports-list">Loading...</div></div>
+    <div class="card"><h2>💬 Recent Episode Comments</h2><div id="comments-admin">Loading...</div></div>
+  </div>
+
+  <script>
+    const DB = "https://anistream-community-default-rtdb.asia-southeast1.firebasedatabase.app";
+    const API_KEY = "AIzaSyCTo_ZwsFo8IsPxoIx-ipRQIJHW91fp5Rw";
+    let ID_TOKEN = sessionStorage.getItem("ani_id_token") || "";
+
+    async function signInAdmin() {
+      const email = document.getElementById("adm-email").value.trim();
+      const password = document.getElementById("adm-pass").value;
+      const res = await fetch(`https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${API_KEY}`, {
+        method: "POST", headers: {"Content-Type":"application/json"},
+        body: JSON.stringify({ email, password, returnSecureToken: true })
+      });
+      const data = await res.json();
+      if (!data.idToken) { document.getElementById("login-err").textContent = data.error?.message || "Login failed"; return; }
+      ID_TOKEN = data.idToken;
+      sessionStorage.setItem("ani_id_token", ID_TOKEN);
+      openDashboard();
+    }
+
+    async function uploadCloud(inp, targetId) {
+      const file = inp.files?.[0]; if (!file) return;
+      const fd = new FormData(); fd.append("file", file); fd.append("upload_preset", "owzhqyol");
+      document.getElementById("save-msg").textContent = "Uploading image...";
+      const res = await fetch("https://api.cloudinary.com/v1_1/owzhqyol/image/upload", { method: "POST", body: fd });
+      const d = await res.json();
+      if (d.secure_url) { document.getElementById(targetId).value = d.secure_url; document.getElementById("save-msg").textContent = "Uploaded! Click Save & Apply Live."; }
+    }
+
+    async function openDashboard() {
+      document.getElementById("login-box").style.display = "none";
+      document.getElementById("dash-box").style.display = "block";
+      const t = (await (await fetch(`${DB}/anistream_theme.json`)).json()) || {};
+      document.getElementById("t-name").value = t.siteName || "";
+      document.getElementById("t-notice").value = t.notice || "";
+      document.getElementById("t-logo").value = t.logoUrl || "";
+      document.getElementById("t-fav").value = t.favicon || "";
+      document.getElementById("t-banner").value = t.heroBanner || "";
+      document.getElementById("t-herotitle").value = t.heroTitle || "";
+      if (t.primary) document.getElementById("c-primary").value = t.primary;
+      if (t.donghua) document.getElementById("c-donghua").value = t.donghua;
+      if (t.accent) document.getElementById("c-accent").value = t.accent;
+      if (t.bg) document.getElementById("c-bg").value = t.bg;
+      if (t.surface) document.getElementById("c-surface").value = t.surface;
+      loadAdminData();
+    }
+
+    async function saveTheme() {
+      const payload = {
+        siteName: document.getElementById("t-name").value.trim(),
+        notice: document.getElementById("t-notice").value.trim(),
+        logoUrl: document.getElementById("t-logo").value.trim(),
+        favicon: document.getElementById("t-fav").value.trim(),
+        heroBanner: document.getElementById("t-banner").value.trim(),
+        heroTitle: document.getElementById("t-herotitle").value.trim(),
+        primary: document.getElementById("c-primary").value,
+        donghua: document.getElementById("c-donghua").value,
+        accent: document.getElementById("c-accent").value,
+        bg: document.getElementById("c-bg").value,
+        surface: document.getElementById("c-surface").value
+      };
+      const r = await fetch(`${DB}/anistream_theme.json?auth=${ID_TOKEN}`, { method: "PUT", headers: {"Content-Type":"application/json"}, body: JSON.stringify(payload) });
+      document.getElementById("save-msg").textContent = r.ok ? "✅ Applied live across AniStream!" : "❌ Error saving (check Firebase Rules / token).";
+    }
+
+    async function resetTheme() {
+      await fetch(`${DB}/anistream_theme.json?auth=${ID_TOKEN}`, { method: "DELETE" });
+      document.getElementById("save-msg").textContent = "↺ Reset to default theme!";
+    }
+
+    async function loadAdminData() {
+      const views = (await (await fetch(`${DB}/anistream_views.json`)).json()) || {};
+      const sorted = Object.entries(views).sort((a,b) => b[1]-a[1]).slice(0, 15);
+      document.getElementById("views-list").innerHTML = sorted.length ? sorted.map(([k,v]) => `<div class="item"><span>${k}</span><strong>${v} views</strong></div>`).join("") : "No views recorded yet.";
+
+      const reps = (await (await fetch(`${DB}/anistream_reports.json?auth=${ID_TOKEN}`)).json()) || {};
+      document.getElementById("reports-list").innerHTML = Object.keys(reps).length ? Object.entries(reps).map(([id,r]) => `<div class="item"><div><strong>${r.title} Ep ${r.ep}</strong><br/><span style="color:var(--muted)">${r.reason} • ${r.time||''}</span></div><button class="del" onclick="delNode('anistream_reports/${id}')">Resolve</button></div>`).join("") : "No broken video reports!";
+
+      const eps = (await (await fetch(`${DB}/anistream_episodes.json`)).json()) || {};
+      let cHtml = "";
+      Object.entries(eps).forEach(([epK, val]) => {
+        Object.entries(val.comments || {}).forEach(([cid, c]) => {
+          cHtml += `<div class="item"><div><strong>${c.name}</strong> <span style="color:var(--muted)">(${epK})</span><br/>${c.text}</div><button class="del" onclick="delNode('anistream_episodes/${epK}/comments/${cid}')">Delete</button></div>`;
+        });
+      });
+      document.getElementById("comments-admin").innerHTML = cHtml || "No comments yet.";
+    }
+
+    async function delNode(path) {
+      await fetch(`${DB}/${path}.json?auth=${ID_TOKEN}`, { method: "DELETE" });
+      loadAdminData();
+    }
+
+    if (ID_TOKEN) openDashboard();
+  </script>
+</body>
+</html>
