@@ -191,7 +191,7 @@
       <aside class="ep-sidebar">
         <div class="ep-header">
           <strong>Episodes</strong>
-          <span id="ep-total" style="color:var(--muted); font-size:0.82rem;"></span>
+          <select id="ep-range" onchange="renderEpisodes()" style="background:var(--surface-2); color:var(--text); border:1px solid #2a344a; border-radius:6px; padding:4px 8px; font-size:0.8rem; font-weight:700;"></select>
         </div>
         <div class="ep-grid" id="ep-grid"></div>
       </aside>
@@ -266,15 +266,30 @@
     function switchServer(idx) {
       activeServerIdx = idx;
       renderServers();
+      initRanges();
       playEpisode(currentEp);
+    }
+
+    function initRanges() {
+      const sel = document.getElementById("ep-range");
+      const total = currentShow.episodes || 24;
+      const step = 50;
+      let opts = "";
+      for (let start = 1; start <= total; start += step) {
+        const end = Math.min(total, start + step - 1);
+        const selected = (currentEp >= start && currentEp <= end) ? "selected" : "";
+        opts += `<option value="${start}-${end}" ${selected}>${start}–${end} (${total})</option>`;
+      }
+      sel.innerHTML = opts;
     }
 
     function renderEpisodes() {
       const grid = document.getElementById("ep-grid");
       const isDonghua = currentShow.type === "donghua";
-      document.getElementById("ep-total").textContent = `${currentShow.episodes} Eps`;
+      const rangeVal = document.getElementById("ep-range").value || `1-${Math.min(50, currentShow.episodes)}`;
+      const [start, end] = rangeVal.split("-").map(Number);
       let html = "";
-      for (let i = 1; i <= currentShow.episodes; i++) {
+      for (let i = start; i <= end; i++) {
         const active = i === currentEp ? "active" : "";
         html += `<button class="ep-btn ${isDonghua ? "donghua-ep" : ""} ${active}" onclick="playEpisode(${i})">${i}</button>`;
       }
@@ -290,6 +305,7 @@
       document.getElementById("show-meta").textContent = `${currentShow.quality} Official • ★ ${(currentShow.score / 10).toFixed(1)} • ${currentShow.episodes} Episodes`;
       document.getElementById("show-desc").textContent = currentShow.desc;
       renderServers();
+      initRanges();
       playEpisode(currentEp);
     });
   </script>
