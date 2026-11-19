@@ -332,42 +332,75 @@
     }
 
     function playEpisode(ep) {
-      if (!currentShow) return;
-      currentEp = ep;
-      const srv = currentShow.servers[activeServerIdx];
-      let notice = document.getElementById("licensed-overlay");
+  if (!currentShow) return;
+  currentEp = ep;
+  const srv = (currentShow.servers || [])[activeServerIdx];
+  let notice = document.getElementById("licensed-overlay");
   const frame = document.getElementById("player-frame");
-  if (!srv) {
-    if (frame) frame.style.display = "none";
+
+  function showPlayerNotice(titleText, descText, extraBtnHtml) {
+    if (frame) {
+      frame.src = "about:blank";
+      frame.style.display = "none";
+    }
     if (!notice && frame) {
       notice = document.createElement("div");
       notice.id = "licensed-overlay";
-      notice.style.cssText = "position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:20px;background:linear-gradient(135deg,#0f172a,#1e1b4b);color:#f1f5f9;gap:10px;";
+      notice.style.cssText = "position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:20px;background:linear-gradient(135deg,#0f172a,#1e1b4b);color:#f1f5f9;gap:10px;z-index:5;";
       frame.parentElement.appendChild(notice);
     }
     if (notice) {
       const links = (currentShow.officialLinks || []).map(l => `<a href="${l.url}" target="_blank" rel="noopener" style="background:#ff4757;color:#fff;text-decoration:none;padding:8px 14px;border-radius:8px;font-weight:700;font-size:0.82rem;">Watch on ${l.site} →</a>`).join("");
-      notice.innerHTML = `<div style="font-size:1.05rem;font-weight:800;">🔒 Licensed Official Stream Only</div><div style="font-size:0.8rem;color:#94a3b8;max-width:420px;">Full episodes of <strong>${currentShow.title}</strong> are not hosted free on YouTube. Stream legally on official platforms below:</div><div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:4px;">${links}</div>`;
+      notice.innerHTML = `<div style="font-size:1.05rem;font-weight:800;">${titleText}</div><div style="font-size:0.8rem;color:#94a3b8;max-width:440px;">${descText}</div><div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:4px;">${extraBtnHtml || ""}${links}</div>`;
       notice.style.display = "flex";
     }
+    document.getElementById("cinema-now-playing").textContent = `${currentShow.title} - Episode ${currentEp}`;
     saveHistory();
     renderEpisodes();
+  }
+
+  if (!srv) {
+    showPlayerNotice(
+      "🔒 Licensed Official Stream Only",
+      `Full episodes of <strong>${currentShow.title}</strong> are not hosted free on YouTube. Stream legally on official platforms below:`,
+      ""
+    );
     return;
   }
+
+  const epMap = srv.episodeMap || {};
+  const mappedKeys = Object.keys(epMap).map(Number).filter(n => !isNaN(n)).sort((a, b) => a - b);
+  const hasMap = mappedKeys.length > 0;
+  const mappedVid = hasMap ? epMap[String(ep)] : null;
+
+  if (hasMap && !mappedVid) {
+    const firstFree = mappedKeys[0];
+    const lastFree = mappedKeys[mappedKeys.length - 1];
+    const jumpBtns = `<button onclick="playEpisode(${firstFree})" style="background:#22c55e;color:#052e16;border:none;padding:8px 14px;border-radius:8px;font-weight:800;font-size:0.82rem;cursor:pointer;">▶ Play Ep ${firstFree}</button>`
+      + (lastFree !== firstFree ? `<button onclick="playEpisode(${lastFree})" style="background:#38bdf8;color:#082f49;border:none;padding:8px 14px;border-radius:8px;font-weight:800;font-size:0.82rem;cursor:pointer;">▶ Latest Free (Ep ${lastFree})</button>` : "");
+    showPlayerNotice(
+      `⚠️ Episode ${ep} Is VIP / Not Free on YouTube`,
+      `Official YouTube channels lock certain episodes behind VIP/Memberships or haven't uploaded Episode ${ep} yet (${mappedKeys.length} free episodes mapped). Jump to a free episode or watch on official platforms:`,
+      jumpBtns
+    );
+    return;
+  }
+
   if (notice) notice.style.display = "none";
   if (frame) frame.style.display = "block";
-      const vid = (srv.videoIds || [])[ep - 1];
+
+  const vid = mappedVid || (srv.videoIds || [])[ep - 1];
   const url = vid
     ? `https://www.youtube.com/embed/${vid}?autoplay=1&rel=0&modestbranding=1&playsinline=1`
-    : `https://www.youtube.com/embed?listType=playlist&list=${srv.playlistId}&index=${ep}&rel=0&modestbranding=1&playsinline=1`;
-      document.getElementById("player-frame").src = url;
-      document.getElementById("cinema-now-playing").textContent = `${currentShow.title} — Episode ${currentEp}`;
-      saveHistory();
-      renderEpisodes();
-      if (typeof loadEpisodeSocial === "function") loadEpisodeSocial();
-    }
+    : `https://www.youtube.com/embed/videoseries?list=${srv.playlistId}&index=${ep - 1}&rel=0&modestbranding=1&playsinline=1`;
+  frame.src = url;
+  document.getElementById("cinema-now-playing").textContent = `${currentShow.title} - Episode ${currentEp}`;
+  saveHistory();
+  renderEpisodes();
+  if (typeof loadEpisodeSocial === "function") loadEpisodeSocial();
+}
 
-    function prevEpisode() { if (currentEp > 1) playEpisode(currentEp - 1); }
+function prevEpisode() { if (currentEp > 1) playEpisode(currentEp - 1); }
     function nextEpisode() { if (currentShow && currentEp < currentShow.episodes) playEpisode(currentEp + 1); }
 
     function renderServers() {
@@ -415,7 +448,10 @@
       let html = "";
       for (let i = start; i <= end; i++) {
         const active = i === currentEp ? "active" : "";
-        html += `<button class="ep-btn ${isDonghua ? "donghua-ep" : ""} ${active}" onclick="playEpisode(${i})">${i}</button>`;
+        const srvEpMap = ((currentShow.servers || [])[activeServerIdx] || {}).episodeMap;
+    const isUnmapped = srvEpMap && Object.keys(srvEpMap).length > 0 && !srvEpMap[String(i)];
+    const vipStyle = isUnmapped ? 'style="opacity:0.42;" title="VIP / Not free on YouTube"' : '';
+    html += `<button class="ep-btn ${isDonghua ? "donghua-ep" : ""} ${active}" ${vipStyle} onclick="playEpisode(${i})">${i}</button>`;
       }
       grid.innerHTML = html;
     }
