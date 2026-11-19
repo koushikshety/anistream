@@ -1,0 +1,12 @@
+{
+  "name": "AniStream — Official 4K Anime & Donghua",
+  "short_name": "AniStream",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#080a0f",
+  "theme_color": "#ff4757",
+  "icons": [
+    { "src": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx154587-n1fmjUs4QUYH.jpg", "sizes": "192x192", "type": "image/jpeg" },
+    { "src": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154587-n1fmjUs4QUYH.jpg", "sizes": "512x512", "type": "image/jpeg" }
+  ]
+}

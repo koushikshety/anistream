@@ -159,8 +159,11 @@
     footer { border-top: 1px solid var(--border); background: #06080c; padding: 24px 20px; text-align: center; font-size: 0.78rem; color: var(--muted); line-height: 1.6; }
     footer a { color: var(--accent); text-decoration: none; margin: 0 8px; }
   </style>
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#080a0f" />
 </head>
 <body>
+  <div id="site-notice" style="display:none;background:linear-gradient(90deg,var(--primary),#f59e0b);color:#fff;text-align:center;padding:8px 14px;font-size:0.82rem;font-weight:700;"></div>
   <header class="navbar">
     <div class="nav-left">
       <a href="index.html" class="brand" onclick="switchMode('all'); return false;">ANI<span>STREAM</span></a>
@@ -248,7 +251,24 @@
           s.src = "https://bauval.org/21/1670e3305650d4a06781e47abce47301";
           document.body.appendChild(s);
         }, 1000);
-      </script>
+    
+    fetch("https://anistream-community-default-rtdb.asia-southeast1.firebasedatabase.app/anistream_theme.json").then(r=>r.json()).then(t=>{
+      if(!t||typeof t!=="object")return;
+      const st=document.documentElement.style;
+      if(t.primary)st.setProperty("--primary",t.primary);
+      if(t.donghua)st.setProperty("--donghua",t.donghua);
+      if(t.accent)st.setProperty("--accent",t.accent);
+      if(t.bg)st.setProperty("--bg",t.bg);
+      if(t.surface)st.setProperty("--surface",t.surface);
+      if(t.favicon){let l=document.querySelector("link[rel~='icon']")||Object.assign(document.createElement("link"),{rel:"icon"});l.href=t.favicon;document.head.appendChild(l);}
+      if(t.logoUrl)document.querySelectorAll(".brand").forEach(b=>b.innerHTML=`<img src="${t.logoUrl}" alt="${t.siteName||'AniStream'}" style="height:30px;vertical-align:middle;border-radius:6px;"/>`);
+      else if(t.siteName)document.querySelectorAll(".brand").forEach(b=>b.textContent=t.siteName);
+      if(t.notice&&t.notice.trim()){const n=document.getElementById("site-notice");if(n){n.textContent=t.notice.trim();n.style.display="block";}}
+      if(t.heroBanner){const hb=document.getElementById("hero-bg");if(hb)hb.style.backgroundImage=`url('${t.heroBanner}')`;const ht=document.getElementById("hero-title");if(ht&&t.heroTitle)ht.textContent=t.heroTitle;}
+    }).catch(()=>{});
+    setTimeout(()=>{const ad=document.getElementById("container-1670e3305650d4a06781e47abce47301");if(ad&&ad.innerHTML.trim()==="")ad.innerHTML=`<div style="padding:8px;font-size:0.78rem;color:#cbd5e1;">🛡️ <strong>Adblocker Detected:</strong> Whitelist AniStream for free 4K streams or explore <a href="https://www.amazon.in/s?k=anime+manga+box+set&tag=aniguide-21" target="_blank" rel="noopener" style="color:#fbbf24;font-weight:700;">Official Manga & Merch on Amazon India</a>!</div>`;},2500);
+
+  </script>
     </div>
 
     <div id="continue-section" style="display:none;">
