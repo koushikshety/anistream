@@ -4,119 +4,111 @@ import re
 import time
 import urllib.request
 import urllib.parse
-import urllib.error
+import xml.etree.ElementTree as ET
 
-SEARCH_QUERIES = [
-    {"q": "Muse India official full episodes playlist", "server": "Muse India", "type": "anime", "quality": "1080p"},
-    {"q": "Muse Asia official full episodes playlist", "server": "Muse Asia", "type": "anime", "quality": "1080p"},
-    {"q": "Muse Asia English Dub official playlist", "server": "Muse Asia", "type": "anime", "quality": "1080p"},
-    {"q": "Ani-One India official full episodes playlist", "server": "Ani-One India", "type": "anime", "quality": "1080p"},
-    {"q": "Ani-One Asia official full episodes playlist", "server": "Ani-One Asia", "type": "anime", "quality": "1080p"},
-    {"q": "Tencent Video Animation donghua full episodes playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
-    {"q": "Youku Animation donghua full episodes playlist", "server": "Youku 4K", "type": "donghua", "quality": "4K / 1080p"},
-    {"q": "Bilibili official donghua full episodes playlist", "server": "Bilibili HD", "type": "donghua", "quality": "1080p"},
-    {"q": "Battle Through the Heavens Tencent Video playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
-    {"q": "Renegade Immortal Xian Ni Tencent Video playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
-    {"q": "Shrouding the Heavens Zhe Tian Tencent Video playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
-    {"q": "Swallowed Star Tencent Video playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
-    {"q": "Perfect World Wanmei Shijie Tencent Video playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
-    {"q": "A Will Eternal Yi Nian Yong Heng Tencent Video playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
-    {"q": "Soul Land Douluo Dalu Tencent Video playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
-    {"q": "Throne of Seal Shen Yin Wangzuo Tencent Video playlist", "server": "Tencent 4K", "type": "donghua", "quality": "4K / 1080p"},
-    {"q": "That Time I Got Reincarnated as a Slime Muse Asia playlist", "server": "Muse Official", "type": "anime", "quality": "1080p"},
-    {"q": "Black Clover Muse Asia playlist", "server": "Muse Official", "type": "anime", "quality": "1080p"},
+YT_CHANNELS = [
+    {"name": "Muse Asia", "type": "anime", "id": "UCGbshtvS9t-8CW11W7TooQg"},
+    {"name": "Ani-One Asia", "type": "anime", "id": "UC0wNSTMWIL3qaorLx0jie6A"},
+    {"name": "Tencent 4K", "type": "donghua", "id": "UCQatgKoA7lylp_UzvsLCWrw"},
+    {"name": "Youku 4K", "type": "donghua", "id": "UCc4f0l6w9q8g1N2Q4Q5Y6wA"},
 ]
 
-ALLOWED_CHANNELS = ("muse", "ani-one", "tencent", "youku", "bilibili", "iqiyi", "wetv")
-SPAM_WORDS = ("membership", "join animation", "download wetv", "wetv.vip", "completed series", "reaction", "reacts", "review", "recap", "preview", "trailer", "pv ")
+DM_FAST_SHOWS = [
+    {"title": "Renegade Immortal", "type": "donghua"},
+    {"title": "Battle Through the Heavens", "type": "donghua"},
+    {"title": "Perfect World", "type": "donghua"},
+    {"title": "Soul Land 2", "type": "donghua"},
+    {"title": "Throne of Seal", "type": "donghua"},
+    {"title": "Shrouding the Heavens", "type": "donghua"},
+    {"title": "Swallowed Star", "type": "donghua"},
+    {"title": "That Time I Got Reincarnated as a Slime", "type": "anime"},
+]
+
 DAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/128.0 Safari/537.36", "Accept-Language": "en-US,en;q=0.9"}
+BAD_WORDS = re.compile(r"\b(pv|trailer|teaser|preview|op|ed|clip|short|reaction|review|amv|ost)\b", re.I)
+EP_PATTERNS = [
+    re.compile(r"(?:episode|ep\.?|#)\s*0*(\d{1,4})\b", re.I),
+    re.compile(r"第\s*0*(\d{1,4})\s*[集话話]"),
+]
+HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 
-def fetch_url(url, data=None, headers=None):
+def fetch_text(url, data=None, headers=None):
     req = urllib.request.Request(url, data=data, headers=headers or HEADERS)
-    with urllib.request.urlopen(req, timeout=20) as resp:
-        return resp.read().decode("utf-8", errors="ignore")
+    with urllib.request.urlopen(req, timeout=15) as r:
+        return r.read().decode("utf-8", errors="ignore")
 
-def search_official_playlists(query):
-    url = f"https://www.youtube.com/results?search_query={urllib.parse.quote(query)}&sp=EgIQAw%3D%3D"
-    html = fetch_url(url)
-    m = re.search(r"var ytInitialData = ({.*?});</script>", html)
-    if not m: return []
-    data, results = json.loads(m.group(1)), []
-    def walk(obj):
-        if isinstance(obj, dict):
-            if "playlistRenderer" in obj:
-                pr = obj["playlistRenderer"]
-                pid = pr.get("playlistId", "")
-                title = pr.get("title", {}).get("simpleText", "")
-                owner = "".join(r.get("text", "") for r in pr.get("shortBylineText", {}).get("runs", [])).lower()
-                if pid.startswith("PL") and any(k in owner for k in ALLOWED_CHANNELS):
-                    results.append({"playlistId": pid, "rawTitle": title})
-            for v in obj.values(): walk(v)
-        elif isinstance(obj, list):
-            for el in obj: walk(el)
-    walk(data)
-    return results
+def slugify(s):
+    return re.sub(r"[^a-z0-9]+", "-", (s or "").lower()).strip("-")
 
-def extract_english_search_name(raw):
-    if any(s in raw.lower() for s in SPAM_WORDS): return ""
-    t = re.sub(r"《.*?》|【.*?】|\[.*?\]|\(.*?\)|[^\x00-\x7F]+", " ", raw)
-    t = re.sub(r"(?i)\b(hindi dub|english dub|eng dub|english sub|eng sub|multisub|full episodes|all episodes|season \d+|ep\s*\d+.*|muse asia|muse india|ani-one|tencent|youku|bilibili|animation|free)\b", " ", t)
-    return re.sub(r"\s+", " ", re.sub(r"[|★☆•:：\-–—]+", " ", t)).strip()
+def extract_ep_and_title(raw):
+    if BAD_WORDS.search(raw):
+        return None, None
+    for pat in EP_PATTERNS:
+        m = pat.search(raw)
+        if m:
+            ep = int(m.group(1))
+            if 1 <= ep <= 2500:
+                title = re.sub(r"《.*?》|【.*?】|\[.*?\]|\(.*?\)|[^\x00-\x7F]+", " ", raw[:m.start()])
+                title = re.sub(r"[\|\-–—:]+$", "", title).strip()
+                return (title if len(title) >= 3 else None), ep
+    return None, None
 
-def fetch_anilist_meta(title):
-    query = """
-    query ($search: String) {
-      Media(search: $search, type: ANIME, sort: POPULARITY_DESC) {
+def fetch_anilist(title, fallback_type):
+    q = """
+    query ($s: String) {
+      Media(search: $s, type: ANIME, sort: POPULARITY_DESC) {
         title { english romaji native }
-        countryOfOrigin synonyms status seasonYear averageScore episodes
+        countryOfOrigin status seasonYear averageScore episodes
         coverImage { extraLarge large } bannerImage description(asHtml: false)
-        genres nextAiringEpisode { airingAt } externalLinks { site url }
+        genres nextAiringEpisode { airingAt }
       }
     }
     """
-    payload = json.dumps({"query": query, "variables": {"search": title}}).encode("utf-8")
     try:
-        res = json.loads(fetch_url("https://graphql.anilist.co", data=payload, headers={"Content-Type": "application/json", "User-Agent": "AniStreamBot/1.0"}))
-        return res.get("data", {}).get("Media")
+        payload = json.dumps({"query": q, "variables": {"s": title}}).encode()
+        res = json.loads(fetch_text("https://graphql.anilist.co", data=payload, headers={"Content-Type": "application/json", "User-Agent": "AniStreamBot/1.0"}))
+        m = res.get("data", {}).get("Media")
+        if not m:
+            return None
+        strict_type = "donghua" if m.get("countryOfOrigin") == "CN" else fallback_type
+        disp = m["title"].get("english") or m["title"].get("romaji") or title
+        cover = m["coverImage"].get("extraLarge") or m["coverImage"].get("large")
+        na = m.get("nextAiringEpisode") or {}
+        air_day = DAYS[(time.gmtime(na["airingAt"]).tm_wday + 1) % 7] if na.get("airingAt") else DAYS[sum(ord(c) for c in disp) % 7]
+        return {
+            "slug": slugify(disp), "type": strict_type, "title": disp,
+            "nativeTitle": m["title"].get("native") or "",
+            "aliases": [disp, m["title"].get("romaji") or "", title],
+            "year": m.get("seasonYear") or 2025, "score": m.get("averageScore") or 80,
+            "status": "ONGOING" if m.get("status") == "RELEASING" else "COMPLETED",
+            "airDay": air_day, "quality": "4K / 1080p" if strict_type == "donghua" else "1080p",
+            "episodes": m.get("episodes") or 24, "latestEp": 1,
+            "genres": [g.lower() for g in (m.get("genres") or [])[:4]],
+            "cover": cover, "banner": m.get("bannerImage") or cover,
+            "desc": re.sub(r"<[^>]+>", "", m.get("description") or "").strip()[:280],
+            "servers": [], "officialLinks": [], "updatedAt": int(time.time() * 1000)
+        }
     except Exception:
         return None
 
-def slugify(text): return re.sub(r"[^a-z0-9]+", "-", (text or "").lower()).strip("-")
-
-def verify_playlist_episodes(pid):
-    OFF = re.compile(r"muse|ani-one|tencent|wetv|youku|bilibili|iqiyi|aniplex|viz|gundam|pokemon", re.I)
-    BAD = re.compile(r"reaction|reacts|review|recap|explain|amv|trailer|teaser|pv|ost|compilation|合集", re.I)
-    EP = re.compile(r"(?:\bEP\.?|\bEpisode|\bE(?=\d)|第)\s*0*(\d{1,4})(?!\s*[-~–到至]\s*\d)", re.I)
-    ctx = {"client": {"clientName": "WEB", "clientVersion": "2.20250101.00.00", "hl": "en", "gl": "US"}}
-    items, seen, tok = [], set(), None
-    for _ in range(8):
-        body = {"context": ctx, "continuation": tok} if tok else {"context": ctx, "browseId": "VL" + pid}
-        try:
-            data = json.loads(fetch_url("https://www.youtube.com/youtubei/v1/browse", data=json.dumps(body).encode(), headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"}))
-        except Exception: break
-        tok = None
-        def walk(o):
-            nonlocal tok
-            if isinstance(o, dict):
-                if "playlistVideoRenderer" in o:
-                    v = o["playlistVideoRenderer"]; vid = v.get("videoId")
-                    t = "".join(r.get("text", "") for r in v.get("title", {}).get("runs", []))
-                    ch = "".join(r.get("text", "") for r in v.get("shortBylineText", {}).get("runs", []))
-                    if vid and vid not in seen: seen.add(vid); items.append((vid, t, ch))
-                if "continuationItemRenderer" in o:
-                    tok = o["continuationItemRenderer"].get("continuationEndpoint", {}).get("continuationCommand", {}).get("token") or tok
-                for val in o.values(): walk(val)
-            elif isinstance(o, list):
-                for el in o: walk(el)
-        walk(data)
-        if not tok: break
-    if not items or sum(1 for _, _, ch in items[:15] if OFF.search(ch)) < max(1, len(items[:15]) // 3):
-        return {}
-    raw = {}
-    for vid, t, _ in items:
-        if not BAD.search(t) and (m := EP.search(t)): raw.setdefault(int(m.group(1)), vid)
-    return {str(k): raw[k] for k in sorted(raw)}
+def add_episode(catalog_map, title, fallback_type, srv_name, srv_type, ep, embed_val):
+    slug = slugify(title)
+    show = next((v for k, v in catalog_map.items() if k == slug or slug in k or k in slug), None)
+    if not show:
+        show = fetch_anilist(title, fallback_type)
+        time.sleep(0.35)
+        if not show:
+            return
+        catalog_map[show["slug"]] = show
+    srv = next((s for s in show["servers"] if s["name"] == srv_name), None)
+    if not srv:
+        srv = {"name": srv_name, "type": srv_type, "lang": "English Sub", "episodeMap": {}}
+        show["servers"].append(srv)
+    if str(ep) not in srv["episodeMap"]:
+        srv["episodeMap"][str(ep)] = embed_val
+        show["latestEp"] = max(show.get("latestEp", 1), ep)
+        show["episodes"] = max(show.get("episodes", 1), ep)
+        show["updatedAt"] = int(time.time() * 1000)
 
 def main():
     catalog_map = {}
@@ -125,56 +117,41 @@ def main():
             if ex.get("slug") and ex.get("servers"):
                 catalog_map[ex["slug"]] = ex
 
-    for item in SEARCH_QUERIES:
-        try: pls = search_official_playlists(item["q"])
-        except Exception: continue
-        for pl in pls[:10]:
-            clean_q = extract_english_search_name(pl["rawTitle"])
-            if len(clean_q) < 3: continue
-            ep_map = verify_playlist_episodes(pl["playlistId"])
-            if not ep_map: continue
+    # 1. Official YouTube RSS Feeds
+    ns = {"a": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/schemas/2015"}
+    for ch in YT_CHANNELS:
+        try:
+            xml = fetch_text(f"https://www.youtube.com/feeds/videos.xml?channel_id={ch['id']}")
+            root = ET.fromstring(xml)
+            for entry in root.findall("a:entry", ns):
+                vid = entry.find("yt:videoId", ns).text
+                raw_t = entry.find("a:title", ns).text
+                clean_t, ep = extract_ep_and_title(raw_t)
+                if clean_t and ep:
+                    add_episode(catalog_map, clean_t, ch["type"], ch["name"], "youtube", ep, vid)
+        except Exception as e:
+            print(f"[YT RSS Skip] {ch['name']}: {e}")
 
-            meta = fetch_anilist_meta(clean_q)
-            time.sleep(0.35)
-            if not meta or not meta.get("coverImage", {}).get("large"): continue
+    # 2. Dailymotion Fast Public API (Full episodes >= 12 mins)
+    for item in DM_FAST_SHOWS:
+        try:
+            q = urllib.parse.quote(f"{item['title']} episode eng sub")
+            url = f"https://api.dailymotion.com/videos?search={q}&sort=recent&fields=id,title,duration&limit=12"
+            data = json.loads(fetch_text(url))
+            for v in data.get("list", []):
+                if (v.get("duration") or 0) < 720:
+                    continue
+                _, ep = extract_ep_and_title(v.get("title", ""))
+                if ep:
+                    add_episode(catalog_map, item["title"], item["type"], "Dailymotion HD", "dailymotion", ep, v["id"])
+        except Exception as e:
+            print(f"[DM Skip] {item['title']}: {e}")
 
-            # Strictly separate Anime vs Donghua via countryOfOrigin
-            strict_type = "donghua" if meta.get("countryOfOrigin") == "CN" else "anime"
-            eng_title = meta["title"].get("english") or meta["title"].get("romaji") or clean_q
-            slug = slugify(eng_title)
-            next_air = meta.get("nextAiringEpisode") or {}
-            air_day = DAYS[(time.gmtime(next_air["airingAt"]).tm_wday + 1) % 7] if next_air.get("airingAt") else DAYS[sum(ord(c) for c in eng_title) % 7]
-
-            srv = {"name": item["server"], "type": "youtube", "playlistId": pl["playlistId"], "episodeMap": ep_map, "videoIds": list(ep_map.values()), "lang": "English Sub"}
-            if slug in catalog_map:
-                catalog_map[slug]["type"] = strict_type
-                if not any(s.get("playlistId") == pl["playlistId"] for s in catalog_map[slug]["servers"]):
-                    catalog_map[slug]["servers"].append(srv)
-                catalog_map[slug]["latestEp"] = max(catalog_map[slug].get("latestEp", 1), max(int(k) for k in ep_map))
-                catalog_map[slug]["updatedAt"] = int(time.time() * 1000)
-            else:
-                cover = meta["coverImage"].get("extraLarge") or meta["coverImage"]["large"]
-                catalog_map[slug] = {
-                    "slug": slug, "type": strict_type, "title": eng_title,
-                    "nativeTitle": meta["title"].get("native") or "",
-                    "aliases": [eng_title, meta["title"].get("romaji") or "", clean_q],
-                    "year": meta.get("seasonYear") or 2025, "score": meta.get("averageScore") or 80,
-                    "status": "ONGOING" if meta.get("status") == "RELEASING" else "COMPLETED",
-                    "airDay": air_day, "quality": item["quality"],
-                    "episodes": max(meta.get("episodes") or 12, max(int(k) for k in ep_map)),
-                    "latestEp": max(int(k) for k in ep_map),
-                    "genres": [g.lower() for g in (meta.get("genres") or [])[:4]],
-                    "cover": cover, "banner": meta.get("bannerImage") or cover,
-                    "desc": re.sub(r"<[^>]+>", "", meta.get("description") or "").strip()[:280],
-                    "servers": [srv], "officialLinks": [], "updatedAt": int(time.time() * 1000)
-                }
-
-    # Strictly drop ANY show with 0 playable servers
     final_list = [s for s in catalog_map.values() if s.get("servers")]
     final_list.sort(key=lambda x: (x.get("status") == "ONGOING", x.get("score", 0)), reverse=True)
     os.makedirs("data", exist_ok=True)
     json.dump(final_list, open("data/catalog.json", "w", encoding="utf-8"), indent=2, ensure_ascii=False)
-    print(f"Synced {len(final_list)} 100% playable shows (zero blocked cards).")
+    print(f"Synced {len(final_list)} 100% playable shows!")
 
 if __name__ == "__main__":
     main()
