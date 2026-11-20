@@ -399,7 +399,12 @@
         document.getElementById("ext-pills").innerHTML = ext.map(l => `<a class="pill pill-ext" href="${l.url}" target="_blank" rel="noopener">↗ ${l.site}</a>`).join("");
       }
     }
-    function switchServer(idx) { activeServerIdx = idx; renderServers(); initRanges(); playEpisode(currentEp); }
+    function switchServer(idx) { activeServerIdx = idx; fetch(`${ANISTREAM_DB}/anistream_custom_servers/${currentShow.slug}.json`).then(r=>r.json()).then(custom=>{
+     if (custom && typeof custom === "object") {
+       Object.values(custom).forEach(cs => { if (cs && cs.episodeMap) currentShow.servers.push(cs); });
+     }
+     renderServers(); initRanges(); playEpisode(currentEp);
+   }).catch(()=>{ renderServers(); initRanges(); playEpisode(currentEp); }); }
 
     function initRanges() {
       const sel = document.getElementById("ep-range"), total = currentShow.episodes || 24;
@@ -510,7 +515,12 @@
       document.getElementById("show-native").textContent = currentShow.nativeTitle ? `Original: ${currentShow.nativeTitle}` : "";
       document.getElementById("show-meta").textContent = `${currentShow.quality || "1080p"} Official • ★ ${(currentShow.score / 10).toFixed(1)} • ${currentShow.episodes} Episodes`;
       document.getElementById("show-desc").textContent = currentShow.desc;
-      renderServers(); initRanges(); playEpisode(currentEp);
+      fetch(`${ANISTREAM_DB}/anistream_custom_servers/${currentShow.slug}.json`).then(r=>r.json()).then(custom=>{
+     if (custom && typeof custom === "object") {
+       Object.values(custom).forEach(cs => { if (cs && cs.episodeMap) currentShow.servers.push(cs); });
+     }
+     renderServers(); initRanges(); playEpisode(currentEp);
+   }).catch(()=>{ renderServers(); initRanges(); playEpisode(currentEp); });
     });
 
     setTimeout(() => {

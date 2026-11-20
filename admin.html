@@ -64,6 +64,36 @@
       <div id="save-msg" style="color:var(--accent);font-size:0.82rem;margin-top:8px;"></div>
     </div>
 
+    
+ <div class="card">
+   <h2>🎬 Add / Update Episode Stream (All 7 Servers)</h2>
+   <div class="grid2">
+     <div><label>Show Slug (e.g. renegade-immortal)</label><input id="sv-slug" value="renegade-immortal" /></div>
+     <div><label>Episode Number</label><input id="sv-ep" type="number" value="167" /></div>
+   </div>
+   <div class="grid2">
+     <div>
+       <label>Server Provider</label>
+       <select id="sv-type" style="width:100%;padding:10px;border-radius:8px;background:var(--surface-2);color:#fff;border:1px solid var(--border);">
+         <option value="youtube">1. YouTube (Video ID)</option>
+         <option value="dailymotion">2. Dailymotion (Video ID)</option>
+         <option value="rumble">3. Rumble (Embed ID)</option>
+         <option value="odysee">4. Odysee (claim-name/claim-id)</option>
+         <option value="artplayer">5. Multi-Sub Artplayer (MP4 URL)</option>
+         <option value="mega">6. MEGA (FILE_ID#KEY)</option>
+         <option value="dtube">7. DTube (USER/PERMLINK)</option>
+       </select>
+     </div>
+     <div><label>Server Display Name</label><input id="sv-name" placeholder="e.g. Rumble HD / MEGA 4K" /></div>
+   </div>
+   <label>Video ID / Key / MP4 URL</label>
+   <input id="sv-val" placeholder="Paste ID, FILE_ID#KEY, or direct MP4 URL" />
+   <label>Optional .vtt Subtitle URL (Only for Multi-Sub Artplayer)</label>
+   <input id="sv-vtt" placeholder="https://.../ep167_en.vtt (leave blank for others)" />
+   <button class="btn" onclick="saveCustomServer()">🚀 Save Stream Live Instantly</button>
+   <div id="sv-msg" style="color:var(--accent);font-size:0.82rem;margin-top:8px;"></div>
+ </div>
+
     <div class="card"><h2>📊 Top Viewed Shows</h2><div id="views-list">Loading...</div></div>
     <div class="card"><h2>⚠️ Broken Video Reports</h2><div id="reports-list">Loading...</div></div>
     <div class="card"><h2>💬 Recent Episode Comments</h2><div id="comments-admin">Loading...</div></div>
@@ -160,6 +190,26 @@
       await fetch(`${DB}/${path}.json?auth=${ID_TOKEN}`, { method: "DELETE" });
       loadAdminData();
     }
+
+    
+ async function saveCustomServer() {
+   const slug = document.getElementById("sv-slug").value.trim().toLowerCase();
+   const ep = document.getElementById("sv-ep").value.trim();
+   const type = document.getElementById("sv-type").value;
+   const name = document.getElementById("sv-name").value.trim() || type.toUpperCase();
+   const val = document.getElementById("sv-val").value.trim();
+   const vtt = document.getElementById("sv-vtt").value.trim();
+   if (!slug || !ep || !val) { document.getElementById("sv-msg").textContent = "Fill Slug, Episode, and ID/URL."; return; }
+   const entry = (type === "artplayer")
+     ? { videoUrl: val, subtitles: vtt ? [{ html: "English", url: vtt, default: true }] : [] }
+     : val;
+   const node = `${DB}/anistream_custom_servers/${slug}/${type}.json?auth=${ID_TOKEN}`;
+   const existing = (await (await fetch(`${DB}/anistream_custom_servers/${slug}/${type}.json`)).json()) || { name, type, lang: "English Sub", episodeMap: {} };
+   existing.name = name; existing.type = type; existing.episodeMap = existing.episodeMap || {};
+   existing.episodeMap[String(ep)] = entry;
+   const r = await fetch(node, { method: "PUT", headers: {"Content-Type":"application/json"}, body: JSON.stringify(existing) });
+   document.getElementById("sv-msg").textContent = r.ok ? `✅ Saved ${name} for ${slug} Ep ${ep}!` : "❌ Save failed (check login/rules).";
+ }
 
     if (ID_TOKEN) openDashboard();
   </script>
