@@ -53,9 +53,9 @@ def main() -> None:
             continue
         key = normalize_key(title)
         official_links = [
-            {"site": lk["platform"], "url": lk["url"]}
+            {"site": lk.get("platform") or lk.get("site"), "url": lk["url"]}
             for lk in w.get("where_to_watch", [])
-            if lk.get("site") and lk.get("url")
+            if (lk.get("platform") or lk.get("site")) and lk.get("url")
         ]
         if not official_links:
             continue
