@@ -1,0 +1,5387 @@
+{
+  "updated_at": "2026-11-20T10:58:36.343628+00:00",
+  "items": [
+    {
+      "anilist_id": 16498,
+      "category": "anime",
+      "title": "Attack on Titan",
+      "native_title": "進撃の巨人",
+      "episodes": 25,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx16498-buvcRTBx4NSm.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/attack-on-titan",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/attack-on-titan",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://youtube.com/@attackontitan_officialchannel",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 101922,
+      "category": "anime",
+      "title": "Demon Slayer: Kimetsu no Yaiba",
+      "native_title": "鬼滅の刃",
+      "episodes": 26,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101922-WBsBl0ClmgYL.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/demon-slayer-kimetsu-no-yaiba",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/demon-slayer-kimetsu-no-yaiba",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81091393",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 113415,
+      "category": "anime",
+      "title": "JUJUTSU KAISEN",
+      "native_title": "呪術廻戦",
+      "episodes": 24,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113415-LHBAeoZDIsnF.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/jujutsu-kaisen",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81278456",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/37738",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://youtube.com/playlist?list=PLxSscENEp7JisDU6GAJuyNpVwDvCm-f3J",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/jujutsu-kaisen-382ec8bf-3650-4cde-94db-ecd18665f9e0",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 1535,
+      "category": "anime",
+      "title": "Death Note",
+      "native_title": "DEATH NOTE",
+      "episodes": 37,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1535-kUgkcrfOrkUM.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/death-note",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/70204970",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Tubi TV",
+          "url": "https://tubitv.com/series/1630/death_note",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.amazon.com/Death-Note/dp/B0B6RMGK8Z",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://youtube.com/playlist?list=PLDDFkfLheQ9hzlWtnCSla1DicLZkllriY",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/G6QWD3EE6",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 21459,
+      "category": "anime",
+      "title": "My Hero Academia",
+      "native_title": "僕のヒーローアカデミア",
+      "episodes": 13,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21459-nYh85uj2Fuwr.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/my-hero-academia",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/my-hero-academia",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80135674",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 11061,
+      "category": "anime",
+      "title": "Hunter x Hunter (2011)",
+      "native_title": "HUNTER×HUNTER (2011)",
+      "episodes": 148,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11061-y5gsT1hoHuHw.png",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/hunter-x-hunter",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/hunter-x-hunter",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/70300472",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Tubi TV",
+          "url": "https://tubitv.com/series/1627/hunter_x_hunter",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.tv/en/play/37603",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://youtube.com/playlist?list=PLwLSw1_eDZl2SdSro00Nvg38MQUf-5ZL8",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.amazon.com/Hunter-Japanese-English-Subs/dp/B0B5X87G1P",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 21087,
+      "category": "anime",
+      "title": "One-Punch Man",
+      "native_title": "ワンパンマン",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21087-B5DHjqZ3kW4b.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/onepunch-man",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80117291",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2XdtLhB9NG2Ch050jWFm9G",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "WeTV",
+          "url": "https://wetv.vip/id/play/r386s7hzwidwkpv/r0035owmbkx",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/36279",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL16FvVk0QOffUwXX_vaHVjZP",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0YZIflIt1EK0dcjLuMuxLd",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/G63K98PZ6/one-punch-man",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 21,
+      "category": "anime",
+      "title": "ONE PIECE",
+      "native_title": "ONE PIECE",
+      "episodes": null,
+      "next_airing": {
+        "episode": 1181,
+        "airingAt": 1798985760
+      },
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21-ELSYx3yMPcKM.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/one-piece",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/one-piece",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80107103",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/37976",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "WeTV",
+          "url": "https://wetv.vip/en/play/tnfk3rniubz3m8o",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/@onepieceofficial",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/@OnePieceOfficialENG",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 20605,
+      "category": "anime",
+      "title": "Tokyo Ghoul",
+      "native_title": "東京喰種 トーキョーグール",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b20605-k665mVkSug8D.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/tokyo-ghoul",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.amazon.com/gp/video/detail/B015O6OK4G/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/en-gb/tokyo-ghoul",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80023687",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 20958,
+      "category": "anime",
+      "title": "Attack on Titan Season 2",
+      "native_title": "進撃の巨人 Season２",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20958-HuFJyr54Mmir.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/attack-on-titan",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/attack-on-titan",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/70299043",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/attack-on-titan-dubs",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 5114,
+      "category": "anime",
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "native_title": "鋼の錬金術師 FULLMETAL ALCHEMIST",
+      "episodes": 64,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx5114-nSWCgQlmOMtj.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/fullmetal-alchemist-brotherhood",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/fullmetal-alchemist-brotherhood",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.amazon.com/One-All/dp/B002T8C202/ref=sr_1_52/146-1307517-0174061?s=instant-video&rps=1&ie=UTF8&qid=1528858933&sr=1-52&refinements=p_n_theme_browse-bin%3A2650364011%2Cp_85%3A2470955011%2Cp_n_entity_type%3A14069184011%7C14069185011",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/70204981",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 20,
+      "category": "anime",
+      "title": "Naruto",
+      "native_title": "NARUTO -ナルト-",
+      "episodes": 220,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20-dE6UHbFFg1A5.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/naruto",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/naruto",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/70205012",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Tubi TV",
+          "url": "https://tubitv.com/series/1622/naruto",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.tv/en/play/1005144",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://youtube.com/playlist?list=PLDDFkfLheQ9hNru7WoTa26dpn6o9-AEJK",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 20954,
+      "category": "anime",
+      "title": "A Silent Voice",
+      "native_title": "聲の形",
+      "episodes": 1,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20954-sYRfE5jQRtSB.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80223226",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 11757,
+      "category": "anime",
+      "title": "Sword Art Online",
+      "native_title": "ソードアート・オンライン",
+      "episodes": 25,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11757-SxYDUzdr9rh2.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/sword-art-online",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/sword-art-online",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/70302573",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/35932",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 21519,
+      "category": "anime",
+      "title": "Your Name.",
+      "native_title": "君の名は。",
+      "episodes": 1,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21519-SUo3ZQuCbYhJ.png",
+      "where_to_watch": [
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80161371",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/your-name",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.primevideo.com/detail/0LQ7ANJUT17XBYKOFOUCQ1PORE",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 99147,
+      "category": "anime",
+      "title": "Attack on Titan Season 3",
+      "native_title": "進撃の巨人 Season３",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99147-AiPDD8cwlCfi.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/attack-on-titan",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/attack-on-titan",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/70299043",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/attack-on-titan-dubs",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 21856,
+      "category": "anime",
+      "title": "My Hero Academia Season 2",
+      "native_title": "僕のヒーローアカデミア２",
+      "episodes": 25,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21856-gutauxhWAwn6.png",
+      "where_to_watch": [
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/my-hero-academia",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/my-hero-academia",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80135674",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/my-hero-academia-dubs",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 110277,
+      "category": "anime",
+      "title": "Attack on Titan Final Season",
+      "native_title": "進撃の巨人 The Final Season",
+      "episodes": 16,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx110277-sKUNXAsWMNFw.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/attack-on-titan",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/attack-on-titan-9c91ffa3-dc20-48bf-8bc5-692e37c76d88",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/70299043",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/attack-on-titan-dubs",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 127230,
+      "category": "anime",
+      "title": "Chainsaw Man",
+      "native_title": "チェンソーマン",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx127230-DdP4vAdssLoz.png",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://crunchyroll.com/series/GVDHX8QNW",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JhfvHiWN-djJjCOjW8rxA6p",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/chainsaw-man-7b71b5a4-560b-4d8b-98c4-c5dee6004c21",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/en/media/2069687",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81215627",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 101759,
+      "category": "anime",
+      "title": "The Promised Neverland",
+      "native_title": "約束のネバーランド",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101759-8UR7r9MNVpz2.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/the-promised-neverland",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/the-promised-neverland",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81145640",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 21507,
+      "category": "anime",
+      "title": "Mob Psycho 100",
+      "native_title": "モブサイコ100",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21507-6YUSbh2m0N1p.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/mob-psycho-100",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80179798",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u-",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.primevideo.com/detail/0U3TA8SOFL6VTAQ1E1QSC0SA6D/ref=atv_dp_season_select_s1",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1pvIv1fBd3oKkP3XEQpT_G",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/mob-psycho-100-fc9b8130-e1e3-420b-b28d-a72f0b235069",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 20755,
+      "category": "anime",
+      "title": "Assassination Classroom",
+      "native_title": "暗殺教室",
+      "episodes": 22,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20755-dWrhs569YGUO.jpg",
+      "where_to_watch": [
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1QGs4v-QtvNHpC_N8ZjkEs",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/assassination-classroom",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 21355,
+      "category": "anime",
+      "title": "Re:ZERO -Starting Life in Another World-",
+      "native_title": "Re:ゼロから始める異世界生活",
+      "episodes": 25,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21355-wRVUrGxpvIQQ.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/rezero-starting-life-in-another-world-",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80131659",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0_movujO4K0xYOAG9soPjH",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/03f5afe1-1092-45ee-a421-91d0d8413bf0",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/@Rezero_official",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 20665,
+      "category": "anime",
+      "title": "Your lie in April",
+      "native_title": "四月は君の嘘",
+      "episodes": 22,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20665-TLgkL8T8IRFd.png",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/your-lie-in-april",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/your-lie-in-april",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/en/media/35121",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80041089",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 104578,
+      "category": "anime",
+      "title": "Attack on Titan Season 3 Part 2",
+      "native_title": "進撃の巨人 Season３ Part.2",
+      "episodes": 10,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104578-k61nx3LPjvgd.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/attack-on-titan",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/attack-on-titan-9c91ffa3-dc20-48bf-8bc5-692e37c76d88",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/70299043",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/attack-on-titan-dubs",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 1735,
+      "category": "anime",
+      "title": "Naruto: Shippuden",
+      "native_title": "NARUTO -ナルト- 疾風伝",
+      "episodes": 500,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1735-kGfVm0YqCPcu.png",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/naruto-shippuden",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/naruto-shippuden",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80000603",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md3287/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/play/1005195",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/@NARUTO_BORUTO_officialchannel",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 21234,
+      "category": "anime",
+      "title": "ERASED",
+      "native_title": "僕だけがいない街",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21234-XmqW39aQ9o7O.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/erased",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/erased-40cf1997-7291-4764-a80c-c264294fa691",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80114225",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 100166,
+      "category": "anime",
+      "title": "My Hero Academia Season 3",
+      "native_title": "僕のヒーローアカデミア３",
+      "episodes": 25,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx100166-jUCZYbzn2XLw.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/my-hero-academia",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/my-hero-academia",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80135674",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/my-hero-academia-dubs",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 9253,
+      "category": "anime",
+      "title": "Steins;Gate",
+      "native_title": "シュタインズ・ゲート",
+      "episodes": 24,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9253-tIUXF2gfU8Sg.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/steinsgate",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/en/media/37207",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 97940,
+      "category": "anime",
+      "title": "Black Clover",
+      "native_title": "ブラッククローバー",
+      "episodes": 170,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx97940-fyh8o7gNbha0.png",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GRE50KV36/black-clover",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/black-clover-f6451467-97a8-4ddf-9ae8-e9e4cbb53fc8",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80238012",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/1000677",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 20464,
+      "category": "anime",
+      "title": "HAIKYU!!",
+      "native_title": "ハイキュー!!",
+      "episodes": 25,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20464-ooZUyBe4ptp9.png",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/haikyu",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.amazon.com/gp/video/detail/B07WNMBJG2/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80090673",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj89wMj2yzRnsY-db5DswlG",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/en/play/34475",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28221614",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 101291,
+      "category": "anime",
+      "title": "Rascal Does Not Dream of Bunny Girl Senpai",
+      "native_title": "青春ブタ野郎はバニーガール先輩の夢を見ない",
+      "episodes": 13,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101291-wfEdgPqtfU0l.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GYW4MG9G6/rascal-does-not-dream-series",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/rascal-does-not-dream-of-bunny-girl-senpai-e4c45f43-dc4b-44ce-a9b8-14139ac1af69",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81228009",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md134932",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 140960,
+      "category": "anime",
+      "title": "SPY x FAMILY",
+      "native_title": "SPY×FAMILY",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx140960-Kb6R5nYQfjmP.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81511410",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/spy-x-family",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/1048837/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://youtube.com/playlist?list=PLwLSw1_eDZl1wGMYg5oB3uEns0CZNl6sI",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/65d158d4-443f-44c7-bd2c-eae39f6c60e9",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL145WmZpHC4VMbgjCAShnb1M",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 101921,
+      "category": "anime",
+      "title": "Kaguya-sama: Love is War",
+      "native_title": "かぐや様は告らせたい～天才たちの恋愛頭脳戦～",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101921-ufrjLzhSz7L1.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/kaguya-sama-love-is-war",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81061754",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 105333,
+      "category": "anime",
+      "title": "Dr. STONE",
+      "native_title": "Dr.STONE",
+      "episodes": 24,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105333-GybuoSoOZfpH.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/dr-stone",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.amazon.com/dp/B07VDVHP2B/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81046193",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://youtube.com/playlist?list=PLxSscENEp7JiMf-7_IKknXJngJrCesKj2",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/148925d5-ea60-4277-b0f6-7b2ded20b2d0",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 101348,
+      "category": "anime",
+      "title": "Vinland Saga",
+      "native_title": "ヴィンランド・サガ",
+      "episodes": 24,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101348-2fhDFPCuMNiz.jpg",
+      "where_to_watch": [
+        {
+          "platform": "HIDIVE",
+          "url": "https://www.hidive.com/tv/vinland-saga",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81249833",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GEXH3WKK0/vinland-saga",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 21827,
+      "category": "anime",
+      "title": "Violet Evergarden",
+      "native_title": "ヴァイオレット・エヴァーガーデン",
+      "episodes": 13,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21827-ubzq619ZA2E9.png",
+      "where_to_watch": [
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80182123",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 124080,
+      "category": "anime",
+      "title": "Horimiya",
+      "native_title": "ホリミヤ",
+      "episodes": 13,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx124080-3i22mRVPBS0T.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/horimiya-b76b37a3-c529-4967-ab5c-bc734b79132d",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81020819",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/37490",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/horimiya",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.primevideo.com/region/fe/detail/0TXL8MWM8FFGS4GEMXVW7UWZGA/ref=atv_dp_share_cu_r",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 4224,
+      "category": "anime",
+      "title": "Toradora!",
+      "native_title": "とらドラ！",
+      "episodes": 25,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx4224-PXVMBLNwy2aF.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/toradora",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.amazon.com/dp/B07L7D9ZTJ/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80049275",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Tubi TV",
+          "url": "https://tubitv.com/series/300007821/toradora",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 20613,
+      "category": "anime",
+      "title": "Akame ga Kill!",
+      "native_title": "アカメが斬る！",
+      "episodes": 24,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20613-HXHpec4bemk5.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/akame-ga-kill",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "HIDIVE",
+          "url": "https://www.hidive.com/tv/akame-ga-kill",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.amazon.com/dp/B07WT8T6KK/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80052714",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://youtube.com/playlist?list=PLxSscENEp7JixhUo7CWyYHQeWj0GuS9BX",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 19815,
+      "category": "anime",
+      "title": "No Game, No Life",
+      "native_title": "ノーゲーム・ノーライフ",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b19815-sEOQ9yQaPKlk.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80052669",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JglGq-5PMtbewK96Z_7Au8J",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/en/media/35123",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 20447,
+      "category": "anime",
+      "title": "Noragami",
+      "native_title": "ノラガミ",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20447-EoQXeygHaVCK.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/G6WEV3WM6/noragami",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 104276,
+      "category": "anime",
+      "title": "My Hero Academia Season 4",
+      "native_title": "僕のヒーローアカデミア４",
+      "episodes": 25,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104276-SnEowMvesWIE.png",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/my-hero-academia",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/my-hero-academia",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.amazon.com/dp/B07Z2C245C/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80135674",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/my-hero-academia-dubs",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 20789,
+      "category": "anime",
+      "title": "The Seven Deadly Sins",
+      "native_title": "七つの大罪",
+      "episodes": 24,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20789-Ma5ouSYPkru9.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80050063",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://youtube.com/playlist?list=PLwLSw1_eDZl3572W1HJjIkZyW-0GGVUVq&si=mP5IwBPobYKC27_K",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 269,
+      "category": "anime",
+      "title": "Bleach",
+      "native_title": "BLEACH",
+      "episodes": 366,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx269-d2GmRkJbMopq.png",
+      "where_to_watch": [
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/bleach",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/en/play/35278?bstar_from=bstar-web.pgc-media-info.0.0",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JhUQ-NvGTp34p7vqZarUZ7Y",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://youtube.com/playlist?list=PLxSscENEp7Jh8xTD3hhwG-NyaZHEXe7rd",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://youtube.com/@official_bleach",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/562ee9eb-adb5-43ab-b974-52ddfebee9c8",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 21202,
+      "category": "anime",
+      "title": "KONOSUBA -God's blessing on this wonderful world!",
+      "native_title": "この素晴らしい世界に祝福を！",
+      "episodes": 10,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21202-mPOr80AEjUcZ.png",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/konosuba-gods-blessing-on-this-wonderful-world",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80131674",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JiyHGbqVQuTTs9ZFqu3wYNM",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 112151,
+      "category": "anime",
+      "title": "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
+      "native_title": "鬼滅の刃 無限列車編",
+      "episodes": 1,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx112151-1qlQwPB1RrJe.png",
+      "where_to_watch": [
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81410810",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/demon-slayer-kimetsu-no-yaiba",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/en/media/37817/",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 1575,
+      "category": "anime",
+      "title": "Code Geass: Lelouch of the Rebellion",
+      "native_title": "コードギアス 反逆のルルーシュ",
+      "episodes": 25,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1575-hsmWM2ydNm1m.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80065146",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JjAnuR364t-jBwsAaVxuFI-",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/code-geass-1858aace-a7fb-4d6f-b770-61dc121185b4",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/code-geass",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 99423,
+      "category": "anime",
+      "title": "DARLING in the FRANXX",
+      "native_title": "ダーリン・イン・ザ・フランキス",
+      "episodes": 24,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx99423-8MBxtwCeHf8B.png",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/darling-in-the-franxx",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81010668",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/en/play/36600",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 20623,
+      "category": "anime",
+      "title": "Parasyte -the maxim-",
+      "native_title": "寄生獣 セイの格率",
+      "episodes": 24,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20623-dUARfggnNDOe.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80191008",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "HIDIVE",
+          "url": "https://www.hidive.com/season/19824",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 145064,
+      "category": "anime",
+      "title": "JUJUTSU KAISEN Season 2",
+      "native_title": "呪術廻戦 第2期",
+      "episodes": 23,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx145064-hSNRJM03pvv1.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/en/media/2084055",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GRDV0019R/jujutsu-kaisen",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JjIe81K3Qd0l7PVaIiPi64r",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81278456",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/382ec8bf-3650-4cde-94db-ecd18665f9e0",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 30,
+      "category": "anime",
+      "title": "Neon Genesis Evangelion",
+      "native_title": "新世紀エヴァンゲリオン",
+      "episodes": 26,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx30-AI1zr74Dh4ye.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81033445",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 154587,
+      "category": "anime",
+      "title": "Frieren: Beyond Journey’s End",
+      "native_title": "葬送のフリーレン",
+      "episodes": 28,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx154587-qQTzQnEJJ3oB.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GG5H5XQX4/frieren-beyond-journeys-end",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/en/media/2090295",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl10YPPR7qDsVf10wZfYnIMK",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81726714",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/frieren-beyond-journeys-end-1d4725f8-06d1-43fb-a077-72143ac5502f",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.primevideo.com/detail/0FCJEHY4FXTDVCLZ5NR9A0N42N",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 142329,
+      "category": "anime",
+      "title": "Demon Slayer: Kimetsu no Yaiba Entertainment District Arc",
+      "native_title": "鬼滅の刃 遊郭編",
+      "episodes": 11,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx142329-kET1PIXJv2eW.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://crunchyroll.com/series/GY5P48XEY/Demon-Slayer-Kimetsu-no-Yaiba",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/play/1023002",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/us/title/81091393",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/demon-slayer-kimetsu-no-yaiba-entertainment-district-arc",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 105310,
+      "category": "anime",
+      "title": "Fire Force",
+      "native_title": "炎炎ノ消防隊",
+      "episodes": 24,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105310-2PKUvoaA6fTn.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/fire-force",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81143589",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/5973d358-1997-47d0-942d-e85b455ed9db",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://youtube.com/playlist?list=PLIGSjnmKivFcknx6K0AId_w6C9umJwy95",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 199,
+      "category": "anime",
+      "title": "Spirited Away",
+      "native_title": "千と千尋の神隠し",
+      "episodes": 1,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx199-sWefXJvXkDOb.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/60023642",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 14719,
+      "category": "anime",
+      "title": "JoJo's Bizarre Adventure (TV)",
+      "native_title": "ジョジョの奇妙な冒険 (TV)",
+      "episodes": 26,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx14719-VT5dRzTBSZ0w.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80179831",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Tubi TV",
+          "url": "https://tubitv.com/series/1823/jojos_bizarre_adventure",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/jojos-bizarre-adventure",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.amazon.com/gp/video/detail/B0B8NCTBN7/ref=atv_dp_season_select_s1",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/jojos-bizarre-adventure-3f2ffb64-2424-44a5-b229-4371dccb1d6f",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0CVpnjetepbYfC4ZuePqo6",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 1,
+      "category": "anime",
+      "title": "Cowboy Bebop",
+      "native_title": "カウボーイビバップ",
+      "episodes": 26,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1-GCsPm7waJ4kS.png",
+      "where_to_watch": [
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/cowboy-bebop",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/cowboy-bebop",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.amazon.com/gp/video/detail/B00R2KO8ZE/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Tubi TV",
+          "url": "https://tubitv.com/series/2052",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80001305",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 101280,
+      "category": "anime",
+      "title": "That Time I Got Reincarnated as a Slime",
+      "native_title": "転生したらスライムだった件",
+      "episodes": 24,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101280-tDxCVJm714nt.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/that-time-i-got-reincarnated-as-a-slime",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.amazon.com/dp/B07XWCY17G/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0eZktsDv3cu78EC0l2qYKI",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md139252",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/79ace21f-5124-4913-950e-1afea45f723c",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/34510",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 97668,
+      "category": "anime",
+      "title": "One-Punch Man Season 2",
+      "native_title": "ワンパンマン 2",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx97668-nC8gQrXVxt7k.png",
+      "where_to_watch": [
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/onepunch-man",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/one-punch-man",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80117291",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2XdtLhB9NG2Ch050jWFm9G",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/36381",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "WeTV",
+          "url": "https://wetv.vip/en/play/1k5mw9toe0co2bs/i0035p57lj2",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL17VrHbE8h73S-qbNYjXkjH1",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 20931,
+      "category": "anime",
+      "title": "Death Parade",
+      "native_title": "デス・パレード",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx20931-bktYqOcxPERi.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/death-parade",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80209635",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/death-parade",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 108465,
+      "category": "anime",
+      "title": "Mushoku Tensei: Jobless Reincarnation",
+      "native_title": "無職転生 ～異世界行ったら本気だす～",
+      "episodes": 11,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108465-1ANspF1EWyFx.jpg",
+      "where_to_watch": [
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl01_ftoIT3birJWkpxFZkEl",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/mushoku-tensei-jobless-reincarnation-787a5fb4-9cba-4a69-96b2-4fb3b10c860a",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/mushoku-tensei-jobless-reincarnation",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80987039",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "WeTV",
+          "url": "https://wetv.vip/en/play/ecmp615ib5kswl3",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 99263,
+      "category": "anime",
+      "title": "The Rising of the Shield Hero",
+      "native_title": "盾の勇者の成り上がり",
+      "episodes": 25,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99263-LcazQwdlWzMy.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/the-rising-of-the-shield-hero",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81058649",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/9bfde086-7d79-48e5-a429-e065cfdc4d07",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 9919,
+      "category": "anime",
+      "title": "Blue Exorcist",
+      "native_title": "青の祓魔師",
+      "episodes": 25,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9919-nXS7JOZrWHfS.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/blue-exorcist",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 151807,
+      "category": "anime",
+      "title": "Solo Leveling",
+      "native_title": "俺だけレベルアップな件",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx151807-it355ZgzquUd.png",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/solo-leveling",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/en/media/2097863",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/@AniOneAsia",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/watch/81748512",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.primevideo.com/detail/Solo-Leveling/0PBBLSIQOPO9EUYQ4CY4U9CPFD",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 98314,
+      "category": "anime",
+      "title": "Kakegurui",
+      "native_title": "賭ケグルイ",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b98314-TSJykxVwCCQN.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80175351",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 20594,
+      "category": "anime",
+      "title": "Sword Art Online II",
+      "native_title": "ソードアート・オンライン II",
+      "episodes": 24,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx20594-FhRgZ1H9Istt.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/sword-art-online",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/sword-art-online-ii",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80082107",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/35933",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 98659,
+      "category": "anime",
+      "title": "Classroom of the Elite",
+      "native_title": "ようこそ実力至上主義の教室へ",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx98659-WNyPLIZDpGGY.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/classroom-of-the-elite",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80193178",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl37ONxLQx-mIAJu3hdX-brM",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/34645",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL169S905pZlnUmZkbd4IIPFu",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 101338,
+      "category": "anime",
+      "title": "Mob Psycho 100 II",
+      "native_title": "モブサイコ100 II",
+      "episodes": 13,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101338-rokVscjRYzdP.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/mob-psycho-100",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80179798",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL15H3VL53aWCCaCk_pkpJ5u-",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.primevideo.com/detail/0FKEGV62JLIH656ZBUCR2BBFUJ/ref=atv_dp_share_cu_r",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://youtube.com/playlist?list=PLwLSw1_eDZl2pVrny1PabF7J3AeOozZUS",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/fc9b8130-e1e3-420b-b28d-a72f0b235069",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 120120,
+      "category": "anime",
+      "title": "Tokyo Revengers",
+      "native_title": "東京リベンジャーズ",
+      "episodes": 24,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx120120-cWDmnmeEntSe.jpg",
+      "where_to_watch": [
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3F9AGKbC7iRIGeU2XosgTy",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/tokyo-revengers",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81442520",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/en/media/1001400",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL14ZN_ayyUTitn2qFsVKMI_9",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/d45b72d4-3c8d-4961-960a-c0c182890189",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/1a195a35-e19c-4e36-b609-3b1c451f6ce4",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 131681,
+      "category": "anime",
+      "title": "Attack on Titan Final Season Part 2",
+      "native_title": "進撃の巨人 The Final Season Part 2",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131681-5ooUqvqNtee1.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://crunchyroll.com/series/GR751KNZY",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/attack-on-titan-9c91ffa3-dc20-48bf-8bc5-692e37c76d88",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/70299043",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/1042594",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 6547,
+      "category": "anime",
+      "title": "Angel Beats!",
+      "native_title": "Angel Beats!",
+      "episodes": 13,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6547-SYexAn5aFyss.png",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/angel-beats",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/70201870",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/en/media/36812",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 131573,
+      "category": "anime",
+      "title": "JUJUTSU KAISEN 0",
+      "native_title": "呪術廻戦 0",
+      "episodes": 1,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131573-rpl82vDEDRm6.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/jujutsu-kaisen",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.primevideo.com/detail/Jujutsu-Kaisen-0/0GTVYMIYD1GSB85O4H2JZWZJK0",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81602834",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 132405,
+      "category": "anime",
+      "title": "My Dress-Up Darling",
+      "native_title": "その着せ替え人形は恋をする",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx132405-qP7FQYGmNI3d.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://crunchyroll.com/series/GQWH0M9N8",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/1035102",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/watch/81569754",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 112641,
+      "category": "anime",
+      "title": "Kaguya-sama: Love is War?",
+      "native_title": "かぐや様は告らせたい？～天才たちの恋愛頭脳戦～",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx112641-zoGC8d6FaPXU.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81061754",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/kaguya-sama-love-is-war",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 20997,
+      "category": "anime",
+      "title": "Charlotte",
+      "native_title": "Charlotte(シャーロット)",
+      "episodes": 13,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20997-axVYrsIfjtYJ.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/charlotte",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/charlotte",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80142917",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/en/media/35299",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 10620,
+      "category": "anime",
+      "title": "The Future Diary",
+      "native_title": "未来日記",
+      "episodes": 26,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx10620-dUZeNej0W4QN.png",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/the-future-diary",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 21311,
+      "category": "anime",
+      "title": "Bungo Stray Dogs",
+      "native_title": "文豪ストレイドッグス",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21311-hAXyT8Yoh6G9.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/bungo-stray-dogs",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80132126",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 117193,
+      "category": "anime",
+      "title": "My Hero Academia Season 5",
+      "native_title": "僕のヒーローアカデミア５",
+      "episodes": 25,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx117193-E75BlZmDh1aB.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/my-hero-academia/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/my-hero-academia-36e318dc-3daf-47fb-8219-9e3cb5cd28f2",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80135674",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/my-hero-academia-dubs",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 18679,
+      "category": "anime",
+      "title": "Kill la Kill",
+      "native_title": "キルラキル",
+      "episodes": 24,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b18679-lbkq7iYESoFW.png",
+      "where_to_watch": [
+        {
+          "platform": "Netflix",
+          "url": "http://www.netflix.com/WiMovie/70305217",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/kill-la-kill",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/kill-la-kill",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 20850,
+      "category": "anime",
+      "title": "Tokyo Ghoul √A",
+      "native_title": "東京喰種[トーキョーグール]√A",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20850-glDf9EMKeCwe.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/tokyo-ghoul",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80023687",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.amazon.com/gp/video/detail/B01G4MBYZW/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://crunchyroll.com/tokyo-ghoul",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 20832,
+      "category": "anime",
+      "title": "Overlord",
+      "native_title": "オーバーロード",
+      "episodes": 13,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20832-vUNm5zrYWifc.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/overlord",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/overlord",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80132110",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JiIura5SogPzrVGaujqXYsc",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/en/media/34527",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Tubi TV",
+          "url": "https://tubitv.com/series/2234/overlord",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 97986,
+      "category": "anime",
+      "title": "Made in Abyss",
+      "native_title": "メイドインアビス",
+      "episodes": 13,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx97986-TQ7dCgbS3y5s.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.amazon.com/dp/B073S2612X",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80193163",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0-bp4bZ7ER-VQ-973riDyN",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/37179",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/37179",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "HIDIVE",
+          "url": "https://www.hidive.com/season/20003",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 120377,
+      "category": "anime",
+      "title": "Cyberpunk: Edgerunners",
+      "native_title": "サイバーパンク エッジランナーズ",
+      "episodes": 10,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx120377-ayZPoxiWt4Li.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81054853",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 20923,
+      "category": "anime",
+      "title": "Food Wars!",
+      "native_title": "食戟のソーマ",
+      "episodes": 24,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20923-pNT38pjW3RFH.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/food-wars",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/food-wars-shokugeki-no-soma",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "HIDIVE",
+          "url": "https://www.hidive.com/tv/food-wars",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80182054",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.amazon.com/Sacred-Mother-of-Kyosuke/dp/B073GKRFC2/ref=sr_1_1?dchild=1&keywords=food+wars&qid=1617825503&s=instant-video&sr=1-1&tag=harshabalani-20",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://youtube.com/playlist?list=PLxSscENEp7JiQ5eGN9KP8g6v8fEG7k6Ab",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 20992,
+      "category": "anime",
+      "title": "HAIKYU!! 2nd Season",
+      "native_title": "ハイキュー!! セカンドシーズン",
+      "episodes": 25,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20992-aHgNbcalVEqk.png",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/haikyu",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.amazon.com/gp/video/detail/B07X2V2QDS/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80090673",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/haikyu-c085d06a-48b3-4456-955e-480aef4d8442",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 20920,
+      "category": "anime",
+      "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
+      "native_title": "ダンジョンに出会いを求めるのは間違っているだろうか",
+      "episodes": 13,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20920-MTREwZOG4BAD.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "HIDIVE",
+          "url": "https://www.hidive.com/tv/is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80185873",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 3588,
+      "category": "anime",
+      "title": "Soul Eater",
+      "native_title": "ソウルイーター",
+      "episodes": 51,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx3588-fSMggQoFSbUI.png",
+      "where_to_watch": [
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/soul-eater",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/soul-eater",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 15809,
+      "category": "anime",
+      "title": "The Devil is a Part-Timer!",
+      "native_title": "はたらく魔王さま!",
+      "episodes": 13,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx15809-ECv3HyOYJKrk.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/the-devil-is-a-part-timer",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80006149",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3f9u2Wb_weEMZFcCD1BXhC",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://crunchyroll.com/series/GR75Z5KKY/the-devil-is-a-part-timer",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 171018,
+      "category": "anime",
+      "title": "DAN DA DAN",
+      "native_title": "ダンダダン",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171018-60q1B6GK2Ghb.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GG5H5XQ0D/dan-da-dan",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81736884",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/bad0bb31-0fa5-4a69-b9a5-5e5ed5032a48",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2OF_CmbcBOUk_216rwS1wD",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 9989,
+      "category": "anime",
+      "title": "Anohana: The Flower We Saw That Day",
+      "native_title": "あの日見た花の名前を僕達はまだ知らない。",
+      "episodes": 11,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9989-hImMg6kCMm6I.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/anohana-the-flower-we-saw-that-day",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/browse?jbv=80075178&jbp=0&jbr=11",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 11111,
+      "category": "anime",
+      "title": "Another",
+      "native_title": "アナザー",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11111-gvvE5bBYsyFo.png",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/another",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80241072",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 108632,
+      "category": "anime",
+      "title": "Re:ZERO -Starting Life in Another World- Season 2",
+      "native_title": "Re:ゼロから始める異世界生活 2nd Season",
+      "episodes": 13,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108632-lQWnmw7XaNOK.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/rezero-starting-life-in-another-world-",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80131659",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://youtube.com/playlist?list=PLwLSw1_eDZl2vNHSDbAPDD-nel6lYx7kR",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/@Rezero_official",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 14813,
+      "category": "anime",
+      "title": "My Teen Romantic Comedy SNAFU",
+      "native_title": "やはり俺の青春ラブコメはまちがっている。",
+      "episodes": 13,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx14813-3mNvcKNEQcDs.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/my-teen-romantic-comedy-snafu",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "HIDIVE",
+          "url": "https://www.hidive.com/tv/my-teen-romantic-comedy-snafu",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 2001,
+      "category": "anime",
+      "title": "Gurren Lagann",
+      "native_title": "天元突破グレンラガン",
+      "episodes": 27,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2001-XwRnjzGeFWRQ.png",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/gurren-lagann",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "http://www.hulu.com/gurren-lagann",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 6702,
+      "category": "anime",
+      "title": "Fairy Tail",
+      "native_title": "FAIRY TAIL",
+      "episodes": 175,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b6702-KI4qgSMyI8Pm.png",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/fairy-tail",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://youtube.com/playlist?list=PLwLSw1_eDZl2VQRIahDF73hnkdPjNRYnu",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.amazon.com/Fairy-Tail-Season-1/dp/B0CHBPDKHT",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 99750,
+      "category": "anime",
+      "title": "I Want to Eat Your Pancreas",
+      "native_title": "君の膵臓をたべたい",
+      "episodes": 1,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99750-pNyly9d3MEgV.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81037593",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 145139,
+      "category": "anime",
+      "title": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
+      "native_title": "鬼滅の刃 刀鍛冶の里編",
+      "episodes": 11,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx145139-rRimpHGWLhym.png",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/2079053/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81091393",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc-a92c9b0f-1aa2-42f4-9b73-29d0d51e27ba",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 21699,
+      "category": "anime",
+      "title": "KONOSUBA -God's blessing on this wonderful world! 2",
+      "native_title": "この素晴らしい世界に祝福を！2",
+      "episodes": 10,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21699-Fkbnkl9ZC6fW.png",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/konosuba-gods-blessing-on-this-wonderful-world",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80131674",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JjBrlCcD2AFans0YqvZCF0f",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 101347,
+      "category": "anime",
+      "title": "Dororo",
+      "native_title": "どろろ",
+      "episodes": 24,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101347-TGaDwEYqLfm1.jpg",
+      "where_to_watch": [
+        {
+          "platform": "HIDIVE",
+          "url": "https://www.hidive.com/tv/dororo",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.primevideo.com/region/na/detail/0TVO1JG449EFL5TZRWMN0DHHG0",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Hulu",
+          "url": "https://www.hulu.com/series/dororo-6683bff2-69b8-4893-b370-f6544713b13d",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://youtube.com/playlist?list=PLxSscENEp7JhK-cSte9aHaz3rs6qc2Eup&si=lgTTA5pL7lelUyrR",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 126403,
+      "category": "donghua",
+      "title": "Link Click",
+      "native_title": "时光代理人",
+      "episodes": 11,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx126403-BfVSRzWUtVFW.png",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28230742/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/play/1006275",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/link-click",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://youtube.com/playlist?list=PLrYKPj7wbjfiyR8PezbT7JehgePKs-Tt6",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.primevideo.com/detail/0JQ7WFWMSABUKDJLEH08LTVTKZ",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 114121,
+      "category": "donghua",
+      "title": "The Daily Life of the Immortal King",
+      "native_title": "仙王的日常生活",
+      "episodes": 15,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx114121-vxWVgIBlBjox.png",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md4313802/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLBakWosU0sfiiAL9PR9042e8hwkdbj7G9",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81364944",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/34695",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/the-daily-life-of-the-immortal-king",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 156092,
+      "category": "donghua",
+      "title": "To Be Hero X",
+      "native_title": "凸变英雄X",
+      "episodes": 24,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx156092-yHqgQZOF2mbg.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28340128/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GQWH0M1J3/to-be-hero-x",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili",
+          "url": "https://space.bilibili.com/1203126943",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/en/media/2121835",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 137667,
+      "category": "donghua",
+      "title": "Lord of Mysteries",
+      "native_title": "诡秘之主 小丑篇​",
+      "episodes": 13,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx137667-xQxzQRAerw53.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/t/mzc00200x6fq63h.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GEXH3W2EZ/lord-of-mysteries",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "WeTV",
+          "url": "https://wetv.vip/en/album/7o961rwa3bmfgob",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0GaYki8AMQtObLOY61-9jq",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 98861,
+      "category": "donghua",
+      "title": "The King's Avatar",
+      "native_title": "全职高手",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx98861-MMwQxW1S8WkF.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md5852/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/t/ttqxo9s3cblgofl.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "WeTV",
+          "url": "https://wetv.vip/en/play/pnumjfjcvuau4sr",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLMX26aiIvX5pFbfTf10Tke0CiMwxO76fT",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GQWH0M113/the-kings-avatar",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 136484,
+      "category": "donghua",
+      "title": "Link Click Season 2",
+      "native_title": "时光代理人 第二季",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx136484-QiHcF64PVWQi.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28230742",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GP5HJ8E81/link-click",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLrYKPj7wbjfjgfK7LIPwsLT282CQoyueA",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 126357,
+      "category": "donghua",
+      "title": "The Daily Life of the Immortal King Season 2",
+      "native_title": "仙王的日常生活 第二季",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx126357-gqjGyFI0pUtC.png",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28230723",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/1031938",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/the-daily-life-of-the-immortal-king",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 101972,
+      "category": "donghua",
+      "title": "The Founder of Diabolism",
+      "native_title": "魔道祖师",
+      "episodes": 15,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx101972-dep8Bcte5jQd.jpg",
+      "where_to_watch": [
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLMX26aiIvX5rWjEqareJBmoX-_uTFtemk",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "WeTV",
+          "url": "https://wetv.vip/en/play/r8t02fkxr9jyvvn",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/k/k4mutekomtrdbux.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLxOs22nkVmnKIbOioc0okz6cDPdKPrE94",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GMEHME78W/the-master-of-diabolism",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 113260,
+      "category": "donghua",
+      "title": "Heaven Official's Blessing",
+      "native_title": "天官赐福",
+      "episodes": 11,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113260-4LPAAKCSJe8f.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28223059",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLBakWosU0sfg7p52DMfw9x7tKE94OL4Br",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.amazon.com/Heaven-Officials-Blessing/dp/B08QSLLTQ4",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81364887",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/35336",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/G79H23XX8/heaven-officials-blessing",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://youtube.com/playlist?list=PLrYKPj7wbjfgXmmN9YVV137CCaP7Mo3IF&si=WWPsgIOAGrB23tFh",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Viki",
+          "url": "https://www.viki.com/tv/41689c-heaven-officials-blessing#episodes",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 107912,
+      "category": "donghua",
+      "title": "Scissor Seven",
+      "native_title": "刺客伍六七",
+      "episodes": 10,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx107912-pLrOL1AzEIEt.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81156880",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/9/9jh7p3r7ljkxkmc.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md6360",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 21840,
+      "category": "donghua",
+      "title": "Hitori no Shita - The Outcast",
+      "native_title": "一人之下",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21840-e2qT7G7TYaCX.png",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/hitorinoshita-the-outcast",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/x/cover/ozvao2u23k1nf9o.html",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 141852,
+      "category": "donghua",
+      "title": "The Daily Life of the Immortal King Season 3",
+      "native_title": "仙王的日常生活 第三季",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx141852-tgLX8S7fqy3G.png",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28235390",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/the-daily-life-of-the-immortal-king",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 120220,
+      "category": "donghua",
+      "title": "Dawang Raoming",
+      "native_title": "大王饶命",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx120220-sdm29OEAijm7.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/o/od1kjfd56e3s7n7.html",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 99200,
+      "category": "donghua",
+      "title": "Full-Time Magister",
+      "native_title": "全职法师",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99200-DuLcVrpoGq8w.png",
+      "where_to_watch": [
+        {
+          "platform": "WeTV",
+          "url": "https://wetv.vip/en/play/ao9safifok46qat",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/d/dl1er4929x4jr2d.html",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 166442,
+      "category": "donghua",
+      "title": "Super Cube",
+      "native_title": "超能立方",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166442-JTkdzIQpgf8M.jpg",
+      "where_to_watch": [
+        {
+          "platform": "iQIYI",
+          "url": "https://www.iqiyi.com/a_1cgy1ao7255.html",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 170166,
+      "category": "donghua",
+      "title": "Link Click: Bridon Arc",
+      "native_title": "时光代理人英都篇",
+      "episodes": 6,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx170166-VpX7l0Horthq.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28230742/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/en/media/2117186",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GP5HJ8E81/link-click",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 102997,
+      "category": "donghua",
+      "title": "The King's Avatar S2",
+      "native_title": "全职高手2",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx102997-M638Ly1gxVmG.png",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/3/3r7bnv3gdykfdok.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "WeTV",
+          "url": "https://wetv.vip/en/play/xuw2l8nyxhnglwo",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLMX26aiIvX5p9K1tPKPd2pX-8idpid2s5",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLxOs22nkVmnLwJb-c32EPf1aYfeYzb2w8",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Viki",
+          "url": "https://www.viki.com/tv/39869c-the-kings-avatar-2",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GQWH0M113/the-kings-avatar",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 113290,
+      "category": "donghua",
+      "title": "Scissor Seven Season 2",
+      "native_title": "伍六七之最强发型师",
+      "episodes": 10,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113290-zsH3Ni7M7STm.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28222513",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/m/mzc00200v31r9ez.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81156880",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 104458,
+      "category": "donghua",
+      "title": "The Founder of Diabolism 2",
+      "native_title": "魔道祖师 第二季",
+      "episodes": 8,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104458-b3PRaVB0vBM9.png",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/k/k4mutekomtrdbux.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLMX26aiIvX5rWjEqareJBmoX-_uTFtemk",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLxOs22nkVmnKIbOioc0okz6cDPdKPrE94",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GMEHME78W/the-master-of-diabolism",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 122511,
+      "category": "donghua",
+      "title": "Dragon Raja -The Blazing Dawn-",
+      "native_title": "龙族",
+      "episodes": 17,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx122511-h6FpxJGfKx3I.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/m/mzc00200fr1ry1o.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili",
+          "url": "https://space.bilibili.com/2083407917",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "WeTV",
+          "url": "https://wetv.vip/play/vz893w6rxcu0jma",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GDKHZEJN0/dragon-raja--the-blazing-dawn-",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://youtu.be/DUWASdBenAA",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 127595,
+      "category": "donghua",
+      "title": "Scissor Seven Season 3",
+      "native_title": "伍六七之玄武国篇",
+      "episodes": 10,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx127595-PXUt146nepcP.png",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/m/mzc00200y9i58mv.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28232253/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81156880",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 156110,
+      "category": "donghua",
+      "title": "The Daily Life of the Immortal King Season 4",
+      "native_title": "仙王的日常生活 第四季",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b156110-LN58r4yQpDGV.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28339914/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GZJH3DJ8E/the-daily-life-of-the-immortal-king",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLBakWosU0sfhylcIszlXE-moj1pHeGjcd",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/2091454",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 165530,
+      "category": "donghua",
+      "title": "The Fated Magical Princess: Who Made Me a Princess",
+      "native_title": "魔法公主的小烦恼",
+      "episodes": 16,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx165530-Ku7VZt2NCIgf.jpg",
+      "where_to_watch": [
+        {
+          "platform": "iQIYI",
+          "url": "https://www.iqiyi.com/v_1fqir0xkmw8.html?vfrm=pcw_album_auto",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GT00364694/the-fated-magical-princess-who-made-me-a-princess",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://youtube.com/playlist?list=PLwLSw1_eDZl1gpPkmqA5aKbsWYRdOSF5Z&si=XCk_oS-tOMT_xd7_",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 114108,
+      "category": "donghua",
+      "title": "THE LAST SUMMONER",
+      "native_title": "最后的召唤师",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx114108-Qe5wwJQr5H4O.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md24126260/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/the-last-summoner",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/1053337",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 101410,
+      "category": "donghua",
+      "title": "Quanzhi Gaoshou Specials",
+      "native_title": "全职高手 特别篇",
+      "episodes": 3,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101410-DS14ggjKRPoU.png",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/h/hlo45ourdy4rh3t.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md86272",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLxOs22nkVmnIH4lspgvhTmxanrbi8lv7D",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 156111,
+      "category": "donghua",
+      "title": "The Girl Downstairs",
+      "native_title": "爱上她的理由",
+      "episodes": 22,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx156111-ZABTgci6m9sN.png",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28339917/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/en/media/2080306",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Viki",
+          "url": "https://www.viki.com/tv/39786c-the-girl-downstairs",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLBakWosU0sfhwdV_CleP1Uqk8lienfjRO",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 127976,
+      "category": "donghua",
+      "title": "Heaven Official's Blessing Season 2",
+      "native_title": "天官赐福 第二季",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx127976-zmag82H3ygcI.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28235383",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/G79H23XX8/heaven-officials-blessing",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md20340706",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://youtube.com/playlist?list=PLrYKPj7wbjfhGfDBYZKmGvcjGVnUw2yoI&si=l2O-e8-R-7QR5QHe",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 121467,
+      "category": "donghua",
+      "title": "The Founder of Diabolism: Final Season",
+      "native_title": "魔道祖师 第三季",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx121467-Et0U1jXLfuYf.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/k/k4mutekomtrdbux.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "WeTV",
+          "url": "https://wetv.vip/play/r8t02fkxr9jyvvn",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLMX26aiIvX5qEugrp9msUQlwd_bQzPX1M",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLxOs22nkVmnIK8XqyR14Ed6jBl7XOUEoe",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GMEHME78W/the-master-of-diabolism",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 136145,
+      "category": "donghua",
+      "title": "LINK CLICK Episode 5.5",
+      "native_title": "时光代理人 番外篇",
+      "episodes": 1,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx136145-guWKltDngjIu.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28230742/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/link-click/episode-55-marrying-by-contesting-846116",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 98031,
+      "category": "donghua",
+      "title": "Spiritpact",
+      "native_title": "灵契",
+      "episodes": 20,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b98031-daSmrvb3DQw8.png",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/spiritpact",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 126356,
+      "category": "donghua",
+      "title": "Heaven Official's Blessing Special Episode",
+      "native_title": "天官赐福 特别篇",
+      "episodes": 1,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx126356-Nt66D91sH3Cu.png",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28223059/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81364887/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/watch/G0DUN85PG/special-episode",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 107069,
+      "category": "donghua",
+      "title": "Wu Shan Wu Xing: Zhuo Yuan Shen Huo",
+      "native_title": "雾山五行 灼源神火",
+      "episodes": 3,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx107069-mABDNDDtWWiW.png",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28228714/",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 112023,
+      "category": "donghua",
+      "title": "The Legend of Hei",
+      "native_title": "罗小黑战记大电影",
+      "episodes": 1,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx112023-jAzTavYOx3zq.png",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28221675/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/t/68otu5em7wil239.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81427481",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/G4PH0WJ7Z/the-legend-of-hei",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 97616,
+      "category": "donghua",
+      "title": "TO BE HERO",
+      "native_title": "凸变英雄BABA",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx97616-JgCHJDKyMGo1.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/to-be-hero",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md5430",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/i/if2g5phy6ds2t4r.html",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 97591,
+      "category": "donghua",
+      "title": "Bloodivores",
+      "native_title": "时空使徒",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx97591-sw6OKNV8zkM3.png",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/bloodivores",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md5572/",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 141953,
+      "category": "donghua",
+      "title": "False Memory (2026)",
+      "native_title": "记忆管理局 (2026)",
+      "episodes": 7,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx141953-S3RozQSOxzrw.png",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md23774118",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/@记忆管理局FalseMemory",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/2411030",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 100294,
+      "category": "donghua",
+      "title": "Full-Time Magister S2",
+      "native_title": "全职法师 第2季",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx100294-Am3ipeQmJEkM.jpg",
+      "where_to_watch": [
+        {
+          "platform": "WeTV",
+          "url": "https://wetv.vip/en/play/o4my19wngdroksu",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/w/wtsrsra8jj6qtuw.html",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 98574,
+      "category": "donghua",
+      "title": "Hitori no Shita - The Outcast 2",
+      "native_title": "一人之下 2",
+      "episodes": 24,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx98574-OdP0ZLENsVo5.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/hitori-no-shita-the-outcast",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/3/3enwc74hj562xjd.html",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 191832,
+      "category": "donghua",
+      "title": "Link Click Season 3 Part 1",
+      "native_title": "时光代理人 第三季 Part One",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx191832-bsnCaLNVjzEw.png",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GP5HJ8E81/link-click",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md26949780",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://youtube.com/playlist?list=PLU90m5tcq7b0&si=pg_BN47xePVo7POD",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 99935,
+      "category": "donghua",
+      "title": "Psychic Princess",
+      "native_title": "通灵妃",
+      "episodes": 16,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99935-lQ2IPS31bJSK.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md131852",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/psychic-princess",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.amazon.com/dp/B08X667QX4/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/x/cover/jg2a5feze5bryj2.html",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 137662,
+      "category": "donghua",
+      "title": "Release that Witch",
+      "native_title": "放开那个女巫",
+      "episodes": 8,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx137662-iZigHTc71wi7.png",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/t/mzc0020064ku1qb.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GT00365589/release-that-witch",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=JALNW9_87Pw",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 100226,
+      "category": "donghua",
+      "title": "EVIL OR LIVE",
+      "native_title": "理想禁区",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx100226-4xiHIx3aeEaT.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/evil-or-live",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 122508,
+      "category": "donghua",
+      "title": "Biaoren",
+      "native_title": "镖人",
+      "episodes": 15,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx122508-abXsQzAGwPzN.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/m/mzc00200ab0trmk.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLAV8AqZgfhJvuOUHbBQoCZD7A-zdZozYl",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 98575,
+      "category": "donghua",
+      "title": "To Be Heroine",
+      "native_title": "凸变英雄LEAF",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx98575-dcsUXxHePLLx.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/to-be-heroine",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md23352",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/b/blhvtkddwgr1x28.html",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 159490,
+      "category": "donghua",
+      "title": "Scissor Seven Season 4",
+      "native_title": "伍六七之暗影宿命",
+      "episodes": 10,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx159490-X5BrF7DubUr4.png",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28412536/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81156880",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 108981,
+      "category": "donghua",
+      "title": "The King's Avatar: For the Glory",
+      "native_title": "全职高手之巅峰荣耀",
+      "episodes": 1,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108981-NLg2V6l0Eb2H.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28221062",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/x/cover/hzgtowvz90ucvkj.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Tubi TV",
+          "url": "https://tubitv.com/movies/581872/the-king-s-avatar-for-the-glory-dubbed",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 99707,
+      "category": "donghua",
+      "title": "Rakshasa Street",
+      "native_title": "镇魂街",
+      "episodes": 24,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99707-VpuVWgyNltUV.png",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md3863",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLgovbMZiNNk5YjgQwpDndusiFy8eUpR4-",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 104745,
+      "category": "donghua",
+      "title": "Full-Time Magister S3",
+      "native_title": "全职法师 第3季",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104745-nhUQ61TomI4D.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/8/8vdu7i5hr7anq5q.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "WeTV",
+          "url": "https://wetv.vip/en/play/53anl3jkl98fo5q",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 185857,
+      "category": "donghua",
+      "title": "The Daily Life of the Immortal King Season 5",
+      "native_title": "仙王的日常生活 第五季",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185857-n92z26zypwGh.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GZJH3DJ8E/the-daily-life-of-the-immortal-king",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md23775603",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 156096,
+      "category": "donghua",
+      "title": "4 CUT HERO",
+      "native_title": "四格勇者",
+      "episodes": 10,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx156096-GMhNhYtsXGhV.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28339942/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLBakWosU0sfjTg1PQ_qbkflGxN7_m7OnD",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLBakWosU0sfgISbJeN8gkx4x9UOPrwFG4",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLBakWosU0sfg9uKwU5x5S-iR34v_tpxFh",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 191974,
+      "category": "donghua",
+      "title": "The All-devouring Whale: Homecoming",
+      "native_title": "鲲吞天下之掌门归来",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx191974-1tqbmtbkCpJ1.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/en/media/2126837",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md21082583",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=vVMRvv-8dWo&list=PLBakWosU0sfgJIXI8u1luQWBBtuyqfrdQ",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 199448,
+      "category": "donghua",
+      "title": "Lord of Mysteries Specials",
+      "native_title": "诡秘之主 特别篇",
+      "episodes": 3,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx199448-BuqzEdkuPSEm.png",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/x/cover/mzc00200jl6jwb6.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GEXH3W2EZ/lord-of-mysteries",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 120193,
+      "category": "donghua",
+      "title": "Yingxiong Zailin",
+      "native_title": "英雄再临",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx120193-KAMiBZ4Nw3xA.png",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/q/q72jd29a3oxflsr.html",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 10259,
+      "category": "donghua",
+      "title": "Big Fish & Begonia",
+      "native_title": "大鱼海棠",
+      "episodes": 1,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx10259-gNuFiCwYhvK9.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/x/cover/we35g3aduiwkudp.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/80233883",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Tubi TV",
+          "url": "https://tubitv.com/movies/556050/big-fish-begonia-dubbed",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/big-fish-begonia",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 98477,
+      "category": "donghua",
+      "title": "Frankenstein Family",
+      "native_title": "实验品家庭",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx98477-D89t4S2WDmxv.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/frankenstein-family",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 114555,
+      "category": "donghua",
+      "title": "All Saints Street",
+      "native_title": "万圣街",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx114555-2Srjv4lqeGYA.png",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/a/awnia0n2erqryf3.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28235589/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/G0XHWM5N2/all-saints-street",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 115800,
+      "category": "donghua",
+      "title": "Quanzhi Fashi 4",
+      "native_title": "全职法师 第4季",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx115800-IUbsQeRT92YC.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/v/vc5b1spq46fqfgn.html",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 137735,
+      "category": "donghua",
+      "title": "Quanzhi Gaoshou 3",
+      "native_title": "全职高手 第3季",
+      "episodes": 17,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx137735-hz635vd0h0td.png",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/t/mzc00200p49magn.html",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 100813,
+      "category": "donghua",
+      "title": "Spiritpact -Bond of The Underworld-",
+      "native_title": "灵契·黄泉之契",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx100813-SRblYrhgGEva.png",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/spiritpact",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 107913,
+      "category": "donghua",
+      "title": "Scissor Seven Extras",
+      "native_title": "刺客伍六七 番外",
+      "episodes": 4,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx107913-kM9fv7X13cXe.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81156880",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 105401,
+      "category": "donghua",
+      "title": "Yi Ren Zhi Xia 3",
+      "native_title": "一人之下 3",
+      "episodes": 8,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105401-Wwj6ZWHUdOuo.png",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/m/mtxrcjfijj77gze.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLxOs22nkVmnKvcgMxkg1crdv8QA-H_8Mr",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/G63VMXEQY/hitori-no-shita---the-outcast",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 146543,
+      "category": "donghua",
+      "title": "Dawang Raoming 2",
+      "native_title": "大王饶命 第二季",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx146543-xPM6Q1II9Iol.png",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/t/mzc00200fod41ms.html",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 141879,
+      "category": "donghua",
+      "title": "A Herbivorous Dragon of 5,000 Years Gets Unfairly Villainized",
+      "native_title": "食草老龙被冠以恶龙之名",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx141879-ZSBb6aYbrIHS.png",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28235387/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/1063156/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/a-herbivorous-dragon-of-5000-years-gets-unfairly-villainized",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://youtube.com/@user-yx2jg4xk1i",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/2072897/",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 100296,
+      "category": "donghua",
+      "title": "Wo de Tian Jie Nüyou",
+      "native_title": "我的天劫女友",
+      "episodes": 15,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx100296-5nXlg3HVC7PS.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md6357/",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 101973,
+      "category": "donghua",
+      "title": "Cinderella Chef",
+      "native_title": "萌妻食神",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101973-phinH9pL2wV8.png",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md139952",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLLAr5GYz8LF5FX3SsJkErhZ-TkasA9emv",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81648290",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLBakWosU0sfiW2it5kXpCZeptj1E32ziX",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLBakWosU0sfiQwCJ2pF2Y02jgKIbnJsB_",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Viki",
+          "url": "https://www.viki.com/tv/39839c-cinderella-chef",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 157692,
+      "category": "donghua",
+      "title": "Dragon Raja II -The Mourner's Eyes-",
+      "native_title": "龙族 第二季",
+      "episodes": 24,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx157692-lihmnuJGcbM6.png",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/x/cover/mzc002008260hny.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GDKHZEJN0/dragon-raja--the-blazing-dawn-",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 122671,
+      "category": "donghua",
+      "title": "Quanzhi Fashi 5",
+      "native_title": "全职法师 第5季",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx122671-0ie6U9LGaILt.png",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/m/mzc00200dpv18be.html",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 141950,
+      "category": "donghua",
+      "title": "False Memory",
+      "native_title": "记忆管理局",
+      "episodes": 1,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx141950-zAmZROOecLLP.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/video/BV12q4y1Z7iJ",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=WPabB9vv_ks",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=EWGlwtMQFZA",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/video/BV1iK4y187Th",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 182445,
+      "category": "donghua",
+      "title": "Scissor Seven Season 5",
+      "native_title": "伍六七之记忆碎片",
+      "episodes": 10,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx182445-pHkLtguNcxWC.png",
+      "where_to_watch": [
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81156880",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 101920,
+      "category": "donghua",
+      "title": "Soul Land",
+      "native_title": "斗罗大陆",
+      "episodes": 26,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101920-g7P83Uveo26D.png",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/m/m441e3rjq9kwpsc.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLxOs22nkVmnJV5YGIKqb1I7v-9g7KdMGk",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "WeTV",
+          "url": "https://wetv.vip/en/album/wzx7pbebgpxlqqr",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Viki",
+          "url": "https://www.viki.com/tv/39850c-soul-land",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 110464,
+      "category": "donghua",
+      "title": "Ne Zha",
+      "native_title": "哪吒之魔童降世",
+      "episodes": 1,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx110464-gU0stanOBGIs.png",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/t/zr5a67l333ehzu9.html",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 108978,
+      "category": "donghua",
+      "title": "Scumbag System",
+      "native_title": "穿书自救指南",
+      "episodes": 10,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108978-GtIXqzO8RaAz.png",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/e/e13cyu7h55k62ps.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "WeTV",
+          "url": "https://wetv.vip/en/album/m2c25jodoyslvyv",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLMX26aiIvX5qSlP1I91qvqa1yXtFrkBBQ",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLxOs22nkVmnL9t7VSjN0-qav1IdeGFkyZ",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.amazon.com/Scumbag-System/dp/B08TZR7VD9",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Viki",
+          "url": "https://www.viki.com/tv/39853c-scumbag-system-series",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GDKHZEJ82/scumbag-system",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 107743,
+      "category": "donghua",
+      "title": "Xie Wang Zhui Qi",
+      "native_title": "邪王追妻",
+      "episodes": 13,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx107743-JHs3OOzzgSuO.png",
+      "where_to_watch": [
+        {
+          "platform": "iQIYI",
+          "url": "https://www.iqiyi.com/a_19rrh299et.html",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 141881,
+      "category": "donghua",
+      "title": "War God System! I'm Counting On You!",
+      "native_title": "靠你啦！战神系统",
+      "episodes": 16,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx141881-BU8iad7gyhIN.png",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28235389/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/en/media/1063218",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 122585,
+      "category": "donghua",
+      "title": "Wu Shan Wu Xing: Xi Chuan Huan Zi Lin",
+      "native_title": "雾山五行·犀川幻紫林",
+      "episodes": 4,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx122585-y2uQETSGj66X.png",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28228714",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 120343,
+      "category": "donghua",
+      "title": "The Master of Diabolism Q",
+      "native_title": "魔道祖师Q",
+      "episodes": 30,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx120343-8zVgrYFOl7GV.png",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/m/mzc00200fdthd81.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "WeTV",
+          "url": "https://wetv.vip/en/play/ivmvu6u2poh9e9b-The%20Founder%20of%20Diabolism%20Q/n00341g23r8-Teaser%3A%20Start%2031%20July%20%7C%20The%20Founder%20of%20Diabolism%20Q",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GMEHME78W/the-master-of-diabolism",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 104080,
+      "category": "donghua",
+      "title": "Look, I Can See Your Ears!",
+      "native_title": "喂，看见耳朵啦！",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b104080-KP0Yb9t17Ahu.png",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md96072/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLBakWosU0sfjPtvo1ht97mWoBd3nXNgKt",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/1006354",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 114959,
+      "category": "donghua",
+      "title": "Yaojing Zhongzhi Shouce",
+      "native_title": "妖精种植手册",
+      "episodes": 14,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx114959-nrGvVfQowwJ3.png",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/m/mzc002007ipixwq.html",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 137726,
+      "category": "donghua",
+      "title": "Quanzhi Fashi 6",
+      "native_title": "全职法师 第6季",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx137726-ZMMDRFLTQWSH.png",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/t/mzc00200syigvst.html",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 110595,
+      "category": "donghua",
+      "title": "Yi Nian Yongheng",
+      "native_title": "一念永恒",
+      "episodes": 52,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx110595-vHd33fbqdK6B.png",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/w/ww18u675tfmhas6.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "WeTV",
+          "url": "https://wetv.vip/play/ciw7o8319w2cx15",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 102598,
+      "category": "donghua",
+      "title": "Huyao Xiao Hongniang: Xiasha",
+      "native_title": "狐妖小红娘 下沙",
+      "episodes": 13,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx102598-ycwoTuRzdf23.png",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/x/cover/0sdnyl7h86atoyt/f0157y2e83y.html",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 137653,
+      "category": "donghua",
+      "title": "Renegade Immortal",
+      "native_title": "仙逆",
+      "episodes": 180,
+      "next_airing": {
+        "episode": 168,
+        "airingAt": 1795399200
+      },
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx137653-1wHbCVvABGOr.png",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/t/mzc00200aaogpgh.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GKEH2G0MN/renegade-immortal",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 114136,
+      "category": "donghua",
+      "title": "Fairies Albums",
+      "native_title": "百妖谱",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx114136-9bmTbEk4aV4x.png",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md4313762/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLBakWosU0sfgV7gPQHReort3y4fta8GQm",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/1014195",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81648250",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/G1XHJV2DX/fairies-album",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 177512,
+      "category": "donghua",
+      "title": "Mom, I'm Sorry",
+      "native_title": "邂逅她的少女时代",
+      "episodes": 18,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b177512-RN4AsUAyhl71.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md21083745",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLBakWosU0sfiqvdSwBSYX6wr5wWcxEfaP",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Viki",
+          "url": "https://www.viki.com/tv/40590c-mom-im-sorry",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/media/2105082",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 122497,
+      "category": "donghua",
+      "title": "All Saints Street 2",
+      "native_title": "万圣街 2",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx122497-vrY4EfwCCp9a.png",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/a/awnia0n2erqryf3.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28235589/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/G0XHWM5N2/all-saints-street",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 98862,
+      "category": "donghua",
+      "title": "Yaoguai Mingdan",
+      "native_title": "妖怪名单",
+      "episodes": 18,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx98862-rG7yNCpFlwTg.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/o/o9b10rhvd7y5i9h.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLTndXYWs2JgFaxgnr6GIXrkfkCw7nHtjb",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 114113,
+      "category": "donghua",
+      "title": "Jieyao",
+      "native_title": "解药",
+      "episodes": 13,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx114113-v0LtTzpFiCrM.png",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28223048",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLBakWosU0sfgrjNfTgx1iyTFHURBf529q",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Viki",
+          "url": "https://www.viki.com/tv/39841c-cure",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 101132,
+      "category": "donghua",
+      "title": "Mi Yu Xingzhe",
+      "native_title": "迷域行者",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101132-RJw3oJhhGmNK.png",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md5843",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 122631,
+      "category": "donghua",
+      "title": "Yi Ren Zhi Xia 4",
+      "native_title": "一人之下 4",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx122631-YLTfCEyYzQa5.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/m/mzc00200ni38yk3.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/G63VMXEQY/hitori-no-shita---the-outcast",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 98976,
+      "category": "donghua",
+      "title": "Fox Spirit Matchmaker",
+      "native_title": "縁結びの妖狐ちゃん",
+      "episodes": 24,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx98976-OkSpjfO79OHN.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Crunchyroll",
+          "url": "http://www.crunchyroll.com/fox-spirit-matchmaker",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 141855,
+      "category": "donghua",
+      "title": "X&Y",
+      "native_title": "爱幽的密室",
+      "episodes": 16,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx141855-tvKOWH7vjWjD.png",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28223051/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GDKHZEP3W/xy",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/en/media/2076392",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 131485,
+      "category": "donghua",
+      "title": "Left-Hand Layup!",
+      "native_title": "左手上篮",
+      "episodes": 8,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131485-RkSECXHoJUSx.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Tencent Video",
+          "url": "https://v.qq.com/detail/t/mzc00200ptzp2xs.html",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GKEH2G014/left-hand-layup",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/@lhlculture",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 127099,
+      "category": "donghua",
+      "title": "Wu Shan Wu Xing",
+      "native_title": "雾山五行",
+      "episodes": 1,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx127099-15z6aQLNkzV2.png",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/video/av7787078/",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 140175,
+      "category": "donghua",
+      "title": "LINK CLICK (Shorts)",
+      "native_title": "时光代理人小剧场",
+      "episodes": 18,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx140175-ALEehijVQois.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28230742/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/link-click",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 108146,
+      "category": "donghua",
+      "title": "Journal of the Mysterious Creatures",
+      "native_title": "异常生物见闻录",
+      "episodes": 13,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108146-MNTOvV1kDFX3.png",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md4313642/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Amazon Prime Video",
+          "url": "https://www.primevideo.com/detail/0GRUB2LJ8W8RHHTIWCTTMU5FB8/",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 138260,
+      "category": "donghua",
+      "title": "Link Click: Troubles of Ordinary People",
+      "native_title": "时光代理人 逍遥散人的委托",
+      "episodes": 1,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx138260-nCFsDfxaR2GQ.png",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28230742/",
+          "language": "Sub/Original"
+        }
+      ]
+    }
+  ]
+}
