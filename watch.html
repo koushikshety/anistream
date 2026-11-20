@@ -511,7 +511,7 @@
     }
 
     fetch("data/catalog.json").then(r => r.json()).then(list => {
-      const playable = list.filter(x => (x.servers || []).length > 0);
+      const playable = list.filter(x => ((x.servers || []).length > 0 || (x.officialLinks || []).length > 0));
       const found = slug ? playable.find(x => x.slug === slug) : playable[0];
       if (!found) { location.replace("index.html"); return; }
       currentShow = found;

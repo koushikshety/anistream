@@ -267,5 +267,335 @@
     ],
     "officialLinks": [],
     "updatedAt": 1795164006476
+  },
+  {
+    "slug": "fairy-tail",
+    "type": "anime",
+    "title": "Fairy Tail",
+    "nativeTitle": "",
+    "aliases": [
+      "Fairy Tail"
+    ],
+    "year": 2026,
+    "score": 82,
+    "status": "ONGOING",
+    "airDay": "Daily",
+    "quality": "1080p Official",
+    "episodes": 65,
+    "latestEp": 65,
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "cover": "https://i.ytimg.com/vi/4v149-6_NmE/hqdefault.jpg",
+    "banner": "https://i.ytimg.com/vi/4v149-6_NmE/hqdefault.jpg",
+    "desc": "Official full episodes streamed by Muse Asia on YouTube.",
+    "servers": [
+      {
+        "name": "Muse Asia",
+        "type": "youtube",
+        "lang": "English Sub",
+        "episodeMap": {
+          "65": "4v149-6_NmE",
+          "64": "lVFCLeByDUM",
+          "63": "-Tl0Bq2-a04"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795174022
+  },
+  {
+    "slug": "alderamin-on-the-sky",
+    "type": "anime",
+    "title": "Alderamin On the Sky",
+    "nativeTitle": "",
+    "aliases": [
+      "Alderamin On the Sky"
+    ],
+    "year": 2026,
+    "score": 82,
+    "status": "ONGOING",
+    "airDay": "Daily",
+    "quality": "1080p Official",
+    "episodes": 1,
+    "latestEp": 1,
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "cover": "https://i.ytimg.com/vi/peJqUisw7RM/hqdefault.jpg",
+    "banner": "https://i.ytimg.com/vi/peJqUisw7RM/hqdefault.jpg",
+    "desc": "Official full episodes streamed by Muse Asia on YouTube.",
+    "servers": [
+      {
+        "name": "Muse Asia",
+        "type": "youtube",
+        "lang": "English Sub",
+        "episodeMap": {
+          "1": "peJqUisw7RM"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795174022
+  },
+  {
+    "slug": "the-detective-is-already-dead-season-2",
+    "type": "anime",
+    "title": "The Detective Is Already Dead Season 2",
+    "nativeTitle": "",
+    "aliases": [
+      "The Detective Is Already Dead Season 2"
+    ],
+    "year": 2026,
+    "score": 82,
+    "status": "ONGOING",
+    "airDay": "Daily",
+    "quality": "1080p Official",
+    "episodes": 7,
+    "latestEp": 7,
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "cover": "https://i.ytimg.com/vi/KOfwOtk2Y3g/hqdefault.jpg",
+    "banner": "https://i.ytimg.com/vi/KOfwOtk2Y3g/hqdefault.jpg",
+    "desc": "Official full episodes streamed by Muse Asia on YouTube.",
+    "servers": [
+      {
+        "name": "Muse Asia",
+        "type": "youtube",
+        "lang": "English Sub",
+        "episodeMap": {
+          "7": "KOfwOtk2Y3g"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795174022
+  },
+  {
+    "slug": "asteroid-in-love",
+    "type": "anime",
+    "title": "Asteroid in Love",
+    "nativeTitle": "",
+    "aliases": [
+      "Asteroid in Love"
+    ],
+    "year": 2026,
+    "score": 82,
+    "status": "ONGOING",
+    "airDay": "Daily",
+    "quality": "1080p Official",
+    "episodes": 12,
+    "latestEp": 12,
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "cover": "https://i.ytimg.com/vi/G-Hm0_3Tl4E/hqdefault.jpg",
+    "banner": "https://i.ytimg.com/vi/G-Hm0_3Tl4E/hqdefault.jpg",
+    "desc": "Official full episodes streamed by Muse Asia on YouTube.",
+    "servers": [
+      {
+        "name": "Muse Asia",
+        "type": "youtube",
+        "lang": "English Sub",
+        "episodeMap": {
+          "12": "G-Hm0_3Tl4E",
+          "11": "1JcADw2zuOs"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795174022
+  },
+  {
+    "slug": "overgeared",
+    "type": "anime",
+    "title": "Overgeared",
+    "nativeTitle": "",
+    "aliases": [
+      "Overgeared"
+    ],
+    "year": 2026,
+    "score": 82,
+    "status": "ONGOING",
+    "airDay": "Daily",
+    "quality": "1080p Official",
+    "episodes": 1,
+    "latestEp": 1,
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "cover": "https://i.ytimg.com/vi/5LM0iTQrnP4/hqdefault.jpg",
+    "banner": "https://i.ytimg.com/vi/5LM0iTQrnP4/hqdefault.jpg",
+    "desc": "Official full episodes streamed by Crunchyroll on YouTube.",
+    "servers": [
+      {
+        "name": "Crunchyroll",
+        "type": "youtube",
+        "lang": "English Sub",
+        "episodeMap": {
+          "1": "5LM0iTQrnP4"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795174022
+  },
+  {
+    "slug": "en-dub-mobile-suit-gundam-seed-destiny",
+    "type": "anime",
+    "title": "【EN Dub】Mobile Suit Gundam SEED DESTINY",
+    "nativeTitle": "",
+    "aliases": [
+      "【EN Dub】Mobile Suit Gundam SEED DESTINY"
+    ],
+    "year": 2026,
+    "score": 82,
+    "status": "ONGOING",
+    "airDay": "Daily",
+    "quality": "1080p Official",
+    "episodes": 8,
+    "latestEp": 8,
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "cover": "https://i.ytimg.com/vi/aEbuf904Cpw/hqdefault.jpg",
+    "banner": "https://i.ytimg.com/vi/aEbuf904Cpw/hqdefault.jpg",
+    "desc": "Official full episodes streamed by GundamInfo on YouTube.",
+    "servers": [
+      {
+        "name": "GundamInfo",
+        "type": "youtube",
+        "lang": "English Sub",
+        "episodeMap": {
+          "8": "aEbuf904Cpw",
+          "7": "6o9JddAT5Rw",
+          "6": "lIbD1StF5Nw",
+          "5": "Fr1h6ntPIrE",
+          "4": "WFbpz03CuaI",
+          "3": "DMVdbd_YsVM",
+          "2": "beu95yrJfHI",
+          "1": "4AbgG1rVFrk"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795174022
+  },
+  {
+    "slug": "engsub",
+    "type": "donghua",
+    "title": "【ENGSUB】🔥👑破军武帝转世重修！废柴少年觉醒记忆后横扫天水国，一路碾压夺嫡之争冲向神境！《万古至尊：李云霄传》",
+    "nativeTitle": "",
+    "aliases": [
+      "【ENGSUB】🔥👑破军武帝转世重修！废柴少年觉醒记忆后横扫天水国，一路碾压夺嫡之争冲向神境！《万古至尊：李云霄传》"
+    ],
+    "year": 2026,
+    "score": 82,
+    "status": "ONGOING",
+    "airDay": "Daily",
+    "quality": "1080p Official",
+    "episodes": 100,
+    "latestEp": 100,
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "cover": "https://i.ytimg.com/vi/RTkHwSAUCVk/hqdefault.jpg",
+    "banner": "https://i.ytimg.com/vi/RTkHwSAUCVk/hqdefault.jpg",
+    "desc": "Official full episodes streamed by Made By Bilibili on YouTube.",
+    "servers": [
+      {
+        "name": "Made By Bilibili",
+        "type": "youtube",
+        "lang": "English Sub",
+        "episodeMap": {
+          "1": "opKMC2MPneA",
+          "100": "0HSJ0PfCIQk"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795174022
+  },
+  {
+    "slug": "a-new-way-for-sanctification",
+    "type": "donghua",
+    "title": "【会员抢先看】 《混在末日，独自成仙》A New Way for Sanctification",
+    "nativeTitle": "",
+    "aliases": [
+      "【会员抢先看】 《混在末日，独自成仙》A New Way for Sanctification"
+    ],
+    "year": 2026,
+    "score": 82,
+    "status": "ONGOING",
+    "airDay": "Daily",
+    "quality": "1080p Official",
+    "episodes": 3,
+    "latestEp": 3,
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "cover": "https://i.ytimg.com/vi/l_7lS5iuCqk/hqdefault.jpg",
+    "banner": "https://i.ytimg.com/vi/l_7lS5iuCqk/hqdefault.jpg",
+    "desc": "Official full episodes streamed by Tencent Video - ANIMATION on YouTube.",
+    "servers": [
+      {
+        "name": "Tencent Video - ANIMATION",
+        "type": "youtube",
+        "lang": "English Sub",
+        "episodeMap": {
+          "3": "l_7lS5iuCqk",
+          "2": "4xjI1-sUIA4",
+          "1": "F-84j-z9_vQ"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795174022
+  },
+  {
+    "slug": "multi-sub-renegade-immortal",
+    "type": "donghua",
+    "title": "【会员抢先看】MULTI SUB《仙逆》Renegade Immortal",
+    "nativeTitle": "",
+    "aliases": [
+      "【会员抢先看】MULTI SUB《仙逆》Renegade Immortal"
+    ],
+    "year": 2026,
+    "score": 82,
+    "status": "ONGOING",
+    "airDay": "Daily",
+    "quality": "1080p Official",
+    "episodes": 165,
+    "latestEp": 165,
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "cover": "https://i.ytimg.com/vi/hMJbVkNj5VI/hqdefault.jpg",
+    "banner": "https://i.ytimg.com/vi/hMJbVkNj5VI/hqdefault.jpg",
+    "desc": "Official full episodes streamed by Tencent Video - ANIMATION on YouTube.",
+    "servers": [
+      {
+        "name": "Tencent Video - ANIMATION",
+        "type": "youtube",
+        "lang": "English Sub",
+        "episodeMap": {
+          "165": "hMJbVkNj5VI",
+          "164": "OJD0KoZ8np0",
+          "163": "x785AaLxSvo"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795174022
   }
 ]
