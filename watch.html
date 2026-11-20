@@ -408,8 +408,16 @@
      if (custom && typeof custom === "object") {
        Object.values(custom).forEach(cs => { if (cs && cs.episodeMap) currentShow.servers.push(cs); });
      }
-     renderServers(); initRanges(); playEpisode(currentEp);
-   }).catch(()=>{ renderServers(); initRanges(); playEpisode(currentEp); }); }
+     if (!params.get("ep") && currentShow.servers && currentShow.servers[0] && currentShow.servers[0].episodeMap) {
+          const avail = Object.keys(currentShow.servers[0].episodeMap).map(Number).filter(n => !isNaN(n)).sort((a, b) => b - a);
+          if (avail.length > 0) currentEp = avail[0];
+        }
+        renderServers(); initRanges(); playEpisode(currentEp);
+   }).catch(()=>{ if (!params.get("ep") && currentShow.servers && currentShow.servers[0] && currentShow.servers[0].episodeMap) {
+          const avail = Object.keys(currentShow.servers[0].episodeMap).map(Number).filter(n => !isNaN(n)).sort((a, b) => b - a);
+          if (avail.length > 0) currentEp = avail[0];
+        }
+        renderServers(); initRanges(); playEpisode(currentEp); }); }
 
     function initRanges() {
       const sel = document.getElementById("ep-range"), total = currentShow.episodes || 24;
@@ -524,8 +532,16 @@
      if (custom && typeof custom === "object") {
        Object.values(custom).forEach(cs => { if (cs && cs.episodeMap) currentShow.servers.push(cs); });
      }
-     renderServers(); initRanges(); playEpisode(currentEp);
-   }).catch(()=>{ renderServers(); initRanges(); playEpisode(currentEp); });
+     if (!params.get("ep") && currentShow.servers && currentShow.servers[0] && currentShow.servers[0].episodeMap) {
+          const avail = Object.keys(currentShow.servers[0].episodeMap).map(Number).filter(n => !isNaN(n)).sort((a, b) => b - a);
+          if (avail.length > 0) currentEp = avail[0];
+        }
+        renderServers(); initRanges(); playEpisode(currentEp);
+   }).catch(()=>{ if (!params.get("ep") && currentShow.servers && currentShow.servers[0] && currentShow.servers[0].episodeMap) {
+          const avail = Object.keys(currentShow.servers[0].episodeMap).map(Number).filter(n => !isNaN(n)).sort((a, b) => b - a);
+          if (avail.length > 0) currentEp = avail[0];
+        }
+        renderServers(); initRanges(); playEpisode(currentEp); });
     });
 
     setTimeout(() => {

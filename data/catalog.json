@@ -18,8 +18,8 @@
       "Action",
       "Fantasy"
     ],
-    "cover": "https://i.ytimg.com/vi/4v149-6_NmE/hqdefault.jpg",
-    "banner": "https://i.ytimg.com/vi/4v149-6_NmE/hqdefault.jpg",
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b6702-KI4qgSMyI8Pm.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b6702-KI4qgSMyI8Pm.png",
     "desc": "Official full episodes streamed by Muse Asia on YouTube.",
     "servers": [
       {
@@ -47,7 +47,7 @@
         "url": "https://www.amazon.com/Fairy-Tail-Season-1/dp/B0CHBPDKHT"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "alderamin-on-the-sky",
@@ -82,7 +82,7 @@
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "the-detective-is-already-dead-season-2",
@@ -117,7 +117,7 @@
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "asteroid-in-love",
@@ -153,12 +153,12 @@
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "en-dub-mobile-suit-gundam-seed-destiny",
     "type": "anime",
-    "title": "【EN Dub】Mobile Suit Gundam SEED DESTINY",
+    "title": "Mobile Suit Gundam SEED DESTINY",
     "nativeTitle": "",
     "aliases": [
       "【EN Dub】Mobile Suit Gundam SEED DESTINY"
@@ -195,12 +195,12 @@
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "engsub",
     "type": "donghua",
-    "title": "【ENGSUB】🔥👑破军武帝转世重修！废柴少年觉醒记忆后横扫天水国，一路碾压夺嫡之争冲向神境！《万古至尊：李云霄传》",
+    "title": "🔥👑破军武帝转世重修！废柴少年觉醒记忆后横扫天水国，一路碾压夺嫡之争冲向神境！",
     "nativeTitle": "",
     "aliases": [
       "【ENGSUB】🔥👑破军武帝转世重修！废柴少年觉醒记忆后横扫天水国，一路碾压夺嫡之争冲向神境！《万古至尊：李云霄传》"
@@ -236,7 +236,7 @@
   {
     "slug": "a-new-way-for-sanctification",
     "type": "donghua",
-    "title": "【会员抢先看】 《混在末日，独自成仙》A New Way for Sanctification",
+    "title": "A New Way for Sanctification",
     "nativeTitle": "",
     "aliases": [
       "【会员抢先看】 《混在末日，独自成仙》A New Way for Sanctification"
@@ -278,12 +278,12 @@
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "multi-sub-renegade-immortal",
     "type": "donghua",
-    "title": "【会员抢先看】MULTI SUB《仙逆》Renegade Immortal",
+    "title": "Renegade Immortal",
     "nativeTitle": "",
     "aliases": [
       "【会员抢先看】MULTI SUB《仙逆》Renegade Immortal"
@@ -299,8 +299,8 @@
       "Action",
       "Fantasy"
     ],
-    "cover": "https://i.ytimg.com/vi/hMJbVkNj5VI/hqdefault.jpg",
-    "banner": "https://i.ytimg.com/vi/hMJbVkNj5VI/hqdefault.jpg",
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx137653-1wHbCVvABGOr.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx137653-1wHbCVvABGOr.png",
     "desc": "Official full episodes streamed by Tencent Video - ANIMATION on YouTube.",
     "servers": [
       {
@@ -314,8 +314,17 @@
         }
       }
     ],
-    "officialLinks": [],
-    "updatedAt": 1795174434
+    "officialLinks": [
+      {
+        "site": "Tencent Video",
+        "url": "https://v.qq.com/detail/t/mzc00200aaogpgh.html"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GKEH2G0MN/renegade-immortal"
+      }
+    ],
+    "updatedAt": 1795174843
   },
   {
     "slug": "fanren-xiu-xian-zhuan-di-wu-ji",
@@ -390,7 +399,7 @@
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "nia-liston-the-merciless-maiden",
@@ -635,8 +644,8 @@
     "status": "COMPLETED",
     "airDay": "Friday",
     "quality": "4K / 1080p",
-    "episodes": 2025,
-    "latestEp": 2025,
+    "episodes": 24,
+    "latestEp": 24,
     "genres": [
       "action",
       "adventure",
@@ -650,9 +659,7 @@
         "name": "Dailymotion HD",
         "type": "dailymotion",
         "lang": "English Sub",
-        "episodeMap": {
-          "2025": "x9t5558"
-        }
+        "episodeMap": {}
       }
     ],
     "officialLinks": [],
@@ -777,7 +784,7 @@
         "url": "https://youtube.com/@attackontitan_officialchannel"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "demon-slayer-kimetsu-no-yaiba",
@@ -818,7 +825,7 @@
         "url": "https://www.netflix.com/title/81091393"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "jujutsu-kaisen",
@@ -867,7 +874,7 @@
         "url": "https://www.hulu.com/series/jujutsu-kaisen-382ec8bf-3650-4cde-94db-ecd18665f9e0"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "death-note",
@@ -920,7 +927,7 @@
         "url": "https://www.crunchyroll.com/series/G6QWD3EE6"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "my-hero-academia",
@@ -961,12 +968,12 @@
         "url": "https://www.netflix.com/title/80135674"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "hunter-x-hunter-2011",
     "type": "anime",
-    "title": "Hunter x Hunter (2011)",
+    "title": "Hunter x Hunter",
     "nativeTitle": "HUNTER×HUNTER (2011)",
     "aliases": [
       "Hunter x Hunter (2011)",
@@ -1018,7 +1025,7 @@
         "url": "https://www.amazon.com/Hunter-Japanese-English-Subs/dp/B0B5X87G1P"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "one-punch-man",
@@ -1079,7 +1086,7 @@
         "url": "https://www.crunchyroll.com/series/G63K98PZ6/one-punch-man"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "one-piece",
@@ -1095,8 +1102,8 @@
     "status": "ONGOING",
     "airDay": "Daily",
     "quality": "1080p Official",
-    "episodes": 1180,
-    "latestEp": 1180,
+    "episodes": 24,
+    "latestEp": 24,
     "genres": [
       "Action",
       "Adventure",
@@ -1136,7 +1143,7 @@
         "url": "https://www.youtube.com/@OnePieceOfficialENG"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "tokyo-ghoul",
@@ -1181,7 +1188,7 @@
         "url": "https://www.netflix.com/title/80023687"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "attack-on-titan-season-2",
@@ -1226,7 +1233,7 @@
         "url": "https://www.crunchyroll.com/attack-on-titan-dubs"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "fullmetal-alchemist-brotherhood",
@@ -1271,7 +1278,7 @@
         "url": "https://www.netflix.com/title/70204981"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "naruto",
@@ -1357,7 +1364,7 @@
         "url": "https://www.netflix.com/title/80223226"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "sword-art-online",
@@ -1402,7 +1409,7 @@
         "url": "https://www.bilibili.tv/media/35932"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "your-name",
@@ -1443,7 +1450,7 @@
         "url": "https://www.primevideo.com/detail/0LQ7ANJUT17XBYKOFOUCQ1PORE"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "attack-on-titan-season-3",
@@ -1488,7 +1495,7 @@
         "url": "https://www.crunchyroll.com/attack-on-titan-dubs"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "my-hero-academia-season-2",
@@ -1533,7 +1540,7 @@
         "url": "https://www.crunchyroll.com/my-hero-academia-dubs"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "attack-on-titan-final-season",
@@ -1578,7 +1585,7 @@
         "url": "https://www.crunchyroll.com/attack-on-titan-dubs"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "chainsaw-man",
@@ -1627,7 +1634,7 @@
         "url": "https://www.netflix.com/title/81215627"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "the-promised-neverland",
@@ -1668,7 +1675,7 @@
         "url": "https://www.netflix.com/title/81145640"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "mob-psycho-100",
@@ -1721,7 +1728,7 @@
         "url": "https://www.hulu.com/series/mob-psycho-100-fc9b8130-e1e3-420b-b28d-a72f0b235069"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "assassination-classroom",
@@ -1758,12 +1765,12 @@
         "url": "https://www.crunchyroll.com/assassination-classroom"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "re-zero-starting-life-in-another-world",
     "type": "anime",
-    "title": "Re:ZERO -Starting Life in Another World-",
+    "title": "Re:ZERO -Starting Life in Another World",
     "nativeTitle": "Re:ゼロから始める異世界生活",
     "aliases": [
       "Re:ZERO -Starting Life in Another World-",
@@ -1807,7 +1814,7 @@
         "url": "https://www.youtube.com/@Rezero_official"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "your-lie-in-april",
@@ -1852,7 +1859,7 @@
         "url": "https://www.netflix.com/title/80041089"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "attack-on-titan-season-3-part-2",
@@ -1897,7 +1904,7 @@
         "url": "https://www.crunchyroll.com/attack-on-titan-dubs"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "naruto-shippuden",
@@ -1948,9 +1955,13 @@
       {
         "site": "YouTube",
         "url": "https://www.youtube.com/@NARUTO_BORUTO_officialchannel"
+      },
+      {
+        "site": "Tubi TV",
+        "url": "https://tubitv.com/series/1622/naruto"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "erased",
@@ -1991,7 +2002,7 @@
         "url": "https://www.netflix.com/title/80114225"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "my-hero-academia-season-3",
@@ -2036,7 +2047,7 @@
         "url": "https://www.crunchyroll.com/my-hero-academia-dubs"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "steins-gate",
@@ -2073,7 +2084,7 @@
         "url": "https://www.bilibili.tv/en/media/37207"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "black-clover",
@@ -2118,7 +2129,7 @@
         "url": "https://www.bilibili.tv/media/1000677"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "haikyu",
@@ -2171,7 +2182,7 @@
         "url": "https://www.bilibili.com/bangumi/media/md28221614"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "rascal-does-not-dream-of-bunny-girl-senpai",
@@ -2216,7 +2227,7 @@
         "url": "https://www.bilibili.com/bangumi/media/md134932"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "spy-x-family",
@@ -2269,7 +2280,7 @@
         "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL145WmZpHC4VMbgjCAShnb1M"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "kaguya-sama-love-is-war",
@@ -2306,7 +2317,7 @@
         "url": "https://www.netflix.com/title/81061754"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "dr-stone",
@@ -2355,7 +2366,7 @@
         "url": "https://www.hulu.com/series/148925d5-ea60-4277-b0f6-7b2ded20b2d0"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "vinland-saga",
@@ -2396,7 +2407,7 @@
         "url": "https://www.crunchyroll.com/series/GEXH3WKK0/vinland-saga"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "violet-evergarden",
@@ -2429,7 +2440,7 @@
         "url": "https://www.netflix.com/title/80182123"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "horimiya",
@@ -2478,7 +2489,7 @@
         "url": "https://www.primevideo.com/region/fe/detail/0TXL8MWM8FFGS4GEMXVW7UWZGA/ref=atv_dp_share_cu_r"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "toradora",
@@ -2523,7 +2534,7 @@
         "url": "https://tubitv.com/series/300007821/toradora"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "akame-ga-kill",
@@ -2572,7 +2583,7 @@
         "url": "https://youtube.com/playlist?list=PLxSscENEp7JixhUo7CWyYHQeWj0GuS9BX"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "no-game-no-life",
@@ -2613,7 +2624,7 @@
         "url": "https://www.bilibili.tv/en/media/35123"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "noragami",
@@ -2646,7 +2657,7 @@
         "url": "https://www.crunchyroll.com/series/G6WEV3WM6/noragami"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "my-hero-academia-season-4",
@@ -2695,7 +2706,7 @@
         "url": "https://www.crunchyroll.com/my-hero-academia-dubs"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "the-seven-deadly-sins",
@@ -2732,7 +2743,7 @@
         "url": "https://youtube.com/playlist?list=PLwLSw1_eDZl3572W1HJjIkZyW-0GGVUVq&si=mP5IwBPobYKC27_K"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "bleach",
@@ -2785,7 +2796,7 @@
         "url": "https://www.hulu.com/series/562ee9eb-adb5-43ab-b974-52ddfebee9c8"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "konosuba-god-s-blessing-on-this-wonderful-world",
@@ -2826,7 +2837,7 @@
         "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JiyHGbqVQuTTs9ZFqu3wYNM"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "demon-slayer-kimetsu-no-yaiba-the-movie-mugen-train",
@@ -2867,7 +2878,7 @@
         "url": "https://www.bilibili.tv/en/media/37817/"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "code-geass-lelouch-of-the-rebellion",
@@ -2912,7 +2923,7 @@
         "url": "https://www.crunchyroll.com/code-geass"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "darling-in-the-franxx",
@@ -2953,12 +2964,12 @@
         "url": "https://www.bilibili.tv/en/play/36600"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "parasyte-the-maxim",
     "type": "anime",
-    "title": "Parasyte -the maxim-",
+    "title": "Parasyte -the maxim",
     "nativeTitle": "寄生獣 セイの格率",
     "aliases": [
       "Parasyte -the maxim-",
@@ -2990,7 +3001,7 @@
         "url": "https://www.hidive.com/season/19824"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "jujutsu-kaisen-season-2",
@@ -3039,7 +3050,7 @@
         "url": "https://www.hulu.com/series/382ec8bf-3650-4cde-94db-ecd18665f9e0"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "neon-genesis-evangelion",
@@ -3072,7 +3083,7 @@
         "url": "https://www.netflix.com/title/81033445"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "frieren-beyond-journey-s-end",
@@ -3125,7 +3136,7 @@
         "url": "https://www.primevideo.com/detail/0FCJEHY4FXTDVCLZ5NR9A0N42N"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "demon-slayer-kimetsu-no-yaiba-entertainment-district-arc",
@@ -3170,7 +3181,7 @@
         "url": "https://www.hulu.com/series/demon-slayer-kimetsu-no-yaiba-entertainment-district-arc"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "fire-force",
@@ -3215,7 +3226,7 @@
         "url": "https://youtube.com/playlist?list=PLIGSjnmKivFcknx6K0AId_w6C9umJwy95"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "spirited-away",
@@ -3248,12 +3259,12 @@
         "url": "https://www.netflix.com/title/60023642"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "jojo-s-bizarre-adventure-tv",
     "type": "anime",
-    "title": "JoJo's Bizarre Adventure (TV)",
+    "title": "JoJo's Bizarre Adventure",
     "nativeTitle": "ジョジョの奇妙な冒険 (TV)",
     "aliases": [
       "JoJo's Bizarre Adventure (TV)",
@@ -3301,7 +3312,7 @@
         "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0CVpnjetepbYfC4ZuePqo6"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "cowboy-bebop",
@@ -3350,7 +3361,7 @@
         "url": "https://www.netflix.com/title/80001305"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "that-time-i-got-reincarnated-as-a-slime",
@@ -3403,7 +3414,7 @@
         "url": "https://www.bilibili.tv/media/34510"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "one-punch-man-season-2",
@@ -3460,7 +3471,7 @@
         "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL17VrHbE8h73S-qbNYjXkjH1"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "death-parade",
@@ -3501,7 +3512,7 @@
         "url": "https://www.crunchyroll.com/death-parade"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "mushoku-tensei-jobless-reincarnation",
@@ -3550,7 +3561,7 @@
         "url": "https://wetv.vip/en/play/ecmp615ib5kswl3"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "the-rising-of-the-shield-hero",
@@ -3591,7 +3602,7 @@
         "url": "https://www.hulu.com/series/9bfde086-7d79-48e5-a429-e065cfdc4d07"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "blue-exorcist",
@@ -3624,7 +3635,7 @@
         "url": "http://www.crunchyroll.com/blue-exorcist"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "solo-leveling",
@@ -3673,7 +3684,7 @@
         "url": "https://www.primevideo.com/detail/Solo-Leveling/0PBBLSIQOPO9EUYQ4CY4U9CPFD"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "kakegurui",
@@ -3706,7 +3717,7 @@
         "url": "https://www.netflix.com/title/80175351"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "sword-art-online-ii",
@@ -3751,7 +3762,7 @@
         "url": "https://www.bilibili.tv/media/35933"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "classroom-of-the-elite",
@@ -3800,7 +3811,7 @@
         "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL169S905pZlnUmZkbd4IIPFu"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "mob-psycho-100-ii",
@@ -3853,7 +3864,7 @@
         "url": "https://www.hulu.com/series/fc9b8130-e1e3-420b-b28d-a72f0b235069"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "tokyo-revengers",
@@ -3910,7 +3921,7 @@
         "url": "https://www.hulu.com/series/1a195a35-e19c-4e36-b609-3b1c451f6ce4"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "attack-on-titan-final-season-part-2",
@@ -3955,7 +3966,7 @@
         "url": "https://www.bilibili.tv/media/1042594"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "angel-beats",
@@ -3996,7 +4007,7 @@
         "url": "https://www.bilibili.tv/en/media/36812"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "jujutsu-kaisen-0",
@@ -4037,7 +4048,7 @@
         "url": "https://www.netflix.com/title/81602834"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "my-dress-up-darling",
@@ -4078,7 +4089,7 @@
         "url": "https://www.netflix.com/watch/81569754"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "charlotte",
@@ -4123,7 +4134,7 @@
         "url": "https://www.bilibili.tv/en/media/35299"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "the-future-diary",
@@ -4156,7 +4167,7 @@
         "url": "https://www.crunchyroll.com/the-future-diary"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "bungo-stray-dogs",
@@ -4193,7 +4204,7 @@
         "url": "https://www.netflix.com/title/80132126"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "my-hero-academia-season-5",
@@ -4238,7 +4249,7 @@
         "url": "https://www.crunchyroll.com/my-hero-academia-dubs"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "kill-la-kill",
@@ -4279,7 +4290,7 @@
         "url": "https://www.crunchyroll.com/kill-la-kill"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "tokyo-ghoul-a",
@@ -4324,7 +4335,7 @@
         "url": "https://crunchyroll.com/tokyo-ghoul"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "overlord",
@@ -4377,7 +4388,7 @@
         "url": "https://tubitv.com/series/2234/overlord"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "made-in-abyss",
@@ -4430,7 +4441,7 @@
         "url": "https://www.hidive.com/season/20003"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "cyberpunk-edgerunners",
@@ -4463,7 +4474,7 @@
         "url": "https://www.netflix.com/title/81054853"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "food-wars",
@@ -4516,7 +4527,7 @@
         "url": "https://youtube.com/playlist?list=PLxSscENEp7JiQ5eGN9KP8g6v8fEG7k6Ab"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "haikyu-2nd-season",
@@ -4561,7 +4572,7 @@
         "url": "https://www.hulu.com/series/haikyu-c085d06a-48b3-4456-955e-480aef4d8442"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon",
@@ -4606,7 +4617,7 @@
         "url": "https://www.netflix.com/title/80185873"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "soul-eater",
@@ -4643,7 +4654,7 @@
         "url": "https://www.crunchyroll.com/soul-eater"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "the-devil-is-a-part-timer",
@@ -4688,7 +4699,7 @@
         "url": "https://crunchyroll.com/series/GR75Z5KKY/the-devil-is-a-part-timer"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "dan-da-dan",
@@ -4733,7 +4744,7 @@
         "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2OF_CmbcBOUk_216rwS1wD"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "anohana-the-flower-we-saw-that-day",
@@ -4770,7 +4781,7 @@
         "url": "https://www.netflix.com/browse?jbv=80075178&jbp=0&jbr=11"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "another",
@@ -4807,7 +4818,7 @@
         "url": "https://www.netflix.com/title/80241072"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "re-zero-starting-life-in-another-world-season-2",
@@ -4852,7 +4863,7 @@
         "url": "https://www.youtube.com/@Rezero_official"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "my-teen-romantic-comedy-snafu",
@@ -4889,7 +4900,7 @@
         "url": "https://www.hidive.com/tv/my-teen-romantic-comedy-snafu"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "gurren-lagann",
@@ -4926,7 +4937,7 @@
         "url": "http://www.hulu.com/gurren-lagann"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "i-want-to-eat-your-pancreas",
@@ -4959,7 +4970,7 @@
         "url": "https://www.netflix.com/title/81037593"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc",
@@ -5004,7 +5015,7 @@
         "url": "https://www.hulu.com/series/demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc-a92c9b0f-1aa2-42f4-9b73-29d0d51e27ba"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "konosuba-god-s-blessing-on-this-wonderful-world-2",
@@ -5045,7 +5056,7 @@
         "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JjBrlCcD2AFans0YqvZCF0f"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "dororo",
@@ -5090,7 +5101,7 @@
         "url": "https://youtube.com/playlist?list=PLxSscENEp7JhK-cSte9aHaz3rs6qc2Eup&si=lgTTA5pL7lelUyrR"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "link-click",
@@ -5139,7 +5150,7 @@
         "url": "https://www.primevideo.com/detail/0JQ7WFWMSABUKDJLEH08LTVTKZ"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "the-daily-life-of-the-immortal-king",
@@ -5188,7 +5199,7 @@
         "url": "https://www.crunchyroll.com/the-daily-life-of-the-immortal-king"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "to-be-hero-x",
@@ -5233,7 +5244,7 @@
         "url": "https://www.bilibili.tv/en/media/2121835"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "lord-of-mysteries",
@@ -5278,7 +5289,7 @@
         "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0GaYki8AMQtObLOY61-9jq"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "the-king-s-avatar",
@@ -5327,7 +5338,7 @@
         "url": "https://www.crunchyroll.com/series/GQWH0M113/the-kings-avatar"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "link-click-season-2",
@@ -5368,7 +5379,7 @@
         "url": "https://www.youtube.com/playlist?list=PLrYKPj7wbjfjgfK7LIPwsLT282CQoyueA"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "the-daily-life-of-the-immortal-king-season-2",
@@ -5409,7 +5420,7 @@
         "url": "https://www.crunchyroll.com/the-daily-life-of-the-immortal-king"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "the-founder-of-diabolism",
@@ -5458,7 +5469,7 @@
         "url": "https://www.crunchyroll.com/series/GMEHME78W/the-master-of-diabolism"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "heaven-official-s-blessing",
@@ -5519,7 +5530,7 @@
         "url": "https://www.viki.com/tv/41689c-heaven-officials-blessing#episodes"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "scissor-seven",
@@ -5560,7 +5571,7 @@
         "url": "https://www.bilibili.com/bangumi/media/md6360"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "hitori-no-shita-the-outcast",
@@ -5597,7 +5608,7 @@
         "url": "https://v.qq.com/x/cover/ozvao2u23k1nf9o.html"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "the-daily-life-of-the-immortal-king-season-3",
@@ -5634,7 +5645,7 @@
         "url": "https://www.crunchyroll.com/the-daily-life-of-the-immortal-king"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "dawang-raoming",
@@ -5667,7 +5678,7 @@
         "url": "https://v.qq.com/detail/o/od1kjfd56e3s7n7.html"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "full-time-magister",
@@ -5704,7 +5715,7 @@
         "url": "https://v.qq.com/detail/d/dl1er4929x4jr2d.html"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "super-cube",
@@ -5737,7 +5748,7 @@
         "url": "https://www.iqiyi.com/a_1cgy1ao7255.html"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "link-click-bridon-arc",
@@ -5778,7 +5789,7 @@
         "url": "https://www.crunchyroll.com/series/GP5HJ8E81/link-click"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "the-king-s-avatar-s2",
@@ -5831,7 +5842,7 @@
         "url": "https://www.crunchyroll.com/series/GQWH0M113/the-kings-avatar"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "scissor-seven-season-2",
@@ -5872,7 +5883,7 @@
         "url": "https://www.netflix.com/title/81156880"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "the-founder-of-diabolism-2",
@@ -5917,12 +5928,12 @@
         "url": "https://www.crunchyroll.com/series/GMEHME78W/the-master-of-diabolism"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "dragon-raja-the-blazing-dawn",
     "type": "donghua",
-    "title": "Dragon Raja -The Blazing Dawn-",
+    "title": "Dragon Raja -The Blazing Dawn",
     "nativeTitle": "龙族",
     "aliases": [
       "Dragon Raja -The Blazing Dawn-",
@@ -5966,7 +5977,7 @@
         "url": "https://youtu.be/DUWASdBenAA"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "scissor-seven-season-3",
@@ -6007,7 +6018,7 @@
         "url": "https://www.netflix.com/title/81156880"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "the-daily-life-of-the-immortal-king-season-4",
@@ -6052,7 +6063,7 @@
         "url": "https://www.bilibili.tv/media/2091454"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "the-fated-magical-princess-who-made-me-a-princess",
@@ -6093,7 +6104,7 @@
         "url": "https://youtube.com/playlist?list=PLwLSw1_eDZl1gpPkmqA5aKbsWYRdOSF5Z&si=XCk_oS-tOMT_xd7_"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "the-last-summoner",
@@ -6134,7 +6145,7 @@
         "url": "https://www.bilibili.tv/media/1053337"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "quanzhi-gaoshou-specials",
@@ -6175,7 +6186,7 @@
         "url": "https://www.youtube.com/playlist?list=PLxOs22nkVmnIH4lspgvhTmxanrbi8lv7D"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "the-girl-downstairs",
@@ -6220,7 +6231,7 @@
         "url": "https://www.youtube.com/playlist?list=PLBakWosU0sfhwdV_CleP1Uqk8lienfjRO"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "heaven-official-s-blessing-season-2",
@@ -6265,7 +6276,7 @@
         "url": "https://youtube.com/playlist?list=PLrYKPj7wbjfhGfDBYZKmGvcjGVnUw2yoI&si=l2O-e8-R-7QR5QHe"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "the-founder-of-diabolism-final-season",
@@ -6314,44 +6325,7 @@
         "url": "https://www.crunchyroll.com/series/GMEHME78W/the-master-of-diabolism"
       }
     ],
-    "updatedAt": 1795174434
-  },
-  {
-    "slug": "link-click-episode-5-5",
-    "type": "donghua",
-    "title": "LINK CLICK Episode 5.5",
-    "nativeTitle": "时光代理人 番外篇",
-    "aliases": [
-      "LINK CLICK Episode 5.5",
-      "时光代理人 番外篇"
-    ],
-    "year": 2026,
-    "score": 80,
-    "status": "FINISHED",
-    "airDay": "Daily",
-    "quality": "1080p Official",
-    "episodes": 1,
-    "latestEp": 1,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx136145-guWKltDngjIu.jpg",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx136145-guWKltDngjIu.jpg",
-    "desc": "Official licensed streams available on Bilibili, Crunchyroll.",
-    "servers": [],
-    "officialLinks": [
-      {
-        "site": "Bilibili",
-        "url": "https://www.bilibili.com/bangumi/media/md28230742/"
-      },
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/link-click/episode-55-marrying-by-contesting-846116"
-      }
-    ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "spiritpact",
@@ -6384,7 +6358,7 @@
         "url": "http://www.crunchyroll.com/spiritpact"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "heaven-official-s-blessing-special-episode",
@@ -6425,7 +6399,7 @@
         "url": "https://www.crunchyroll.com/watch/G0DUN85PG/special-episode"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "wu-shan-wu-xing-zhuo-yuan-shen-huo",
@@ -6458,7 +6432,7 @@
         "url": "https://www.bilibili.com/bangumi/media/md28228714/"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "the-legend-of-hei",
@@ -6503,7 +6477,7 @@
         "url": "https://www.crunchyroll.com/series/G4PH0WJ7Z/the-legend-of-hei"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "to-be-hero",
@@ -6544,7 +6518,7 @@
         "url": "https://v.qq.com/detail/i/if2g5phy6ds2t4r.html"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "bloodivores",
@@ -6581,12 +6555,12 @@
         "url": "https://www.bilibili.com/bangumi/media/md5572/"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "false-memory-2026",
     "type": "donghua",
-    "title": "False Memory (2026)",
+    "title": "False Memory",
     "nativeTitle": "记忆管理局 (2026)",
     "aliases": [
       "False Memory (2026)",
@@ -6622,7 +6596,7 @@
         "url": "https://www.bilibili.tv/media/2411030"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "full-time-magister-s2",
@@ -6659,7 +6633,7 @@
         "url": "https://v.qq.com/detail/w/wtsrsra8jj6qtuw.html"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "hitori-no-shita-the-outcast-2",
@@ -6696,7 +6670,7 @@
         "url": "https://v.qq.com/detail/3/3enwc74hj562xjd.html"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "link-click-season-3-part-1",
@@ -6737,7 +6711,7 @@
         "url": "https://youtube.com/playlist?list=PLU90m5tcq7b0&si=pg_BN47xePVo7POD"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "psychic-princess",
@@ -6782,7 +6756,7 @@
         "url": "https://v.qq.com/x/cover/jg2a5feze5bryj2.html"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "release-that-witch",
@@ -6823,7 +6797,7 @@
         "url": "https://www.youtube.com/watch?v=JALNW9_87Pw"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "evil-or-live",
@@ -6856,7 +6830,7 @@
         "url": "http://www.crunchyroll.com/evil-or-live"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "biaoren",
@@ -6893,7 +6867,7 @@
         "url": "https://www.youtube.com/playlist?list=PLAV8AqZgfhJvuOUHbBQoCZD7A-zdZozYl"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "to-be-heroine",
@@ -6934,7 +6908,7 @@
         "url": "https://v.qq.com/detail/b/blhvtkddwgr1x28.html"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "scissor-seven-season-4",
@@ -6971,7 +6945,7 @@
         "url": "https://www.netflix.com/title/81156880"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "the-king-s-avatar-for-the-glory",
@@ -7012,7 +6986,7 @@
         "url": "https://tubitv.com/movies/581872/the-king-s-avatar-for-the-glory-dubbed"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "rakshasa-street",
@@ -7049,7 +7023,7 @@
         "url": "https://www.youtube.com/playlist?list=PLgovbMZiNNk5YjgQwpDndusiFy8eUpR4-"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "full-time-magister-s3",
@@ -7086,7 +7060,7 @@
         "url": "https://wetv.vip/en/play/53anl3jkl98fo5q"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "the-daily-life-of-the-immortal-king-season-5",
@@ -7123,7 +7097,7 @@
         "url": "https://www.bilibili.com/bangumi/media/md23775603"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "4-cut-hero",
@@ -7168,7 +7142,7 @@
         "url": "https://www.youtube.com/playlist?list=PLBakWosU0sfg9uKwU5x5S-iR34v_tpxFh"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "the-all-devouring-whale-homecoming",
@@ -7209,7 +7183,7 @@
         "url": "https://www.youtube.com/watch?v=vVMRvv-8dWo&list=PLBakWosU0sfgJIXI8u1luQWBBtuyqfrdQ"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "lord-of-mysteries-specials",
@@ -7246,7 +7220,7 @@
         "url": "https://www.crunchyroll.com/series/GEXH3W2EZ/lord-of-mysteries"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "yingxiong-zailin",
@@ -7279,7 +7253,7 @@
         "url": "https://v.qq.com/detail/q/q72jd29a3oxflsr.html"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "big-fish-begonia",
@@ -7324,7 +7298,7 @@
         "url": "https://www.crunchyroll.com/big-fish-begonia"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "frankenstein-family",
@@ -7357,7 +7331,7 @@
         "url": "http://www.crunchyroll.com/frankenstein-family"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "all-saints-street",
@@ -7398,7 +7372,7 @@
         "url": "https://www.crunchyroll.com/series/G0XHWM5N2/all-saints-street"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "quanzhi-fashi-4",
@@ -7431,7 +7405,7 @@
         "url": "https://v.qq.com/detail/v/vc5b1spq46fqfgn.html"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "quanzhi-gaoshou-3",
@@ -7464,12 +7438,12 @@
         "url": "https://v.qq.com/detail/t/mzc00200p49magn.html"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "spiritpact-bond-of-the-underworld",
     "type": "donghua",
-    "title": "Spiritpact -Bond of The Underworld-",
+    "title": "Spiritpact -Bond of The Underworld",
     "nativeTitle": "灵契·黄泉之契",
     "aliases": [
       "Spiritpact -Bond of The Underworld-",
@@ -7497,7 +7471,7 @@
         "url": "http://www.crunchyroll.com/spiritpact"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "scissor-seven-extras",
@@ -7530,7 +7504,7 @@
         "url": "https://www.netflix.com/title/81156880"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "yi-ren-zhi-xia-3",
@@ -7571,7 +7545,7 @@
         "url": "https://www.crunchyroll.com/series/G63VMXEQY/hitori-no-shita---the-outcast"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "dawang-raoming-2",
@@ -7604,7 +7578,7 @@
         "url": "https://v.qq.com/detail/t/mzc00200fod41ms.html"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "a-herbivorous-dragon-of-5-000-years-gets-unfairly-villainized",
@@ -7653,7 +7627,7 @@
         "url": "https://www.bilibili.tv/media/2072897/"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "wo-de-tian-jie-n-you",
@@ -7686,7 +7660,7 @@
         "url": "https://www.bilibili.com/bangumi/media/md6357/"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "cinderella-chef",
@@ -7739,12 +7713,12 @@
         "url": "https://www.viki.com/tv/39839c-cinderella-chef"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "dragon-raja-ii-the-mourner-s-eyes",
     "type": "donghua",
-    "title": "Dragon Raja II -The Mourner's Eyes-",
+    "title": "Dragon Raja II -The Mourner's Eyes",
     "nativeTitle": "龙族 第二季",
     "aliases": [
       "Dragon Raja II -The Mourner's Eyes-",
@@ -7776,7 +7750,7 @@
         "url": "https://www.crunchyroll.com/series/GDKHZEJN0/dragon-raja--the-blazing-dawn-"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "quanzhi-fashi-5",
@@ -7809,7 +7783,7 @@
         "url": "https://v.qq.com/detail/m/mzc00200dpv18be.html"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "scissor-seven-season-5",
@@ -7842,7 +7816,7 @@
         "url": "https://www.netflix.com/title/81156880"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "soul-land",
@@ -7887,7 +7861,7 @@
         "url": "https://www.viki.com/tv/39850c-soul-land"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "ne-zha",
@@ -7920,7 +7894,7 @@
         "url": "https://v.qq.com/detail/t/zr5a67l333ehzu9.html"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "scumbag-system",
@@ -7977,7 +7951,7 @@
         "url": "https://www.crunchyroll.com/series/GDKHZEJ82/scumbag-system"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "xie-wang-zhui-qi",
@@ -8010,7 +7984,7 @@
         "url": "https://www.iqiyi.com/a_19rrh299et.html"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "war-god-system-i-m-counting-on-you",
@@ -8047,7 +8021,7 @@
         "url": "https://www.bilibili.tv/en/media/1063218"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "wu-shan-wu-xing-xi-chuan-huan-zi-lin",
@@ -8080,7 +8054,7 @@
         "url": "https://www.bilibili.com/bangumi/media/md28228714"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "the-master-of-diabolism-q",
@@ -8121,7 +8095,7 @@
         "url": "https://www.crunchyroll.com/series/GMEHME78W/the-master-of-diabolism"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "look-i-can-see-your-ears",
@@ -8162,7 +8136,7 @@
         "url": "https://www.bilibili.tv/media/1006354"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "yaojing-zhongzhi-shouce",
@@ -8195,7 +8169,7 @@
         "url": "https://v.qq.com/detail/m/mzc002007ipixwq.html"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "quanzhi-fashi-6",
@@ -8228,7 +8202,7 @@
         "url": "https://v.qq.com/detail/t/mzc00200syigvst.html"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "yi-nian-yongheng",
@@ -8265,7 +8239,7 @@
         "url": "https://wetv.vip/play/ciw7o8319w2cx15"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "huyao-xiao-hongniang-xiasha",
@@ -8298,44 +8272,7 @@
         "url": "https://v.qq.com/x/cover/0sdnyl7h86atoyt/f0157y2e83y.html"
       }
     ],
-    "updatedAt": 1795174434
-  },
-  {
-    "slug": "renegade-immortal",
-    "type": "donghua",
-    "title": "Renegade Immortal",
-    "nativeTitle": "仙逆",
-    "aliases": [
-      "Renegade Immortal",
-      "仙逆"
-    ],
-    "year": 2026,
-    "score": 80,
-    "status": "ONGOING",
-    "airDay": "Daily",
-    "quality": "1080p Official",
-    "episodes": 180,
-    "latestEp": 180,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx137653-1wHbCVvABGOr.png",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx137653-1wHbCVvABGOr.png",
-    "desc": "Official licensed streams available on Tencent Video, Crunchyroll.",
-    "servers": [],
-    "officialLinks": [
-      {
-        "site": "Tencent Video",
-        "url": "https://v.qq.com/detail/t/mzc00200aaogpgh.html"
-      },
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GKEH2G0MN/renegade-immortal"
-      }
-    ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "fairies-albums",
@@ -8384,7 +8321,7 @@
         "url": "https://www.crunchyroll.com/series/G1XHJV2DX/fairies-album"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "mom-i-m-sorry",
@@ -8429,7 +8366,7 @@
         "url": "https://www.bilibili.tv/media/2105082"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "all-saints-street-2",
@@ -8470,7 +8407,7 @@
         "url": "https://www.crunchyroll.com/series/G0XHWM5N2/all-saints-street"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "yaoguai-mingdan",
@@ -8507,7 +8444,7 @@
         "url": "https://www.youtube.com/playlist?list=PLTndXYWs2JgFaxgnr6GIXrkfkCw7nHtjb"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "jieyao",
@@ -8548,7 +8485,7 @@
         "url": "https://www.viki.com/tv/39841c-cure"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "mi-yu-xingzhe",
@@ -8581,7 +8518,7 @@
         "url": "https://www.bilibili.com/bangumi/media/md5843"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "yi-ren-zhi-xia-4",
@@ -8618,7 +8555,7 @@
         "url": "https://www.crunchyroll.com/series/G63VMXEQY/hitori-no-shita---the-outcast"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "fox-spirit-matchmaker",
@@ -8651,7 +8588,7 @@
         "url": "http://www.crunchyroll.com/fox-spirit-matchmaker"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "x-y",
@@ -8692,7 +8629,7 @@
         "url": "https://www.bilibili.tv/en/media/2076392"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "left-hand-layup",
@@ -8733,7 +8670,7 @@
         "url": "https://www.youtube.com/@lhlculture"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "wu-shan-wu-xing",
@@ -8766,7 +8703,7 @@
         "url": "https://www.bilibili.com/video/av7787078/"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "journal-of-the-mysterious-creatures",
@@ -8803,7 +8740,7 @@
         "url": "https://www.primevideo.com/detail/0GRUB2LJ8W8RHHTIWCTTMU5FB8/"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   },
   {
     "slug": "link-click-troubles-of-ordinary-people",
@@ -8836,6 +8773,6 @@
         "url": "https://www.bilibili.com/bangumi/media/md28230742/"
       }
     ],
-    "updatedAt": 1795174434
+    "updatedAt": 1795174843
   }
 ]

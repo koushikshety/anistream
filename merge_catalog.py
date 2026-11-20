@@ -13,17 +13,20 @@ def slugify(text: str) -> str:
     return s or "show"
 
 
-def normalize_key(text: str) -> str:
-    s = re.sub(r"\[.*?\]|\(.*?\)", "", (text or "").lower())
-    s = re.sub(r"episode\s*\d+|ep\.?\s*\d+", "", s)
-    return re.sub(r"[^a-z0-9]+", " ", s).strip()
-
-
 def clean_series_title(raw_title: str) -> str:
-    t = re.sub(r"\[.*?\]|\(.*?\)", "", raw_title or "")
+    t = raw_title or ""
+    # Remove English and Chinese bracketed tags like [ENG SUB], 【会员抢先看】, 《仙逆》
+    t = re.sub(r"\[.*?\]|\(.*?\)|【.*?】|《.*?》|「.*?」", " ", t)
+    t = re.sub(r"\b(?:MULTI\s*SUB|ENG\s*SUB|FULL\s*EP(?:ISODE)?)\b", " ", t, flags=re.I)
     t = re.split(r"\s*[-–|:]\s*(?:episode|ep\.?)\s*\d+.*$", t, flags=re.I)[0]
     t = re.sub(r"\s*(?:episode|ep\.?)\s*\d+.*$", "", t, flags=re.I)
-    return t.strip(" -–|:") or raw_title.strip()
+    t = re.sub(r"\s+", " ", t).strip(" -–|:")
+    return t or raw_title.strip()
+
+
+def normalize_key(text: str) -> str:
+    s = clean_series_title(text).lower()
+    return re.sub(r"[^a-z0-9]+", " ", s).strip()
 
 
 def load_json(path: str, default):
@@ -40,17 +43,58 @@ def main() -> None:
     watch_data = load_json(WATCH_LINKS_PATH, {"items": []})
     now_ts = int(time.time())
 
+    # Clean up any previously merged messy entries or year-as-episode bugs (> 1000)
+    cleaned_catalog = []
     by_norm = {}
     for item in catalog:
-        by_norm[normalize_key(item.get("title", ""))] = item
+        # Remove false episode numbers > 1000 (like year 2025)
+        for srv in item.get("servers", []):
+            ep_map = srv.get("episodeMap", {})
+            if isinstance(ep_map, dict):
+                srv["episodeMap"] = {
+                    k: v for k, v in ep_map.items() if k.isdigit() and int(k) < 1000
+                }
+        if int(item.get("episodes") or 1) >= 1000:
+            all_eps = [
+                int(k)
+                for s in item.get("servers", [])
+                for k in (s.get("episodeMap") or {}).keys()
+                if k.isdigit()
+            ]
+            item["episodes"] = max(all_eps) if all_eps else 24
+            item["latestEp"] = item["episodes"]
+
+        item["title"] = clean_series_title(item.get("title", ""))
+        key = normalize_key(item["title"])
+        if key in by_norm:
+            # Merge servers & officialLinks into existing entry instead of duplicating
+            target = by_norm[key]
+            for srv in item.get("servers", []):
+                t_srv = next((s for s in target.setdefault("servers", []) if s.get("name") == srv.get("name")), None)
+                if not t_srv:
+                    target["servers"].append(srv)
+                else:
+                    t_srv.setdefault("episodeMap", {}).update(srv.get("episodeMap", {}))
+            seen_sites = {x.get("site") for x in target.get("officialLinks", [])}
+            for lk in item.get("officialLinks", []):
+                if lk.get("site") not in seen_sites:
+                    target.setdefault("officialLinks", []).append(lk)
+                    seen_sites.add(lk.get("site"))
+            continue
+
+        by_norm[key] = item
         if item.get("nativeTitle"):
             by_norm[normalize_key(item["nativeTitle"])] = item
+        cleaned_catalog.append(item)
 
-    # 1. Merge official "Where to Watch" catalog entries (Bilibili, iQIYI, WeTV, Viki, Crunchyroll, Netflix, etc.)
+    catalog = cleaned_catalog
+
+    # 1. Merge official "Where to Watch" catalog entries
     for w in watch_data.get("items", []):
-        title = w.get("title") or w.get("native_title")
-        if not title:
+        raw_t = w.get("title") or w.get("native_title")
+        if not raw_t:
             continue
+        title = clean_series_title(raw_t)
         key = normalize_key(title)
         official_links = [
             {"site": lk.get("platform") or lk.get("site"), "url": lk["url"]}
@@ -60,21 +104,25 @@ def main() -> None:
         if not official_links:
             continue
 
-        existing = by_norm.get(key)
+        existing = by_norm.get(key) or (
+            by_norm.get(normalize_key(w.get("native_title", ""))) if w.get("native_title") else None
+        )
         if existing:
             seen_sites = {x.get("site") for x in existing.get("officialLinks", [])}
             for lk in official_links:
                 if lk["site"] not in seen_sites:
                     existing.setdefault("officialLinks", []).append(lk)
                     seen_sites.add(lk["site"])
+            if w.get("cover") and "ytimg.com" in existing.get("cover", ""):
+                existing["cover"] = w["cover"]
+                existing["banner"] = w["cover"]
             existing["updatedAt"] = now_ts
         else:
-            slug = slugify(title)
             total_eps = w.get("episodes") or (
                 (w.get("next_airing") or {}).get("episode", 1) - 1
             ) or 12
             entry = {
-                "slug": slug,
+                "slug": slugify(title),
                 "type": w.get("category", "anime"),
                 "title": title,
                 "nativeTitle": w.get("native_title") or "",
@@ -108,7 +156,7 @@ def main() -> None:
         vid = ep.get("video_id")
         ep_num = int(ep.get("episode") or 1)
         last_ep = int(ep.get("last_episode") or ep_num)
-        if not vid:
+        if not vid or ep_num >= 1000:
             continue
 
         existing = by_norm.get(key)
@@ -137,7 +185,6 @@ def main() -> None:
             catalog.append(existing)
             by_norm[key] = existing
 
-        # Find or create YouTube server entry for this channel
         srv = next(
             (s for s in existing.setdefault("servers", []) if s.get("name") == channel_name),
             None,
@@ -158,7 +205,6 @@ def main() -> None:
         existing["latestEp"] = max(int(existing.get("latestEp") or 1), last_ep)
         existing["updatedAt"] = now_ts
 
-    # Keep only entries that have either an embeddable server OR an official external platform link
     playable_catalog = [
         item for item in catalog
         if (item.get("servers") and len(item["servers"]) > 0)
@@ -168,7 +214,7 @@ def main() -> None:
     with open(CATALOG_PATH, "w", encoding="utf-8") as f:
         json.dump(playable_catalog, f, ensure_ascii=False, indent=2)
 
-    print(f"Merged catalog ready: {len(playable_catalog)} total shows in {CATALOG_PATH}.")
+    print(f"Merged catalog ready: {len(playable_catalog)} clean shows in {CATALOG_PATH}.")
 
 
 if __name__ == "__main__":
