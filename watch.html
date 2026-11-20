@@ -146,7 +146,7 @@
 <body>
   <header class="navbar">
     <a href="index.html" class="brand">ANI<span>STREAM</span></a>
-    <a href="index.html" class="back-btn">← Back to Catalog</a>
+    <button type="button" onclick="goBackCatalog()" style="display:inline-flex;align-items:center;gap:6px;background:linear-gradient(135deg,#ef4444,#dc2626);color:#fff;border:none;padding:8px 14px;border-radius:999px;font-weight:700;font-size:0.84rem;cursor:pointer;box-shadow:0 2px 10px rgba(239,68,68,0.35);">← Back</button>
   </header>
 
   <div class="cinema-backdrop" onclick="toggleCinema(false)"></div>
@@ -371,7 +371,8 @@
         const epMap = srv?.episodeMap || {};
         const keys = Object.keys(epMap).map(Number).filter(n => !isNaN(n)).sort((a, b) => a - b);
         const btn = keys.length ? `<button class="pill active" onclick="playEpisode(${keys[0]})">▶ Play Ep ${keys[0]}</button>` : "";
-        notice.innerHTML = `<div style="font-weight:800;">⚠️ Episode ${ep} Unavailable on this server</div><div style="font-size:0.8rem;color:#94a3b8;">Try switching servers below or jump to an available episode.</div>${btn}`;
+        const extBtns = (currentShow.officialLinks || []).map(l => `<a class="pill active" href="${l.url}" target="_blank" rel="noopener" style="text-decoration:none;">↗ Watch on ${escHtml(l.site)}</a>`).join("");
+        notice.innerHTML = `<div style="font-weight:800;font-size:1rem;">${extBtns ? "Official Licensed Stream" : "⚠️ Episode " + ep + " Unavailable on this server"}</div><div style="font-size:0.82rem;color:#94a3b8;max-width:340px;">${extBtns ? "This title is streamed officially on the licensed platforms below:" : "Try switching servers below or jump to an available episode."}</div><div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:6px;">${extBtns || btn}</div>`;
         notice.style.display = "flex";
       } else {
         if (notice) notice.style.display = "none";
@@ -389,6 +390,13 @@
       saveHistory(); renderEpisodes(); loadEpisodeSocial();
     }
 
+    function goBackCatalog() {
+      if (document.referrer && document.referrer.indexOf(location.host) !== -1 && history.length > 1) {
+        history.back();
+      } else {
+        location.href = "index.html";
+      }
+    }
     function prevEpisode() { if (currentEp > 1) playEpisode(currentEp - 1); }
     function nextEpisode() { if (currentShow && currentEp < currentShow.episodes) playEpisode(currentEp + 1); }
 

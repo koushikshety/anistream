@@ -47,6 +47,13 @@ def main() -> None:
     cleaned_catalog = []
     by_norm = {}
     for item in catalog:
+        # Strip dead servers that have no mapped episodes and no playlistId
+        item["servers"] = [
+            s for s in item.get("servers", [])
+            if (isinstance(s.get("episodeMap"), dict) and len(s["episodeMap"]) > 0)
+            or s.get("playlistId")
+            or (isinstance(s.get("videoIds"), list) and len(s["videoIds"]) > 0)
+        ]
         # Remove false episode numbers > 1000 (like year 2025)
         for srv in item.get("servers", []):
             ep_map = srv.get("episodeMap", {})
