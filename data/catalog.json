@@ -1,5 +1,81 @@
 [
   {
+    "slug": "black-clover-season-2",
+    "type": "anime",
+    "title": "Black Clover Season 2",
+    "nativeTitle": "ブラッククローバー 第2期",
+    "aliases": [
+      "Black Clover Season 2",
+      "Black Clover 2nd Season",
+      "ブラッククローバー 第2期"
+    ],
+    "year": 2026,
+    "score": 88,
+    "status": "ONGOING",
+    "airDay": "Saturday",
+    "quality": "1080p",
+    "episodes": 24,
+    "latestEp": 5,
+    "genres": [
+      "action",
+      "adventure",
+      "comedy",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195604-tSZcfKbVqSEG.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/195604-lQpCzTziSA17.jpg",
+    "desc": "As tyranny engulfs the Clover Kingdom, Asta and the Magic Knights launch a desperate raid on the Spade Kingdom to rescue their squad captains from the Dark Triad. But their mission leads them into a brutal battle against forces beyond anything they’ve ever faced. Now, Asta must r",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "5": "xby8dnq"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162765369
+  },
+  {
+    "slug": "the-apothecary-diaries-season-3",
+    "type": "anime",
+    "title": "The Apothecary Diaries Season 3",
+    "nativeTitle": "薬屋のひとりごと 第3期",
+    "aliases": [
+      "The Apothecary Diaries Season 3",
+      "Kusuriya no Hitorigoto 3rd Season",
+      "薬屋のひとりごと 第3期"
+    ],
+    "year": 2026,
+    "score": 85,
+    "status": "ONGOING",
+    "airDay": "Friday",
+    "quality": "1080p",
+    "episodes": 12,
+    "latestEp": 3,
+    "genres": [
+      "drama",
+      "mystery"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195516-MJpUZlOberqH.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/195516-B5M0cPaQbQXI.jpg",
+    "desc": "In the aftermath of the Shi Clan’s rebellion, things have finally settled down, and Maomao has returned to her old life as a pharmacist in the pleasure district.\n\nOne day, triggered by a breakfast served at the Verdigris House, Maomao senses an anomaly and begins investigating it",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "3": "xby8el2"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162767930
+  },
+  {
     "slug": "renegade-immortal",
     "type": "donghua",
     "title": "Renegade Immortal",
@@ -42,6 +118,320 @@
     "updatedAt": 1795159249887
   },
   {
+    "slug": "the-ramparts-of-ice-season-2",
+    "type": "anime",
+    "title": "The Ramparts of Ice Season 2",
+    "nativeTitle": "氷の城壁 第2期",
+    "aliases": [
+      "The Ramparts of Ice Season 2",
+      "Koori no Jouheki 2nd Season",
+      "氷の城壁 第2期"
+    ],
+    "year": 2026,
+    "score": 81,
+    "status": "ONGOING",
+    "airDay": "Thursday",
+    "quality": "1080p",
+    "episodes": 24,
+    "latestEp": 14,
+    "genres": [
+      "comedy",
+      "drama",
+      "romance",
+      "slice of life"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213805-Nokui3uWlIlw.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/213805-DKKoBepaY2bj.jpg",
+    "desc": "Koyuki, the isolated girl; Miki, the former school idol; Minato, the guy with no concept of personal space; and Youta, the gentle basketball player. Clumsy, frustrating, yet deeply endearing — this coming-of-age ensemble drama of crisscrossing hearts marches on.\n\nAs they grow clo",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "2": "xby8sca",
+          "10": "xby8hbi",
+          "3": "xby8el2",
+          "5": "xby8dnq",
+          "6": "xby87ba",
+          "14": "xby7mc6"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162751935
+  },
+  {
+    "slug": "zhu-xian-final",
+    "type": "donghua",
+    "title": "Zhu Xian Final",
+    "nativeTitle": "诛仙 最终季",
+    "aliases": [
+      "Zhu Xian Final",
+      "诛仙 最终季"
+    ],
+    "year": 2025,
+    "score": 80,
+    "status": "ONGOING",
+    "airDay": "Friday",
+    "quality": "4K / 1080p",
+    "episodes": 26,
+    "latestEp": 3,
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206189-QEJKS9J2xXr7.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206189-QEJKS9J2xXr7.png",
+    "desc": "The final season of Zhu Xian.",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "3": "xby81ty"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162935864
+  },
+  {
+    "slug": "yao-shen-ji-10",
+    "type": "donghua",
+    "title": "Yao Shen Ji 10",
+    "nativeTitle": "妖神记 第十季",
+    "aliases": [
+      "Yao Shen Ji 10",
+      "妖神记 第十季"
+    ],
+    "year": 2025,
+    "score": 80,
+    "status": "ONGOING",
+    "airDay": "Wednesday",
+    "quality": "4K / 1080p",
+    "episodes": 2026,
+    "latestEp": 2026,
+    "genres": [
+      "action",
+      "adventure",
+      "comedy",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b214259-iWViyzBfHZnc.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b214259-iWViyzBfHZnc.jpg",
+    "desc": "Nie Li travels to the Demon God Sect, makes new friends, embarks on a new journey, and vows to overthrow the Holy Emperor and protect the City of Glory!(Source: Tencent Weibo Account)",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "27": "xby45gq",
+          "2026": "xby0zve"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162940818
+  },
+  {
+    "slug": "chitose-is-in-the-ramune-bottle-2nd-cour",
+    "type": "anime",
+    "title": "Chitose Is in the Ramune Bottle 2nd Cour",
+    "nativeTitle": "千歳くんはラムネ瓶のなか 2クール",
+    "aliases": [
+      "Chitose Is in the Ramune Bottle 2nd Cour",
+      "Chitose-kun wa Ramune Bin no Naka Part 2",
+      "千歳くんはラムネ瓶のなか 2クール"
+    ],
+    "year": 2026,
+    "score": 78,
+    "status": "ONGOING",
+    "airDay": "Tuesday",
+    "quality": "1080p",
+    "episodes": 25,
+    "latestEp": 25,
+    "genres": [
+      "comedy",
+      "romance"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198727-BL0JTpg0G8tq.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198727-BL0JTpg0G8tq.jpg",
+    "desc": "The second part of Chitose-kun wa Ramune Bin no Naka.",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "25": "x9jx3x0"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162834435
+  },
+  {
+    "slug": "overgeared",
+    "type": "anime",
+    "title": "Overgeared",
+    "nativeTitle": "テムパル～アイテムの力～",
+    "aliases": [
+      "Overgeared",
+      "Tempal: Item no Chikara",
+      "テムパル～アイテムの力～"
+    ],
+    "year": 2026,
+    "score": 76,
+    "status": "ONGOING",
+    "airDay": "Sunday",
+    "quality": "1080p",
+    "episodes": 12,
+    "latestEp": 4,
+    "genres": [
+      "action",
+      "adventure",
+      "comedy",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212888-NhyvqPt5aIuJ.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/212888-ZsnNegBCKXQq.jpg",
+    "desc": "Sin Yeong-U (a.k.a. Grid), an unlucky man in life and a low-level player in the popular VR game “Satisfy,” finds a powerful item that earns him a rare legendary class title: “Pagma’s Successor.” He’s now a skilled blacksmith who can forge unique weapons and equip the game’s most ",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "4": "xby8sum",
+          "1": "xby8sc2"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162756091
+  },
+  {
+    "slug": "fanren-xiu-xian-zhuan-di-wu-ji",
+    "type": "donghua",
+    "title": "Fanren Xiu Xian Zhuan Di Wu Ji",
+    "nativeTitle": "凡人修仙传 第五季",
+    "aliases": [
+      "Fanren Xiu Xian Zhuan Di Wu Ji",
+      "凡人修仙传 第五季"
+    ],
+    "year": 2025,
+    "score": 76,
+    "status": "ONGOING",
+    "airDay": "Saturday",
+    "quality": "4K / 1080p",
+    "episodes": 52,
+    "latestEp": 16,
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202851-iHwg4I1NdfMx.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/202851-o9JMx6xWGQUT.jpg",
+    "desc": "The fifth season of Fanren Xiu Xian Zhuan.\n\nNote: Includes Episodes 177-228.",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "16": "xbajk52",
+          "5": "xau4zl2",
+          "7": "xaq5ffa"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162930642
+  },
+  {
+    "slug": "reincarnated-as-a-sword-season-2",
+    "type": "anime",
+    "title": "Reincarnated as a Sword Season 2",
+    "nativeTitle": "転生したら剣でした 第2期",
+    "aliases": [
+      "Reincarnated as a Sword Season 2",
+      "Tensei Shitara Ken Deshita 2nd Season",
+      "転生したら剣でした 第2期"
+    ],
+    "year": 2026,
+    "score": 75,
+    "status": "ONGOING",
+    "airDay": "Wednesday",
+    "quality": "1080p",
+    "episodes": 12,
+    "latestEp": 10,
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx159042-GGFwlDskc5vR.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/159042-X0mqyaUFBkms.jpg",
+    "desc": "The second season of Tensei Shitara Ken Deshita.\nNote: Each episode was streamed one week in advance of the TV broadcast starting on October 1, 2026 on Abema. Regular broadcasting began on October 8, 2026.",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "10": "xby8hbi",
+          "5": "xby8dnq",
+          "2": "xbxydb6",
+          "6": "xbxveyq"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162761534
+  },
+  {
+    "slug": "firefly-wedding",
+    "type": "anime",
+    "title": "Firefly Wedding",
+    "nativeTitle": "ホタルの嫁入り",
+    "aliases": [
+      "Firefly Wedding",
+      "Hotaru no Yomeiri",
+      "ホタルの嫁入り"
+    ],
+    "year": 2026,
+    "score": 75,
+    "status": "ONGOING",
+    "airDay": "Friday",
+    "quality": "1080p",
+    "episodes": 12,
+    "latestEp": 1,
+    "genres": [
+      "drama",
+      "romance"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205909-DM0fAzNQulod.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/205909-hGeuFYrdhf9S.jpg",
+    "desc": "On the surface, Satoko has it all—she’s beautiful, the daughter of a nobleman, and at a prime age for marriage. Unfortunately, she is also quite ill and only has a short time left to live. Before she can secure a marriage that will redeem her worth in her family’s eyes, she finds",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "1": "xby8q3q"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162775605
+  },
+  {
     "slug": "shrouding-the-heavens",
     "type": "donghua",
     "title": "Shrouding the Heavens",
@@ -75,12 +465,402 @@
           "10": "xby8hbi",
           "7": "xby8gru",
           "13": "xby8hbe",
-          "26": "xby8gz6"
+          "26": "xby8gz6",
+          "4": "xby8sum",
+          "1": "xby8sc2",
+          "2": "xby8sca",
+          "3": "xby8sc6"
         }
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795159274853
+    "updatedAt": 1795162922013
+  },
+  {
+    "slug": "the-laid-off-cheat-granting-mage-enjoys-a-second-lease-on-life",
+    "type": "anime",
+    "title": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
+    "nativeTitle": "追放されたチート付与魔術師は気ままなセカンドライフを謳歌する。　～俺は武器だけじゃなく、あらゆるものに『強化ポイント』を付与できるし、俺の意思でいつでも効果を解除できるけど、残った人たち大丈夫？～",
+    "aliases": [
+      "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
+      "Tsuihou Sareta Cheat Fuyo Majutsushi wa Kimama na Second Life wo Ouka Suru.: Ore wa Buki dake ja Naku, Arayuru Mono ni \"Kyouka Point\" wo Fuyo Dekiru shi, Ore no Ishi de Itsudemo Kouka wo Kaijo Dekiru kedo, Nokotta Hitotachi Daijoubu?",
+      "追放されたチート付与魔術師は気ままなセカンドライフを謳歌する。　～俺は武器だけじゃなく、あらゆるものに『強化ポイント』を付与できるし、俺の意思でいつでも効果を解除できるけど、残った人たち大丈夫？～"
+    ],
+    "year": 2026,
+    "score": 74,
+    "status": "ONGOING",
+    "airDay": "Tuesday",
+    "quality": "1080p",
+    "episodes": 12,
+    "latestEp": 9,
+    "genres": [
+      "adventure",
+      "comedy",
+      "fantasy",
+      "slice of life"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b207329-6VPeZIDfF4Sr.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/207329-9IqRSKIsM3TC.jpg",
+    "desc": "Rein, an enchanter, is suddenly expelled from his guild one day. But instead of despairing, he declares, “Now I can do anything!” and begins reclaiming the massive number of enhancement points he once poured into his guildmates’ gear, setting off on a brand-new path as an adventu",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "5": "xaz9bt2",
+          "9": "x9eor56",
+          "3": "x99l6ni",
+          "2": "x99jk8w",
+          "1": "x9984dg",
+          "8": "x962418",
+          "7": "x95pjk8",
+          "6": "x95d124",
+          "4": "x94pgp0"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162758977
+  },
+  {
+    "slug": "nia-liston-the-merciless-maiden",
+    "type": "anime",
+    "title": "Nia Liston: The Merciless Maiden",
+    "nativeTitle": "凶乱令嬢ニア・リストン",
+    "aliases": [
+      "Nia Liston: The Merciless Maiden",
+      "Kyouran Reijou Nia Liston",
+      "凶乱令嬢ニア・リストン"
+    ],
+    "year": 2026,
+    "score": 74,
+    "status": "ONGOING",
+    "airDay": "Tuesday",
+    "quality": "1080p",
+    "episodes": 25,
+    "latestEp": 3,
+    "genres": [
+      "action",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206949-4HYI3YuP0eLI.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/206949-c5hfhixdgvy5.jpg",
+    "desc": "A great hero lies undefeated on her deathbed, regretting that she never found a foe who could take her down. She never intended to meet her fate anywhere other than on the battlefield, and her peaceful demise has her wishing desperately that things could have been different... Bu",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "3": "xbpx1vy"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162766642
+  },
+  {
+    "slug": "even-the-student-council-has-its-holes",
+    "type": "anime",
+    "title": "Even the Student Council Has Its Holes!",
+    "nativeTitle": "生徒会にも穴はある！",
+    "aliases": [
+      "Even the Student Council Has Its Holes!",
+      "Seitokai ni mo Ana wa Aru!",
+      "生徒会にも穴はある！"
+    ],
+    "year": 2026,
+    "score": 74,
+    "status": "ONGOING",
+    "airDay": "Saturday",
+    "quality": "1080p",
+    "episodes": 32,
+    "latestEp": 32,
+    "genres": [
+      "comedy",
+      "ecchi",
+      "slice of life"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx191656-xFHtxM8SUTdU.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/191656-JQILdzh3FQxN.jpg",
+    "desc": "This is Fujinasu Academy, a private high school with top-achieving students located on the outskirts of town.\n\nHigh School 1st-Year Ume Mizunoe has excellent grades in Japanese language class and has received multiple literary awards.\nHowever, his terrible grades in the sciences ",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "15": "xbxou7m",
+          "14": "xbxfneq",
+          "32": "xbx4swm",
+          "31": "xbx4sw6",
+          "30": "xbx4swa",
+          "13": "xbvnuhu",
+          "29": "xbvnuia",
+          "28": "xbusb0m",
+          "27": "xbulata",
+          "12": "xbt7o2y",
+          "11": "xbsy0sm",
+          "26": "xbsjgrm",
+          "25": "xbsjgrq",
+          "10": "xbrlek2",
+          "9": "xbrkqe6",
+          "24": "xbrkqee",
+          "23": "xbraxui",
+          "22": "xbqxeqa",
+          "8": "xbq2ome",
+          "7": "xbptsna",
+          "21": "xbpjrfi",
+          "20": "xbpj5ae",
+          "19": "xbolq5e",
+          "6": "xbnlivu",
+          "5": "xbnl2iu",
+          "18": "xbm614e"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162770489
+  },
+  {
+    "slug": "a-wild-last-boss-appeared-season-2",
+    "type": "anime",
+    "title": "A Wild Last Boss Appeared! Season 2",
+    "nativeTitle": "野生のラスボスが現れた！ 第2期",
+    "aliases": [
+      "A Wild Last Boss Appeared! Season 2",
+      "Yasei no Last Boss ga Arawareta! 2nd Season",
+      "野生のラスボスが現れた！ 第2期"
+    ],
+    "year": 2026,
+    "score": 74,
+    "status": "ONGOING",
+    "airDay": "Saturday",
+    "quality": "1080p",
+    "episodes": 24,
+    "latestEp": 5,
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204389-jCoFCeTthDMy.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/204389-PFtzs8KcRzCz.jpg",
+    "desc": "The second season of Yasei no Last Boss ga Arawareta!",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "5": "xby8dnq",
+          "1": "xawql66",
+          "3": "xaj6agq",
+          "2": "xaj5ov6"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162825044
+  },
+  {
+    "slug": "dawang-raoming-3",
+    "type": "donghua",
+    "title": "Dawang Raoming 3",
+    "nativeTitle": "大王饶命 第三季",
+    "aliases": [
+      "Dawang Raoming 3",
+      "大王饶命 第三季"
+    ],
+    "year": 2025,
+    "score": 74,
+    "status": "ONGOING",
+    "airDay": "Saturday",
+    "quality": "4K / 1080p",
+    "episodes": 16,
+    "latestEp": 4,
+    "genres": [
+      "action",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199353-S2jczHjCWHGL.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199353-S2jczHjCWHGL.png",
+    "desc": "The third season of Dawang Raoming.",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "4": "xby8sum",
+          "1": "xby8sc2",
+          "2": "xby8sca",
+          "3": "xby8sc6"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162851624
+  },
+  {
+    "slug": "the-world-s-strongest-witch",
+    "type": "anime",
+    "title": "The World's Strongest Witch",
+    "nativeTitle": "世界最強の魔女、始めました",
+    "aliases": [
+      "The World's Strongest Witch",
+      "Sekai Saikyou no Majo, Hajimemashita",
+      "世界最強の魔女、始めました"
+    ],
+    "year": 2026,
+    "score": 70,
+    "status": "ONGOING",
+    "airDay": "Wednesday",
+    "quality": "1080p",
+    "episodes": 24,
+    "latestEp": 7,
+    "genres": [
+      "action",
+      "comedy",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx211778-0MXK5HqVFBYH.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/211778-ZbXEhqfFkj62.jpg",
+    "desc": "After using her SSS-Rank skill, Internet, to crush her former family’s ambitions, Lorna is free to travel the world. Her next stop is the port town of Aquas, where she hopes to see the sights and chow down on some fresh seafood. But when she arrives, the place is on the brink of ",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "7": "xby8fne"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162762804
+  },
+  {
+    "slug": "a-returner-s-magic-should-be-special-season-2",
+    "type": "anime",
+    "title": "A Returner's Magic Should be Special Season 2",
+    "nativeTitle": "帰還者の魔法は特別です 第2期",
+    "aliases": [
+      "A Returner's Magic Should be Special Season 2",
+      "Kikansha no Mahou wa Tokubetsu desu 2nd Season",
+      "帰還者の魔法は特別です 第2期"
+    ],
+    "year": 2026,
+    "score": 69,
+    "status": "ONGOING",
+    "airDay": "Wednesday",
+    "quality": "1080p",
+    "episodes": 24,
+    "latestEp": 10,
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx172192-W7P5xEUaxF3y.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/172192-jibcmb7wdbzk.jpg",
+    "desc": "In a land dominated by the formidable Shadow Worlds, most of humanity has been destroyed. To rescue their planet from impending doom, six brave heroes fight a perilous battle…and fail. But there’s a glimpse of hope when Desir, one of the last mages, is suddenly sent back in time ",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "9": "xby8d7q",
+          "8": "xby8d5u",
+          "7": "xby8d2m",
+          "10": "xby8d0i"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162773047
+  },
+  {
+    "slug": "magical-explorer",
+    "type": "anime",
+    "title": "Magical Explorer",
+    "nativeTitle": "マジカル★エクスプローラー　エロゲの友人キャラに転生したけど、ゲーム知識使って自由に生きる",
+    "aliases": [
+      "Magical Explorer",
+      "Magical★Explorer: Eroge no Yuujin Chara ni Tensei Shitakedo, Game Chishiki Tsukatte Jiyuu ni Ikiru",
+      "マジカル★エクスプローラー　エロゲの友人キャラに転生したけど、ゲーム知識使って自由に生きる"
+    ],
+    "year": 2026,
+    "score": 69,
+    "status": "ONGOING",
+    "airDay": "Saturday",
+    "quality": "1080p",
+    "episodes": 13,
+    "latestEp": 4,
+    "genres": [
+      "action",
+      "adventure",
+      "ecchi",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169581-UlAviVH36Hxi.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/169581-cdooqY7Jqy3x.jpg",
+    "desc": "Few titles are more revered among horndogs-(ahem) connoisseurs of Japanese erotic video games-than Magical Explorer. One day, our smut-loving hero wakes up to find he has been reincarnated into the body of the game’s dreamboat protagonist! Or rather, his hapless comic-relief best",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "4": "xby8sum",
+          "1": "xby8sc2",
+          "2": "xby8sca",
+          "3": "xby8sc6"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162781044
+  },
+  {
+    "slug": "as-a-reincarnated-aristocrat-i-ll-use-my-appraisal-skill-to-rise-in-the-world-season-3",
+    "type": "anime",
+    "title": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World Season 3",
+    "nativeTitle": "転生貴族、鑑定スキルで成り上がる 第3期",
+    "aliases": [
+      "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World Season 3",
+      "Tensei Kizoku, Kantei Skill de Nariagaru 3rd Season",
+      "転生貴族、鑑定スキルで成り上がる 第3期"
+    ],
+    "year": 2026,
+    "score": 68,
+    "status": "ONGOING",
+    "airDay": "Sunday",
+    "quality": "1080p",
+    "episodes": 55,
+    "latestEp": 55,
+    "genres": [
+      "adventure",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185756-xPCl0RyQ7fXD.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185756-xPCl0RyQ7fXD.jpg",
+    "desc": "The third season of Tensei Kizoku, Kantei Skill de Nariagaru.\n\nNote: On September 4, 2026, it was announced that GeyeG Pictures would take over the production from studio MOTHER while keeping the same staff.",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "55": "x9ps0pk",
+          "53": "x9pe05c"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162823604
   },
   {
     "slug": "the-exiled-heavy-knight-knows-how-to-game-the-system",
@@ -114,10 +894,111 @@
         "episodeMap": {
           "21": "1Fq9PYMX_Xg"
         }
+      },
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "7": "xbpkiwq",
+          "14": "xaubp8y"
+        }
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795159236217
+    "updatedAt": 1795162750252
+  },
+  {
+    "slug": "full-clearing-another-world-under-a-goddess-with-zero-believers",
+    "type": "anime",
+    "title": "Full Clearing Another World under a Goddess with Zero Believers",
+    "nativeTitle": "信者ゼロの女神サマと始める異世界攻略",
+    "aliases": [
+      "Full Clearing Another World under a Goddess with Zero Believers",
+      "Shinja Zero no Megami-sama to Hajimeru Isekai Kouryaku",
+      "信者ゼロの女神サマと始める異世界攻略"
+    ],
+    "year": 2026,
+    "score": 65,
+    "status": "ONGOING",
+    "airDay": "Sunday",
+    "quality": "1080p",
+    "episodes": 91,
+    "latestEp": 91,
+    "genres": [
+      "adventure",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205896-ElrV8oVAsuax.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205896-ElrV8oVAsuax.jpg",
+    "desc": "RPG player Makoto Takatsuki is hurled into another world with awful skills and stats. But he soon meets a goddess named Noah, who asks him to become her 1st believer in return for blessings.\n\n(Source: J-Novel Club)",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "64": "x9zc7v0",
+          "55": "x9ymva6",
+          "91": "x9gg0os",
+          "19": "x9gg08s",
+          "87": "x9gg0co",
+          "90": "x9gd8cc",
+          "18": "x9gd884",
+          "17": "x9ga7e0",
+          "16": "x9g80ay",
+          "15": "x9g6afi",
+          "86": "x9g4nb0",
+          "14": "x9g4mq4",
+          "11": "x9g4moy",
+          "85": "x9g2r5g",
+          "10": "x9g2qyu",
+          "13": "x9g2qwu",
+          "80": "x9g0qdw"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162816412
+  },
+  {
+    "slug": "so-what-s-wrong-with-getting-reborn-as-a-goblin",
+    "type": "anime",
+    "title": "So What's Wrong with Getting Reborn as a Goblin?",
+    "nativeTitle": "転生ゴブリンだけど質問ある？",
+    "aliases": [
+      "So What's Wrong with Getting Reborn as a Goblin?",
+      "Tensei Goblin Dakedo Shitsumon Aru?",
+      "転生ゴブリンだけど質問ある？"
+    ],
+    "year": 2026,
+    "score": 65,
+    "status": "ONGOING",
+    "airDay": "Monday",
+    "quality": "1080p",
+    "episodes": 20,
+    "latestEp": 20,
+    "genres": [
+      "action",
+      "adventure",
+      "comedy",
+      "drama"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209219-3yhKlRx0LX3p.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209219-3yhKlRx0LX3p.jpg",
+    "desc": "Office worker Akira Yagami’s altruistic nature usually gets him the short end of the stick. When he dies after saving a kid from oncoming traffic...he reincarnates in another world as a goblin?! Normally, goblins only live for seven days, but Akira’s newfound powers let him defy ",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "20": "xbset4u"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162830650
   },
   {
     "slug": "dandivine",
@@ -155,6 +1036,411 @@
     ],
     "officialLinks": [],
     "updatedAt": 1795159245719
+  },
+  {
+    "slug": "hunter-x-hunter-2011",
+    "type": "anime",
+    "title": "Hunter x Hunter (2011)",
+    "nativeTitle": "HUNTER×HUNTER (2011)",
+    "aliases": [
+      "Hunter x Hunter (2011)",
+      "HUNTER×HUNTER (2011)"
+    ],
+    "year": 2011,
+    "score": 89,
+    "status": "COMPLETED",
+    "airDay": "Wednesday",
+    "quality": "1080p",
+    "episodes": 148,
+    "latestEp": 4,
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11061-y5gsT1hoHuHw.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11061-8WkkTZ6duKpq.jpg",
+    "desc": "A Hunter is one who travels the world doing all sorts of dangerous tasks. From capturing criminals to searching deep within uncharted lands for any lost treasures. Gon is a young boy whose father disappeared long ago, being a Hunter. He believes if he could also follow his father",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "4": "xby7lpm"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162777044
+  },
+  {
+    "slug": "steins-gate",
+    "type": "anime",
+    "title": "Steins;Gate",
+    "nativeTitle": "シュタインズ・ゲート",
+    "aliases": [
+      "Steins;Gate",
+      "シュタインズ・ゲート"
+    ],
+    "year": 2011,
+    "score": 89,
+    "status": "COMPLETED",
+    "airDay": "Wednesday",
+    "quality": "1080p",
+    "episodes": 24,
+    "latestEp": 4,
+    "genres": [
+      "drama",
+      "psychological",
+      "sci-fi",
+      "thriller"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9253-tIUXF2gfU8Sg.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n9253-JIhmKgBKsWUN.jpg",
+    "desc": "Self-proclaimed mad scientist Okabe Rintarou lives in a small room in Akihabara, where he invents \"future gadgets\" with fellow lab members Shiina Mayuri, his air-headed childhood friend, and Hashida Itaru, an otaku hacker. The three pass the time by tinkering with their latest cr",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "4": "xby8sum",
+          "1": "xby8sc2",
+          "2": "xby8sca",
+          "3": "xby8sc6"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162835929
+  },
+  {
+    "slug": "the-apothecary-diaries",
+    "type": "anime",
+    "title": "The Apothecary Diaries",
+    "nativeTitle": "薬屋のひとりごと",
+    "aliases": [
+      "The Apothecary Diaries",
+      "Kusuriya no Hitorigoto",
+      "薬屋のひとりごと"
+    ],
+    "year": 2023,
+    "score": 88,
+    "status": "COMPLETED",
+    "airDay": "Friday",
+    "quality": "1080p",
+    "episodes": 24,
+    "latestEp": 4,
+    "genres": [
+      "drama",
+      "mystery"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx161645-QLbzHXiYRgV2.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/161645-oqzTZYIvviWI.jpg",
+    "desc": "Maomao lived a peaceful life with her apothecary father. Until one day, she’s sold as a lowly servant to the emperor’s palace. But she wasn’t meant for a compliant life among royalty. So when imperial heirs fall ill, she decides to step in and find a cure! This catches the eye of",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "4": "xby8sum",
+          "1": "xby8sc2",
+          "2": "xby8sca",
+          "3": "xby8sc6"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162818327
+  },
+  {
+    "slug": "the-apothecary-diaries-season-2",
+    "type": "anime",
+    "title": "The Apothecary Diaries Season 2",
+    "nativeTitle": "薬屋のひとりごと 第2期",
+    "aliases": [
+      "The Apothecary Diaries Season 2",
+      "Kusuriya no Hitorigoto 2nd Season",
+      "薬屋のひとりごと 第2期"
+    ],
+    "year": 2025,
+    "score": 88,
+    "status": "COMPLETED",
+    "airDay": "Monday",
+    "quality": "1080p",
+    "episodes": 24,
+    "latestEp": 10,
+    "genres": [
+      "drama",
+      "mystery"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176301-TIGmldLffQGX.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/176301-GkuTF1YTT6b2.jpg",
+    "desc": "Using her wit and vast knowledge of medicines and poisons alike, Maomao played a pivotal role in solving a series of mysteries and conspiracies that plagued the imperial court. Having recently come to terms with the secrets of her parents, she returns to fulfill her normal duties",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "10": "xby8hbi",
+          "5": "xby8dnq",
+          "2": "xby5pg2"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162827766
+  },
+  {
+    "slug": "attack-on-titan",
+    "type": "anime",
+    "title": "Attack on Titan",
+    "nativeTitle": "進撃の巨人",
+    "aliases": [
+      "Attack on Titan",
+      "Shingeki no Kyojin",
+      "進撃の巨人"
+    ],
+    "year": 2013,
+    "score": 85,
+    "status": "COMPLETED",
+    "airDay": "Thursday",
+    "quality": "1080p",
+    "episodes": 25,
+    "latestEp": 4,
+    "genres": [
+      "action",
+      "drama",
+      "fantasy",
+      "mystery"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16498-buvcRTBx4NSm.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16498-8jpFCOcDmneX.jpg",
+    "desc": "Several hundred years ago, humans were nearly exterminated by titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity surviv",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "4": "xby7lpm"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162848569
+  },
+  {
+    "slug": "lord-of-mysteries",
+    "type": "donghua",
+    "title": "Lord of Mysteries",
+    "nativeTitle": "诡秘之主 小丑篇​",
+    "aliases": [
+      "Lord of Mysteries",
+      "Guimi Zhi Zhu: Xiaochou Pian",
+      "诡秘之主 小丑篇​"
+    ],
+    "year": 2025,
+    "score": 85,
+    "status": "COMPLETED",
+    "airDay": "Friday",
+    "quality": "4K / 1080p",
+    "episodes": 13,
+    "latestEp": 4,
+    "genres": [
+      "action",
+      "drama",
+      "fantasy",
+      "mystery"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137667-xQxzQRAerw53.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/137667-AhUoT3NFgbif.jpg",
+    "desc": "In a Victorian world of steam, dreadnoughts, and occult horrors, Zhou Mingrui awakens as Klein Moretti. He walks a razor’s edge between light and darkness, entangled with warring Churches. This is the legend of unlimited potential…and unspeakable danger.\n\n(Source: Crunchyroll)",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "4": "xby8sum",
+          "1": "xby8sc2",
+          "2": "xby8sca",
+          "3": "xby8sc6"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162850176
+  },
+  {
+    "slug": "solo-leveling-season-2-arise-from-the-shadow",
+    "type": "anime",
+    "title": "Solo Leveling Season 2 -Arise from the Shadow-",
+    "nativeTitle": "俺だけレベルアップな件 Season 2 -Arise from the Shadow-",
+    "aliases": [
+      "Solo Leveling Season 2 -Arise from the Shadow-",
+      "Ore dake Level Up na Ken: Season 2 - Arise from the Shadow",
+      "俺だけレベルアップな件 Season 2 -Arise from the Shadow-"
+    ],
+    "year": 2025,
+    "score": 84,
+    "status": "COMPLETED",
+    "airDay": "Saturday",
+    "quality": "1080p",
+    "episodes": 14,
+    "latestEp": 14,
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176496-9BDMjAZGEbq4.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/176496-5oY4k2NRqlYs.jpg",
+    "desc": "Mastering his new abilities in secret, Jin-U must battle humanity's toughest foes to save his mother.\n\n(Source: Crunchyroll News)",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "1": "xbro30m",
+          "2": "xbro2o2",
+          "10": "xbq9n26",
+          "6": "xbpy23u",
+          "8": "xbpunue",
+          "9": "xbpj2x2",
+          "5": "xbpibcy",
+          "14": "xbop93m",
+          "3": "xbnko0a"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162819931
+  },
+  {
+    "slug": "cyberpunk-edgerunners-2",
+    "type": "anime",
+    "title": "Cyberpunk: Edgerunners 2",
+    "nativeTitle": "サイバーパンク: エッジランナーズ2",
+    "aliases": [
+      "Cyberpunk: Edgerunners 2",
+      "サイバーパンク: エッジランナーズ2"
+    ],
+    "year": 2026,
+    "score": 83,
+    "status": "COMPLETED",
+    "airDay": "Friday",
+    "quality": "1080p",
+    "episodes": 10,
+    "latestEp": 4,
+    "genres": [
+      "action",
+      "drama",
+      "sci-fi"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195539-4LdfmKIHzuxr.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/195539-lO5SUdp4SOrq.jpg",
+    "desc": "Cyberpunk: Edgerunners 2 pulls you back into Night City, where lives become entangled to the extreme. Weak, a washed-up cyberpunk legend, is now forced to live without chrome as he searches for a sense of purpose in a world that’s passed him by. Meanwhile, the deadly nomad D sets",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "4": "xby8sum",
+          "1": "xby8sc2",
+          "2": "xby8sca",
+          "3": "xby8sc6"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162782492
+  },
+  {
+    "slug": "scissor-seven-season-5",
+    "type": "donghua",
+    "title": "Scissor Seven Season 5",
+    "nativeTitle": "伍六七之记忆碎片",
+    "aliases": [
+      "Scissor Seven Season 5",
+      "Wu Liuqi: Jiyi Suipian",
+      "伍六七之记忆碎片"
+    ],
+    "year": 2025,
+    "score": 83,
+    "status": "COMPLETED",
+    "airDay": "Friday",
+    "quality": "4K / 1080p",
+    "episodes": 10,
+    "latestEp": 5,
+    "genres": [
+      "action",
+      "comedy",
+      "drama",
+      "mystery"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182445-pHkLtguNcxWC.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182445-pHkLtguNcxWC.png",
+    "desc": "In order to find his cherished partner, Seven returns to Xuanwu Country and faces those forgotten fragments of memory. The dusty truth brings pain and anger, but now he is no longer alone. What is the purpose of having power? This time, Seven has to make a new choice for his life",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "5": "xby8dnq"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162910188
+  },
+  {
+    "slug": "re-zero-starting-life-in-another-world",
+    "type": "anime",
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "nativeTitle": "Re:ゼロから始める異世界生活",
+    "aliases": [
+      "Re:ZERO -Starting Life in Another World-",
+      "Re:Zero kara Hajimeru Isekai Seikatsu",
+      "Re:ゼロから始める異世界生活"
+    ],
+    "year": 2016,
+    "score": 81,
+    "status": "COMPLETED",
+    "airDay": "Tuesday",
+    "quality": "1080p",
+    "episodes": 25,
+    "latestEp": 25,
+    "genres": [
+      "action",
+      "adventure",
+      "drama",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21355-wRVUrGxpvIQQ.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21355-f9SjOfEJMk5P.jpg",
+    "desc": "In the story, Subaru Natsuki is an ordinary high school student who is lost in an alternate world, where he is rescued by a beautiful, silver-haired girl. He stays near her to return the favor, but the destiny she is burdened with is more than Subaru can imagine. Enemies attack o",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "1": "xby6cb2",
+          "2": "xbxx1oe",
+          "3": "xbxvpae",
+          "25": "xbxvd4a"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162832092
   },
   {
     "slug": "that-time-i-got-reincarnated-as-a-slime",
@@ -197,6 +1483,121 @@
     "updatedAt": 1795159279805
   },
   {
+    "slug": "solo-leveling",
+    "type": "anime",
+    "title": "Solo Leveling",
+    "nativeTitle": "俺だけレベルアップな件",
+    "aliases": [
+      "Solo Leveling",
+      "Ore dake Level Up na Ken",
+      "俺だけレベルアップな件"
+    ],
+    "year": 2024,
+    "score": 80,
+    "status": "COMPLETED",
+    "airDay": "Sunday",
+    "quality": "1080p",
+    "episodes": 12,
+    "latestEp": 4,
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151807-it355ZgzquUd.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/151807-37yfQA3ym8PA.jpg",
+    "desc": "They say whatever doesn’t kill you makes you stronger, but that’s not the case for the world’s weakest hunter Seong Jin-U. After being brutally slaughtered by monsters in a high-ranking dungeon, Jin-U came back with the System, a program only he could see, that’s leveling him up ",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "4": "xby8sum",
+          "1": "xby8sc2",
+          "2": "xby8sca",
+          "3": "xby8sc6"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162839124
+  },
+  {
+    "slug": "di-ling-qu",
+    "type": "donghua",
+    "title": "Di Ling Qu",
+    "nativeTitle": "地灵曲",
+    "aliases": [
+      "Di Ling Qu",
+      "地灵曲"
+    ],
+    "year": 2025,
+    "score": 80,
+    "status": "COMPLETED",
+    "airDay": "Wednesday",
+    "quality": "4K / 1080p",
+    "episodes": 200,
+    "latestEp": 200,
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy",
+      "mystery"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b110404-NDqjtDxd6V3Y.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b110404-NDqjtDxd6V3Y.jpg",
+    "desc": "",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "200": "xby8t5y"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162938434
+  },
+  {
+    "slug": "di-ling-qu-nanjiang-miwu",
+    "type": "donghua",
+    "title": "Di Ling Qu: Nanjiang Miwu",
+    "nativeTitle": "地灵曲 南疆迷雾",
+    "aliases": [
+      "Di Ling Qu: Nanjiang Miwu",
+      "地灵曲 南疆迷雾"
+    ],
+    "year": 2025,
+    "score": 80,
+    "status": "COMPLETED",
+    "airDay": "Friday",
+    "quality": "4K / 1080p",
+    "episodes": 15,
+    "latestEp": 4,
+    "genres": [
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx152487-iA77khDWSgaj.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx152487-iA77khDWSgaj.png",
+    "desc": "",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "4": "x8l1bfl",
+          "1": "x8l1bfn"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162943280
+  },
+  {
     "slug": "douluo-dalu-jingying-sai",
     "type": "donghua",
     "title": "Douluo Dalu: Jingying Sai",
@@ -234,6 +1635,45 @@
     ],
     "officialLinks": [],
     "updatedAt": 1795159270791
+  },
+  {
+    "slug": "beyond-time-s-gaze",
+    "type": "donghua",
+    "title": "Beyond Time's Gaze",
+    "nativeTitle": "光阴之外",
+    "aliases": [
+      "Beyond Time's Gaze",
+      "Guangyin Zhi Wai",
+      "光阴之外"
+    ],
+    "year": 2025,
+    "score": 79,
+    "status": "COMPLETED",
+    "airDay": "Sunday",
+    "quality": "4K / 1080p",
+    "episodes": 26,
+    "latestEp": 9,
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205905-lbDVh7foIfjt.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205905-lbDVh7foIfjt.jpg",
+    "desc": "After the cataclysmic destruction of Nanhuang Continent, young Xu Qing, the sole survivor, accidentally obtains a mysterious purple crystal, thus beginning his cultivation journey. \n\nTo survive, he joins the Thunder Squad, experiencing life-or-death battles and forging deep bonds",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "9": "xby871q",
+          "5": "xby80e2"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162925899
   },
   {
     "slug": "swallowed-star",
@@ -277,6 +1717,137 @@
     "updatedAt": 1795159277243
   },
   {
+    "slug": "soul-eater",
+    "type": "anime",
+    "title": "Soul Eater",
+    "nativeTitle": "ソウルイーター",
+    "aliases": [
+      "Soul Eater",
+      "ソウルイーター"
+    ],
+    "year": 2008,
+    "score": 77,
+    "status": "COMPLETED",
+    "airDay": "Wednesday",
+    "quality": "1080p",
+    "episodes": 51,
+    "latestEp": 10,
+    "genres": [
+      "action",
+      "adventure",
+      "comedy",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3588-fSMggQoFSbUI.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3588-rpnVOMaLD3is.jpg",
+    "desc": "Set in the Shinigami technical school for weapon meisters, the series revolves around 3 groups of each a weapon meister and a human weapon. Trying to make the latter a \"Death Scythe\" which is the highest title for a weapon and thus fit for use by the Shinigami, they must collect ",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "10": "xby8l8q",
+          "4": "xby8nda",
+          "2": "xby8k6u",
+          "9": "xby8ijq",
+          "8": "xby8ho6",
+          "7": "xby8gru",
+          "6": "xby8fo6",
+          "5": "xby8dey",
+          "3": "xby7z5e"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162844724
+  },
+  {
+    "slug": "soul-land",
+    "type": "donghua",
+    "title": "Soul Land",
+    "nativeTitle": "斗罗大陆",
+    "aliases": [
+      "Soul Land",
+      "Douluo Dalu",
+      "斗罗大陆"
+    ],
+    "year": 2025,
+    "score": 76,
+    "status": "COMPLETED",
+    "airDay": "Monday",
+    "quality": "4K / 1080p",
+    "episodes": 26,
+    "latestEp": 10,
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy",
+      "romance"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101920-g7P83Uveo26D.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101920-g7P83Uveo26D.png",
+    "desc": "Tang San spent his life in the Tang Outer Sect, dedicated to the creation and mastery of hidden weapons. Once he stole the secret lore of the Inner Sect to reach the pinnacle of his art, his only way out was death. But after throwing himself off the deadly Hell's Peak he was rebo",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "10": "xby8l8q",
+          "4": "xby8nda",
+          "2": "xby8k6u",
+          "9": "xby8ijq",
+          "8": "xby8ho6",
+          "7": "xby8gru",
+          "6": "xby8fo6",
+          "5": "xby8dey"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162877057
+  },
+  {
+    "slug": "dawang-raoming-2",
+    "type": "donghua",
+    "title": "Dawang Raoming 2",
+    "nativeTitle": "大王饶命 第二季",
+    "aliases": [
+      "Dawang Raoming 2",
+      "大王饶命 第二季"
+    ],
+    "year": 2025,
+    "score": 75,
+    "status": "COMPLETED",
+    "airDay": "Thursday",
+    "quality": "4K / 1080p",
+    "episodes": 12,
+    "latestEp": 4,
+    "genres": [
+      "action",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146543-xPM6Q1II9Iol.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146543-xPM6Q1II9Iol.png",
+    "desc": "After returning victorious from his first journey to magical ruins, Lü Shu resumes his peaceful life with his adoptive sister, Lü Xiaoyu, while trying to avoid revealing his true power to Tian Luo Di Wang, the organization that enlists cultivators and protects the country from fo",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "4": "xby8sum",
+          "1": "xby8sc2",
+          "2": "xby8sca",
+          "3": "xby8sc6"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162894013
+  },
+  {
     "slug": "alderamin-on-the-sky",
     "type": "anime",
     "title": "Alderamin on the Sky",
@@ -314,6 +1885,97 @@
     ],
     "officialLinks": [],
     "updatedAt": 1795159240286
+  },
+  {
+    "slug": "dawang-raoming",
+    "type": "donghua",
+    "title": "Dawang Raoming",
+    "nativeTitle": "大王饶命",
+    "aliases": [
+      "Dawang Raoming",
+      "大王饶命"
+    ],
+    "year": 2025,
+    "score": 73,
+    "status": "COMPLETED",
+    "airDay": "Saturday",
+    "quality": "4K / 1080p",
+    "episodes": 12,
+    "latestEp": 4,
+    "genres": [
+      "action",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120220-sdm29OEAijm7.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/120220-USAlN7o3lrZk.jpg",
+    "desc": "This is the story of an orphan, Lü Shu. He is not any regular orphan, but a metahuman experiencing the changes in himself, his country and the world during the dawn of the magical era. Watch as Lü Shu embarks on a journey to hone his peculiar abilities together with his sister, t",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "4": "xby8sum",
+          "1": "xby8sc2",
+          "2": "xby8sca",
+          "3": "xby8sc6"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162854010
+  },
+  {
+    "slug": "biaoren",
+    "type": "donghua",
+    "title": "Biaoren",
+    "nativeTitle": "镖人",
+    "aliases": [
+      "Biaoren",
+      "镖人"
+    ],
+    "year": 2025,
+    "score": 73,
+    "status": "COMPLETED",
+    "airDay": "Thursday",
+    "quality": "4K / 1080p",
+    "episodes": 352,
+    "latestEp": 352,
+    "genres": [
+      "action",
+      "adventure",
+      "drama"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx122508-abXsQzAGwPzN.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx122508-abXsQzAGwPzN.jpg",
+    "desc": "‘Escort’, refers to paid warriors, their targets of protection, are also referred to targets that are wanted by the government. On the eve of civil chaos during the last years of Sui dynasty, with the rise of a reign of terror around the country, various peoples’ feelings of grud",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "2": "xapoexy",
+          "171": "xapi6gy",
+          "4": "xak6cqi",
+          "352": "xaj9tu6",
+          "11": "xaj9sp6",
+          "147": "xailtki",
+          "1": "xailkwa",
+          "13": "xaidfaa",
+          "88": "xahkr32",
+          "25": "xahkoge",
+          "167": "xag6o7a",
+          "349": "xag6iv6",
+          "24": "xafhst6",
+          "9": "xaf66pa",
+          "18": "xaf46di",
+          "81": "xaewghe"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162888125
   },
   {
     "slug": "a-certain-magical-index-ii",
@@ -393,6 +2055,122 @@
     "updatedAt": 1795159238680
   },
   {
+    "slug": "jade-dynasty",
+    "type": "donghua",
+    "title": "Jade Dynasty",
+    "nativeTitle": "诛仙",
+    "aliases": [
+      "Jade Dynasty",
+      "Zhu Xian",
+      "诛仙"
+    ],
+    "year": 2025,
+    "score": 72,
+    "status": "COMPLETED",
+    "airDay": "Thursday",
+    "quality": "4K / 1080p",
+    "episodes": 28,
+    "latestEp": 28,
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx122509-R5gZXpuCfntP.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/122509-YFBDqMAdyU6g.jpg",
+    "desc": "Zhang Xiaofan, who was orphaned overnight, was accepted as a disciple of the Qingyun Sect.\nAfter five years of hard cultivation, he excelled in the Seven Meridians Tournament of his discipline and was sent to Mount Kongsang to spy on the movements of the Demon Sect. During the jo",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "28": "xby8ecy"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162920568
+  },
+  {
+    "slug": "full-time-magister-s3",
+    "type": "donghua",
+    "title": "Full-Time Magister S3",
+    "nativeTitle": "全职法师 第3季",
+    "aliases": [
+      "Full-Time Magister S3",
+      "Quanzhi Fashi 3",
+      "全职法师 第3季"
+    ],
+    "year": 2025,
+    "score": 71,
+    "status": "COMPLETED",
+    "airDay": "Thursday",
+    "quality": "4K / 1080p",
+    "episodes": 12,
+    "latestEp": 10,
+    "genres": [
+      "action",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104745-nhUQ61TomI4D.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104745-nhUQ61TomI4D.jpg",
+    "desc": "After the crisis brought forth by the Black Order, Bo City's surviving residents desert the place. With nearby cities providing shelter to the displaced refugees, Mo Fan and his family accept the offer and travel to Mingzhu City, the capital of magic. Mo Fan has little time to se",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "10": "xby87ze"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162889389
+  },
+  {
+    "slug": "god-troubles-me",
+    "type": "donghua",
+    "title": "God Troubles Me",
+    "nativeTitle": "汉化日记",
+    "aliases": [
+      "God Troubles Me",
+      "Hanhua Riji",
+      "汉化日记"
+    ],
+    "year": 2025,
+    "score": 71,
+    "status": "COMPLETED",
+    "airDay": "Sunday",
+    "quality": "4K / 1080p",
+    "episodes": 12,
+    "latestEp": 4,
+    "genres": [
+      "comedy",
+      "slice of life",
+      "supernatural"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110646-xwYrUop0l3zX.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110646-xwYrUop0l3zX.jpg",
+    "desc": "In the 21st century, the rapid development of the human society has broken the equilibrium between the realms of human, immortal and monster. Su Moting is an ordinary working girl living in the human world. She is also the \"son of the immortal and the monster\". Driven away from h",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "4": "xby8sum",
+          "1": "xby8sc2",
+          "2": "xby8sca",
+          "3": "xby8sc6"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162917893
+  },
+  {
     "slug": "crayon-shinchan-the-movie-the-tornado-legend-of-ninja-mononoke",
     "type": "anime",
     "title": "Crayon Shinchan the Movie: The Tornado Legend of Ninja Mononoke",
@@ -460,11 +2238,282 @@
         "type": "dailymotion",
         "lang": "English Sub",
         "episodeMap": {
+          "10": "xby8d0i",
+          "1": "xby87l6"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162914959
+  },
+  {
+    "slug": "super-cube",
+    "type": "donghua",
+    "title": "Super Cube",
+    "nativeTitle": "超能立方",
+    "aliases": [
+      "Super Cube",
+      "Chao Neng Lifang",
+      "超能立方"
+    ],
+    "year": 2025,
+    "score": 70,
+    "status": "COMPLETED",
+    "airDay": "Thursday",
+    "quality": "4K / 1080p",
+    "episodes": 12,
+    "latestEp": 10,
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166442-JTkdzIQpgf8M.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166442-JTkdzIQpgf8M.jpg",
+    "desc": "In an accident, an ordinary boy, Wang Xiaoxiu, obtains a space system called \"Superpower Cube\" from a high-latitude cosmic civilization and gains extraordinary powers. When the school belle, Shen Yao, Wang Xiaoxiu’s longtime crush, confesses her love to him, the delinquent Sun Ju",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "10": "xby87ki"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162881057
+  },
+  {
+    "slug": "a-returner-s-magic-should-be-special",
+    "type": "anime",
+    "title": "A Returner's Magic Should Be Special",
+    "nativeTitle": "帰還者の魔法は特別です",
+    "aliases": [
+      "A Returner's Magic Should Be Special",
+      "Kikansha no Mahou wa Tokubetsu desu",
+      "帰還者の魔法は特別です"
+    ],
+    "year": 2023,
+    "score": 69,
+    "status": "COMPLETED",
+    "airDay": "Thursday",
+    "quality": "1080p",
+    "episodes": 12,
+    "latestEp": 10,
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163142-RjFeJrTnDA2B.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/163142-cQvp27aGlNVU.jpg",
+    "desc": "Another dimension that continues to taint our world, the Shadow World. Humanity is faced with the worst calamity, known as the Shadow Labyrinth. In spite of their desperate attacks, Desir Herrman and his friends lose their battle to the Destruction Dragon, Boromir Napolitan, and ",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "9": "xby8d7q",
+          "8": "xby8d5u",
+          "7": "xby8d2m",
           "10": "xby8d0i"
         }
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795159262360
+    "updatedAt": 1795162829213
+  },
+  {
+    "slug": "yong-sheng-3",
+    "type": "donghua",
+    "title": "Yong Sheng 3",
+    "nativeTitle": "永生 第三季",
+    "aliases": [
+      "Yong Sheng 3",
+      "永生 第三季"
+    ],
+    "year": 2025,
+    "score": 68,
+    "status": "COMPLETED",
+    "airDay": "Sunday",
+    "quality": "4K / 1080p",
+    "episodes": 16,
+    "latestEp": 1,
+    "genres": [
+      "action",
+      "drama",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b177494-orscNxluucLZ.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b177494-orscNxluucLZ.jpg",
+    "desc": "",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "1": "xbve97i"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162932073
+  },
+  {
+    "slug": "above-myriads",
+    "type": "donghua",
+    "title": "Above Myriads",
+    "nativeTitle": "万人之上",
+    "aliases": [
+      "Above Myriads",
+      "Wan Ren Zhi Shang",
+      "万人之上"
+    ],
+    "year": 2025,
+    "score": 65,
+    "status": "COMPLETED",
+    "airDay": "Monday",
+    "quality": "4K / 1080p",
+    "episodes": 14,
+    "latestEp": 4,
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b199418-oytuze09vjaw.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b199418-oytuze09vjaw.jpg",
+    "desc": "Yi Feng traveled to the Xianjiang Continent. Since he was born without spiritual roots, he could only survive by relying on the \"essential life skills\" given by the system. Little did he know that in the eyes of those practitioners, his strength was already at the god level, and ",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "4": "xby8sum",
+          "1": "xby8sc2",
+          "2": "xby8sca",
+          "3": "xby8sc6"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162919257
+  },
+  {
+    "slug": "xianwu-zhuan-3",
+    "type": "donghua",
+    "title": "Xianwu Zhuan 3",
+    "nativeTitle": "仙武传 第三季",
+    "aliases": [
+      "Xianwu Zhuan 3",
+      "仙武传 第三季"
+    ],
+    "year": 2025,
+    "score": 64,
+    "status": "COMPLETED",
+    "airDay": "Tuesday",
+    "quality": "4K / 1080p",
+    "episodes": 200,
+    "latestEp": 200,
+    "genres": [],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183157-6vH8S5ntE358.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183157-6vH8S5ntE358.jpg",
+    "desc": "",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "200": "xby8t5y"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162937138
+  },
+  {
+    "slug": "dubu-wangu-2nd-season",
+    "type": "donghua",
+    "title": "Dubu Wangu 2nd Season",
+    "nativeTitle": "独步万古 第二季",
+    "aliases": [
+      "Dubu Wangu 2nd Season",
+      "独步万古 第二季"
+    ],
+    "year": 2025,
+    "score": 61,
+    "status": "COMPLETED",
+    "airDay": "Thursday",
+    "quality": "4K / 1080p",
+    "episodes": 109,
+    "latestEp": 109,
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b175034-ri6mW7c93Z4R.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b175034-ri6mW7c93Z4R.jpg",
+    "desc": "",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "25": "xbxwiei",
+          "60": "xbxw4wa",
+          "109": "xbxw3za",
+          "36": "xbxw3tm",
+          "69": "xbxvwvu"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162934497
+  },
+  {
+    "slug": "balala-xiao-moxian-caihong-xin-shi",
+    "type": "donghua",
+    "title": "Balala Xiao Moxian: Caihong Xin Shi",
+    "nativeTitle": "巴啦啦小魔仙之彩虹心石",
+    "aliases": [
+      "Balala Xiao Moxian: Caihong Xin Shi",
+      "巴啦啦小魔仙之彩虹心石"
+    ],
+    "year": 2025,
+    "score": 53,
+    "status": "COMPLETED",
+    "airDay": "Wednesday",
+    "quality": "4K / 1080p",
+    "episodes": 36,
+    "latestEp": 18,
+    "genres": [
+      "comedy",
+      "mahou shoujo"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/99712-gqve6o3B1qC9.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/99712-gqve6o3B1qC9.jpg",
+    "desc": "After the fairies defeated Gunala, the Evil Goddess, another crisis hit the Fairy Castle!! The magical energy of the world has been devoured by the evil wizards. The Rainbow Flower, the source of the magic power, is soon to wither, and this will destroy the world of Fairy Castle.",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "1": "x9lfzzy",
+          "10": "x9ju746",
+          "9": "x9ju2tu",
+          "18": "x3hce2i"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795162929295
   }
 ]
