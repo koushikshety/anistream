@@ -1,39 +1,16 @@
-name: Auto Sync Anime & Donghua Catalog
-
-on:
-  schedule:
-    - cron: "*/30 * * * *"
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
-jobs:
-  sync:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Install dependencies
-        run: pip install isodate requests
-
-      - name: Run YouTube & Watch-Link Sync (Every 30 mins)
+- name: Run Catalog, YouTube & Watch-Link Sync
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
-          python sync_youtube.py
-          python sync_watch_links.py
+          python3 scripts/auto_sync.py
+          python3 sync_youtube.py
+          python3 sync_watch_links.py
+          python3 merge_catalog.py
 
-      - name: Commit and push updated JSON files
+      - name: Commit and Push Updated Catalog
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add episodes.json review_queue.json watch_links.json
-          git diff --cached --quiet || git commit -m "Auto-sync catalog ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+          git add data/catalog.json episodes.json review_queue.json watch_links.json
+          git diff --staged --quiet || git commit -m "Auto-sync catalog ($(date -u +'%Y-%m-%d %H:%M UTC'))"
           git push
