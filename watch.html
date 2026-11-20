@@ -436,8 +436,8 @@
       const hasMap = map && Object.keys(map).length > 0;
       let html = "";
       for (let i = start; i <= end; i++) {
-        const vip = hasMap && !map[String(i)] ? 'style="opacity:0.4;"' : '';
-        html += `<button class="ep-btn ${isD ? "donghua-ep" : ""} ${i === currentEp ? "active" : ""}" ${vip} onclick="playEpisode(${i})">${i}</button>`;
+        if (hasMap && !map[String(i)]) continue;
+        html += `<button class="ep-btn ${isD ? "donghua-ep" : ""} ${i === currentEp ? "active" : ""}" onclick="playEpisode(${i})">${i}</button>`;
       }
       grid.innerHTML = html;
     }
