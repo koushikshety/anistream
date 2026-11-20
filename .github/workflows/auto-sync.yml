@@ -1,4 +1,29 @@
-- name: Run Catalog, YouTube & Watch-Link Sync
+name: Auto-Sync Anime & Donghua Catalog (Every 30 Mins)
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install isodate requests
+
+      - name: Run Catalog, YouTube & Watch-Link Sync
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
