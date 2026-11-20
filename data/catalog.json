@@ -14,7 +14,7 @@
     "airDay": "Saturday",
     "quality": "4K / 1080p",
     "episodes": 52,
-    "latestEp": 16,
+    "latestEp": 24,
     "genres": [
       "action",
       "adventure",
@@ -31,12 +31,13 @@
         "episodeMap": {
           "16": "xbajk52",
           "5": "xau4zl2",
-          "7": "xaq56ge"
+          "7": "xaq56ge",
+          "24": "xbxipq6"
         }
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795163964398
+    "updatedAt": 1795168346145
   },
   {
     "slug": "nia-liston-the-merciless-maiden",
@@ -68,12 +69,90 @@
         "type": "dailymotion",
         "lang": "English Sub",
         "episodeMap": {
-          "3": "xbpx1vy"
+          "3": "xbpx1vy",
+          "2": "xbr9knq"
         }
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795163783078
+    "updatedAt": 1795168293143
+  },
+  {
+    "slug": "the-laid-off-cheat-granting-mage-enjoys-a-second-lease-on-life",
+    "type": "anime",
+    "title": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
+    "nativeTitle": "追放されたチート付与魔術師は気ままなセカンドライフを謳歌する。　～俺は武器だけじゃなく、あらゆるものに『強化ポイント』を付与できるし、俺の意思でいつでも効果を解除できるけど、残った人たち大丈夫？～",
+    "aliases": [
+      "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
+      "Tsuihou Sareta Cheat Fuyo Majutsushi wa Kimama na Second Life wo Ouka Suru.: Ore wa Buki dake ja Naku, Arayuru Mono ni \"Kyouka Point\" wo Fuyo Dekiru shi, Ore no Ishi de Itsudemo Kouka wo Kaijo Dekiru kedo, Nokotta Hitotachi Daijoubu?",
+      "追放されたチート付与魔術師は気ままなセカンドライフを謳歌する。　～俺は武器だけじゃなく、あらゆるものに『強化ポイント』を付与できるし、俺の意思でいつでも効果を解除できるけど、残った人たち大丈夫？～"
+    ],
+    "year": 2026,
+    "score": 74,
+    "status": "ONGOING",
+    "airDay": "Tuesday",
+    "quality": "1080p",
+    "episodes": 12,
+    "latestEp": 3,
+    "genres": [
+      "adventure",
+      "comedy",
+      "fantasy",
+      "slice of life"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b207329-6VPeZIDfF4Sr.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/207329-9IqRSKIsM3TC.jpg",
+    "desc": "Rein, an enchanter, is suddenly expelled from his guild one day. But instead of despairing, he declares, “Now I can do anything!” and begins reclaiming the massive number of enhancement points he once poured into his guildmates’ gear, setting off on a brand-new path as an adventu",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "3": "xbrqz3m",
+          "2": "xbrqyvm"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795168289040
+  },
+  {
+    "slug": "hello-i-am-a-witch-and-my-crush-wants-me-to-make-a-love-potion",
+    "type": "anime",
+    "title": "Hello, I am a Witch and my Crush Wants me to Make a Love Potion!",
+    "nativeTitle": "どうも、好きな人に惚れ薬を依頼された魔女です。",
+    "aliases": [
+      "Hello, I am a Witch and my Crush Wants me to Make a Love Potion!",
+      "Doumo, Suki na Hito ni Horegusuri wo Irai Sareta Majo desu.",
+      "どうも、好きな人に惚れ薬を依頼された魔女です。"
+    ],
+    "year": 2026,
+    "score": 74,
+    "status": "ONGOING",
+    "airDay": "Monday",
+    "quality": "1080p",
+    "episodes": 12,
+    "latestEp": 3,
+    "genres": [
+      "fantasy",
+      "romance"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207191-VgkIzfH92WoZ.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/207191-xYgpkCDnXc5m.jpg",
+    "desc": "“Make me a love potion.”\n\nAnd with that single sentence, the Good Witch of the Lake’s secret crush on the dashing Sir Harij ends in heartbreak. Still, when he promises to help her gather the ingredients, Rose is thrilled at the chance to gaze upon a man she’d normally never get t",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "3": "xbq68nu"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795168314342
   },
   {
     "slug": "the-exiled-heavy-knight-knows-how-to-game-the-system",
@@ -111,6 +190,45 @@
     ],
     "officialLinks": [],
     "updatedAt": 1795163760389
+  },
+  {
+    "slug": "re-zero-starting-life-in-another-world-season-4",
+    "type": "anime",
+    "title": "Re:ZERO -Starting Life in Another World- Season 4",
+    "nativeTitle": "Re:ゼロから始める異世界生活 4th season",
+    "aliases": [
+      "Re:ZERO -Starting Life in Another World- Season 4",
+      "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season",
+      "Re:ゼロから始める異世界生活 4th season"
+    ],
+    "year": 2026,
+    "score": 90,
+    "status": "COMPLETED",
+    "airDay": "Sunday",
+    "quality": "1080p",
+    "episodes": 19,
+    "latestEp": 19,
+    "genres": [
+      "action",
+      "adventure",
+      "drama",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189046-yaHWtS5FII46.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/189046-MDk2CaVuRWpb.jpg",
+    "desc": "In the deadly battle at Priestella, Subaru and his allies emerged victorious, but at great cost. As Subaru searches for a way to save Rem, Crusch, and Julius, he learns of a \"wise woman,\" Shaula, an all-seeing being said to possess every form of knowledge, who resides at the Plei",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "19": "xbr2qxu"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795168317189
   },
   {
     "slug": "di-ling-qu",
