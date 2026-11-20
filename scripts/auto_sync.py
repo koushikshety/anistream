@@ -160,8 +160,19 @@ def main():
                 if (v.get("duration") or 0) < 720:
                     continue
                 v_title = v.get("title", "")
-                words = [w for w in re.findall(r"[a-z0-9]+", obj["title"].lower()) if len(w) >= 3]
-                if not words or sum(1 for w in words[:3] if w in v_title.lower()) < min(2, len(words)):
+                vt_low = v_title.lower()
+                matched_alias = False
+                for alias in (obj.get("aliases") or [obj["title"]]):
+                    if not alias:
+                        continue
+                    if alias.lower() in vt_low:
+                        matched_alias = True
+                        break
+                    words = [w for w in re.findall(r"[a-z0-9]+", alias.lower()) if len(w) >= 3]
+                    if words and sum(1 for w in words[:3] if w in vt_low) >= min(2, len(words)):
+                        matched_alias = True
+                        break
+                if not matched_alias:
                     continue
                 _, ep = extract_ep_and_title(v_title)
                 if ep:
