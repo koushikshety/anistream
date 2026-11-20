@@ -13,7 +13,7 @@ YT_CHANNELS = [
 ]
 
 DAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-BAD_WORDS = re.compile(r"\b(pv|trailer|teaser|preview|op|ed|clip|short|reaction|review|amv|ost|预告)\b", re.I)
+BAD_WORDS = re.compile(r"\b(pv|trailer|teaser|preview|op|ed|clip|short|reaction|review|amv|ost|预告|drama|cdrama|kdrama|asian movies|live action|movie)\b", re.I)
 EP_PATTERNS = [
     re.compile(r"(?:episode|ep\.?|#)\s*0*(\d{1,4})\b", re.I),
     re.compile(r"第\s*0*(\d{1,4})\s*[集话話]"),
@@ -159,7 +159,11 @@ def main():
             for v in data.get("list", []):
                 if (v.get("duration") or 0) < 720:
                     continue
-                _, ep = extract_ep_and_title(v.get("title", ""))
+                v_title = v.get("title", "")
+                words = [w for w in re.findall(r"[a-z0-9]+", obj["title"].lower()) if len(w) >= 3]
+                if not words or sum(1 for w in words[:3] if w in v_title.lower()) < min(2, len(words)):
+                    continue
+                _, ep = extract_ep_and_title(v_title)
                 if ep:
                     if obj["slug"] not in catalog_map:
                         catalog_map[obj["slug"]] = obj
