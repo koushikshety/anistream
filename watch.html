@@ -651,10 +651,75 @@
       loadEpisodeSocial();
     }
 
-    fetch("data/catalog.json").then(r => r.json()).then(list => {
-      const playable = list.filter(x => ((x.servers || []).length > 0 || (x.officialLinks || []).length > 0));
-      const found = slug ? playable.find(x => x.slug === slug) : playable[0];
+    fetch("data/catalog.json?v=" + Math.floor(Date.now() / 60000)).then(r => r.json()).then(async list => {
+      const params = new URLSearchParams(location.search);
+      const anilistId = params.get("anilistId");
+      const paramTitle = params.get("title");
+      const paramType = params.get("type") || "anime";
+
+      let found = slug ? list.find(x => x.slug === slug) : (!anilistId && !paramTitle ? list[0] : null);
+
+      // On-Demand Global AniList Lookup if not in local catalog.json
+      if (!found && (anilistId || paramTitle)) {
+        try {
+          const gql = anilistId
+            ? `query ($id: Int) { Media(id: $id, type: ANIME) { id title { english romaji native } coverImage { extraLarge large } seasonYear averageScore episodes description(asHtml: false) status relations { edges { relationType node { id title { english romaji } type format } } } } }`
+            : `query ($s: String) { Media(search: $s, type: ANIME) { id title { english romaji native } coverImage { extraLarge large } seasonYear averageScore episodes description(asHtml: false) status relations { edges { relationType node { id title { english romaji } type format } } } } }`;
+          const vars = anilistId ? { id: Number(anilistId) } : { s: paramTitle };
+          const aRes = await fetch("https://graphql.anilist.co", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ query: gql, variables: vars })
+          });
+          if (aRes.ok) {
+            const m = (await aRes.json())?.data?.Media;
+            if (m) {
+              const dispTitle = m.title?.english || m.title?.romaji || paramTitle || "Unknown Title";
+              found = {
+                slug: "anilist-" + m.id,
+                anilistId: m.id,
+                type: paramType,
+                title: dispTitle,
+                nativeTitle: m.title?.native || "",
+                cover: m.coverImage?.extraLarge || m.coverImage?.large || "",
+                year: m.seasonYear || 2025,
+                score: m.averageScore || 80,
+                episodes: m.episodes || 12,
+                quality: "HD",
+                desc: (m.description || "Streaming globally on AniStream.").replace(/<[^>]+>/g, ""),
+                servers: [],
+                officialLinks: [],
+                _anilistRelations: (m.relations?.edges || [])
+                  .filter(e => ["PREQUEL", "SEQUEL"].includes(e.relationType) && e.node?.type === "ANIME")
+                  .map(e => ({ id: e.node.id, title: e.node.title?.english || e.node.title?.romaji, rel: e.relationType }))
+              };
+            }
+          }
+        } catch (e) { console.warn("Global AniList load failed:", e); }
+      }
+
       if (!found) { location.replace("index.html"); return; }
+
+      // Render Global AniList Seasons bar if prequel/sequel seasons exist
+      if (found._anilistRelations && found._anilistRelations.length && !document.getElementById("seasons-bar")) {
+        setTimeout(() => {
+          const epRange = document.getElementById("ep-range");
+          const anchor = epRange ? epRange.closest("section, .card, .panel, div") : null;
+          if (anchor && anchor.parentNode && !document.getElementById("seasons-bar")) {
+            const bar = document.createElement("div");
+            bar.id = "seasons-bar";
+            bar.style.cssText = "display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:10px 0;";
+            const allSeasons = [
+              ...found._anilistRelations.filter(r => r.rel === "PREQUEL"),
+              { id: found.anilistId, title: found.title, current: true },
+              ...found._anilistRelations.filter(r => r.rel === "SEQUEL")
+            ];
+            bar.innerHTML = `<span style="font-size:0.8rem;font-weight:700;color:#94a3b8;text-transform:uppercase;">Seasons:</span>` +
+              allSeasons.map(s => `<a href="watch.html?anilistId=${s.id}&title=${encodeURIComponent(s.title)}&type=${found.type}" class="pill ${s.current ? "active" : ""}" style="text-decoration:none;">${s.title}</a>`).join("");
+            anchor.parentNode.insertBefore(bar, anchor);
+          }
+        }, 300);
+      }
       currentShow = found;
       document.getElementById("show-cover").src = currentShow.cover;
       document.getElementById("show-title").textContent = `${currentShow.title} (${currentShow.year})`;
