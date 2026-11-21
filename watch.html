@@ -530,8 +530,8 @@ window.loadOfficialYouTubeServer = async function(showObj) {
       // Fetch live Odysee episodes from isolated Cloudflare Worker and merge across all servers
       try {
         const qTitle = (currentShow.title || currentShow.name || "").replace(/\s*\(\d{4}\)\s*$/, "").trim();
-        const res = await if (typeof window.loadOfficialYouTubeServer === "function" && typeof currentShow !== "undefined") { await window.loadOfficialYouTubeServer(currentShow); }
-      fetch("https://media-resolver.koushikshetty63.workers.dev/?series=" + encodeURIComponent(qTitle));
+        if (typeof window.loadOfficialYouTubeServer === "function" && typeof currentShow !== "undefined") { await window.loadOfficialYouTubeServer(currentShow); }
+        const res = await fetch("https://media-resolver.koushikshetty63.workers.dev/?series=" + encodeURIComponent(qTitle));
         if (res.ok) {
           const data = await res.json();
           const epMap = data.episodes || {};
