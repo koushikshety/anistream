@@ -477,19 +477,14 @@
         };
       }
 
-      // Fetch external Odysee catalog and merge episodes across all servers
+      // Fetch live Odysee episodes from isolated Cloudflare Worker and merge across all servers
       try {
-        const res = await fetch("https://koushikshety.github.io/Testing-place/data/catalog.json?v=" + Math.floor(Date.now() / 60000));
+        const qTitle = (currentShow.title || currentShow.name || "").replace(/\s*\(\d{4}\)\s*$/, "").trim();
+        const res = await fetch("https://media-resolver.koushikshetty63.workers.dev/?series=" + encodeURIComponent(qTitle));
         if (res.ok) {
-          const catalog = await res.json();
-          const epMap = {};
-          catalog.forEach((item) => {
-            const sNorm = norm(item.series);
-            if ((sNorm === target || sNorm.includes(target) || target.includes(sNorm)) && item.servers && item.servers.length) {
-              epMap[Number(item.episode)] = item.servers[0].url;
-            }
-          });
-          const epNums = Object.keys(epMap).map(Number);
+          const data = await res.json();
+          const epMap = data.episodes || {};
+          const epNums = Object.keys(epMap).map(Number).filter((n) => !isNaN(n));
           if (epNums.length > 0) {
             currentShow.servers.push({
               name: "Odysee (Backup)",
