@@ -142,15 +142,6 @@
     .ad-zone { overflow: hidden !important; }
     
   </style>
-<script>
-window.addEventListener("error", function(e) {
-  const img = e.target;
-  if (img && img.tagName === "IMG" && img.src && !img.dataset.proxied && !img.src.includes("wsrv.nl")) {
-    img.dataset.proxied = "1";
-    img.src = "https://wsrv.nl/?url=" + encodeURIComponent(img.src) + "&w=400&output=webp";
-  }
-}, true);
-</script>
 </head>
 <body>
   <header class="navbar">

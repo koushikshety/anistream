@@ -164,15 +164,6 @@
   </style>
   <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#080a0f" />
-<script>
-window.addEventListener("error", function(e) {
-  const img = e.target;
-  if (img && img.tagName === "IMG" && img.src && !img.dataset.proxied && !img.src.includes("wsrv.nl")) {
-    img.dataset.proxied = "1";
-    img.src = "https://wsrv.nl/?url=" + encodeURIComponent(img.src) + "&w=400&output=webp";
-  }
-}, true);
-</script>
 </head>
 <body>
   <div id="site-notice" style="display:none;background:linear-gradient(90deg,var(--primary),#f59e0b);color:#fff;text-align:center;padding:8px 14px;font-size:0.82rem;font-weight:700;"></div>
@@ -660,8 +651,16 @@ fetch("data/catalog.json?v=" + Math.floor(Date.now() / 60000)).then(r => r.json(
     searchInput.addEventListener("input", () => {
       clearTimeout(_globalSearchTimer);
       const q = searchInput.value.trim();
-      if (q.length >= 2) {
-        _globalSearchTimer = setTimeout(() => runGlobalAniListSearch(q, ACTIVE_REGION), 450);
+      if (q.length >= 1) {
+        const _saved = CATALOG;
+        CATALOG = ALL_CATALOG;
+        renderGrid(smartSearch(q));
+        CATALOG = _saved;
+        if (q.length >= 2) {
+          _globalSearchTimer = setTimeout(() => runGlobalAniListSearch(q, ACTIVE_REGION), 400);
+        }
+      } else {
+        renderRegionView(ACTIVE_REGION);
       }
     });
   }
