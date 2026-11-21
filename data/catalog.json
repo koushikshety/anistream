@@ -32,7 +32,7 @@
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": false,
     "lastEpisodeAt": 0
   },
@@ -125,7 +125,7 @@
         "url": "https://www.amazon.com/Fairy-Tail-Season-1/dp/B0CHBPDKHT"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": false,
     "lastEpisodeAt": 0
   },
@@ -164,7 +164,7 @@
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": false,
     "lastEpisodeAt": 0
   },
@@ -201,7 +201,7 @@
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": false,
     "lastEpisodeAt": 0
   },
@@ -239,7 +239,7 @@
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": false,
     "lastEpisodeAt": 0
   },
@@ -284,7 +284,7 @@
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": false,
     "lastEpisodeAt": 0
   },
@@ -371,7 +371,7 @@
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": false,
     "lastEpisodeAt": 0
   },
@@ -419,7 +419,7 @@
         "url": "https://www.crunchyroll.com/series/GKEH2G0MN/renegade-immortal"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": false,
     "lastEpisodeAt": 0
   },
@@ -476,7 +476,7 @@
         "url": "https://www.netflix.com/title/70299043"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": false,
     "lastEpisodeAt": 0
   },
@@ -603,7 +603,7 @@
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": false,
     "lastEpisodeAt": 0
   },
@@ -896,6 +896,46 @@
     "lastEpisodeAt": 0
   },
   {
+    "slug": "the-seven-knights-of-the-marronnier-kingdom",
+    "type": "anime",
+    "title": "The Seven Knights of the Marronnier Kingdom",
+    "nativeTitle": "マロニエ王国の七人の騎士",
+    "aliases": [
+      "The Seven Knights of the Marronnier Kingdom",
+      "Marronnier Oukoku no Shichinin no Kishi",
+      "マロニエ王国の七人の騎士"
+    ],
+    "year": 2026,
+    "score": 69,
+    "status": "ONGOING",
+    "airDay": "Saturday",
+    "quality": "1080p",
+    "episodes": 20,
+    "latestEp": 8,
+    "genres": [
+      "drama",
+      "fantasy",
+      "romance"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212799-n7WDdic7IL1z.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212799-n7WDdic7IL1z.png",
+    "desc": "At the heart of a continent of eight kingdoms lies the Marronnier Kingdom. Its general, Baribara, has seven sons, each with a unique gift and serving as a knight commander. Bound by a single noble cause of heroically rescuing a princess someday, the brothers set out as goodwill a",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "8": "xbyp32u"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795289247401,
+    "upcoming": false,
+    "lastEpisodeAt": 0
+  },
+  {
     "slug": "the-exiled-heavy-knight-knows-how-to-game-the-system",
     "type": "anime",
     "title": "The Exiled Heavy Knight Knows How to Game the System",
@@ -1009,7 +1049,7 @@
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": false,
     "lastEpisodeAt": 0
   },
@@ -1069,6 +1109,166 @@
     ],
     "officialLinks": [],
     "updatedAt": 1795276244357,
+    "upcoming": false,
+    "lastEpisodeAt": 0
+  },
+  {
+    "slug": "magic-repo-man-dumped-by-my-party-i-ll-cash-in-with-a-cute-support-fairy-to-become-the-strongest",
+    "type": "anime",
+    "title": "Magic Repo Man: Dumped by My Party, I’ll Cash In With a Cute Support Fairy to Become the Strongest!",
+    "nativeTitle": "貸した魔力は【リボ払い】で強制徴収",
+    "aliases": [
+      "Magic Repo Man: Dumped by My Party, I’ll Cash In With a Cute Support Fairy to Become the Strongest!",
+      "Kashita Maryoku wa [Revo Barai] de Kyousei Choushuu",
+      "貸した魔力は【リボ払い】で強制徴収"
+    ],
+    "year": 2026,
+    "score": 62,
+    "status": "ONGOING",
+    "airDay": "Saturday",
+    "quality": "1080p",
+    "episodes": 12,
+    "latestEp": 8,
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202250-mpm2cvr92Au2.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202250-mpm2cvr92Au2.jpg",
+    "desc": "If there's one thing you can never have enough of in a world of RPG-style swords and sorcery, it's magic points! Whether you're fueling spells, techniques, or showing off an incredible ability, you've gotta spend those points to do real damage. But what if you run out?\n\nLent is p",
+    "servers": [
+      {
+        "name": "Muse Asia",
+        "type": "youtube",
+        "lang": "English Sub",
+        "episodeMap": {
+          "8": "xzOMsGJayDM"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795289224986,
+    "upcoming": false,
+    "lastEpisodeAt": 0
+  },
+  {
+    "slug": "i-m-looking-for-a-zombie",
+    "type": "anime",
+    "title": "#I'm Looking For a Zombie",
+    "nativeTitle": "#ゾンビさがしてます",
+    "aliases": [
+      "#I'm Looking For a Zombie",
+      "#Zombie Sagashitemasu",
+      "#ゾンビさがしてます"
+    ],
+    "year": 2026,
+    "score": 58,
+    "status": "ONGOING",
+    "airDay": "Saturday",
+    "quality": "1080p",
+    "episodes": 12,
+    "latestEp": 7,
+    "genres": [
+      "action",
+      "comedy",
+      "horror",
+      "mystery"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199007-8R1HsnflnHJE.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199007-8R1HsnflnHJE.jpg",
+    "desc": "It may be a ruined city ravaged by zombies, but to Aki and her friends, it’s amazing! Having grown up only hearing stories of the old world and the mysterious outbreak that wiped out humanity, she sets off with her childhood friends in search of her missing father. Things quickly",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "7": "xbyoky6"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795289236069,
+    "upcoming": false,
+    "lastEpisodeAt": 0
+  },
+  {
+    "slug": "vertex-force",
+    "type": "anime",
+    "title": "VERTEX FORCE",
+    "nativeTitle": "バーテックスフォース",
+    "aliases": [
+      "VERTEX FORCE",
+      "Vertex Force",
+      "バーテックスフォース"
+    ],
+    "year": 2026,
+    "score": 55,
+    "status": "ONGOING",
+    "airDay": "Saturday",
+    "quality": "1080p",
+    "episodes": 24,
+    "latestEp": 8,
+    "genres": [
+      "action",
+      "mecha"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209562-kQQbTKDuql9p.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/209562-dvyIvOOVgDNp.jpg",
+    "desc": "Akira lives a peaceful life with his older sister Haruka and his mother, who runs a cafe. The family however harbors a secret — Haruka has inherited a power from her father called \"Engine,\" and she hides that power from others. Akira on the other hand has not inherited his father",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "8": "xbyonv6"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795289248103,
+    "upcoming": false,
+    "lastEpisodeAt": 0
+  },
+  {
+    "slug": "horror-collector",
+    "type": "anime",
+    "title": "HORROR COLLECTOR",
+    "nativeTitle": "恐怖コレクター",
+    "aliases": [
+      "HORROR COLLECTOR",
+      "Kyoufu Collector",
+      "恐怖コレクター"
+    ],
+    "year": 2026,
+    "score": 51,
+    "status": "ONGOING",
+    "airDay": "Saturday",
+    "quality": "1080p",
+    "episodes": 12,
+    "latestEp": 7,
+    "genres": [
+      "horror",
+      "mystery",
+      "supernatural"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b203473-pzyaqV432Qko.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/203473-KCGlCZL2ApjB.jpg",
+    "desc": "Urban legends come to life…Everyone’s heard an urban legend before, but few have ever come face-to-face with one. These phenomena are everywhere, existing in the shadows of reality. More and more of them have been appearing in the wake of the faceless kid sighted all over Japan. ",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "7": "xbyp32y"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795289244182,
     "upcoming": false,
     "lastEpisodeAt": 0
   },
@@ -1192,39 +1392,48 @@
     "lastEpisodeAt": 0
   },
   {
-    "slug": "dou-po-cangqiong-nian-fan",
+    "slug": "scissor-seven-season-5",
     "type": "donghua",
-    "title": "Dou Po Cangqiong: Nian Fan",
-    "nativeTitle": "斗破苍穹 年番",
+    "title": "Scissor Seven Season 5",
+    "nativeTitle": "伍六七之记忆碎片",
     "aliases": [
-      "Dou Po Cangqiong: Nian Fan",
-      "斗破苍穹 年番"
+      "Scissor Seven Season 5",
+      "Wu Liuqi: Jiyi Suipian",
+      "伍六七之记忆碎片"
     ],
     "year": 2025,
     "score": 83,
     "status": "COMPLETED",
     "airDay": "Friday",
     "quality": "4K / 1080p",
-    "episodes": 24,
-    "latestEp": 24,
+    "episodes": 10,
+    "latestEp": 8,
     "genres": [
       "action",
-      "adventure",
-      "fantasy"
+      "comedy",
+      "drama",
+      "mystery"
     ],
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137728-13R2XCiI9oc8.png",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137728-13R2XCiI9oc8.png",
-    "desc": "The fifth season of Dou Po Cangqiong.",
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182445-pHkLtguNcxWC.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182445-pHkLtguNcxWC.png",
+    "desc": "In order to find his cherished partner, Seven returns to Xuanwu Country and faces those forgotten fragments of memory. The dusty truth brings pain and anger, but now he is no longer alone. What is the purpose of having power? This time, Seven has to make a new choice for his life",
     "servers": [
       {
         "name": "Dailymotion HD",
         "type": "dailymotion",
         "lang": "English Sub",
-        "episodeMap": {}
+        "episodeMap": {
+          "8": "xbyp32u"
+        }
       }
     ],
-    "officialLinks": [],
-    "updatedAt": 1795276262709,
+    "officialLinks": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81156880"
+      }
+    ],
+    "updatedAt": 1795289307,
     "upcoming": false,
     "lastEpisodeAt": 0
   },
@@ -1399,6 +1608,43 @@
     ],
     "officialLinks": [],
     "updatedAt": 1795276195769,
+    "upcoming": false,
+    "lastEpisodeAt": 0
+  },
+  {
+    "slug": "dou-po-cangqiong-nian-fan-4",
+    "type": "donghua",
+    "title": "Dou Po Cangqiong: Nian Fan 4",
+    "nativeTitle": "斗破苍穹 年番4",
+    "aliases": [
+      "Dou Po Cangqiong: Nian Fan 4",
+      "斗破苍穹 年番4"
+    ],
+    "year": 2025,
+    "score": 77,
+    "status": "COMPLETED",
+    "airDay": "Friday",
+    "quality": "4K / 1080p",
+    "episodes": 24,
+    "latestEp": 24,
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196613-20kz65bVsHl7.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196613-20kz65bVsHl7.jpg",
+    "desc": "The eighth season of Dou Po Cangqiong.\nNote: Episodes 158 to 219.",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {}
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795289274804,
     "upcoming": false,
     "lastEpisodeAt": 0
   },
@@ -1580,7 +1826,7 @@
         "url": "http://www.crunchyroll.com/spiritpact"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": false,
     "lastEpisodeAt": 0
   },
@@ -1630,7 +1876,7 @@
         "url": "https://www.crunchyroll.com/series/G63VMXEQY/hitori-no-shita---the-outcast"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": false,
     "lastEpisodeAt": 0
   },
@@ -1777,7 +2023,7 @@
         "url": "https://www.youtube.com/@onepieceofficial"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -1826,63 +2072,7 @@
         "url": "https://www.netflix.com/title/70204981"
       }
     ],
-    "updatedAt": 1795276287,
-    "upcoming": true,
-    "lastEpisodeAt": 0
-  },
-  {
-    "slug": "frieren-beyond-journey-s-end",
-    "type": "anime",
-    "title": "Frieren: Beyond Journey’s End",
-    "nativeTitle": "葬送のフリーレン",
-    "aliases": [
-      "Frieren: Beyond Journey’s End",
-      "Sousou no Frieren",
-      "葬送のフリーレン"
-    ],
-    "year": 2023,
-    "score": 90,
-    "status": "COMPLETED",
-    "airDay": "Monday",
-    "quality": "1080p",
-    "episodes": 28,
-    "latestEp": 1,
-    "genres": [
-      "adventure",
-      "drama",
-      "fantasy"
-    ],
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154587-qQTzQnEJJ3oB.jpg",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/154587-ivXNJ23SM1xB.jpg",
-    "desc": "The adventure is over but life goes on for an elf mage just beginning to learn what living is all about. Elf mage Frieren and her courageous fellow adventurers have defeated the Demon King and brought peace to the land. But Frieren will long outlive the rest of her former party. ",
-    "servers": [],
-    "officialLinks": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GG5H5XQX4/frieren-beyond-journeys-end"
-      },
-      {
-        "site": "Bilibili TV",
-        "url": "https://www.bilibili.tv/en/media/2090295"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl10YPPR7qDsVf10wZfYnIMK"
-      },
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/81726714"
-      },
-      {
-        "site": "Hulu",
-        "url": "https://www.hulu.com/series/frieren-beyond-journeys-end-1d4725f8-06d1-43fb-a077-72143ac5502f"
-      },
-      {
-        "site": "Amazon Prime Video",
-        "url": "https://www.primevideo.com/detail/0FCJEHY4FXTDVCLZ5NR9A0N42N"
-      }
-    ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -1941,7 +2131,7 @@
         "url": "https://www.amazon.com/Hunter-Japanese-English-Subs/dp/B0B5X87G1P"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -1985,7 +2175,7 @@
         "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JhUQ-NvGTp34p7vqZarUZ7Y"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -2030,7 +2220,7 @@
         "url": "https://www.bilibili.tv/media/2411030"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -2083,48 +2273,52 @@
         "url": "https://www.primevideo.com/detail/0JQ7WFWMSABUKDJLEH08LTVTKZ"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
   {
-    "slug": "lord-of-mysteries-specials",
+    "slug": "link-click-season-2",
     "type": "donghua",
-    "title": "Lord of Mysteries Specials",
-    "nativeTitle": "诡秘之主 特别篇",
+    "title": "Link Click Season 2",
+    "nativeTitle": "时光代理人 第二季",
     "aliases": [
-      "Lord of Mysteries Specials",
-      "Guimi Zhi Zhu Specials",
-      "诡秘之主 特别篇"
+      "Link Click Season 2",
+      "Shiguang Dailiren II",
+      "时光代理人 第二季"
     ],
     "year": 2025,
     "score": 86,
     "status": "COMPLETED",
-    "airDay": "Wednesday",
+    "airDay": "Tuesday",
     "quality": "4K / 1080p",
-    "episodes": 3,
+    "episodes": 12,
     "latestEp": 1,
     "genres": [
-      "action",
       "drama",
-      "fantasy",
-      "mystery"
+      "mystery",
+      "supernatural",
+      "thriller"
     ],
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199448-BuqzEdkuPSEm.png",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/199448-zsxviDrHK1M6.jpg",
-    "desc": "Special episodes of Lord of Mysteries, taking place in season 1. Covering important scenes skipped after the end credits in Episode 10, as included:\n\nCity of Silver (Episode 1): Above the undying gray fog, Klein Moretti, the enigmatic The Fool, presided over the Tarot Club when a",
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136484-QiHcF64PVWQi.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/136484-LuB1Iz3U2rx5.jpg",
+    "desc": "Cheng Xiaoshi by chance meets Lu Guang, a person possessing super powers, and awakens to his own special ability.\nIn order to save the Time Photo Studio which is on the verge of closing down, the two of them start to cooperate in using their super powers to enter photos of custom",
     "servers": [],
     "officialLinks": [
       {
-        "site": "Tencent Video",
-        "url": "https://v.qq.com/x/cover/mzc00200jl6jwb6.html"
+        "site": "Bilibili",
+        "url": "https://www.bilibili.com/bangumi/media/md28230742"
       },
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GEXH3W2EZ/lord-of-mysteries"
+        "url": "https://www.crunchyroll.com/series/GP5HJ8E81/link-click"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLrYKPj7wbjfjgfK7LIPwsLT282CQoyueA"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -2169,7 +2363,48 @@
         "url": "https://youtube.com/playlist?list=PLrYKPj7wbjfhGfDBYZKmGvcjGVnUw2yoI&si=l2O-e8-R-7QR5QHe"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
+    "upcoming": true,
+    "lastEpisodeAt": 0
+  },
+  {
+    "slug": "lord-of-mysteries-specials",
+    "type": "donghua",
+    "title": "Lord of Mysteries Specials",
+    "nativeTitle": "诡秘之主 特别篇",
+    "aliases": [
+      "Lord of Mysteries Specials",
+      "Guimi Zhi Zhu Specials",
+      "诡秘之主 特别篇"
+    ],
+    "year": 2025,
+    "score": 86,
+    "status": "COMPLETED",
+    "airDay": "Wednesday",
+    "quality": "4K / 1080p",
+    "episodes": 3,
+    "latestEp": 1,
+    "genres": [
+      "action",
+      "drama",
+      "fantasy",
+      "mystery"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199448-BuqzEdkuPSEm.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/199448-zsxviDrHK1M6.jpg",
+    "desc": "Special episodes of Lord of Mysteries, taking place in season 1. Covering important scenes skipped after the end credits in Episode 10, as included:\n\nCity of Silver (Episode 1): Above the undying gray fog, Klein Moretti, the enigmatic The Fool, presided over the Tarot Club when a",
+    "servers": [],
+    "officialLinks": [
+      {
+        "site": "Tencent Video",
+        "url": "https://v.qq.com/x/cover/mzc00200jl6jwb6.html"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GEXH3W2EZ/lord-of-mysteries"
+      }
+    ],
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -2214,7 +2449,56 @@
         "url": "https://youtube.com/@attackontitan_officialchannel"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
+    "upcoming": true,
+    "lastEpisodeAt": 0
+  },
+  {
+    "slug": "code-geass-lelouch-of-the-rebellion",
+    "type": "anime",
+    "title": "Code Geass: Lelouch of the Rebellion",
+    "nativeTitle": "コードギアス 反逆のルルーシュ",
+    "aliases": [
+      "Code Geass: Lelouch of the Rebellion",
+      "Code Geass: Hangyaku no Lelouch",
+      "コードギアス 反逆のルルーシュ"
+    ],
+    "year": 2006,
+    "score": 85,
+    "status": "COMPLETED",
+    "airDay": "Monday",
+    "quality": "1080p",
+    "episodes": 25,
+    "latestEp": 1,
+    "genres": [
+      "action",
+      "drama",
+      "mecha",
+      "sci-fi"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1575-hsmWM2ydNm1m.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1575.jpg",
+    "desc": "On August 10th of the year 2010 the Holy Empire of Britannia began a campaign of conquest, its sights set on Japan. Operations were completed in one month thanks to Britannia's deployment of new mobile humanoid armor vehicles dubbed Knightmare Frames. Japan's rights and identity ",
+    "servers": [],
+    "officialLinks": [
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/80065146"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JjAnuR364t-jBwsAaVxuFI-"
+      },
+      {
+        "site": "Hulu",
+        "url": "https://www.hulu.com/series/code-geass-1858aace-a7fb-4d6f-b770-61dc121185b4"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/code-geass"
+      }
+    ],
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -2263,52 +2547,7 @@
         "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0GaYki8AMQtObLOY61-9jq"
       }
     ],
-    "updatedAt": 1795276287,
-    "upcoming": true,
-    "lastEpisodeAt": 0
-  },
-  {
-    "slug": "to-be-hero-x",
-    "type": "donghua",
-    "title": "To Be Hero X",
-    "nativeTitle": "凸变英雄X",
-    "aliases": [
-      "To Be Hero X",
-      "Tu Bian Yingxiong X",
-      "凸变英雄X"
-    ],
-    "year": 2025,
-    "score": 85,
-    "status": "COMPLETED",
-    "airDay": "Saturday",
-    "quality": "4K / 1080p",
-    "episodes": 24,
-    "latestEp": 1,
-    "genres": [
-      "action",
-      "drama",
-      "mystery",
-      "supernatural"
-    ],
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156092-yHqgQZOF2mbg.jpg",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/156092-XJ6CHMZpJ7YX.jpg",
-    "desc": "This is a world where heroes are created by people's trust, and the hero who gains the most trust is known as X. In this world, people's trust can be quantified through data, and these values are reflected on everyone's wrist. As long as one gains enough trust points, an ordinary",
-    "servers": [],
-    "officialLinks": [
-      {
-        "site": "Bilibili",
-        "url": "https://www.bilibili.com/bangumi/media/md28340128/"
-      },
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GQWH0M1J3/to-be-hero-x"
-      },
-      {
-        "site": "Bilibili TV",
-        "url": "https://www.bilibili.tv/en/media/2121835"
-      }
-    ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -2353,7 +2592,104 @@
         "url": "https://youtube.com/playlist?list=PLU90m5tcq7b0&si=pg_BN47xePVo7POD"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
+    "upcoming": true,
+    "lastEpisodeAt": 0
+  },
+  {
+    "slug": "to-be-hero-x",
+    "type": "donghua",
+    "title": "To Be Hero X",
+    "nativeTitle": "凸变英雄X",
+    "aliases": [
+      "To Be Hero X",
+      "Tu Bian Yingxiong X",
+      "凸变英雄X"
+    ],
+    "year": 2025,
+    "score": 85,
+    "status": "COMPLETED",
+    "airDay": "Saturday",
+    "quality": "4K / 1080p",
+    "episodes": 24,
+    "latestEp": 1,
+    "genres": [
+      "action",
+      "drama",
+      "mystery",
+      "supernatural"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156092-yHqgQZOF2mbg.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/156092-XJ6CHMZpJ7YX.jpg",
+    "desc": "This is a world where heroes are created by people's trust, and the hero who gains the most trust is known as X. In this world, people's trust can be quantified through data, and these values are reflected on everyone's wrist. As long as one gains enough trust points, an ordinary",
+    "servers": [],
+    "officialLinks": [
+      {
+        "site": "Bilibili",
+        "url": "https://www.bilibili.com/bangumi/media/md28340128/"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GQWH0M1J3/to-be-hero-x"
+      },
+      {
+        "site": "Bilibili TV",
+        "url": "https://www.bilibili.tv/en/media/2121835"
+      }
+    ],
+    "updatedAt": 1795289307,
+    "upcoming": true,
+    "lastEpisodeAt": 0
+  },
+  {
+    "slug": "jujutsu-kaisen",
+    "type": "anime",
+    "title": "JUJUTSU KAISEN",
+    "nativeTitle": "呪術廻戦",
+    "aliases": [
+      "JUJUTSU KAISEN",
+      "Jujutsu Kaisen",
+      "呪術廻戦"
+    ],
+    "year": 2020,
+    "score": 84,
+    "status": "COMPLETED",
+    "airDay": "Tuesday",
+    "quality": "1080p",
+    "episodes": 24,
+    "latestEp": 1,
+    "genres": [
+      "action",
+      "drama",
+      "supernatural"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113415-LHBAeoZDIsnF.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113415-jQBSkxWAAk83.jpg",
+    "desc": "A boy fights... for \"the right death.\"\n\nHardship, regret, shame: the negative feelings that humans feel become Curses that lurk in our everyday lives. The Curses run rampant throughout the world, capable of leading people to terrible misfortune and even death. What's more, the Cu",
+    "servers": [],
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/jujutsu-kaisen"
+      },
+      {
+        "site": "Netflix",
+        "url": "https://www.netflix.com/title/81278456"
+      },
+      {
+        "site": "Bilibili TV",
+        "url": "https://www.bilibili.tv/media/37738"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://youtube.com/playlist?list=PLxSscENEp7JisDU6GAJuyNpVwDvCm-f3J"
+      },
+      {
+        "site": "Hulu",
+        "url": "https://www.hulu.com/series/jujutsu-kaisen-382ec8bf-3650-4cde-94db-ecd18665f9e0"
+      }
+    ],
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -2409,103 +2745,52 @@
         "url": "https://www.crunchyroll.com/series/G6QWD3EE6"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
   {
-    "slug": "jujutsu-kaisen",
-    "type": "anime",
-    "title": "JUJUTSU KAISEN",
-    "nativeTitle": "呪術廻戦",
-    "aliases": [
-      "JUJUTSU KAISEN",
-      "Jujutsu Kaisen",
-      "呪術廻戦"
-    ],
-    "year": 2020,
-    "score": 84,
-    "status": "COMPLETED",
-    "airDay": "Tuesday",
-    "quality": "1080p",
-    "episodes": 24,
-    "latestEp": 1,
-    "genres": [
-      "action",
-      "drama",
-      "supernatural"
-    ],
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113415-LHBAeoZDIsnF.jpg",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113415-jQBSkxWAAk83.jpg",
-    "desc": "A boy fights... for \"the right death.\"\n\nHardship, regret, shame: the negative feelings that humans feel become Curses that lurk in our everyday lives. The Curses run rampant throughout the world, capable of leading people to terrible misfortune and even death. What's more, the Cu",
-    "servers": [],
-    "officialLinks": [
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/jujutsu-kaisen"
-      },
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/81278456"
-      },
-      {
-        "site": "Bilibili TV",
-        "url": "https://www.bilibili.tv/media/37738"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://youtube.com/playlist?list=PLxSscENEp7JisDU6GAJuyNpVwDvCm-f3J"
-      },
-      {
-        "site": "Hulu",
-        "url": "https://www.hulu.com/series/jujutsu-kaisen-382ec8bf-3650-4cde-94db-ecd18665f9e0"
-      }
-    ],
-    "updatedAt": 1795276287,
-    "upcoming": true,
-    "lastEpisodeAt": 0
-  },
-  {
-    "slug": "heaven-official-s-blessing-special-episode",
+    "slug": "link-click-bridon-arc",
     "type": "donghua",
-    "title": "Heaven Official's Blessing Special Episode",
-    "nativeTitle": "天官赐福 特别篇",
+    "title": "Link Click: Bridon Arc",
+    "nativeTitle": "时光代理人英都篇",
     "aliases": [
-      "Heaven Official's Blessing Special Episode",
-      "Tian Guan Ci Fu Special",
-      "天官赐福 特别篇"
+      "Link Click: Bridon Arc",
+      "Shiguang Dailiren: Yingdu Pian",
+      "时光代理人英都篇"
     ],
     "year": 2025,
-    "score": 84,
+    "score": 83,
     "status": "COMPLETED",
-    "airDay": "Saturday",
+    "airDay": "Thursday",
     "quality": "4K / 1080p",
-    "episodes": 1,
+    "episodes": 6,
     "latestEp": 1,
     "genres": [
       "drama",
-      "fantasy",
-      "romance"
+      "mystery",
+      "supernatural",
+      "thriller"
     ],
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126356-Nt66D91sH3Cu.png",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/126356-tuicojh0EsWR.jpg",
-    "desc": "Xie Lian, crown prince of Xian Le Kingdom, ascends to Heaven despite successive demotions. However, he accidentally breaks the Gold Palace of heavenly officials. With no human worshiping him, Xie Lian must descend to the secular world to exorcise ghosts.\n\n(Source: Crunchyroll)",
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170166-VpX7l0Horthq.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/170166-CNPbSd1EDfMf.jpg",
+    "desc": "In order to save the deceased Cheng Xiaoshi, Lu Guang returned to the beginning and started anew along the path of destiny. However, a photograph carrying clues about Cheng Xiaoshi's parents appeared at the Time Photo Studio. To uncover the truth, Lu Guang, with a heart full of a",
     "servers": [],
     "officialLinks": [
       {
         "site": "Bilibili",
-        "url": "https://www.bilibili.com/bangumi/media/md28223059/"
+        "url": "https://www.bilibili.com/bangumi/media/md28230742/"
       },
       {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/81364887/"
+        "site": "Bilibili TV",
+        "url": "https://www.bilibili.tv/en/media/2117186"
       },
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/watch/G0DUN85PG/special-episode"
+        "url": "https://www.crunchyroll.com/series/GP5HJ8E81/link-click"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -2566,7 +2851,7 @@
         "url": "https://www.viki.com/tv/41689c-heaven-officials-blessing#episodes"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -2627,56 +2912,7 @@
         "url": "https://www.bilibili.tv/play/1005195"
       }
     ],
-    "updatedAt": 1795276287,
-    "upcoming": true,
-    "lastEpisodeAt": 0
-  },
-  {
-    "slug": "the-founder-of-diabolism",
-    "type": "donghua",
-    "title": "The Founder of Diabolism",
-    "nativeTitle": "魔道祖师",
-    "aliases": [
-      "The Founder of Diabolism",
-      "Modao Zushi",
-      "魔道祖师"
-    ],
-    "year": 2025,
-    "score": 82,
-    "status": "COMPLETED",
-    "airDay": "Thursday",
-    "quality": "4K / 1080p",
-    "episodes": 15,
-    "latestEp": 1,
-    "genres": [
-      "action",
-      "adventure",
-      "drama",
-      "fantasy"
-    ],
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101972-dep8Bcte5jQd.jpg",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101972-MDSLGGHIyAyX.jpg",
-    "desc": "The Wen Clan's rampage caused untold sufferings, and the other cultivation clans launched the \"Sunshot Campaign\" to join forces against the Wen Clan. Although Wei Wuxian, the Yiling Patriarch, had made great contributions to overthrowing the Wens, he was stigmatized and punished ",
-    "servers": [],
-    "officialLinks": [
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLMX26aiIvX5rWjEqareJBmoX-_uTFtemk"
-      },
-      {
-        "site": "WeTV",
-        "url": "https://wetv.vip/en/play/r8t02fkxr9jyvvn"
-      },
-      {
-        "site": "Tencent Video",
-        "url": "https://v.qq.com/detail/k/k4mutekomtrdbux.html"
-      },
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/GMEHME78W/the-master-of-diabolism"
-      }
-    ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -2724,7 +2960,7 @@
         "url": "https://www.crunchyroll.com/series/G4PH0WJ7Z/the-legend-of-hei"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -2773,7 +3009,52 @@
         "url": "https://www.hulu.com/series/03f5afe1-1092-45ee-a421-91d0d8413bf0"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
+    "upcoming": true,
+    "lastEpisodeAt": 0
+  },
+  {
+    "slug": "release-that-witch",
+    "type": "donghua",
+    "title": "Release that Witch",
+    "nativeTitle": "放开那个女巫",
+    "aliases": [
+      "Release that Witch",
+      "Fangkai Nage Nüwu",
+      "放开那个女巫"
+    ],
+    "year": 2025,
+    "score": 80,
+    "status": "COMPLETED",
+    "airDay": "Friday",
+    "quality": "4K / 1080p",
+    "episodes": 8,
+    "latestEp": 1,
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy",
+      "romance"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137662-iZigHTc71wi7.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137662-iZigHTc71wi7.png",
+    "desc": "Roland, a modern man reborn as a prince in the dangerous Border Town, rescues the witches Anna and Nana Pine from the Church. Harnessing their extraordinary powers, he fuses magic and technology to craft weapons, armies, and steam engines to defend his people. As the Demon Moon r",
+    "servers": [],
+    "officialLinks": [
+      {
+        "site": "Tencent Video",
+        "url": "https://v.qq.com/detail/t/mzc0020064ku1qb.html"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/GT00365589/release-that-witch"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/watch?v=JALNW9_87Pw"
+      }
+    ],
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -2821,7 +3102,7 @@
         "url": "https://www.bilibili.tv/media/1000677"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -2866,7 +3147,7 @@
         "url": "https://www.bilibili.com/bangumi/media/md6360"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -2910,56 +3191,94 @@
         "url": "https://youtube.com/playlist?list=PLwLSw1_eDZl1gpPkmqA5aKbsWYRdOSF5Z&si=XCk_oS-tOMT_xd7_"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
   {
-    "slug": "fights-break-sphere-s3",
+    "slug": "the-girl-downstairs",
     "type": "donghua",
-    "title": "Fights Break Sphere S3",
-    "nativeTitle": "斗破苍穹 第3季",
+    "title": "The Girl Downstairs",
+    "nativeTitle": "爱上她的理由",
     "aliases": [
-      "Fights Break Sphere S3",
-      "Dou Po Cangqiong 3",
-      "斗破苍穹 第3季"
+      "The Girl Downstairs",
+      "Aishang Ta De Liyou",
+      "爱上她的理由"
     ],
     "year": 2025,
     "score": 77,
     "status": "COMPLETED",
-    "airDay": "Thursday",
+    "airDay": "Monday",
+    "quality": "4K / 1080p",
+    "episodes": 22,
+    "latestEp": 1,
+    "genres": [
+      "drama",
+      "romance"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156111-ZABTgci6m9sN.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156111-ZABTgci6m9sN.png",
+    "desc": "When Won-Jun moves into a new apartment for his first day in college, he was not expecting an ex celebrity, Du-Na, to be living downstairs, hiding from her past life. Won-Jun finds Du-Na strange and avoids her at first, but soon finds himself in her room without realizing what he",
+    "servers": [],
+    "officialLinks": [
+      {
+        "site": "Bilibili",
+        "url": "https://www.bilibili.com/bangumi/media/md28339917/"
+      },
+      {
+        "site": "Bilibili TV",
+        "url": "https://www.bilibili.tv/en/media/2080306"
+      },
+      {
+        "site": "Viki",
+        "url": "https://www.viki.com/tv/39786c-the-girl-downstairs"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLBakWosU0sfhwdV_CleP1Uqk8lienfjRO"
+      }
+    ],
+    "updatedAt": 1795289307,
+    "upcoming": true,
+    "lastEpisodeAt": 0
+  },
+  {
+    "slug": "the-daily-life-of-the-immortal-king-season-5",
+    "type": "donghua",
+    "title": "The Daily Life of the Immortal King Season 5",
+    "nativeTitle": "仙王的日常生活 第五季",
+    "aliases": [
+      "The Daily Life of the Immortal King Season 5",
+      "Xian Wang de Richang Shenghuo 5",
+      "仙王的日常生活 第五季"
+    ],
+    "year": 2025,
+    "score": 76,
+    "status": "COMPLETED",
+    "airDay": "Friday",
     "quality": "4K / 1080p",
     "episodes": 12,
     "latestEp": 1,
     "genres": [
       "action",
-      "adventure",
-      "fantasy",
-      "mystery"
+      "comedy",
+      "fantasy"
     ],
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104922-pohVsMKm2n9H.jpg",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104922-pohVsMKm2n9H.jpg",
-    "desc": "",
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185857-n92z26zypwGh.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185857-n92z26zypwGh.jpg",
+    "desc": "Wang Ling, a dry noodle-loving immortal king, now faces his greatest challenge yet! With a novelist dad, a mysterious mom, a brand-new little sister, and the sudden arrival of a powerful little sister, Wang Nuan, the Wang family’s ordinary life is turned upside down. And figuring",
     "servers": [],
     "officialLinks": [
       {
-        "site": "Tencent Video",
-        "url": "https://v.qq.com/detail/8/8vdu7i5hr7anq5q.html"
-      },
-      {
-        "site": "WeTV",
-        "url": "https://wetv.vip/en/play/53anl3jkl98fo5q"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLxOs22nkVmnKvcgMxkg1crdv8QA-H_8Mr"
-      },
-      {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/series/G63VMXEQY/hitori-no-shita---the-outcast"
+        "url": "https://www.crunchyroll.com/series/GZJH3DJ8E/the-daily-life-of-the-immortal-king"
+      },
+      {
+        "site": "Bilibili",
+        "url": "https://www.bilibili.com/bangumi/media/md23775603"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -3008,7 +3327,7 @@
         "url": "https://www.viki.com/tv/39850c-soul-land"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -3042,7 +3361,7 @@
         "url": "https://v.qq.com/detail/t/mzc00200fod41ms.html"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -3093,7 +3412,7 @@
         "url": "https://www.crunchyroll.com/series/GQWH0M113/the-kings-avatar"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -3141,55 +3460,95 @@
         "url": "https://www.bilibili.tv/media/2091454"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
   {
-    "slug": "psychic-princess",
+    "slug": "the-all-devouring-whale-homecoming",
     "type": "donghua",
-    "title": "Psychic Princess",
-    "nativeTitle": "通灵妃",
+    "title": "The All-devouring Whale: Homecoming",
+    "nativeTitle": "鲲吞天下之掌门归来",
     "aliases": [
-      "Psychic Princess",
-      "Tongling Fei",
-      "通灵妃"
+      "The All-devouring Whale: Homecoming",
+      "Kun Tun Tianxia Zhi Zhang Men Guilai",
+      "鲲吞天下之掌门归来"
     ],
     "year": 2025,
     "score": 75,
     "status": "COMPLETED",
-    "airDay": "Friday",
+    "airDay": "Saturday",
     "quality": "4K / 1080p",
-    "episodes": 16,
+    "episodes": 12,
     "latestEp": 1,
     "genres": [
+      "action",
       "comedy",
-      "romance",
-      "supernatural"
+      "fantasy"
     ],
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99935-lQ2IPS31bJSK.jpg",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99935-lQ2IPS31bJSK.jpg",
-    "desc": "Qian Yunxi, the oldest daughter of the prime minister was born with a special ability. Because of this she was deemed 'abnormal' and was raised at Mt. Lin Yun. Upon turning 16, she took her younger sister's place to marry into the royal family of Ye. Rumours say Ye Youming is str",
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx191974-1tqbmtbkCpJ1.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx191974-1tqbmtbkCpJ1.jpg",
+    "desc": "Fan Lingxiao, a gifted spirit pet master, was ambushed in the A-level sect promotion competition and devoured by his own spirit, Kun. When he woke up, he found himself reincarnated into a young man named \"Liu Fengmang\" and imprisoned in the White Mansion. His sect, Lingxiao Pavil",
+    "servers": [],
+    "officialLinks": [
+      {
+        "site": "Bilibili TV",
+        "url": "https://www.bilibili.tv/en/media/2126837"
+      },
+      {
+        "site": "Bilibili",
+        "url": "https://www.bilibili.com/bangumi/media/md21082583"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/watch?v=vVMRvv-8dWo&list=PLBakWosU0sfgJIXI8u1luQWBBtuyqfrdQ"
+      }
+    ],
+    "updatedAt": 1795289307,
+    "upcoming": true,
+    "lastEpisodeAt": 0
+  },
+  {
+    "slug": "the-daily-life-of-the-immortal-king-season-2",
+    "type": "donghua",
+    "title": "The Daily Life of the Immortal King Season 2",
+    "nativeTitle": "仙王的日常生活 第二季",
+    "aliases": [
+      "The Daily Life of the Immortal King Season 2",
+      "Xian Wang De Richang Shenghuo 2",
+      "仙王的日常生活 第二季"
+    ],
+    "year": 2025,
+    "score": 74,
+    "status": "COMPLETED",
+    "airDay": "Tuesday",
+    "quality": "4K / 1080p",
+    "episodes": 12,
+    "latestEp": 1,
+    "genres": [
+      "action",
+      "comedy",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126357-gqjGyFI0pUtC.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/126357-y5i295lsQuaP.jpg",
+    "desc": "Wang Ling has been living a quiet life ever since resolving a particular incident, but thanks to his previous tampering with the laws of nature, the level of psionic powers in the world has dropped drastically. To stop the levels from plummeting further, his spirit sword Jingke c",
     "servers": [],
     "officialLinks": [
       {
         "site": "Bilibili",
-        "url": "https://www.bilibili.com/bangumi/media/md131852"
+        "url": "https://www.bilibili.com/bangumi/media/md28230723"
+      },
+      {
+        "site": "Bilibili TV",
+        "url": "https://www.bilibili.tv/media/1031938"
       },
       {
         "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/psychic-princess"
-      },
-      {
-        "site": "Amazon Prime Video",
-        "url": "https://www.amazon.com/dp/B08X667QX4/"
-      },
-      {
-        "site": "Tencent Video",
-        "url": "https://v.qq.com/x/cover/jg2a5feze5bryj2.html"
+        "url": "https://www.crunchyroll.com/the-daily-life-of-the-immortal-king"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -3241,85 +3600,7 @@
         "url": "https://youtu.be/DUWASdBenAA"
       }
     ],
-    "updatedAt": 1795276287,
-    "upcoming": true,
-    "lastEpisodeAt": 0
-  },
-  {
-    "slug": "the-daily-life-of-the-immortal-king-season-2",
-    "type": "donghua",
-    "title": "The Daily Life of the Immortal King Season 2",
-    "nativeTitle": "仙王的日常生活 第二季",
-    "aliases": [
-      "The Daily Life of the Immortal King Season 2",
-      "Xian Wang De Richang Shenghuo 2",
-      "仙王的日常生活 第二季"
-    ],
-    "year": 2025,
-    "score": 74,
-    "status": "COMPLETED",
-    "airDay": "Tuesday",
-    "quality": "4K / 1080p",
-    "episodes": 12,
-    "latestEp": 1,
-    "genres": [
-      "action",
-      "comedy",
-      "fantasy"
-    ],
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126357-gqjGyFI0pUtC.png",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/126357-y5i295lsQuaP.jpg",
-    "desc": "Wang Ling has been living a quiet life ever since resolving a particular incident, but thanks to his previous tampering with the laws of nature, the level of psionic powers in the world has dropped drastically. To stop the levels from plummeting further, his spirit sword Jingke c",
-    "servers": [],
-    "officialLinks": [
-      {
-        "site": "Bilibili",
-        "url": "https://www.bilibili.com/bangumi/media/md28230723"
-      },
-      {
-        "site": "Bilibili TV",
-        "url": "https://www.bilibili.tv/media/1031938"
-      },
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/the-daily-life-of-the-immortal-king"
-      }
-    ],
-    "updatedAt": 1795276287,
-    "upcoming": true,
-    "lastEpisodeAt": 0
-  },
-  {
-    "slug": "dawang-raoming",
-    "type": "donghua",
-    "title": "Dawang Raoming",
-    "nativeTitle": "大王饶命",
-    "aliases": [
-      "Dawang Raoming",
-      "大王饶命"
-    ],
-    "year": 2025,
-    "score": 73,
-    "status": "COMPLETED",
-    "airDay": "Saturday",
-    "quality": "4K / 1080p",
-    "episodes": 12,
-    "latestEp": 1,
-    "genres": [
-      "action",
-      "fantasy"
-    ],
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120220-sdm29OEAijm7.jpg",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/120220-USAlN7o3lrZk.jpg",
-    "desc": "This is the story of an orphan, Lü Shu. He is not any regular orphan, but a metahuman experiencing the changes in himself, his country and the world during the dawn of the magical era. Watch as Lü Shu embarks on a journey to hone his peculiar abilities together with his sister, t",
-    "servers": [],
-    "officialLinks": [
-      {
-        "site": "Tencent Video",
-        "url": "https://v.qq.com/detail/o/od1kjfd56e3s7n7.html"
-      }
-    ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -3372,47 +3653,41 @@
         "url": "https://www.crunchyroll.com/the-daily-life-of-the-immortal-king"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
   {
-    "slug": "the-daily-life-of-the-immortal-king-season-3",
+    "slug": "dawang-raoming",
     "type": "donghua",
-    "title": "The Daily Life of the Immortal King Season 3",
-    "nativeTitle": "仙王的日常生活 第三季",
+    "title": "Dawang Raoming",
+    "nativeTitle": "大王饶命",
     "aliases": [
-      "The Daily Life of the Immortal King Season 3",
-      "Xian Wang De Richang Shenghuo 3",
-      "仙王的日常生活 第三季"
+      "Dawang Raoming",
+      "大王饶命"
     ],
     "year": 2025,
     "score": 73,
     "status": "COMPLETED",
-    "airDay": "Wednesday",
+    "airDay": "Saturday",
     "quality": "4K / 1080p",
     "episodes": 12,
     "latestEp": 1,
     "genres": [
       "action",
-      "comedy",
       "fantasy"
     ],
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141852-tgLX8S7fqy3G.png",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/141852-JaQdFfKAEqfB.jpg",
-    "desc": "He killed the Demon King Swallow Sky Clam when he was six years old. Wang Ling, an omnipotent agriculture wizard, had to conceal his strength in order to exist amid a bunch of common cultivators. This young man is not concerned with the things that regular people are: money, magi",
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120220-sdm29OEAijm7.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/120220-USAlN7o3lrZk.jpg",
+    "desc": "This is the story of an orphan, Lü Shu. He is not any regular orphan, but a metahuman experiencing the changes in himself, his country and the world during the dawn of the magical era. Watch as Lü Shu embarks on a journey to hone his peculiar abilities together with his sister, t",
     "servers": [],
     "officialLinks": [
       {
-        "site": "Bilibili",
-        "url": "https://www.bilibili.com/bangumi/media/md28235390"
-      },
-      {
-        "site": "Crunchyroll",
-        "url": "https://www.crunchyroll.com/the-daily-life-of-the-immortal-king"
+        "site": "Tencent Video",
+        "url": "https://v.qq.com/detail/o/od1kjfd56e3s7n7.html"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -3440,170 +3715,6 @@
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98574-OdP0ZLENsVo5.jpg",
     "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98574-OdP0ZLENsVo5.jpg",
     "desc": "The second season of Yi Ren Zhi Xia.\n\nNote: Airing dates reflect the original airing and premiere dates in China, where it aired earlier than it did in Japan.",
-    "servers": [],
-    "officialLinks": [
-      {
-        "site": "Crunchyroll",
-        "url": "http://www.crunchyroll.com/hitori-no-shita-the-outcast"
-      },
-      {
-        "site": "Tencent Video",
-        "url": "https://v.qq.com/detail/3/3enwc74hj562xjd.html"
-      }
-    ],
-    "updatedAt": 1795276287,
-    "upcoming": true,
-    "lastEpisodeAt": 0
-  },
-  {
-    "slug": "cinderella-chef",
-    "type": "donghua",
-    "title": "Cinderella Chef",
-    "nativeTitle": "萌妻食神",
-    "aliases": [
-      "Cinderella Chef",
-      "Meng Qi Shi Shen",
-      "萌妻食神"
-    ],
-    "year": 2025,
-    "score": 71,
-    "status": "COMPLETED",
-    "airDay": "Wednesday",
-    "quality": "4K / 1080p",
-    "episodes": 12,
-    "latestEp": 1,
-    "genres": [
-      "adventure",
-      "comedy",
-      "drama",
-      "romance"
-    ],
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101973-phinH9pL2wV8.png",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101973-KUKUPSLYnPPO.jpg",
-    "desc": "Ye Jiayao finds herself back in time in the body of Ye Jinxuan. After many twists, she thought that she would finally be able to lead a simple life and achieve her dream of opening the best restaurant in Huai Song. However, there are villains constantly trying to bring her down.",
-    "servers": [],
-    "officialLinks": [
-      {
-        "site": "Bilibili",
-        "url": "https://www.bilibili.com/bangumi/media/md139952"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLLAr5GYz8LF5FX3SsJkErhZ-TkasA9emv"
-      },
-      {
-        "site": "Netflix",
-        "url": "https://www.netflix.com/title/81648290"
-      },
-      {
-        "site": "Viki",
-        "url": "https://www.viki.com/tv/39839c-cinderella-chef"
-      }
-    ],
-    "updatedAt": 1795276287,
-    "upcoming": true,
-    "lastEpisodeAt": 0
-  },
-  {
-    "slug": "super-cube",
-    "type": "donghua",
-    "title": "Super Cube",
-    "nativeTitle": "超能立方",
-    "aliases": [
-      "Super Cube",
-      "Chao Neng Lifang",
-      "超能立方"
-    ],
-    "year": 2025,
-    "score": 70,
-    "status": "COMPLETED",
-    "airDay": "Thursday",
-    "quality": "4K / 1080p",
-    "episodes": 12,
-    "latestEp": 1,
-    "genres": [
-      "action",
-      "adventure",
-      "fantasy"
-    ],
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166442-JTkdzIQpgf8M.jpg",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166442-JTkdzIQpgf8M.jpg",
-    "desc": "In an accident, an ordinary boy, Wang Xiaoxiu, obtains a space system called \"Superpower Cube\" from a high-latitude cosmic civilization and gains extraordinary powers. When the school belle, Shen Yao, Wang Xiaoxiu’s longtime crush, confesses her love to him, the delinquent Sun Ju",
-    "servers": [],
-    "officialLinks": [
-      {
-        "site": "iQIYI",
-        "url": "https://www.iqiyi.com/a_1cgy1ao7255.html"
-      }
-    ],
-    "updatedAt": 1795276287,
-    "upcoming": true,
-    "lastEpisodeAt": 0
-  },
-  {
-    "slug": "war-god-system-i-m-counting-on-you",
-    "type": "donghua",
-    "title": "War God System! I'm Counting On You!",
-    "nativeTitle": "靠你啦！战神系统",
-    "aliases": [
-      "War God System! I'm Counting On You!",
-      "Kao Ni La! Zhanshen Xitong",
-      "靠你啦！战神系统"
-    ],
-    "year": 2025,
-    "score": 70,
-    "status": "COMPLETED",
-    "airDay": "Thursday",
-    "quality": "4K / 1080p",
-    "episodes": 16,
-    "latestEp": 1,
-    "genres": [
-      "comedy",
-      "fantasy"
-    ],
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141881-BU8iad7gyhIN.png",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/141881-39sl2D9Rm5OZ.jpg",
-    "desc": "It's a cultivation story. One with immortal gods and cultivation arts. But more importantly, it's the story of a boy named An Lin, a mortal who was heavily in debt and was pursued by loan sharks before meeting his savior, a True God. Saved from the loan sharks, An Lin was sent to",
-    "servers": [],
-    "officialLinks": [
-      {
-        "site": "Bilibili",
-        "url": "https://www.bilibili.com/bangumi/media/md28235389/"
-      },
-      {
-        "site": "Bilibili TV",
-        "url": "https://www.bilibili.tv/en/media/1063218"
-      }
-    ],
-    "updatedAt": 1795276287,
-    "upcoming": true,
-    "lastEpisodeAt": 0
-  },
-  {
-    "slug": "a-herbivorous-dragon-of-5-000-years-gets-unfairly-villainized-season-2",
-    "type": "donghua",
-    "title": "A Herbivorous Dragon of 5,000 Years Gets Unfairly Villainized Season 2",
-    "nativeTitle": "食草老龙被冠以恶龙之名 版2期",
-    "aliases": [
-      "A Herbivorous Dragon of 5,000 Years Gets Unfairly Villainized Season 2",
-      "Shicao Lao Long Bei Guanyi E Long Zhi Ming 2nd Season",
-      "食草老龙被冠以恶龙之名 版2期"
-    ],
-    "year": 2025,
-    "score": 66,
-    "status": "COMPLETED",
-    "airDay": "Friday",
-    "quality": "4K / 1080p",
-    "episodes": 12,
-    "latestEp": 1,
-    "genres": [
-      "action",
-      "comedy",
-      "fantasy"
-    ],
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170578-d0iabdutgbvg.jpg",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170578-d0iabdutgbvg.jpg",
-    "desc": "The second season of Shicao Lao Long Bei Guanyi E Long Zhi Ming.",
     "servers": [],
     "officialLinks": [
       {
@@ -3643,7 +3754,248 @@
         "url": "https://www.bilibili.com/bangumi/media/md28235589/"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
+    "upcoming": true,
+    "lastEpisodeAt": 0
+  },
+  {
+    "slug": "full-time-magister-s3",
+    "type": "donghua",
+    "title": "Full-Time Magister S3",
+    "nativeTitle": "全职法师 第3季",
+    "aliases": [
+      "Full-Time Magister S3",
+      "Quanzhi Fashi 3",
+      "全职法师 第3季"
+    ],
+    "year": 2025,
+    "score": 71,
+    "status": "COMPLETED",
+    "airDay": "Thursday",
+    "quality": "4K / 1080p",
+    "episodes": 12,
+    "latestEp": 1,
+    "genres": [
+      "action",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104745-nhUQ61TomI4D.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104745-nhUQ61TomI4D.jpg",
+    "desc": "After the crisis brought forth by the Black Order, Bo City's surviving residents desert the place. With nearby cities providing shelter to the displaced refugees, Mo Fan and his family accept the offer and travel to Mingzhu City, the capital of magic. Mo Fan has little time to se",
+    "servers": [],
+    "officialLinks": [
+      {
+        "site": "Tencent Video",
+        "url": "https://v.qq.com/detail/8/8vdu7i5hr7anq5q.html"
+      },
+      {
+        "site": "WeTV",
+        "url": "https://wetv.vip/en/play/53anl3jkl98fo5q"
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxOs22nkVmnKvcgMxkg1crdv8QA-H_8Mr"
+      },
+      {
+        "site": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G63VMXEQY/hitori-no-shita---the-outcast"
+      }
+    ],
+    "updatedAt": 1795289307,
+    "upcoming": true,
+    "lastEpisodeAt": 0
+  },
+  {
+    "slug": "super-cube",
+    "type": "donghua",
+    "title": "Super Cube",
+    "nativeTitle": "超能立方",
+    "aliases": [
+      "Super Cube",
+      "Chao Neng Lifang",
+      "超能立方"
+    ],
+    "year": 2025,
+    "score": 70,
+    "status": "COMPLETED",
+    "airDay": "Thursday",
+    "quality": "4K / 1080p",
+    "episodes": 12,
+    "latestEp": 1,
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166442-JTkdzIQpgf8M.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166442-JTkdzIQpgf8M.jpg",
+    "desc": "In an accident, an ordinary boy, Wang Xiaoxiu, obtains a space system called \"Superpower Cube\" from a high-latitude cosmic civilization and gains extraordinary powers. When the school belle, Shen Yao, Wang Xiaoxiu’s longtime crush, confesses her love to him, the delinquent Sun Ju",
+    "servers": [],
+    "officialLinks": [
+      {
+        "site": "iQIYI",
+        "url": "https://www.iqiyi.com/a_1cgy1ao7255.html"
+      }
+    ],
+    "updatedAt": 1795289307,
+    "upcoming": true,
+    "lastEpisodeAt": 0
+  },
+  {
+    "slug": "full-time-magister",
+    "type": "donghua",
+    "title": "Full-Time Magister",
+    "nativeTitle": "全职法师",
+    "aliases": [
+      "Full-Time Magister",
+      "Quanzhi Fashi",
+      "全职法师"
+    ],
+    "year": 2025,
+    "score": 68,
+    "status": "COMPLETED",
+    "airDay": "Saturday",
+    "quality": "4K / 1080p",
+    "episodes": 12,
+    "latestEp": 1,
+    "genres": [
+      "action",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99200-DuLcVrpoGq8w.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99200-DuLcVrpoGq8w.png",
+    "desc": "He woke up in a familiar world that has vastly changed.\n\nHis school has become a school that teaches magic, encouraging everyone to become a mighty magician.\n\nOutside the city, many wandering magical beasts and monsters attack and prey on humans.\n\nA world of advanced science, cha",
+    "servers": [],
+    "officialLinks": [
+      {
+        "site": "WeTV",
+        "url": "https://wetv.vip/en/play/ao9safifok46qat"
+      },
+      {
+        "site": "Tencent Video",
+        "url": "https://v.qq.com/detail/d/dl1er4929x4jr2d.html"
+      }
+    ],
+    "updatedAt": 1795289307,
+    "upcoming": true,
+    "lastEpisodeAt": 0
+  },
+  {
+    "slug": "yingxiong-zailin",
+    "type": "donghua",
+    "title": "Yingxiong Zailin",
+    "nativeTitle": "英雄再临",
+    "aliases": [
+      "Yingxiong Zailin",
+      "英雄再临"
+    ],
+    "year": 2025,
+    "score": 67,
+    "status": "COMPLETED",
+    "airDay": "Sunday",
+    "quality": "4K / 1080p",
+    "episodes": 12,
+    "latestEp": 1,
+    "genres": [
+      "action",
+      "fantasy",
+      "sci-fi"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120193-KAMiBZ4Nw3xA.png",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120193-KAMiBZ4Nw3xA.png",
+    "desc": "A world where justice and evil collide. A dimension intertwined with magic and science. The retirement life of the strongest hero.\n\n(Source: QQ, translated)",
+    "servers": [],
+    "officialLinks": [
+      {
+        "site": "Tencent Video",
+        "url": "https://v.qq.com/detail/q/q72jd29a3oxflsr.html"
+      }
+    ],
+    "updatedAt": 1795289307,
+    "upcoming": true,
+    "lastEpisodeAt": 0
+  },
+  {
+    "slug": "to-be-heroine",
+    "type": "donghua",
+    "title": "To Be Heroine",
+    "nativeTitle": "凸变英雄LEAF",
+    "aliases": [
+      "To Be Heroine",
+      "Tu Bian Yingxiong LEAF",
+      "凸变英雄LEAF"
+    ],
+    "year": 2025,
+    "score": 66,
+    "status": "COMPLETED",
+    "airDay": "Saturday",
+    "quality": "4K / 1080p",
+    "episodes": 12,
+    "latestEp": 1,
+    "genres": [
+      "comedy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98575-dcsUXxHePLLx.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98575-d7zfGN0DfaFj.jpg",
+    "desc": "Yuye Hua is a clever high school girl. One day, she is suddenly sucked into another world. This dark world is a world without light and the inhabitants are only children wearing panties. Arriving there, Yueye is the only one wearing clothes and she will become the heroine of this",
+    "servers": [],
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/to-be-heroine"
+      },
+      {
+        "site": "Bilibili",
+        "url": "https://www.bilibili.com/bangumi/media/md23352"
+      },
+      {
+        "site": "Tencent Video",
+        "url": "https://v.qq.com/detail/b/blhvtkddwgr1x28.html"
+      }
+    ],
+    "updatedAt": 1795289307,
+    "upcoming": true,
+    "lastEpisodeAt": 0
+  },
+  {
+    "slug": "to-be-hero",
+    "type": "donghua",
+    "title": "TO BE HERO",
+    "nativeTitle": "凸变英雄BABA",
+    "aliases": [
+      "TO BE HERO",
+      "Tu Bian Yingxiong BABA",
+      "凸变英雄BABA"
+    ],
+    "year": 2025,
+    "score": 65,
+    "status": "COMPLETED",
+    "airDay": "Saturday",
+    "quality": "4K / 1080p",
+    "episodes": 12,
+    "latestEp": 1,
+    "genres": [
+      "comedy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97616-JgCHJDKyMGo1.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97616-SwJqqauhZ4sn.jpg",
+    "desc": "Handsome, divorced and with a teen daughter living with him, our hero is a “bad father” who works as a toilet seat designer. One day, as he was in the toilet, he founds himself sucked into the toilet seat and he is given the important task to save the planet. The price for being ",
+    "servers": [],
+    "officialLinks": [
+      {
+        "site": "Crunchyroll",
+        "url": "http://www.crunchyroll.com/to-be-hero"
+      },
+      {
+        "site": "Bilibili",
+        "url": "https://www.bilibili.com/bangumi/media/md5430"
+      },
+      {
+        "site": "Tencent Video",
+        "url": "https://v.qq.com/detail/i/if2g5phy6ds2t4r.html"
+      }
+    ],
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -3672,86 +4024,6 @@
     "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21840-e2qT7G7TYaCX.png",
     "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21840-mqwp2es0BKbr.png",
     "desc": "The protagonist, Zhang Chulan, leads a very common college student's life until he finds himself caught up in a terrible incident that happened in a small village. As he was walking through a graveyard, Zhang Chulan is assaulted by jianshi. Thinking that it was over for him, a my",
-    "servers": [],
-    "officialLinks": [
-      {
-        "site": "Crunchyroll",
-        "url": "http://www.crunchyroll.com/hitorinoshita-the-outcast"
-      },
-      {
-        "site": "Tencent Video",
-        "url": "https://v.qq.com/x/cover/ozvao2u23k1nf9o.html"
-      }
-    ],
-    "updatedAt": 1795276287,
-    "upcoming": true,
-    "lastEpisodeAt": 0
-  },
-  {
-    "slug": "4-cut-hero",
-    "type": "donghua",
-    "title": "4 CUT HERO",
-    "nativeTitle": "四格勇者",
-    "aliases": [
-      "4 CUT HERO",
-      "Si Ge Yongzhe",
-      "四格勇者"
-    ],
-    "year": 2025,
-    "score": 63,
-    "status": "COMPLETED",
-    "airDay": "Wednesday",
-    "quality": "4K / 1080p",
-    "episodes": 10,
-    "latestEp": 1,
-    "genres": [
-      "action",
-      "adventure",
-      "comedy",
-      "fantasy"
-    ],
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156096-GMhNhYtsXGhV.jpg",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156096-GMhNhYtsXGhV.jpg",
-    "desc": "It’s the year 952 on Cartland Calendar, Demon King Krotin and four demon lords lead the demon army to attack the Cartland Kingdom in the northern part of the central continent. When the war is at a stalemate, a brave man Jad Dove fights into the Demon Capital alone and finally de",
-    "servers": [],
-    "officialLinks": [
-      {
-        "site": "Bilibili",
-        "url": "https://www.bilibili.com/bangumi/media/md28339942/"
-      },
-      {
-        "site": "YouTube",
-        "url": "https://www.youtube.com/playlist?list=PLBakWosU0sfjTg1PQ_qbkflGxN7_m7OnD"
-      }
-    ],
-    "updatedAt": 1795276287,
-    "upcoming": true,
-    "lastEpisodeAt": 0
-  },
-  {
-    "slug": "journal-of-the-mysterious-creatures",
-    "type": "donghua",
-    "title": "Journal of the Mysterious Creatures",
-    "nativeTitle": "异常生物见闻录",
-    "aliases": [
-      "Journal of the Mysterious Creatures",
-      "Yichang Shengwu Jianwen Lu",
-      "异常生物见闻录"
-    ],
-    "year": 2025,
-    "score": 59,
-    "status": "COMPLETED",
-    "airDay": "Thursday",
-    "quality": "4K / 1080p",
-    "episodes": 13,
-    "latestEp": 1,
-    "genres": [
-      "comedy",
-      "supernatural"
-    ],
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108146-MNTOvV1kDFX3.png",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108146-lwd8ctlXIuDJ.jpg",
-    "desc": "The work centers on Ren Hao, a 23-year-old man who has no job or girlfriend. In order to make ends meet he rents out one of the rooms in his house. While he’s showing Lili, his first tenant, around the house, she’s suddenly attacked by a vampire named Vivian, and Ren Hao notices ",
     "servers": [],
     "officialLinks": [
       {
@@ -3796,18 +4068,18 @@
       },
       {
         "site": "Tencent Video",
-        "url": "https://v.qq.com/detail/d/dl1er4929x4jr2d.html"
+        "url": "https://v.qq.com/detail/k/k4mutekomtrdbux.html"
       },
       {
         "site": "Viki",
-        "url": "https://www.viki.com/tv/39786c-the-girl-downstairs"
+        "url": "https://www.viki.com/tv/39839c-cinderella-chef"
       },
       {
         "site": "iQIYI",
         "url": "https://www.iqiyi.com/a_19rrh299et.html"
       }
     ],
-    "updatedAt": 1795276287,
+    "updatedAt": 1795289307,
     "upcoming": true,
     "lastEpisodeAt": 0
   },
@@ -3854,7 +4126,7 @@
         "url": "https://www.crunchyroll.com/attack-on-titan-dubs"
       }
     ],
-    "updatedAt": 1795276287
+    "updatedAt": 1795289307
   },
   {
     "slug": "mob-psycho-100",
@@ -3907,7 +4179,7 @@
         "url": "https://www.hulu.com/series/mob-psycho-100-fc9b8130-e1e3-420b-b28d-a72f0b235069"
       }
     ],
-    "updatedAt": 1795276287
+    "updatedAt": 1795289307
   },
   {
     "slug": "attack-on-titan-season-3-part-2",
@@ -3952,7 +4224,7 @@
         "url": "https://www.crunchyroll.com/attack-on-titan-dubs"
       }
     ],
-    "updatedAt": 1795276287
+    "updatedAt": 1795289307
   },
   {
     "slug": "spy-x-family",
@@ -4005,7 +4277,7 @@
         "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL145WmZpHC4VMbgjCAShnb1M"
       }
     ],
-    "updatedAt": 1795276287
+    "updatedAt": 1795289307
   },
   {
     "slug": "dr-stone",
@@ -4054,7 +4326,7 @@
         "url": "https://www.hulu.com/series/148925d5-ea60-4277-b0f6-7b2ded20b2d0"
       }
     ],
-    "updatedAt": 1795276287
+    "updatedAt": 1795289307
   },
   {
     "slug": "sword-art-online-ii",
@@ -4099,7 +4371,7 @@
         "url": "https://www.bilibili.tv/media/35933"
       }
     ],
-    "updatedAt": 1795276287
+    "updatedAt": 1795289307
   },
   {
     "slug": "mob-psycho-100-ii",
@@ -4152,7 +4424,7 @@
         "url": "https://www.hulu.com/series/fc9b8130-e1e3-420b-b28d-a72f0b235069"
       }
     ],
-    "updatedAt": 1795276287
+    "updatedAt": 1795289307
   },
   {
     "slug": "attack-on-titan-final-season-part-2",
@@ -4197,7 +4469,7 @@
         "url": "https://www.bilibili.tv/media/1042594"
       }
     ],
-    "updatedAt": 1795276287
+    "updatedAt": 1795289307
   },
   {
     "slug": "angel-beats",
@@ -4238,7 +4510,7 @@
         "url": "https://www.bilibili.tv/en/media/36812"
       }
     ],
-    "updatedAt": 1795276287
+    "updatedAt": 1795289307
   },
   {
     "slug": "jujutsu-kaisen-0",
@@ -4279,7 +4551,7 @@
         "url": "https://www.netflix.com/title/81602834"
       }
     ],
-    "updatedAt": 1795276287
+    "updatedAt": 1795289307
   },
   {
     "slug": "charlotte",
@@ -4324,7 +4596,7 @@
         "url": "https://www.bilibili.tv/en/media/35299"
       }
     ],
-    "updatedAt": 1795276287
+    "updatedAt": 1795289307
   },
   {
     "slug": "tokyo-ghoul-a",
@@ -4369,7 +4641,7 @@
         "url": "https://crunchyroll.com/tokyo-ghoul"
       }
     ],
-    "updatedAt": 1795276287
+    "updatedAt": 1795289307
   },
   {
     "slug": "re-zero-starting-life-in-another-world-season-2",
@@ -4414,89 +4686,7 @@
         "url": "https://www.youtube.com/@Rezero_official"
       }
     ],
-    "updatedAt": 1795276287
-  },
-  {
-    "slug": "to-be-hero",
-    "type": "donghua",
-    "title": "TO BE HERO",
-    "nativeTitle": "凸变英雄BABA",
-    "aliases": [
-      "TO BE HERO",
-      "凸变英雄BABA"
-    ],
-    "year": 2026,
-    "score": 80,
-    "status": "FINISHED",
-    "airDay": "Daily",
-    "quality": "1080p Official",
-    "episodes": 12,
-    "latestEp": 12,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx97616-JgCHJDKyMGo1.jpg",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx97616-JgCHJDKyMGo1.jpg",
-    "desc": "Official licensed streams available on Crunchyroll, Bilibili, Tencent Video.",
-    "servers": [],
-    "officialLinks": [
-      {
-        "site": "Crunchyroll",
-        "url": "http://www.crunchyroll.com/to-be-hero"
-      },
-      {
-        "site": "Bilibili",
-        "url": "https://www.bilibili.com/bangumi/media/md5430"
-      },
-      {
-        "site": "Tencent Video",
-        "url": "https://v.qq.com/detail/i/if2g5phy6ds2t4r.html"
-      }
-    ],
-    "updatedAt": 1795276287
-  },
-  {
-    "slug": "to-be-heroine",
-    "type": "donghua",
-    "title": "To Be Heroine",
-    "nativeTitle": "凸变英雄LEAF",
-    "aliases": [
-      "To Be Heroine",
-      "凸变英雄LEAF"
-    ],
-    "year": 2026,
-    "score": 80,
-    "status": "FINISHED",
-    "airDay": "Daily",
-    "quality": "1080p Official",
-    "episodes": 12,
-    "latestEp": 12,
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx98575-dcsUXxHePLLx.jpg",
-    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx98575-dcsUXxHePLLx.jpg",
-    "desc": "Official licensed streams available on Crunchyroll, Bilibili, Tencent Video.",
-    "servers": [],
-    "officialLinks": [
-      {
-        "site": "Crunchyroll",
-        "url": "http://www.crunchyroll.com/to-be-heroine"
-      },
-      {
-        "site": "Bilibili",
-        "url": "https://www.bilibili.com/bangumi/media/md23352"
-      },
-      {
-        "site": "Tencent Video",
-        "url": "https://v.qq.com/detail/b/blhvtkddwgr1x28.html"
-      }
-    ],
-    "updatedAt": 1795276287
+    "updatedAt": 1795289307
   },
   {
     "slug": "quanzhi-fashi-5",
@@ -4529,7 +4719,7 @@
         "url": "https://v.qq.com/detail/m/mzc00200dpv18be.html"
       }
     ],
-    "updatedAt": 1795276287
+    "updatedAt": 1795289307
   },
   {
     "slug": "the-master-of-diabolism-q",
@@ -4570,7 +4760,7 @@
         "url": "https://www.crunchyroll.com/series/GMEHME78W/the-master-of-diabolism"
       }
     ],
-    "updatedAt": 1795276287
+    "updatedAt": 1795289307
   },
   {
     "slug": "quanzhi-fashi-6",
@@ -4603,6 +4793,6 @@
         "url": "https://v.qq.com/detail/t/mzc00200syigvst.html"
       }
     ],
-    "updatedAt": 1795276287
+    "updatedAt": 1795289307
   }
 ]
