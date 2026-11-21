@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T07:56:23.081665+00:00",
+  "updated_at": "2026-11-21T15:51:27.588052+00:00",
   "items": [
     {
       "anilist_id": 16498,
@@ -1715,22 +1715,6 @@
       ]
     },
     {
-      "anilist_id": 199,
-      "category": "anime",
-      "title": "Spirited Away",
-      "native_title": "千と千尋の神隠し",
-      "episodes": 1,
-      "next_airing": null,
-      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx199-sWefXJvXkDOb.jpg",
-      "where_to_watch": [
-        {
-          "platform": "Netflix",
-          "url": "https://www.netflix.com/title/60023642",
-          "language": "Sub/Original"
-        }
-      ]
-    },
-    {
       "anilist_id": 14719,
       "category": "anime",
       "title": "JoJo's Bizarre Adventure (TV)",
@@ -1767,6 +1751,22 @@
         {
           "platform": "YouTube",
           "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0CVpnjetepbYfC4ZuePqo6",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 199,
+      "category": "anime",
+      "title": "Spirited Away",
+      "native_title": "千と千尋の神隠し",
+      "episodes": 1,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx199-sWefXJvXkDOb.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/60023642",
           "language": "Sub/Original"
         }
       ]
@@ -2314,27 +2314,6 @@
       ]
     },
     {
-      "anilist_id": 112641,
-      "category": "anime",
-      "title": "Kaguya-sama: Love is War?",
-      "native_title": "かぐや様は告らせたい？～天才たちの恋愛頭脳戦～",
-      "episodes": 12,
-      "next_airing": null,
-      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx112641-zoGC8d6FaPXU.jpg",
-      "where_to_watch": [
-        {
-          "platform": "Netflix",
-          "url": "https://www.netflix.com/title/81061754",
-          "language": "Sub/Original"
-        },
-        {
-          "platform": "Crunchyroll",
-          "url": "https://www.crunchyroll.com/kaguya-sama-love-is-war",
-          "language": "Sub/Original"
-        }
-      ]
-    },
-    {
       "anilist_id": 20997,
       "category": "anime",
       "title": "Charlotte",
@@ -2361,6 +2340,27 @@
         {
           "platform": "Bilibili TV",
           "url": "https://www.bilibili.tv/en/media/35299",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 112641,
+      "category": "anime",
+      "title": "Kaguya-sama: Love is War?",
+      "native_title": "かぐや様は告らせたい？～天才たちの恋愛頭脳戦～",
+      "episodes": 12,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx112641-zoGC8d6FaPXU.jpg",
+      "where_to_watch": [
+        {
+          "platform": "Netflix",
+          "url": "https://www.netflix.com/title/81061754",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/kaguya-sama-love-is-war",
           "language": "Sub/Original"
         }
       ]
@@ -5258,32 +5258,6 @@
       ]
     },
     {
-      "anilist_id": 141855,
-      "category": "donghua",
-      "title": "X&Y",
-      "native_title": "爱幽的密室",
-      "episodes": 16,
-      "next_airing": null,
-      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx141855-tvKOWH7vjWjD.png",
-      "where_to_watch": [
-        {
-          "platform": "Bilibili",
-          "url": "https://www.bilibili.com/bangumi/media/md28223051/",
-          "language": "Sub/Original"
-        },
-        {
-          "platform": "Crunchyroll",
-          "url": "https://www.crunchyroll.com/series/GDKHZEP3W/xy",
-          "language": "Sub/Original"
-        },
-        {
-          "platform": "Bilibili TV",
-          "url": "https://www.bilibili.tv/en/media/2076392",
-          "language": "Sub/Original"
-        }
-      ]
-    },
-    {
       "anilist_id": 131485,
       "category": "donghua",
       "title": "Left-Hand Layup!",
@@ -5305,6 +5279,32 @@
         {
           "platform": "YouTube",
           "url": "https://www.youtube.com/@lhlculture",
+          "language": "Sub/Original"
+        }
+      ]
+    },
+    {
+      "anilist_id": 141855,
+      "category": "donghua",
+      "title": "X&Y",
+      "native_title": "爱幽的密室",
+      "episodes": 16,
+      "next_airing": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx141855-tvKOWH7vjWjD.png",
+      "where_to_watch": [
+        {
+          "platform": "Bilibili",
+          "url": "https://www.bilibili.com/bangumi/media/md28223051/",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/GDKHZEP3W/xy",
+          "language": "Sub/Original"
+        },
+        {
+          "platform": "Bilibili TV",
+          "url": "https://www.bilibili.tv/en/media/2076392",
           "language": "Sub/Original"
         }
       ]
