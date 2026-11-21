@@ -164,6 +164,15 @@
   </style>
   <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#080a0f" />
+<script>
+window.addEventListener("error", function(e) {
+  const img = e.target;
+  if (img && img.tagName === "IMG" && img.src && !img.dataset.proxied && !img.src.includes("wsrv.nl")) {
+    img.dataset.proxied = "1";
+    img.src = "https://wsrv.nl/?url=" + encodeURIComponent(img.src) + "&w=400&output=webp";
+  }
+}, true);
+</script>
 </head>
 <body>
   <div id="site-notice" style="display:none;background:linear-gradient(90deg,var(--primary),#f59e0b);color:#fff;text-align:center;padding:8px 14px;font-size:0.82rem;font-weight:700;"></div>
@@ -551,7 +560,7 @@ async function runGlobalAniListSearch(query, region) {
   const country = region === "donghua" ? "CN" : "JP";
   const gql = `query ($s: String, $c: CountryCode) {
     Page(page: 1, perPage: 12) {
-      media(search: $s, type: ANIME, countryOfOrigin: $c, sort: POPULARITY_DESC) {
+      media(search: $s, type: ANIME, sort: POPULARITY_DESC) {
         id title { english romaji native } coverImage { large } seasonYear averageScore episodes status
       }
     }
@@ -567,7 +576,10 @@ async function runGlobalAniListSearch(query, region) {
     const media = json?.data?.Page?.media || [];
     if (!media.length) return;
 
+    const _origCat = CATALOG;
+    CATALOG = ALL_CATALOG;
     const localMatches = smartSearch(query);
+    CATALOG = _origCat;
     const localTitles = new Set(localMatches.map(x => (x.title || "").toLowerCase()));
     const globalCards = media
       .map(m => {
@@ -617,6 +629,14 @@ function injectRegionTabs() {
     btn.addEventListener("click", () => renderRegionView(btn.dataset.region));
   });
   anchor.parentNode.insertBefore(bar, anchor);
+  // Hide redundant old JP/Donghua filter pills so they never conflict with the top switcher
+  document.querySelectorAll("button, .pill, .chip").forEach(el => {
+    if (el.classList.contains("region-tab-btn")) return;
+    const t = (el.textContent || "").trim().toLowerCase();
+    if (t === "japanese anime" || t === "donghua" || t.endsWith("donghua")) {
+      el.style.display = "none";
+    }
+  });
 }
 
 fetch("data/catalog.json?v=" + Math.floor(Date.now() / 60000)).then(r => r.json()).then(data => {
@@ -629,7 +649,12 @@ fetch("data/catalog.json?v=" + Math.floor(Date.now() / 60000)).then(r => r.json(
   if (initQ && typeof searchInput !== "undefined") searchInput.value = initQ;
 
   renderRegionView(initType === "donghua" ? "donghua" : "anime");
-  if (typeof renderSeparateRankings === "function") renderSeparateRankings();
+  if (typeof renderSeparateRankings === "function") {
+    const _saved = CATALOG;
+    CATALOG = ALL_CATALOG;
+    renderSeparateRankings();
+    CATALOG = _saved;
+  }
 
   if (typeof searchInput !== "undefined") {
     searchInput.addEventListener("input", () => {
