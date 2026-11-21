@@ -434,34 +434,123 @@
       const norm = (s) => (s || "").toLowerCase().replace(/\(.*?\)|\[.*?\]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
       const target = norm(currentShow.title || currentShow.name);
       if (!target) return;
+
+      // Save each server's true episode map before merging
+      currentShow.servers = currentShow.servers || [];
+      currentShow.servers.forEach((s) => {
+        if (!s._ownMap) s._ownMap = Object.assign({}, s.episodeMap || {});
+      });
+
+      // Wrap resolveStreamSource once so Odysee iframe URLs play directly
+      if (typeof resolveStreamSource === "function" && !window._odyseeResolveWrapped) {
+        window._odyseeResolveWrapped = true;
+        const _origResolve = resolveStreamSource;
+        resolveStreamSource = async function (srv, ep) {
+          const own = (srv && (srv._ownMap || srv.episodeMap)) || {};
+          const rawUrl = own[Number(ep)] || own[String(ep)];
+          if (srv && srv.isOdyseeBackup && rawUrl && String(rawUrl).startsWith("http")) {
+            return { mode: "iframe", embedUrl: rawUrl, externalUrl: rawUrl };
+          }
+          return _origResolve.apply(this, arguments);
+        };
+      }
+
+      // Wrap playEpisode once so clicking any episode auto-switches to the server that has it
+      if (typeof playEpisode === "function" && !window._odyseePlayWrapped) {
+        window._odyseePlayWrapped = true;
+        const _origPlay = playEpisode;
+        playEpisode = async function (ep) {
+          const srvs = currentShow.servers || [];
+          const cur = srvs[activeServerIdx];
+          const hasEp = (s, e) => {
+            const m = (s && (s._ownMap || s.episodeMap)) || {};
+            return Boolean(m[Number(e)] || m[String(e)]);
+          };
+          if (!hasEp(cur, ep)) {
+            const matchIdx = srvs.findIndex((s) => hasEp(s, ep));
+            if (matchIdx !== -1 && matchIdx !== activeServerIdx) {
+              activeServerIdx = matchIdx;
+              renderServers();
+            }
+          }
+          return _origPlay.apply(this, arguments);
+        };
+      }
+
+      // Fetch external Odysee catalog and merge episodes across all servers
       try {
         const res = await fetch("https://koushikshety.github.io/Testing-place/data/catalog.json?v=" + Math.floor(Date.now() / 60000));
-        if (!res.ok) return;
-        const catalog = await res.json();
-        const epMap = {};
-        catalog.forEach((item) => {
-          const sNorm = norm(item.series);
-          if ((sNorm === target || sNorm.includes(target) || target.includes(sNorm)) && item.servers && item.servers.length) {
-            epMap[Number(item.episode)] = item.servers[0].url;
+        if (res.ok) {
+          const catalog = await res.json();
+          const epMap = {};
+          catalog.forEach((item) => {
+            const sNorm = norm(item.series);
+            if ((sNorm === target || sNorm.includes(target) || target.includes(sNorm)) && item.servers && item.servers.length) {
+              epMap[Number(item.episode)] = item.servers[0].url;
+            }
+          });
+          const epNums = Object.keys(epMap).map(Number);
+          if (epNums.length > 0) {
+            currentShow.servers.push({
+              name: "Odysee (Backup)",
+              url: "https://odysee.com",
+              type: "iframe",
+              isOdyseeBackup: true,
+              _ownMap: Object.assign({}, epMap),
+              episodeMap: Object.assign({}, epMap)
+            });
+
+            // Build unified episodeMap so the Episodes grid shows ALL episodes from ALL servers
+            const mergedMap = {};
+            currentShow.servers.forEach((s) => {
+              Object.keys(s._ownMap || {}).forEach((k) => {
+                if (!mergedMap[k]) mergedMap[k] = s._ownMap[k];
+              });
+            });
+            currentShow.servers.forEach((s) => {
+              s.episodeMap = Object.assign({}, mergedMap);
+            });
+
+            const allNums = Object.keys(mergedMap).map(Number).filter((n) => !isNaN(n));
+            if (allNums.length) currentShow.episodes = Math.max(currentShow.episodes || 0, ...allNums);
+            renderServers();
+            initRanges();
+            if (typeof renderEpisodes === "function") renderEpisodes();
           }
-        });
-        const epNums = Object.keys(epMap).map(Number);
-        if (epNums.length === 0) return;
-
-        currentShow.servers = currentShow.servers || [];
-        currentShow.servers.push({
-          name: "Odysee (Backup)",
-          url: "https://odysee.com",
-          type: "iframe",
-          isOdyseeBackup: true,
-          episodeMap: epMap
-        });
-
-        // Update total episode count if needed and refresh server buttons + episode grid
-        currentShow.episodes = Math.max(currentShow.episodes || 0, ...epNums);
-        renderServers();
-        initRanges();
+        }
       } catch (e) { console.warn("Odysee backup skipped:", e); }
+
+      // Render Seasons bar if multiple seasons exist in catalog.json
+      try {
+        const baseTitle = target.replace(/\b(season|s|part)\s*\d+\b/gi, "").replace(/\b\d+(st|nd|rd|th)\s*season\b/gi, "").trim();
+        if (baseTitle.length >= 3 && !document.getElementById("seasons-bar")) {
+          const cRes = await fetch("./data/catalog.json?v=" + Math.floor(Date.now() / 300000));
+          if (cRes.ok) {
+            const cData = await cRes.json();
+            const list = Array.isArray(cData) ? cData : (cData.items || cData.shows || []);
+            const related = list.filter((s) => {
+              const sBase = norm(s.title || s.name).replace(/\b(season|s|part)\s*\d+\b/gi, "").replace(/\b\d+(st|nd|rd|th)\s*season\b/gi, "").trim();
+              return sBase === baseTitle;
+            });
+            if (related.length > 1) {
+              const epRange = document.getElementById("ep-range");
+              const anchor = epRange ? epRange.closest("section, .card, .panel, div") : null;
+              if (anchor && anchor.parentNode) {
+                const bar = document.createElement("div");
+                bar.id = "seasons-bar";
+                bar.style.cssText = "display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:10px 0;";
+                bar.innerHTML = `<span style="font-size:0.8rem;font-weight:700;color:#94a3b8;text-transform:uppercase;">Seasons:</span>` +
+                  related.map((s, i) => {
+                    const isCur = String(s.id || s.slug) === String(currentShow.id || currentShow.slug);
+                    const label = (s.title || s.name).match(/season\s*\d+|part\s*\d+/i)?.[0] || `Season ${i + 1}`;
+                    return `<a href="watch.html?id=${encodeURIComponent(s.id || s.slug)}" class="pill ${isCur ? "active" : ""}" style="text-decoration:none;">${label}</a>`;
+                  }).join("");
+                anchor.parentNode.insertBefore(bar, anchor);
+              }
+            }
+          }
+        }
+      } catch (_) {}
     }
 
     function initRanges() {
