@@ -1,136 +1,123 @@
 import json
 import os
-from datetime import datetime, timezone
+import re
+import urllib.request
+import xml.etree.ElementTree as ET
 
-import requests
-from youtube_validator import check_video
-
-YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", "").strip()
-TARGET_COUNTRIES = ["IN"]  # Set to [] if you want all regions saved and filtered on frontend
-
-# Section 3A: All Official Embeddable Anime & Donghua YouTube Channels
-CHANNELS = [
-    # --- Anime (Asia / India / Global) ---
-    {"name": "Muse Asia", "id": "UCGbshtvS9t-8CW11W7TooQg", "type": "anime", "min_minutes": 15},
-    {"name": "Muse India", "id": "UCz4tgANd4yy8Oe0iXCdSWfA", "type": "anime", "min_minutes": 15},
-    {"name": "Ani-One Asia", "id": "UC0wNSTMWIL3qaorLx0jie6A", "type": "anime", "min_minutes": 15},
-    {"name": "Crunchyroll", "id": "UC6pGDc4bFGD1_36IKv3FnYg", "type": "anime", "min_minutes": 15},
-    {"name": "Crunchyroll Dubs", "id": "UCVi2lI40LetxLBKn-rtWC3A", "type": "anime", "min_minutes": 15},
-    {"name": "Crunchyroll India", "id": "UC1dpwMXjjPe87utZQRrEr3Q", "type": "anime", "min_minutes": 15},
-    {"name": "Anime! on TMS", "id": "UCzGf0DdUJVrsbcWL3e_tK1Q", "type": "anime", "min_minutes": 15},
-    {"name": "GundamInfo", "id": "UCejtUitnpnf8Be-v5NuDSLw", "type": "anime", "min_minutes": 15},
-    {"name": "VIZ Media", "id": "UCV1da9peoqEwqr45bpTJsbQ", "type": "anime", "min_minutes": 15},
-    {"name": "Toei Animation", "id": "UCQYYekTKCb1y12sas08T6gQ", "type": "anime", "min_minutes": 15},
-
-    # --- Donghua (Chinese Animation) ---
-    {"name": "Made By Bilibili", "id": "UCQFyMGc6h30NMCd6HCk0ZPA", "type": "donghua", "min_minutes": 10},
-    {"name": "Tencent Video - ANIMATION", "id": "UCdpiId0eJGnnIvfhpbJIM1w", "type": "donghua", "min_minutes": 10},
-    {"name": "Ani-Mi Asia", "id": "UCqyqBNOAlZgJ3dQoDSCbCjQ", "type": "donghua", "min_minutes": 10},
+# 100% Whitelisted Official Rights-Holder Channels (JP Anime + CN Donghua)
+OFFICIAL_CHANNELS = [
+    # Japanese Anime (JP)
+    {"name": "Muse Asia", "handle": "@MuseAsia", "region": "JP"},
+    {"name": "Muse India", "handle": "@MuseIndia", "region": "JP"},
+    {"name": "Ani-One Asia", "handle": "@AniOneAsia", "region": "JP"},
+    {"name": "Ani-One India", "handle": "@AniOneIndia", "region": "JP"},
+    {"name": "Crunchyroll", "handle": "@crunchyroll", "region": "JP"},
+    # Chinese Donghua (CN)
+    {"name": "Tencent Video - ANIMATION", "handle": "@TencentVideoAnimation", "region": "CN"},
+    {"name": "YOUKU ANIMATION", "handle": "@YOUKUANIMATION", "region": "CN"},
+    {"name": "MadeByBilibili", "handle": "@MadeByBilibili", "region": "CN"},
+    {"name": "iQIYI Anime", "handle": "@iQIYIAnime", "region": "CN"},
 ]
 
+IGNORE_RE = re.compile(
+    r"\b(pv|teaser|trailer|preview|highlight|clip|clips|shorts|ost|opening|ending|op|ed|mv|amv|behind the scenes|interview|recap|special|compilation)\b",
+    re.I,
+)
+EP_RE = re.compile(r"(?:ep(?:isode)?|#|第)\s*0*(\d{1,4})\b", re.I)
 
-def fetch_latest_upload_ids(channel_id: str, max_results: int = 50) -> list[str]:
-    uploads_playlist_id = "UU" + channel_id[2:]
-    url = "https://www.googleapis.com/youtube/v3/playlistItems"
-    params = {
-        "part": "contentDetails",
-        "playlistId": uploads_playlist_id,
-        "maxResults": max_results,
-        "key": YOUTUBE_API_KEY,
-    }
-    resp = requests.get(url, params=params, timeout=15)
-    resp.raise_for_status()
-    return [
-        item["contentDetails"]["videoId"]
-        for item in resp.json().get("items", [])
-        if item.get("contentDetails", {}).get("videoId")
-    ]
+HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"}
 
 
-def fetch_video_details(video_ids: list[str]) -> list[dict]:
-    if not video_ids:
-        return []
-    url = "https://www.googleapis.com/youtube/v3/videos"
-    params = {
-        "part": "snippet,contentDetails,status",
-        "id": ",".join(video_ids[:50]),
-        "key": YOUTUBE_API_KEY,
-    }
-    resp = requests.get(url, params=params, timeout=15)
-    resp.raise_for_status()
-    return resp.json().get("items", [])
+def fetch_text(url, timeout=15):
+    req = urllib.request.Request(url, headers=HEADERS)
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return r.read().decode("utf-8", errors="ignore")
 
 
-def is_oembed_playable(video_id: str) -> bool:
-    url = "https://www.youtube.com/oembed"
-    params = {
-        "url": f"https://www.youtube.com/watch?v={video_id}",
-        "format": "json",
-    }
-    resp = requests.get(url, params=params, timeout=10)
-    return resp.status_code == 200
+def resolve_channel_id(handle):
+    html = fetch_text(f"https://www.youtube.com/{handle}")
+    m = re.search(r'"externalId":"(UC[\w-]+)"', html) or re.search(
+        r'"channelId":"(UC[\w-]+)"', html
+    )
+    return m.group(1) if m else None
 
 
-def main() -> None:
-    if not YOUTUBE_API_KEY:
-        raise RuntimeError("Missing YOUTUBE_API_KEY environment variable.")
+def slugify(text):
+    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
 
-    published = []
-    manual_review = []
 
-    for ch in CHANNELS:
+def clean_series_title(video_title):
+    # Strip brackets like [Multi-Sub], (ENG SUB), and everything from Episode/EP onwards
+    t = re.sub(r"\[[^\]]*\]|\([^)]*\)|【[^】]*】", " ", video_title)
+    t = re.split(r"\b(?:ep(?:isode)?|#|第)\s*0*\d+", t, maxsplit=1, flags=re.I)[0]
+    t = re.sub(r"[\|\-–—:]+$", "", t).strip()
+    return re.sub(r"\s+", " ", t)
+
+
+def main():
+    ep_file = "episodes.json"
+    data = {}
+    if os.path.exists(ep_file):
         try:
-            ids = fetch_latest_upload_ids(ch["id"], max_results=50)
-            items = fetch_video_details(ids)
-            print(f"[INFO] {ch['name']}: fetched {len(items)} recent uploads")
-        except Exception as exc:
-            print(f"[WARN] Failed channel {ch['name']}: {exc}")
-            continue
+            with open(ep_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception:
+            data = {}
 
-        for item in items:
-            vid = item["id"]
-            snippet = item.get("snippet", {})
-            title = snippet.get("title", "")
-            result = check_video(
-                item,
-                countries=TARGET_COUNTRIES,
-                min_minutes=ch.get("min_minutes", 15),
-            )
-            if result is None:
+    added = 0
+    ns = {
+        "atom": "http://www.w3.org/2005/Atom",
+        "yt": "http://www.youtube.com/xml/schemas/2015",
+    }
+
+    for ch in OFFICIAL_CHANNELS:
+        try:
+            cid = resolve_channel_id(ch["handle"])
+            if not cid:
+                print(f"[Skip] Could not resolve {ch['name']}")
                 continue
 
-            if not is_oembed_playable(vid):
-                print(f"[HIDDEN] oEmbed failed for {vid}: {title}")
-                continue
+            xml_text = fetch_text(f"https://www.youtube.com/feeds/videos.xml?channel_id={cid}")
+            root = ET.fromstring(xml_text)
 
-            rr = item.get("contentDetails", {}).get("regionRestriction", {})
-            entry = {
-                "video_id": vid,
-                "channel": ch["name"],
-                "category": ch["type"],
-                "title": title,
-                "thumbnail": snippet.get("thumbnails", {}).get("high", {}).get("url", ""),
-                "episode": result["episode"],
-                "last_episode": result["last_episode"],
-                "allowed_countries": rr.get("allowed", []),
-                "blocked_countries": rr.get("blocked", []),
-                "embed_url": f"https://www.youtube.com/embed/{vid}",
-                "watch_url": f"https://www.youtube.com/watch?v={vid}",
-                "verified_at": datetime.now(timezone.utc).isoformat(),
-            }
+            for entry in root.findall("atom:entry", ns):
+                title = (entry.findtext("atom:title", "", ns) or "").strip()
+                vid = (entry.findtext("yt:videoId", "", ns) or "").strip()
+                if not title or not vid or IGNORE_RE.search(title):
+                    continue
 
-            if result["episode"] is None:
-                manual_review.append(entry)
-            else:
-                published.append(entry)
+                m = EP_RE.search(title)
+                if not m:
+                    continue
 
-    with open("episodes.json", "w", encoding="utf-8") as f:
-        json.dump(published, f, ensure_ascii=False, indent=2)
+                ep_num = str(int(m.group(1)))
+                series_name = clean_series_title(title)
+                if len(series_name) < 3:
+                    continue
 
-    with open("review_queue.json", "w", encoding="utf-8") as f:
-        json.dump(manual_review, f, ensure_ascii=False, indent=2)
+                slug = slugify(series_name)
+                embed_url = f"https://www.youtube.com/embed/{vid}"
 
-    print(f"Done: {len(published)} valid episodes, {len(manual_review)} sent to review.")
+                if slug not in data or not isinstance(data[slug], dict):
+                    data[slug] = {}
+
+                if ep_num not in data[slug]:
+                    data[slug][ep_num] = {
+                        "url": embed_url,
+                        "source": ch["name"],
+                        "region": ch["region"],
+                        "title": title,
+                    }
+                    added += 1
+
+            print(f"[OK] {ch['name']} ({ch['region']})")
+        except Exception as e:
+            print(f"[Err] {ch['name']}: {e}")
+
+    with open(ep_file, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+    print(f"Done! Added {added} new official YouTube episodes to {ep_file}.")
 
 
 if __name__ == "__main__":
