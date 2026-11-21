@@ -1,5 +1,40 @@
 [
   {
+    "slug": "black-clover-season-2",
+    "type": "anime",
+    "title": "Black Clover Season 2",
+    "nativeTitle": "",
+    "aliases": [
+      "Black Clover Season 2"
+    ],
+    "year": 2026,
+    "score": 88,
+    "status": "ONGOING",
+    "airDay": "Daily",
+    "quality": "1080p Official",
+    "episodes": 1,
+    "latestEp": 1,
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "cover": "https://i.ytimg.com/vi/Y3gDKzPTtpY/hqdefault.jpg",
+    "banner": "https://i.ytimg.com/vi/Y3gDKzPTtpY/hqdefault.jpg",
+    "desc": "Official full episodes streamed by Crunchyroll on YouTube.",
+    "servers": [
+      {
+        "name": "Crunchyroll",
+        "type": "youtube",
+        "lang": "English Sub",
+        "episodeMap": {
+          "1": "Y3gDKzPTtpY"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795222600
+  },
+  {
     "slug": "the-apothecary-diaries-season-3",
     "type": "anime",
     "title": "The Apothecary Diaries Season 3",
@@ -85,7 +120,7 @@
         "url": "https://www.amazon.com/Fairy-Tail-Season-1/dp/B0CHBPDKHT"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "alderamin-on-the-sky",
@@ -121,7 +156,7 @@
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "the-detective-is-already-dead-season-2",
@@ -156,7 +191,7 @@
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "asteroid-in-love",
@@ -192,7 +227,7 @@
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "en-dub-mobile-suit-gundam-seed-destiny",
@@ -234,7 +269,7 @@
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "engsub",
@@ -317,7 +352,7 @@
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "multi-sub-renegade-immortal",
@@ -363,7 +398,7 @@
         "url": "https://www.crunchyroll.com/series/GKEH2G0MN/renegade-immortal"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "soul-land-2-the-peerless-tang-clan",
@@ -484,7 +519,7 @@
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "firefly-wedding",
@@ -748,7 +783,7 @@
       }
     ],
     "officialLinks": [],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "re-zero-starting-life-in-another-world-season-4",
@@ -955,6 +990,46 @@
     "updatedAt": 1795176256
   },
   {
+    "slug": "fanren-xiu-xian-zhuan-di-si-ji",
+    "type": "donghua",
+    "title": "Fanren Xiu Xian Zhuan Di Si Ji",
+    "nativeTitle": "凡人修仙传 第四季",
+    "aliases": [
+      "Fanren Xiu Xian Zhuan Di Si Ji",
+      "凡人修仙传 第四季"
+    ],
+    "year": 2025,
+    "score": 80,
+    "status": "COMPLETED",
+    "airDay": "Sunday",
+    "quality": "4K / 1080p",
+    "episodes": 52,
+    "latestEp": 24,
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
+    ],
+    "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185861-6LdD7KzWrjZ9.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/185861-If0xYcj8N3Ys.jpg",
+    "desc": "The fourth season of Fanren Xiu Xian Zhuan.\nNote: Includes Episodes 125-176.",
+    "servers": [
+      {
+        "name": "Dailymotion HD",
+        "type": "dailymotion",
+        "lang": "English Sub",
+        "episodeMap": {
+          "24": "xbxipq6",
+          "16": "xbajk52",
+          "5": "xau4zl2",
+          "7": "xaq56ge"
+        }
+      }
+    ],
+    "officialLinks": [],
+    "updatedAt": 1795222575133
+  },
+  {
     "slug": "wanmei-shijie-2",
     "type": "donghua",
     "title": "Wanmei Shijie 2",
@@ -1029,7 +1104,7 @@
         "url": "https://www.bilibili.com/bangumi/media/md28235589/"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "wanmei-shijie-3",
@@ -1086,7 +1161,7 @@
         "url": "https://www.crunchyroll.com/series/G63VMXEQY/hitori-no-shita---the-outcast"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "spiritpact",
@@ -1128,7 +1203,7 @@
         "url": "http://www.crunchyroll.com/spiritpact"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "raised-by-demons-panda-li",
@@ -1218,7 +1293,7 @@
         "url": "https://www.iqiyi.com/a_1cgy1ao7255.html"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "death-note",
@@ -1271,7 +1346,7 @@
         "url": "https://www.crunchyroll.com/series/G6QWD3EE6"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "hunter-x-hunter",
@@ -1328,7 +1403,7 @@
         "url": "https://www.amazon.com/Hunter-Japanese-English-Subs/dp/B0B5X87G1P"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "one-piece",
@@ -1385,7 +1460,7 @@
         "url": "https://www.youtube.com/@OnePieceOfficialENG"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "attack-on-titan-season-2",
@@ -1430,7 +1505,7 @@
         "url": "https://www.crunchyroll.com/attack-on-titan-dubs"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "fullmetal-alchemist-brotherhood",
@@ -1475,7 +1550,7 @@
         "url": "https://www.netflix.com/title/70204981"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "naruto",
@@ -1532,7 +1607,7 @@
         "url": "https://www.bilibili.tv/play/1005195"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "attack-on-titan-season-3",
@@ -1577,7 +1652,7 @@
         "url": "https://www.crunchyroll.com/attack-on-titan-dubs"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "attack-on-titan-final-season",
@@ -1622,7 +1697,7 @@
         "url": "https://www.crunchyroll.com/attack-on-titan-dubs"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "mob-psycho-100",
@@ -1675,7 +1750,7 @@
         "url": "https://www.hulu.com/series/mob-psycho-100-fc9b8130-e1e3-420b-b28d-a72f0b235069"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "re-zero-starting-life-in-another-world",
@@ -1724,7 +1799,7 @@
         "url": "https://www.youtube.com/@Rezero_official"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "attack-on-titan-season-3-part-2",
@@ -1769,7 +1844,7 @@
         "url": "https://www.crunchyroll.com/attack-on-titan-dubs"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "spy-x-family",
@@ -1822,7 +1897,7 @@
         "url": "https://www.youtube.com/playlist?list=PLpm1VVK4UL145WmZpHC4VMbgjCAShnb1M"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "dr-stone",
@@ -1871,7 +1946,7 @@
         "url": "https://www.hulu.com/series/148925d5-ea60-4277-b0f6-7b2ded20b2d0"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "bleach",
@@ -1924,7 +1999,7 @@
         "url": "https://www.hulu.com/series/562ee9eb-adb5-43ab-b974-52ddfebee9c8"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "sword-art-online-ii",
@@ -1969,7 +2044,7 @@
         "url": "https://www.bilibili.tv/media/35933"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "mob-psycho-100-ii",
@@ -2022,7 +2097,7 @@
         "url": "https://www.hulu.com/series/fc9b8130-e1e3-420b-b28d-a72f0b235069"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "attack-on-titan-final-season-part-2",
@@ -2067,7 +2142,7 @@
         "url": "https://www.bilibili.tv/media/1042594"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "angel-beats",
@@ -2108,7 +2183,7 @@
         "url": "https://www.bilibili.tv/en/media/36812"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "jujutsu-kaisen-0",
@@ -2149,7 +2224,7 @@
         "url": "https://www.netflix.com/title/81602834"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "charlotte",
@@ -2194,7 +2269,7 @@
         "url": "https://www.bilibili.tv/en/media/35299"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "tokyo-ghoul-a",
@@ -2239,7 +2314,7 @@
         "url": "https://crunchyroll.com/tokyo-ghoul"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "re-zero-starting-life-in-another-world-season-2",
@@ -2284,7 +2359,7 @@
         "url": "https://www.youtube.com/@Rezero_official"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "to-be-hero-x",
@@ -2329,7 +2404,7 @@
         "url": "https://www.bilibili.tv/en/media/2121835"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "to-be-hero",
@@ -2370,7 +2445,7 @@
         "url": "https://v.qq.com/detail/i/if2g5phy6ds2t4r.html"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "link-click-season-3-part-1",
@@ -2411,7 +2486,7 @@
         "url": "https://youtube.com/playlist?list=PLU90m5tcq7b0&si=pg_BN47xePVo7POD"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "to-be-heroine",
@@ -2452,7 +2527,7 @@
         "url": "https://v.qq.com/detail/b/blhvtkddwgr1x28.html"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "quanzhi-fashi-4",
@@ -2485,7 +2560,7 @@
         "url": "https://v.qq.com/detail/v/vc5b1spq46fqfgn.html"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "quanzhi-fashi-5",
@@ -2518,7 +2593,7 @@
         "url": "https://v.qq.com/detail/m/mzc00200dpv18be.html"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "the-master-of-diabolism-q",
@@ -2559,7 +2634,7 @@
         "url": "https://www.crunchyroll.com/series/GMEHME78W/the-master-of-diabolism"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "quanzhi-fashi-6",
@@ -2592,7 +2667,7 @@
         "url": "https://v.qq.com/detail/t/mzc00200syigvst.html"
       }
     ],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   },
   {
     "slug": "yi-ren-zhi-xia-4",
@@ -2629,41 +2704,6 @@
         "url": "https://www.crunchyroll.com/series/G63VMXEQY/hitori-no-shita---the-outcast"
       }
     ],
-    "updatedAt": 1795202988
-  },
-  {
-    "slug": "black-clover-season-2",
-    "type": "anime",
-    "title": "Black Clover Season 2",
-    "nativeTitle": "",
-    "aliases": [
-      "Black Clover Season 2"
-    ],
-    "year": 2026,
-    "score": 82,
-    "status": "ONGOING",
-    "airDay": "Daily",
-    "quality": "1080p Official",
-    "episodes": 1,
-    "latestEp": 1,
-    "genres": [
-      "Action",
-      "Fantasy"
-    ],
-    "cover": "https://i.ytimg.com/vi/Y3gDKzPTtpY/hqdefault.jpg",
-    "banner": "https://i.ytimg.com/vi/Y3gDKzPTtpY/hqdefault.jpg",
-    "desc": "Official full episodes streamed by Crunchyroll on YouTube.",
-    "servers": [
-      {
-        "name": "Crunchyroll",
-        "type": "youtube",
-        "lang": "English Sub",
-        "episodeMap": {
-          "1": "Y3gDKzPTtpY"
-        }
-      }
-    ],
-    "officialLinks": [],
-    "updatedAt": 1795202988
+    "updatedAt": 1795222600
   }
 ]
