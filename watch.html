@@ -511,6 +511,10 @@
             renderServers();
             initRanges();
             if (typeof renderEpisodes === "function") renderEpisodes();
+            if (typeof playEpisode === "function" && currentShow.servers.length === 1) {
+              const autoEp = epNums.includes(Number(currentEp)) ? Number(currentEp) : Math.max(...epNums);
+              playEpisode(autoEp);
+            }
           }
         }
       } catch (e) { console.warn("Odysee backup skipped:", e); }
