@@ -142,6 +142,56 @@
     .ad-zone { overflow: hidden !important; }
     
   </style>
+<script>
+// Official Whitelisted YouTube Loader (Priority Server #1)
+window.loadOfficialYouTubeServer = async function(showObj) {
+  if (!showObj) return {};
+  try {
+    const res = await fetch("episodes.json?t=" + Date.now(), { cache: "no-store" });
+    if (!res.ok) return {};
+    const allEps = await res.json();
+    const norm = s => (s || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+    const slug = (showObj.slug || "").toLowerCase();
+    const targetNorm = norm(showObj.title);
+
+    let matched = allEps[slug];
+    if (!matched && targetNorm) {
+      for (const [k, v] of Object.entries(allEps)) {
+        const kn = norm(k);
+        if (kn === targetNorm || (kn.length >= 5 && (kn.includes(targetNorm) || targetNorm.includes(kn)))) {
+          matched = v;
+          break;
+        }
+      }
+    }
+    if (!matched || typeof matched !== "object") return {};
+
+    const ytMap = {};
+    let sourceName = "Official YouTube";
+    for (const [ep, info] of Object.entries(matched)) {
+      if (info && info.url && info.url.includes("youtube.com/embed/")) {
+        ytMap[ep] = info.url;
+        if (info.source) sourceName = info.source;
+      }
+    }
+    if (Object.keys(ytMap).length > 0) {
+      showObj.servers = showObj.servers || [];
+      const already = showObj.servers.some(s => (s.name || "").toLowerCase() === sourceName.toLowerCase());
+      if (!already) {
+        showObj.servers.unshift({
+          name: sourceName,
+          type: "youtube",
+          episodes: ytMap,
+          priority: 1
+        });
+      }
+    }
+    return ytMap;
+  } catch (e) {
+    return {};
+  }
+};
+</script>
 </head>
 <body>
   <header class="navbar">
@@ -480,7 +530,8 @@
       // Fetch live Odysee episodes from isolated Cloudflare Worker and merge across all servers
       try {
         const qTitle = (currentShow.title || currentShow.name || "").replace(/\s*\(\d{4}\)\s*$/, "").trim();
-        const res = await fetch("https://media-resolver.koushikshetty63.workers.dev/?series=" + encodeURIComponent(qTitle));
+        const res = await if (typeof window.loadOfficialYouTubeServer === "function" && typeof currentShow !== "undefined") { await window.loadOfficialYouTubeServer(currentShow); }
+      fetch("https://media-resolver.koushikshetty63.workers.dev/?series=" + encodeURIComponent(qTitle));
         if (res.ok) {
           const data = await res.json();
           const epMap = data.episodes || {};

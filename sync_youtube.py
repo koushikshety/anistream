@@ -54,6 +54,33 @@ def clean_series_title(video_title):
     return re.sub(r"\s+", " ", t)
 
 
+
+def load_catalog_index():
+    index = {}
+    for path in ["data/catalog.json", "catalog.json"]:
+        if os.path.exists(path):
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    items = json.load(f)
+                for item in items:
+                    slug = item.get("slug", "")
+                    title = item.get("title", "")
+                    if slug and title:
+                        norm = re.sub(r"[^a-z0-9]+", " ", title.lower()).strip()
+                        index[norm] = slug
+            except Exception:
+                pass
+    return index
+
+def match_catalog_slug(series_name, catalog_index):
+    norm = re.sub(r"[^a-z0-9]+", " ", series_name.lower()).strip()
+    if norm in catalog_index:
+        return catalog_index[norm]
+    for cat_norm, cat_slug in catalog_index.items():
+        if len(cat_norm) >= 5 and (cat_norm in norm or norm in cat_norm):
+            return cat_slug
+    return slugify(series_name)
+
 def main():
     ep_file = "episodes.json"
     data = {}
@@ -64,6 +91,7 @@ def main():
         except Exception:
             data = {}
 
+    catalog_index = load_catalog_index()
     added = 0
     ns = {
         "atom": "http://www.w3.org/2005/Atom",
@@ -95,7 +123,7 @@ def main():
                 if len(series_name) < 3:
                     continue
 
-                slug = slugify(series_name)
+                slug = match_catalog_slug(series_name, catalog_index)
                 embed_url = f"https://www.youtube.com/embed/{vid}"
 
                 if slug not in data or not isinstance(data[slug], dict):
