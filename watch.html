@@ -420,12 +420,49 @@
           const avail = Object.keys(currentShow.servers[0].episodeMap).map(Number).filter(n => !isNaN(n)).sort((a, b) => b - a);
           if (avail.length > 0) currentEp = avail[0];
         }
-        renderServers(); initRanges(); playEpisode(currentEp);
+        renderServers(); initRanges(); playEpisode(currentEp); loadOdyseeBackup();
    }).catch(()=>{ if (!params.get("ep") && currentShow.servers && currentShow.servers[0] && currentShow.servers[0].episodeMap) {
           const avail = Object.keys(currentShow.servers[0].episodeMap).map(Number).filter(n => !isNaN(n)).sort((a, b) => b - a);
           if (avail.length > 0) currentEp = avail[0];
         }
-        renderServers(); initRanges(); playEpisode(currentEp); }); }
+        renderServers(); initRanges(); playEpisode(currentEp); loadOdyseeBackup(); }); }
+
+    /* ODYSEE_BACKUP_INJECTED */
+    async function loadOdyseeBackup() {
+      if (!currentShow || currentShow._odyseeLoaded) return;
+      currentShow._odyseeLoaded = true;
+      const norm = (s) => (s || "").toLowerCase().replace(/\(.*?\)|\[.*?\]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
+      const target = norm(currentShow.title || currentShow.name);
+      if (!target) return;
+      try {
+        const res = await fetch("https://koushikshety.github.io/Testing-place/data/catalog.json?v=" + Math.floor(Date.now() / 60000));
+        if (!res.ok) return;
+        const catalog = await res.json();
+        const epMap = {};
+        catalog.forEach((item) => {
+          const sNorm = norm(item.series);
+          if ((sNorm === target || sNorm.includes(target) || target.includes(sNorm)) && item.servers && item.servers.length) {
+            epMap[Number(item.episode)] = item.servers[0].url;
+          }
+        });
+        const epNums = Object.keys(epMap).map(Number);
+        if (epNums.length === 0) return;
+
+        currentShow.servers = currentShow.servers || [];
+        currentShow.servers.push({
+          name: "Odysee (Backup)",
+          url: "https://odysee.com",
+          type: "iframe",
+          isOdyseeBackup: true,
+          episodeMap: epMap
+        });
+
+        // Update total episode count if needed and refresh server buttons + episode grid
+        currentShow.episodes = Math.max(currentShow.episodes || 0, ...epNums);
+        renderServers();
+        initRanges();
+      } catch (e) { console.warn("Odysee backup skipped:", e); }
+    }
 
     function initRanges() {
       const sel = document.getElementById("ep-range"), total = currentShow.episodes || 24;
@@ -544,12 +581,12 @@
           const avail = Object.keys(currentShow.servers[0].episodeMap).map(Number).filter(n => !isNaN(n)).sort((a, b) => b - a);
           if (avail.length > 0) currentEp = avail[0];
         }
-        renderServers(); initRanges(); playEpisode(currentEp);
+        renderServers(); initRanges(); playEpisode(currentEp); loadOdyseeBackup();
    }).catch(()=>{ if (!params.get("ep") && currentShow.servers && currentShow.servers[0] && currentShow.servers[0].episodeMap) {
           const avail = Object.keys(currentShow.servers[0].episodeMap).map(Number).filter(n => !isNaN(n)).sort((a, b) => b - a);
           if (avail.length > 0) currentEp = avail[0];
         }
-        renderServers(); initRanges(); playEpisode(currentEp); });
+        renderServers(); initRanges(); playEpisode(currentEp); loadOdyseeBackup(); });
     });
 
     setTimeout(() => {
@@ -560,75 +597,4 @@
     }, 1000);
   </script>
   <script data-cfasync="false" src="https://bauval.org/14/e2908a73c63d8d2754e40ea99e7cdbda"></script>
-<!-- EXTERNAL_ODYSEE_BACKUP -->
-<script>
-(function () {
-  const FEED_URL = "https://koushikshety.github.io/Testing-place/data/catalog.json";
-  const norm = (s) => (s || "").toLowerCase().replace(/\(.*?\)|\[.*?\]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
-
-  async function attachOdyseeBackup() {
-    if (typeof currentShow === "undefined" || !currentShow) return false;
-    const target = norm(currentShow.title || currentShow.name);
-    if (!target) return true;
-
-    try {
-      const res = await fetch(FEED_URL + "?v=" + Math.floor(Date.now() / 60000));
-      if (!res.ok) return true;
-      const catalog = await res.json();
-
-      const epMap = {};
-      catalog.forEach((item) => {
-        const sNorm = norm(item.series);
-        if ((sNorm === target || sNorm.includes(target) || target.includes(sNorm)) && item.servers && item.servers.length) {
-          epMap[Number(item.episode)] = item.servers[0].url;
-        }
-      });
-
-      if (Object.keys(epMap).length === 0) return true;
-
-      currentShow.servers = currentShow.servers || [];
-      if (!currentShow.servers.some((s) => s.isOdyseeBackup)) {
-        currentShow.servers.push({
-          name: "Odysee (Backup)",
-          url: "https://odysee.com",
-          type: "iframe",
-          isOdyseeBackup: true,
-          episodeMap: epMap
-        });
-      }
-
-      // Wrap playEpisode so Odysee Backup loads its iframe cleanly
-      if (typeof window.playEpisode === "function" && !window._odyseeWrapped) {
-        window._odyseeWrapped = true;
-        const origPlay = window.playEpisode;
-        window.playEpisode = function (ep) {
-          const srv = (currentShow.servers || [])[typeof activeServerIdx !== "undefined" ? activeServerIdx : 0];
-          if (srv && srv.isOdyseeBackup) {
-            currentEp = ep;
-            const embedUrl = srv.episodeMap[Number(ep)];
-            const frame = document.querySelector("#player-box iframe, #player iframe, .player-wrap iframe, iframe");
-            if (embedUrl && frame) {
-              frame.src = embedUrl;
-              return;
-            }
-            // If this episode isn't on Odysee yet (e.g. EP 163-165), fall back to Server 1
-            if (typeof switchServer === "function") { switchServer(0); return; }
-          }
-          return origPlay.apply(this, arguments);
-        };
-      }
-
-      if (typeof renderServers === "function") renderServers();
-    } catch (_) {}
-    return true;
-  }
-
-  let tries = 0;
-  const timer = setInterval(async () => {
-    tries++;
-    if ((await attachOdyseeBackup()) || tries > 25) clearInterval(timer);
-  }, 300);
-})();
-</script>
-</body>
-</html>
+</body></html>
