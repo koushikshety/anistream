@@ -13,7 +13,7 @@ YT_CHANNELS = [
 ]
 
 DAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-BAD_WORDS = re.compile(r"\b(pv|trailer|teaser|preview|op|ed|clip|short|reaction|review|amv|ost|预告|drama|cdrama|kdrama|asian movies|live action|movie)\b", re.I)
+BAD_WORDS = re.compile(r"\b(pv|trailer|teaser|preview|op|ed|clip|short|reaction|review|amv|ost|explained|recap|vostfr|vf|sub[\s._-]?indo|indo|indonesian|sub[\s._-]?es|esp|espanol|pt[\s._-]?br|portugues|sub[\s._-]?th|thai|viet|vietsub|rus|arabic|预告|drama|cdrama|kdrama|asian movies|live action|movie)\b", re.I)
 EP_PATTERNS = [
     re.compile(r"(?:episode|ep\.?|#)\s*0*(\d{1,4})\b", re.I),
     re.compile(r"第\s*0*(\d{1,4})\s*[集话話]"),
@@ -185,14 +185,42 @@ def main():
         except Exception:
             continue
 
-    # Strictly keep ONLY 100% playable shows
-    final_list = [s for s in catalog_map.values() if s.get("servers")]
-    final_list.sort(key=lambda x: (x.get("status") == "ONGOING", x.get("score", 0)), reverse=True)
+    # Include newly discovered shows/seasons even if 0 episodes yet (marked upcoming)
+    for obj in discovered:
+        if obj["slug"] not in catalog_map:
+            obj["upcoming"] = True
+            obj["lastEpisodeAt"] = obj.get("lastEpisodeAt", 0)
+            catalog_map[obj["slug"]] = obj
+
+    for s in catalog_map.values():
+        s["upcoming"] = not bool(s.get("servers"))
+        if "lastEpisodeAt" not in s:
+            s["lastEpisodeAt"] = 0
+
+    # Strict chronological order: newest episodes jump to the front, older move back
+    final_list = list(catalog_map.values())
+    final_list.sort(
+        key=lambda x: (
+            int(x.get("lastEpisodeAt", 0)),
+            not x.get("upcoming", False),
+            x.get("status") == "ONGOING",
+            int(x.get("score", 0))
+        ),
+        reverse=True
+    )
+
+    anime_list = [s for s in final_list if s.get("type") == "anime"]
+    donghua_list = [s for s in final_list if s.get("type") == "donghua"]
+
     os.makedirs("data", exist_ok=True)
-    json.dump(final_list, open("data/catalog.json", "w", encoding="utf-8"), indent=2, ensure_ascii=False)
-    anime_n = sum(1 for s in final_list if s["type"] == "anime")
-    donghua_n = sum(1 for s in final_list if s["type"] == "donghua")
-    print(f"Synced {len(final_list)} playable shows ({anime_n} Anime, {donghua_n} Donghua)!")
+    with open("data/catalog.json", "w", encoding="utf-8") as f:
+        json.dump(final_list, f, indent=2, ensure_ascii=False)
+    with open("data/anime_catalog.json", "w", encoding="utf-8") as f:
+        json.dump(anime_list, f, indent=2, ensure_ascii=False)
+    with open("data/donghua_catalog.json", "w", encoding="utf-8") as f:
+        json.dump(donghua_list, f, indent=2, ensure_ascii=False)
+
+    print(f"Synced {len(final_list)} total shows -> {len(anime_list)} Anime (JP), {len(donghua_list)} Donghua (CN)!")
 
 if __name__ == "__main__":
     main()
