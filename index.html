@@ -500,23 +500,147 @@
       body.scrollTop = body.scrollHeight;
     }
 
-    fetch("data/catalog.json").then(r => r.json()).then(data => {
-      // Strictly keep ONLY shows that actually have playable servers (zero blocked/empty cards)
-      CATALOG = data.filter(item => Array.isArray(item.servers) && item.servers.length > 0);
-      startCarousel(CATALOG);
-      renderContinueWatching();
+    let ACTIVE_REGION = "anime"; // Strict separation: "anime" (JP) or "donghua" (CN)
+let ALL_CATALOG = [];
 
-      const hotSorted = [...CATALOG].sort((a, b) => ((b.status === "ONGOING" ? 100 : 0) + (b.score || 0)) - ((a.status === "ONGOING" ? 100 : 0) + (a.score || 0)));
-      document.getElementById("hot-strip").innerHTML = hotSorted.slice(0, 12).map(cardHTML).join("");
+function getRegionList(region) {
+  return ALL_CATALOG.filter(item => (item.type || "anime") === region);
+}
 
-      const latestSorted = [...CATALOG].sort((a, b) => (b.updatedAt || 0) - (a.updatedAt || 0));
-      document.getElementById("latest-strip").innerHTML = latestSorted.slice(0, 12).map(cardHTML).join("");
+function renderRegionView(region) {
+  ACTIVE_REGION = region;
+  const list = getRegionList(region);
+  CATALOG = list;
 
-      const initQ = new URLSearchParams(location.search).get("q");
-      if (initQ) { searchInput.value = initQ; renderGrid(smartSearch(initQ)); }
-      else { renderGrid(CATALOG); }
-      renderSeparateRankings();
+  // Update tab button styles
+  document.querySelectorAll(".region-tab-btn").forEach(btn => {
+    const isAct = btn.dataset.region === region;
+    btn.style.background = isAct ? (region === "donghua" ? "#f59e0b" : "#6366f1") : "rgba(255,255,255,0.08)";
+    btn.style.color = isAct ? "#0f172a" : "#e2e8f0";
+  });
+
+  if (typeof startCarousel === "function" && list.length) startCarousel(list);
+
+  // Hot / Ongoing strip (strictly separated)
+  const hotSorted = [...list].sort((a, b) =>
+    ((b.status === "ONGOING" ? 100 : 0) + (b.score || 0)) -
+    ((a.status === "ONGOING" ? 100 : 0) + (a.score || 0))
+  );
+  const hotEl = document.getElementById("hot-strip");
+  if (hotEl) hotEl.innerHTML = hotSorted.slice(0, 12).map(cardHTML).join("");
+
+  // Latest Episodes strip (strict chronological: newest lastEpisodeAt first)
+  const latestSorted = [...list].sort((a, b) =>
+    (b.lastEpisodeAt || b.updatedAt || 0) - (a.lastEpisodeAt || a.updatedAt || 0)
+  );
+  const latestEl = document.getElementById("latest-strip");
+  if (latestEl) latestEl.innerHTML = latestSorted.slice(0, 12).map(cardHTML).join("");
+
+  const q = (typeof searchInput !== "undefined" && searchInput.value) ? searchInput.value.trim() : "";
+  if (q) {
+    renderGrid(smartSearch(q));
+    runGlobalAniListSearch(q, region);
+  } else {
+    renderGrid(latestSorted);
+  }
+}
+
+let _globalSearchTimer = null;
+async function runGlobalAniListSearch(query, region) {
+  if (!query || query.length < 2) return;
+  const country = region === "donghua" ? "CN" : "JP";
+  const gql = `query ($s: String, $c: CountryCode) {
+    Page(page: 1, perPage: 12) {
+      media(search: $s, type: ANIME, countryOfOrigin: $c, sort: POPULARITY_DESC) {
+        id title { english romaji native } coverImage { large } seasonYear averageScore episodes status
+      }
+    }
+  }`;
+  try {
+    const res = await fetch("https://graphql.anilist.co", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ query: gql, variables: { s: query, c: country } })
     });
+    if (!res.ok) return;
+    const json = await res.json();
+    const media = json?.data?.Page?.media || [];
+    if (!media.length) return;
+
+    const localMatches = smartSearch(query);
+    const localTitles = new Set(localMatches.map(x => (x.title || "").toLowerCase()));
+    const globalCards = media
+      .map(m => {
+        const t = m.title?.english || m.title?.romaji || m.title?.native || "";
+        return {
+          slug: "anilist-" + m.id,
+          anilistId: m.id,
+          type: region,
+          title: t,
+          cover: m.coverImage?.large || "",
+          year: m.seasonYear || 2025,
+          score: m.averageScore || 80,
+          episodes: m.episodes || 12,
+          status: m.status === "RELEASING" ? "ONGOING" : "COMPLETED",
+          isGlobal: true
+        };
+      })
+      .filter(g => g.title && !localTitles.has(g.title.toLowerCase()));
+
+    if (globalCards.length) {
+      renderGrid([...localMatches, ...globalCards]);
+      // Rewrite global card links to pass title + anilistId for on-demand playback
+      document.querySelectorAll('a[href*="id=anilist-"]').forEach(a => {
+        const idMatch = a.getAttribute("href").match(/id=(anilist-\d+)/);
+        if (!idMatch) return;
+        const item = globalCards.find(g => g.slug === idMatch[1]);
+        if (item) {
+          a.setAttribute("href", `watch.html?anilistId=${item.anilistId}&title=${encodeURIComponent(item.title)}&type=${region}`);
+        }
+      });
+    }
+  } catch (e) { console.warn("Global AniList search skipped:", e); }
+}
+
+function injectRegionTabs() {
+  if (document.getElementById("region-tabs-bar")) return;
+  const anchor = document.getElementById("hot-strip")?.parentElement || document.querySelector("main");
+  if (!anchor) return;
+  const bar = document.createElement("div");
+  bar.id = "region-tabs-bar";
+  bar.style.cssText = "display:flex;gap:10px;justify-content:center;margin:14px auto;flex-wrap:wrap;";
+  bar.innerHTML = `
+    <button class="region-tab-btn" data-region="anime" style="padding:10px 20px;border:none;border-radius:999px;font-weight:800;cursor:pointer;font-size:0.9rem;">🇯🇵 Japanese Anime</button>
+    <button class="region-tab-btn" data-region="donghua" style="padding:10px 20px;border:none;border-radius:999px;font-weight:800;cursor:pointer;font-size:0.9rem;">🇨🇳 Chinese Donghua</button>
+  `;
+  bar.querySelectorAll("button").forEach(btn => {
+    btn.addEventListener("click", () => renderRegionView(btn.dataset.region));
+  });
+  anchor.parentNode.insertBefore(bar, anchor);
+}
+
+fetch("data/catalog.json?v=" + Math.floor(Date.now() / 60000)).then(r => r.json()).then(data => {
+  ALL_CATALOG = Array.isArray(data) ? data : [];
+  injectRegionTabs();
+  renderContinueWatching();
+
+  const initQ = new URLSearchParams(location.search).get("q");
+  const initType = new URLSearchParams(location.search).get("type");
+  if (initQ && typeof searchInput !== "undefined") searchInput.value = initQ;
+
+  renderRegionView(initType === "donghua" ? "donghua" : "anime");
+  if (typeof renderSeparateRankings === "function") renderSeparateRankings();
+
+  if (typeof searchInput !== "undefined") {
+    searchInput.addEventListener("input", () => {
+      clearTimeout(_globalSearchTimer);
+      const q = searchInput.value.trim();
+      if (q.length >= 2) {
+        _globalSearchTimer = setTimeout(() => runGlobalAniListSearch(q, ACTIVE_REGION), 450);
+      }
+    });
+  }
+});
 
     fetch("data/movies.json").then(r => r.json()).then(movies => {
       const now = Date.now();
