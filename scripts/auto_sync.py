@@ -220,6 +220,14 @@ def main():
     with open("data/donghua_catalog.json", "w", encoding="utf-8") as f:
         json.dump(donghua_list, f, indent=2, ensure_ascii=False)
 
+        # Auto-generate sitemap.xml for SEO indexing
+    base_url = "https://anistream.aniguide-hub.workers.dev"
+    urls = [f"  <url><loc>{base_url}/</loc><changefreq>hourly</changefreq><priority>1.0</priority></url>"]
+    for s in final_list:
+        urls.append(f"  <url><loc>{base_url}/watch.html?id={s['slug']}</loc><changefreq>daily</changefreq><priority>0.8</priority></url>")
+    xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "\n".join(urls) + "\n</urlset>\n"
+    with open("sitemap.xml", "w", encoding="utf-8") as sf:
+        sf.write(xml)
     print(f"Synced {len(final_list)} total shows -> {len(anime_list)} Anime (JP), {len(donghua_list)} Donghua (CN)!")
 
 if __name__ == "__main__":
