@@ -698,6 +698,23 @@
         } catch (e) { console.warn("Global AniList load failed:", e); }
       }
 
+      if (!found && paramTitle) {
+        found = {
+          slug: "global-" + (anilistId || Date.now()),
+          anilistId: anilistId ? Number(anilistId) : null,
+          type: paramType,
+          title: paramTitle,
+          nativeTitle: "",
+          cover: "",
+          year: 2026,
+          score: 80,
+          episodes: 12,
+          quality: "HD",
+          desc: "Streaming on AniStream.",
+          servers: [],
+          officialLinks: []
+        };
+      }
       if (!found) { location.replace("index.html"); return; }
 
       // Render Global AniList Seasons bar if prequel/sequel seasons exist
