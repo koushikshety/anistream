@@ -724,7 +724,7 @@
       document.getElementById("show-cover").src = currentShow.cover;
       document.getElementById("show-title").textContent = `${currentShow.title} (${currentShow.year})`;
       document.getElementById("show-native").textContent = currentShow.nativeTitle ? `Original: ${currentShow.nativeTitle}` : "";
-      document.getElementById("show-meta").textContent = `${currentShow.quality || "1080p"} Official • ★ ${(currentShow.score / 10).toFixed(1)} • ${currentShow.episodes} Episodes`;
+      document.getElementById("show-meta").textContent = `${(currentShow.quality || "1080p").replace(/Official/gi, "").trim()} Official • ★ ${(currentShow.score / 10).toFixed(1)} • ${currentShow.episodes} Episodes`;
       document.getElementById("show-desc").textContent = currentShow.desc;
       fetch(`${ANISTREAM_DB}/anistream_custom_servers/${currentShow.slug}.json`).then(r=>r.json()).then(custom=>{
      if (custom && typeof custom === "object") {
