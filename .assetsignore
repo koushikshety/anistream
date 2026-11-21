@@ -1,5 +1,11 @@
+*.bak
 .git
 .github
-.wrangler
-scripts
+.github/
+*.py
+__pycache__/
 README.md
+scripts
+scripts/
+*.txt
+.wrangler
